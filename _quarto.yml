@@ -9,9 +9,10 @@ website:
   open-graph: true
   twitter-card: true
   # site-url: ""
-  # repo-url: ""
+  repo-url: https://github.com/psotob/ae-ietsi-2022/
   repo-actions: [edit, issue]
   page-navigation: true
+  reader-mode: true
       
   page-footer:
       left: |
@@ -37,9 +38,12 @@ website:
         - icon: github
           href: https://github.com/psotob
           aria-label: Percy Soto-Becerra Github
+      border: true
+      background: light
     
   navbar:
     background: light
+    search: true
     logo: ietsi-logo.png
     title: false
     collapse-below: lg
@@ -352,6 +356,7 @@ format:
   html:
     theme: 
       light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     css: styles.css

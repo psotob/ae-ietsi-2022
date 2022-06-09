@@ -1,0 +1,174 @@
+---
+title: "<FONT color='#ffff33'><br>Sesión 1</FONT>"
+subtitle: "<FONT color='#FFFFFF' size='10'>Programa de Formación Científica:<br>Análisis Estadístico 2022</FONT>"
+author: "<FONT color='#FFFFFF' size='30'>Percy Soto-Becerra</FONT><br><FONT color='#FFFFFF' size='6'>@github/psotob</FONT>"
+date: "<FONT color='#FFFFFF' size='6'>2018-01-23</FONT>"
+format: 
+  revealjs: 
+    theme: default
+    footer: "Programa de Formación Científica: Análisis Estadístico 2022 - Sesión 1"
+    transition: convex
+    background-transition: zoom
+    incremental: true
+    slide-number: true
+    preview-links: true
+    parallax-background-image: images/bg-ietsi-slide-first.png
+    parallax-background-size: "1920px 1080px"
+    logo: images/logo-ietsi.png
+    chalkboard: true
+    code-block-background: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: solarized
+    echo: true
+    background-interactive: true
+---
+
+```{r}
+#| echo: false
+#| output: false
+# Removing all objects including loaded libraries
+rm(list = ls(all = TRUE))
+gc()
+
+# Installing and loading packages
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+
+pacman::p_unload("all") # Unloading all package except base
+
+pacman::p_load(tidyverse) # Loading packages
+```
+
+# <FONT color='#FFFFFF'>Introducción a R y RStudio</FONT>
+
+## ¿Qué es R? {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+-   [Preview](https://github.com/psotob)
+
+-   cARRO
+
+``` {.r code-line-numbers="|2"}
+a <- c(1, 2, 3)
+a
+```
+
+j
+
+```{r}
+data <- data.frame(x = c(1, 2,3 ), y = c(4, 5, 6))
+data
+```
+
+## ¿Qué es RStudio? {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+    ---
+    title: "My document"
+    ---
+
+    Some markdown content.
+
+    ```{{python}}
+    1 + 1
+    ```
+
+    Some additional markdown content.
+
+## Recursos y materiales {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+```{r}
+#| output-location: slide
+library(ggplot2)
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
+# <FONT color='#FFFFFF'>Manejo de datos</FONT>
+
+## Operaciones matemáticas {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+::: panel-tabset
+### Aritmética
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   Suma:
+
+```{r}
+#| echo: true
+5 + 4
+```
+
+-   Resta:
+
+```{r}
+#| echo: true
+3 - 8
+```
+:::
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   Multiplicación
+
+```{r}
+#| echo: true
+3 * 8
+```
+
+-   División
+
+```{r}
+#| echo: true
+3 * 8
+```
+:::
+:::
+:::
+
+### Resta
+
+Content for `Tab B`
+:::
+
+## Selección de variables {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+## Filtrado de datos {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+## Creación de variables {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+##  {background-color="white" background-size="1920px 1080px" background-repeat="repeat" background-iframe="https://www.tidyverse.org/"}
+
+## Otro
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+# <FONT color='#FFFFFF'>Análisis descriptivo en R</FONT>
+
+## Descripción de variables numéricas {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Casa {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+
+::: panel-tabset
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+:::

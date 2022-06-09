@@ -8,22 +8,15 @@ css: index.css
 editor: source
 ---
 
-::: {.grid}
-
-::: {.g-col-8}
-<p align="justify">Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso [Análisis Estadístico 2022](index.qmd) del **Programa de Formación Científica 2022** organizado por el Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI del Seguro Social de Salud del Perú (EsSalud).</p>
-
-<p align="justify">Al finalizar este curso, </p>
-
+::: grid
+::: g-col-8
+<p align="justify">Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso **Análisis Estadístico** del **Programa de Formación Científica 2022** organizado por el Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI del Seguro Social de Salud del Perú (EsSalud). Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. </p>
 :::
 
-::: {.g-col-4}
+::: g-col-4
 **DOCENTE**<br>
-`r icons::fontawesome("smile", style = "solid")` Percy Soto-Becerra<br>
-`r icons::fontawesome("envelope-open", style = "solid")` percys1991@gmail.com<br>
-`r icons::fontawesome$brands$orcid` 0000-0001-5332-9254<br>
+`r icons::fontawesome("smile", style = "solid")` Percy Soto-Becerra<br> `r icons::fontawesome("envelope-open", style = "solid")` percys1991\@gmail.com<br> 
+`r icons::fontawesome$brands$orcid` 0000-0001-5332-9254<br> 
 `r icons::fontawesome$brands$github` psotob
 :::
-
 :::
-
