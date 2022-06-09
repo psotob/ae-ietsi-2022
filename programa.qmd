@@ -1,0 +1,158 @@
+---
+title: "Programa"
+---
+
+## Información General
+
+#### Número de horas:
+
+- XX horas sincrónicas: Clases teórico-prácticas
+
+- XX horas académicas: Estudio independiente (resolución de tareas)
+
+#### Duración del entrenamiento:
+
+- Inicio y Fin: Del 15 de junio al 08 de julio de 2022
+
+- Frecuencia: Miércoles y viernes (17:00 - 21:00 horas)
+
+#### Público objetivo: 
+
+- Treinta (30) profesionales de salud que laboren en EsSalud
+
+- Los profesionales de la salud deberán contar con lo siguiente:
+  #. Entrenamiento, al menos nivel básico, en Estadística aplicada a Ciencias de la Salud, Bioestadística o Ciencia de Datos. 
+  #. Conjunto de datos proveniente de una investigación aprobada por el Comité Institucional de Ética. 
+
+#### Lugar:
+
+- Plataforma Zoom
+
+#### Coordinación académica:
+
+- Dirección de Investigación en Salud (DIS) del Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI, EsSalud, Lima, Perú
+
+#### Docente:
+
+- Percy Soto-Becerra
+
+## Sumilla
+
+Curso que tiene como objetivo capacitar y brindar herramientas en análisis bioestadístico de datos para preguntas de investigación explicativas. Se revisarán conceptos relacionados a la redacción científica de resultados y los componentes de un artículo de investigación relacionados a análisis de datos. El entrenamiento se realizará de manera virtual empleando la plataforma Zoom. Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. 
+
+## Competencias
+
+- Conoce los aspectos generales, alcances y limitaciones del análisis descriptivo y de la inferencia estadística.
+
+- Conoce los fundamentos del modelado explicativo de desenlaces numéricos continuos mediante la regresión lineal.
+
+- Conoce los fundamentos del modelado explicativo de desenlaces binarios continuos mediante la regresión logística, log-Binomial y Poisson.
+
+- Conoce los fundamentos del modelado explicativo de desenlaces binarios continuos mediante la regresión logística, log-Binomial y Poisson.
+
+## Objetivos
+
+Al finalizar las unidades, el personal de salud será capaz de:
+
+- **MÓDULO 1**<br> 
+Instalar, conocer los principios básicos de R stadistic/R studio y realizar un análisis descriptivo e inferencial con un paquete estadístico, generar tablas reproducibles de estos. Asimismo, el personal de salud será capaz de reconocer los principales sesgos y malas prácticas asociados a realizar múltiples inferencias en análisis exploratorios y formas de cómo evitarlos. 
+
+- **MÓDULO 2**<br> 
+Modelar desenlaces numéricos continuos mediante análisis de regresión lineal (si es apropiado) con un paquete estadístico y generar tablas reproducibles en formato de publicación para revista médica. 
+
+- **MÓDULO 3**<br> 
+Modelar desenlaces binarios mediante regresión logística binaria, log-binomial o Poisson con un paquete estadístico y generar tablas reproducibles en formato de publicación para revista médica. 
+
+- **MÓDULO 4**<br> 
+Describir desenlaces de tipo tiempo a evento mediante curvas de supervivencia y modelar desenlaces tipo tiempo a evento mediante regresión de Cox.
+
+## Contenido
+
+**MÓDULO 1: ANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA**
+ 
+- Inspección inicial de datos y análisis descriptivo.
+- Taller de inspección inicial de datos y análisis descriptivo. Creación automatizada de Tabla univariada reproducible (R: gtsummary).
+- Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos. 
+- Taller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.  
+- Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza. 
+- Taller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla bivariada reproducible (R: gtsummary).
+
+**MÓDULO 2: REGRESIÓN PARA DATOS NUMÉRICOS**
+
+- Introducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple. 
+- Taller de RLM en R. Tabla análisis multivariado reproducible con gtsummary en R.
+
+**MÓDULO 3: REGRESIÓN PARA DESENLACES BINARIOS**
+
+- Introducción a la Regresión Logística Binaria. Interpretación y supuestos. 
+- Taller sobre Regresión Logística Binaria en R. Tablas (univariado, bivariado y multivariado) reproducibles con gtsummary. 
+- Introducción a la regresión Log-Binomial y Poisson para desenlaces binarios. Tablas (univariado, bivariado y multivariado) reproducibles con gtsummary.
+- Taller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas (univariado, bivariado y multivariado) reproducibles con gtsummary.
+
+**MÓDULO 4: REGRESIÓN PARA DESENLACES TIEMPO A EVENTO**
+
+- Introducción al análisis de tiempo a evento. Método de Kaplan-Meier y comparación de curvas de supervivencia.
+- Taller sobre análisis de curvas de supervivencia en R. Tablas reproducibles de sobrevida acumalada con gtsummary. Gráficos de KM con survminer. 
+- Introducción al análisis de regresión de Cox. Supuestos. Interpretación de resultados.
+- Taller sobre análisis de regresión de Cox. Tablas reproducibles con gtsummary.
+
+## Estrategias
+
+**CLASES TEORICAS**
+
+Los alumnos recibirán las clases teóricas de manera virtual. Inicialmente, los docentes dictarán las sesiones académicas, y los participantes brindarán comentarios respecto al tema. Posteriormente, se entregarán las diapositivas de las sesiones académicas por correo electrónico que serán leídas por los participantes. Las ponencias serán grabadas y se almacenarán en un repositorio académico virtual que será compartido a los participantes. 
+
+**CLASES PRÁCTICAS: TALLERES**
+
+Los alumnos recibirán las clases prácticas de manera virtual. Previamente, se hará entrega de conjunto de datos de estudios reales publicados en repositorios abiertos o realizados por IETSI. Durante las clases prácticas, guiados por el docente a cargo, se realizará el análisis de los datos aplicando los métodos enseñados durante la sesión. Los talleres serán grabados y se almacenarán en un repositorio académico virtual que será compartido a los participantes. Los conjuntos de datos y el código de análisis de datos estará disponible en un repositorio abierto en Github. Adicionalmente, se dispondrá de 15 minutos adicionales por cada clase práctica para poder hacer preguntas directas al docente a cargo, para solucionar cualquier duda o consulta, o si es que algún alumno lo solicita, hacer una revisión específica de algún aspecto del análisis de datos.
+
+Conjunto de datos para analizar en casos aplicados: Siempre que sea posible, trabajaremos con conjunto de datos reales u obtenidos mediante simulación de estudios reales. También haremos uso del conjunto de datos del paquete “medicaldata” de R (). Complementaremos con conjunto de datos “juguete” por motivos didácticos:
+
+::: {.panel-tabset}
+
+###  Módulo 1: 
+Conjunto de datos real del Censo Nacional Penitenciario – Preguntas relacionadas a Salud de los presos. Working Paper titulado: “Self-reported HIV in male Peruvian inmates: results of the 2016 prison census”. Datos y código disponibles en: https://github.com/culquichicon/2016-Peruvian-Prison-Census. Artículo preliminar en español disponible en: MINJUS. El Fenómeno Criminológico y la Política Criminal en las Regiones. I Convocatoria Nacional de Artículos. Página 33. Enlace: https://indagaweb.minjus.gob.pe/wp-content/uploads/2019/12/Libro-I-Convocatoria-Nacional-de-Art%C3%ADculos-compilaci%C3%B2n.pdf 
+Conjunto de datos simulados del estudio: Valdivia M, Soto-Becerra P, Laguna-Barraza R, et al. Effect of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids on body weight and metabolic parameters in a menopausal murine model induced by bilateral ovariectomy. Gynecological Endocrinology 36; 2020. doi: https://doi.org/10.1080/09513590.2020.1821639 
+Conjunto de datos simulados del estudio: Villar-López M, Soto-Becerra P, Choque R, et al. Safety and tolerability of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids in adult women: a randomized phase I, placebo-controlled, multi-arm, double-blinded clinical trial. Gynecological Endocrinology 37; 2021. Doi: 10.1080/09513590.2021.1960965  
+Conjunto de datos reales del estudio: Elmunzer JB, Scheiman JM, Lehman GA, et al. A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis. NEJM 2012; 366. doi: 10.1056/NEJMoa1111103. Dataset: “indo_rct” disponible en: https://higgi13425.github.io/medicaldata/ 
+
+###  Módulo 2: 
+Conjunto de datos simulados del estudio: Villar-López M, Soto-Becerra P, Choque R, et al. Safety and tolerability of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids in adult women: a randomized phase I, placebo-controlled, multi-arm, double-blinded clinical trial. Gynecological Endocrinology 2021; 37. Doi: 10.1080/09513590.2021.1960965  
+Conjunto de datos juguetes del libro “Vach W. Regression Models as a Tool in Medical Research. CRC Press – Taylor & Francis Group. First Edition 2013.”. Datasets: “hiaa.dta” y “hb.dta”. Disponibles en: https://www.uniklinik-freiburg.de/imbi/stud-le/regression-models-as-a-tool-in-medical-research/data-sets.html 
+Conjunto de datos simulados del estudio: Vargas Hererara, Ferández-Navarro, Cabezudo-Pillpe, et al. “Immunogenicity and reactogenicity of a third dose of BNT162b2 vaccine for COVID-19 after a primary regimen with BBIBP-CorV or BNT162b2 vaccines in Lima, Peru.”. Disponible en: https://www.medrxiv.org/content/10.1101/2022.05.01.22274548v1 
+
+###  Módulo 3: 
+- Conjunto de datos reales del estudio: Ramirez-Ramirez R, Soto-Becerra P. Dependencia funcional y diabetes mellitus tipo 2 en adultos mayores afiliados al Seguro Social de Salud del Perú: análisis de la ENSSA-2015. Acta Médica 2020; 37. doi: http://dx.doi.org/10.35663/amp.2020.374.1075 
+Conjunto de datos reales del estudio: Elmunzer JB, Scheiman JM, Lehman GA, et al. A Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis. NEJM 2012; 366. doi: 10.1056/NEJMoa1111103. Dataset: “indo_rct” disponible en: https://higgi13425.github.io/medicaldata/ 
+Conjunto de datos juguetes del libro “Vach W. Regression Models as a Tool in Medical Research. CRC Press – Taylor & Francis Group. First Edition 2013.”. Datasets: “allergy2.dta” y “backpain.dta”. Disponibles en: https://www.uniklinik-freiburg.de/imbi/stud-le/regression-models-as-a-tool-in-medical-research/data-sets.html 
+Conjunto de datos simulados del estudio: Vargas Hererara, Ferández-Navarro, Cabezudo-Pillpe, et al. “Immunogenicity and reactogenicity of a third dose of BNT162b2 vaccine for COVID-19 after a primary regimen with BBIBP-CorV or BNT162b2 vaccines in Lima, Peru.”. Disponible en: https://www.medrxiv.org/content/10.1101/2022.05.01.22274548v1 
+
+###  Módulo 4: 
+Conjunto de datos simulados: “Silva-Valencia J, Soto-Becerra P, Escobar-Agreda S, et al. Effectiveness of the BBIBP-CorV Vaccine in Preventing Infection and Death in Health Care Workers in Peru 2021. JVACX-D-22-00070”, Available at SSRN: https://ssrn.com/abstract=4077530.
+Conjunto de datos simulados: “Villanueva C, Neyra I, Sagastegui A, et al. Efficacy and safety of convalescent plasma versus standard care in hospitalized patients with COVID-19 from the Peruvian Social Security Health System: open-label, randomized, controlled clinical trial.” (Working paper). 
+Conjunto de datos reales: “Ortega-Rojas S, Salazar-Talla L, Romero Cerdan A, et al. The neutrophil-to-lymphocte ratio and the platelet-to-lymphocyte ratio as predictors of mortality in older adults hospitalized with COVID-19 in Peru.” (Working paper). 
+
+:::
+
+**PROBLEM SETS**
+
+Durante todo el curso habrá dos ‘problem sets’ (trad. conjunto de problemas) que corresponderán a un conjunto de datos con una pregunta de investigación y objetivo de modelado pre-establecido. Los alumnos tendrán una semana para realizar los análisis solicitados y presentarlos como tarea calificada. Asimismo, se compartirá un solucionario al final del cierre de cada entrega.
+
+## Evaluación
+
+Para efectos de evaluar a los participantes se tomarán en cuenta los siguientes criterios:
+
+- Problem sets: 80% (40% cada uno)
+- Evaluación final: 20%
+
+Para efectos de evaluar la asistencia, los participantes deberán haber asistido a mínimo    13/16 sesiones académicas. La nota mínima aprobatoria para que el participante apruebe el entrenamiento es de 13.00 (trece) en el sistema vigesimal.
+
+Para aprobar el curso, los participantes deberán cumplir con dos requisitos: 
+
+- Cumplir con el requisito de asistencia del entrenamiento (13/16 sesiones académicas).
+- Aprobar los problema set (calificación mayor o igual a 13.0).
+- Aprobar el examen final del entrenamiento (calificación mayor o igual a 13.0 en el examen final).
+
+Se otorgará certificado como asistente a quienes asistan mínimo al 80% de clases (equivalente a 13 de las 16 ponencias), y un certificado válido por 1 crédito académico a quienes adicionalmente aprueben la evaluación final.
+
+## Bibliografía
