@@ -369,5 +369,5 @@ filters:
 
 freeze: true
 
-editor: visual
+editor: source
 

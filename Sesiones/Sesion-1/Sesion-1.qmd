@@ -42,13 +42,16 @@ pacman::p_load(tidyverse) # Loading packages
 
 # <FONT color='#FFFFFF'>Introducción a R y RStudio</FONT>
 
-## ¿Qué es R? {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## ¿Qué es R? {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
--   [Preview](https://github.com/psotob)
+- [Preview](https://github.com/psotob)
 
--   cARRO
+- cARRO
 
-``` {.r code-line-numbers="|2"}
+```{.r code-line-numbers="|2"}
 a <- c(1, 2, 3)
 a
 ```
@@ -60,21 +63,30 @@ data <- data.frame(x = c(1, 2,3 ), y = c(4, 5, 6))
 data
 ```
 
-## ¿Qué es RStudio? {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## ¿Qué es RStudio? {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-    ---
-    title: "My document"
-    ---
+````
+---
+title: "My document"
+---
 
-    Some markdown content.
+Some markdown content.
 
-    ```{{python}}
-    1 + 1
-    ```
+```{{python}}
+1 + 1
+```
 
-    Some additional markdown content.
+Some additional markdown content.
 
-## Recursos y materiales {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+````
+
+## Recursos y materiales {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
 ```{r}
 #| output-location: slide
@@ -86,22 +98,26 @@ ggplot(airquality, aes(Temp, Ozone)) +
 
 # <FONT color='#FFFFFF'>Manejo de datos</FONT>
 
-## Operaciones matemáticas {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Operaciones matemáticas {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-::: panel-tabset
+::: {.panel-tabset}
+
 ### Aritmética
 
-::: columns
+:::: {.columns}
 ::: {.column width="50%"}
-::: nonincremental
--   Suma:
+::: {.nonincremental}
+- Suma: 
 
 ```{r}
 #| echo: true
 5 + 4
 ```
 
--   Resta:
+- Resta: 
 
 ```{r}
 #| echo: true
@@ -111,15 +127,15 @@ ggplot(airquality, aes(Temp, Ozone)) +
 :::
 
 ::: {.column width="50%"}
-::: nonincremental
--   Multiplicación
+::: {.nonincremental}
+- Multiplicación
 
 ```{r}
 #| echo: true
 3 * 8
 ```
 
--   División
+- División
 
 ```{r}
 #| echo: true
@@ -127,20 +143,33 @@ ggplot(airquality, aes(Temp, Ozone)) +
 ```
 :::
 :::
-:::
+::::
 
 ### Resta
 
 Content for `Tab B`
+
 :::
 
-## Selección de variables {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Selección de variables {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-## Filtrado de datos {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Filtrado de datos {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-## Creación de variables {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Creación de variables {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-##  {background-color="white" background-size="1920px 1080px" background-repeat="repeat" background-iframe="https://www.tidyverse.org/"}
+## {background-color="white"
+background-size="1920px 1080px" 
+background-repeat="repeat"
+background-iframe="https://www.tidyverse.org/"}
 
 ## Otro
 
@@ -153,7 +182,10 @@ When you click the **Render** button a document will be generated that includes:
 
 # <FONT color='#FFFFFF'>Análisis descriptivo en R</FONT>
 
-## Descripción de variables numéricas {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Descripción de variables numéricas {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
@@ -161,9 +193,13 @@ When you click the **Render** button a presentation will be generated that inclu
 1 + 1
 ```
 
-## Casa {background-color="white" background-image="images/bg-ietsi-slide-body.png" background-size="1920px 1080px" background-repeat="repeat"}
+## Casa {background-color="white"
+background-image="images/bg-ietsi-slide-body.png" 
+background-size="1920px 1080px" 
+background-repeat="repeat"}
 
-::: panel-tabset
+::: {.panel-tabset}
+
 ### Tab A
 
 Content for `Tab A`
@@ -171,4 +207,5 @@ Content for `Tab A`
 ### Tab B
 
 Content for `Tab B`
+
 :::

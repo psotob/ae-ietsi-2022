@@ -2,3 +2,185 @@
 title: "Recursos"
 lang: es
 ---
+
+## Recursos en línea recomendados
+
+**LIBROS EN LÍNEA**
+
+- The Epidemiologist R Handbook [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- R for Epidemiology [[Enlace](https://www.r4epi.com/)]
+
+- R for Data Science [[Enlace](https://r4ds.had.co.nz/)]
+
+
+## Bibliografía recomendada en syllabus
+
+A continuación se presentan la bibliografía recomendada para cada módulo
+
+::: panel-tabset
+### MÓDULO 1
+
+**Sesión 1:**
+
+- **Measurement scales and their summary statistics.** BMJ Evidence-Based Medicine 2004;9:164-166. [[Enlace](https://ebm.bmj.com/content/9/6/164.2.citation-tools)]
+
+- Baillie M, le Cessie S, Schmidt CO, Lusa L, Huebner M, for the Topic Group "Initial Data Analysis" of the STRATOS Initiative (2022) **Ten simple rules for initial data analysis**. PLoS Comput Biol 18(2): e1009819. [[Enlace](https://doi.org/10.1371/journal.pcbi.1009819)]
+
+- Cummings P, Rivara FP. **Reporting Statistical Information in Medical Journal Articles**. Arch Pediatr Adolesc Med. 2003;157(4):321--324. [[Enlace](10.1001/archpedi.157.4.321)]
+
+**Sesión 2:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulos 17. [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- Cannell B, Livingston M. **R for Epidemiology**. Capítulo IV. [[Enlace](https://www.r4epi.com/)]
+
+**Sesión 3:**
+
+- Driscoll P, Lecky FArticle 5. **An introduction to estimation---2: from z to t**. Emergency Medicine Journal 2001;18:65-70. [[Enlace](https://emj.bmj.com/content/18/1/65.citation-tools)]
+
+- Driscoll P, Lecky FArticle 6. **An introduction to hypothesis testing. Parametric comparison of two groups---1**. Emergency Medicine Journal 2001;18:124-130. [[Enlace](https://emj.bmj.com/content/18/2/124.citation-tools)]
+
+- Greenland, S., Senn, S.J., Rothman, K.J. et al. **Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations**. Eur J Epidemiol 31, 337--350 (2016). [[Enlace](https://doi.org/10.1007/s10654-016-0149-3)]
+
+- Altman, N., Krzywinski, M. **P values and the search for significance**. Nat Methods 14, 3--4 (2017). [[Enlace](https://doi.org/10.1038/nmeth.4120)] 
+
+- **Are confidence intervals better termed "uncertainty intervals"?** BMJ 2019; 366. [[Enlace](https://doi.org/10.1136/bmj.l5381)] 
+
+- Valentin Amrhein, David Trafimow & Sander Greenland (2019) **Inferential Statistics as Descriptive Statistics: There Is No Replication Crisis if We Don't Expect Replication**. The American Statistician, 73:sup1, 262-270. [[Enlace](10.1080/00031305.2018.1543137)]: 
+
+- Hawkins AT, Samuels LR. **Use of Confidence Intervals in Interpreting Nonstatistically Significant Results**. JAMA. 2021;326(20):2068--2069.[[Enlace](doi:10.1001/jama.2021.16172)]
+
+- Amrhein V, Greenland S, McShane B. **Scientists rise up against statistical significance**. Nature. marzo de 2019;567(7748):305-7.[[Enlace](https://www.nature.com/articles/d41586-019-00857-9)]
+
+**Sesión 4:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18.[[Enlace](https://epirhandbook.com/en/index.html)]
+
+**Sesión 5:**
+
+- Kim TK. **Understanding one-way ANOVA using conceptual figures**. Korean J Anesthesiol. 2017;70(1):22-26. [[Enlace](10.4097/kjae.2017.70.1.22)]
+
+- Weissgerber TL, Garcia-Valencia O, Garovic VD, Milic NM, Winham SJ. **Why we need to report more than 'Data were Analyzed by t-tests or ANOVA'**. Elife. 2018;7:e36163. Published 2018 Dec 21. [[Enlace](10.7554/eLife.36163)]
+
+- Lachin JM. **Nonparametric Statistical Analysis**. JAMA. 2020;323(20):2080--2081. [[Enlace](10.1001/jama.2020.5874)]
+
+- Cao J, Zhang S. **Multiple Comparison Procedures**. JAMA. 2014;312(5):543--544. [[Enlace](10.1001/jama.2014.9440)]
+
+- Bewick V, Cheek L, Ball J. **Statistics review 9: one-way analysis of variance**. Crit Care. 2004 Apr;8(2):130-6. [[Enlace](10.1186/cc2836)]
+
+- Bewick V, Cheek L, Ball J. **Statistics review 10: further nonparametric methods**. Crit Care. 2004 Jun;8(3):196-9. [[Enlace](10.1186/cc2857)]
+
+**Sesión 6:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace](https://epirhandbook.com/en/index.html)] 
+
+### MÓDULO 2
+
+**Sesión 7:**
+
+- Hernán M, et al. **A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks**. Chance 2019, 32. [[Enlace](https://doi.org/10.1080/09332480.2019.1579578)] 
+
+- Shmueli G. **To Explain or to Predict?** Statistical Science 2010; 25. Doi: 10.1214/10-STS330. [[Enlace](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf)]
+
+- Schooling, C.M., Jones, H.E. **Clarifying questions about “risk factors”: predictors versus explanation**. Emerg Themes Epidemiol 15, 10 (2018). [[Enlace](https://doi.org/10.1186/s12982-018-0080-z)]
+
+- Ramspek CL, Steyerberg EW, Riley RD, Rosendaal FR, Dekkers OM, Dekker FW, van Diepen M. **Prediction or causality? A scoping review of their conflation within current observational research**. Eur J Epidemiol. 2021 Sep;36(9):889-898. [[Enlace](10.1007/s10654-021-00794-w)] 
+
+- Wallisch C, Bach P, Hafermann L, Klein N, Sauerbrei W, et al. (2022) **Review of guidance papers on regression modeling in statistical series of medical journals**. PLOS ONE 17(1): e0262918. [[Enlace](https://doi.org/10.1371/journal.pone.0262918)]
+
+- Altman, N., Krzywinski, M. **Simple linear regression**. Nat Methods 12, 999–1000 (2015). [[Enlace](https://doi.org/10.1038/nmeth.3627)]
+
+- Krzywinski, M., Altman, N. **Multiple linear regression**. Nat Methods 12, 1103–1104 (2015).[[Enlace](https://doi.org/10.1038/nmeth.3665)]
+
+- Sauerbrei, W., Perperoglou, A., Schmid, M. et al. **State of the art in selection of variables and functional forms in multivariable analysis—outstanding issues**. Diagn Progn Res 4, 3 (2020). [[Enlace](https://doi.org/10.1186/s41512-020-00074)]
+
+**Sesión 8:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook. 2021**. DOI 10.5281/zenodo.4752646. Capítulo 18. [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- Irman K. **Data Analysis in Medicine and Health using R**. 2022. Capitulo 8. [[Enlace](https://bookdown.org/drki_musa/dataanalysis/)] 
+
+
+### MÓDULO 3
+
+**Sesión 9:**
+
+- Bland JM, Altman DG. **Statistics notes**. The odds ratio. BMJ. 2000;320(7247):1468. [[Enlace](10.1136/bmj.320.7247.1468)]
+
+- Lever, J., Krzywinski, M. & Altman, N. **Logistic regression**. Nat Methods 13, 541–542 (2016). [[Enlace](https://doi.org/10.1038/nmeth.3904)]
+
+- Harris JK. **Primer on binary logistic regression**. Family Medicine and Community Health 2021;9:e001290. [[Enlace](10.1136/fmch-2021-001290)] 
+
+- Sedgwick P. **Logistic regression**. BMJ. 12 de julio de 2013;347:f4488. [[Enlace](https://doi.org/10.1136/bmj.f4488)] 
+
+**Sesión 10:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- Irman K. **Data Analysis in Medicine and Health using R**. 2022. Capitulo 8. [[Enlace](https://bookdown.org/drki_musa/dataanalysis/)]
+
+**Sesión 11:** 
+
+- Tamhane AR, Westfall AO, Burkholder GA, Cutter GR. **Prevalence odds ratio versus prevalence ratio: choice comes with consequences** [published correction appears in Stat Med. 2017 Oct 15;36(23 ):3760]. Stat Med. 2016;35(30):5730-5735. [[Enlace](10.1002/sim.7059)]
+
+- Zou G. **A modified poisson regression approach to prospective studies with binary data**. Am J Epidemiol. 2004 Apr 1;159(7):702-6. [[Enlace](10.1093/aje/kwh090)]
+
+- Cummings P. **The Relative Merits of Risk Ratios and Odds Ratios**. Arch Pediatr Adolesc Med. 4 de mayo de 2009;163(5):438-45. [[Enlace](10.1001/archpediatrics.2009.31)] 
+
+**Sesión 12:** 
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- Irman K. **Data Analysis in Medicine and Health using R**. 2022. Capitulo 8. [[Enlace](https://bookdown.org/drki_musa/dataanalysis/)]
+
+### MÓDULO 4
+
+**Sesión 13:**
+
+- Clark, T., Bradburn, M., Love, S. et al. **Survival Analysis Part I: Basic concepts and first analyses**. Br J Cancer 89, 232–238 (2003). [[Enlace](https://doi.org/10.1038/sj.bjc.6601118)]
+
+- Tolles J, Lewis RJ. **Time-to-Event Analysis**. JAMA. 2016;315(10):1046–1047. [[Enlace](10.1001/jama.2016.1825)]
+
+- Andersen PK, et al. **Analysis of time-to-event for observational studies: Guidance to the use of intensity models**. Statistics in Medicine  2022; 40. [[Enlace](https://doi.org/10.1002/sim.8757)]
+
+- Morris TP, Jarvis CI, Cragg W, et al. **Proposals on Kaplan–Meier plots in medical research and a survey of stakeholder views: KMunicate**. BMJ Open 2019;9:e030215. [[Enlace](10.1136/bmjopen-2019-030215)]
+
+- **Survival analysi**s | The BMJ [Internet]. The BMJ | The BMJ: leading general medical journal. Research. Education. Comment. [[Enlace](https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/12-survival-analysis)]  
+
+- Sedgwick P, Joekes K. **Kaplan-Meier survival curves: interpretation and communication of risk**. BMJ. 29 de noviembre de 2013;347:f7118. [[Enlace](ttps://doi.org/10.1136/bmj.f7118)] 
+
+- Sedgwick P. **How to read a Kaplan-Meier survival plot**. BMJ. 12 de septiembre de 2014;349:g5608. [[Enlace](https://doi.org/10.1136/bmj.g5608)] 
+
+**Sesión 14:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- Irman K. **Data Analysis in Medicine and Health using R**. 2022. Capitulo 8. [[Enlace](https://bookdown.org/drki_musa/dataanalysis/)]
+
+**Sesión 15:** 
+
+- Bradburn, M., Clark, T., Love, S. et al. **Survival Analysis Part II: Multivariate data analysis – an introduction to concepts and methods**. Br J Cancer 89, 431–436 (2003). [[Enlace](https://doi.org/10.1038/sj.bjc.6601119)]
+
+- Bradburn, M., Clark, T., Love, S. et al. **Survival Analysis Part III: Multivariate data analysis – choosing a model and assessing its adequacy and fit**. Br J Cancer 89, 605–611 (2003). [[Enlace](https://doi.org/10.1038/sj.bjc.6601120)]
+
+- Clark, T., Bradburn, M., Love, S. et al. **Survival Analysis Part IV: Further concepts and methods in survival analysis**. Br J Cancer 89, 781–786 (2003). [[Enlace](https://doi.org/10.1038/sj.bjc.6601117)]
+
+- Sedgwick P. **Cox proportional hazards regression**. BMJ. 9 de agosto de 2013;347:f4919. [[Enlace](https://doi.org/10.1136/bmj.f4919)] 
+
+- Hernán MA. **The hazards of hazard ratios. Epidemiology**. 2010 Jan;21(1):13-5. Erratum in: Epidemiology. 2011 Jan;22(1):134. [[Enlace](10.1097/EDE.0b013e3181c1ea43)] 
+
+- Scheer D, Benighaus C, Benighaus L, Renn O, Gold S, Röder B, Böl GF. **The distinction between risk and hazard: understanding and use in stakeholder communication**. Risk Anal. 2014 Jul;34(7):1270-85. [[Enlace](10.1111/risa.12169)] 
+
+- Stensrud MJ, Hernán MA. **Why Test for Proportional Hazards?** JAMA. 2020;323(14):1401–1402. [[Enlace](10.1001/jama.2020.1267)] 
+
+**Sesión 16:**
+
+- Batra, Neale, et al. **The Epidemiologist R Handbook**. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [[Enlace](https://epirhandbook.com/en/index.html)] 
+
+- Irman K. **Data Analysis in Medicine and Health using R**. 2022. Capitulo 8. [[Enlace](https://bookdown.org/drki_musa/dataanalysis/ )] 
+:::
+
+## Recursos en línea adicionales
+
+En esta sección compartiremos recursos adicionales que vayan emergiendo a lo largo del curso.
