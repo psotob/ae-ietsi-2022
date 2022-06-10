@@ -48,6 +48,8 @@ website:
     title: false
     collapse-below: lg
     left:
+      - href: index.qmd
+        text: Inicio
       - href: programa.qmd
         text: Programa
       - href: cronograma.qmd

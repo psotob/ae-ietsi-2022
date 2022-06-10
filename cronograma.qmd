@@ -23,29 +23,91 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 
 **ANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA**
 
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-| Fecha                | Tema                                                                                                                                                              | Presentación                                      | Código      | Materiales  |
-+======================+===================================================================================================================================================================+:=================================================:+:===========:+:===========:+
-| Junio 15, 2022       | -   Instalación de R y Rstudio                                                                                                                                    | [`` `r x` ``](../Sesiones/Sesion-1/Sesion-1.html) |             | `` `r z` `` |
-|                      |                                                                                                                                                                   |                                                   |             |             |
-|                      | -   Manejo básico                                                                                                                                                 |                                                   |             |             |
-|                      |                                                                                                                                                                   |                                                   |             |             |
-|                      | -   Inspección inicial de datos y análisis descriptivo                                                                                                            |                                                   |             |             |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-|                      | -   Taller de inspección inicial de datos y análisis descriptivo.                                                                                                 |                                                   | `` `r y` `` |             |
-|                      |                                                                                                                                                                   |                                                   |             |             |
-|                      | -   Creación automatizada de Tabla 1 reproducible (R: gtsummary)                                                                                                  |                                                   |             |             |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-| Junio 17, 2022       | -   Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos.                                           | `` `r x` ``                                       |             | `` `r z` `` |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-|                      | -   Taller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.                                                                |                                                   | `` `r y` `` |             |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-| Junio 22, 2022       | -   Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza.             | `` `r x` ``                                       |             | `` `r z` `` |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-|                      | -   Taller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla 2 reproducible (R: gtsummary). |                                                   | `` `r y` `` |             |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
-| Junio 15 al 24, 2022 | -   **Trabajo asincrónico. Desarrollo de 'Problem Set 1'.**                                                                                                       |                                                   |             |             |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+-------------+-------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 48%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup><thead>
+<tr class="header">
+<th><p>Fecha</p></th>
+<th><p>Tema</p></th>
+<th style="text-align: center;"><p>Presentación</p></th>
+<th style="text-align: center;"><p>Código</p></th>
+<th style="text-align: center;"><p>Materiales</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Junio 15, 2022</p></td>
+<td><ul>
+<li><p>Instalación de R y Rstudio</p></li>
+<li><p>Manejo básico</p></li>
+<li><p>Inspección inicial de datos y análisis descriptivo</p></li>
+</ul></td>
+<td style="text-align: center;"><p><a href="../Sesiones/Sesion-1/Sesion-1.html"><code>`r x`</code></a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li><p>Taller de inspección inicial de datos y análisis descriptivo.</p></li>
+<li><p>Creación automatizada de Tabla 1 reproducible (R: gtsummary)</p></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 17, 2022</p></td>
+<td><ul>
+<li>Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos. </li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li>Taller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.</li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 22, 2022</p></td>
+<td><ul>
+<li>Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza. </li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li>Taller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla 2 reproducible (R: gtsummary).</li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 15 al 24, 2022</p></td>
+<td><ul>
+<li><strong>Trabajo asincrónico. Desarrollo de 'Problem Set 1'.</strong></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
@@ -53,15 +115,53 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 
 **REGRESIÓN PARA DATOS NUMÉRICOS**
 
-+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Fecha                        | Tema                                                                                                                                            | Presentación | Código      | Materiales  |
-+==============================+=================================================================================================================================================+:============:+:===========:+:===========:+
-| Junio 24, 2022               | -   Introducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple.  | `` `r x` ``  |             | `` `r z` `` |
-+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-|                              | -   Taller de RLM en R. Tabla 3 reproducible con gtsummary en R.                                                                                |              | `` `r y` `` |             |
-+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Junio 24 hasta Julio 1, 2022 | -   **Trabajo asincrónico. Desarrollo de 'Problem Set 2'.**                                                                                     |              |             |             |
-+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 53%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Fecha</p></th>
+<th><p>Tema</p></th>
+<th style="text-align: center;"><p>Presentación</p></th>
+<th style="text-align: center;"><p>Código</p></th>
+<th style="text-align: center;"><p>Materiales</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Junio 24, 2022</p></td>
+<td><ul>
+<li>Introducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple. </li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li>Taller de RLM en R. Tabla 3 reproducible con gtsummary en R.</li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 24 hasta Julio 1, 2022</p></td>
+<td><ul>
+<li><strong>Trabajo asincrónico. Desarrollo de 'Problem Set 2'.</strong></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
@@ -69,51 +169,149 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 
 **REGRESIÓN PARA DESENLACES BINARIOS**
 
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Fecha                | Tema                                                                                                                 | Presentación | Código      | Materiales  |
-+======================+======================================================================================================================+:============:+:===========:+:===========:+
-| Julio 1, 2022        | -   Introducción a la Regresión Logística Binaria.                                                                   | `` `r x` ``  |             | `` `r z` `` |
-|                      |                                                                                                                      |              |             |             |
-|                      | -   Interpretación y supuestos.                                                                                      |              |             |             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-|                      | -   Taller sobre Regresión Logística Binaria en R.                                                                   |              | `` `r y` `` |             |
-|                      |                                                                                                                      |              |             |             |
-|                      | -   Tablas reproducibles con gtsummary.                                                                              |              |             |             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Julio 06, 2022       | -   Introducción a la regresión Log Binomial y Poisson para desenlaces binarios. Tablas reproducibles con gtsummary. | `` `r x` ``  |             | `` `r z` `` |
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-|                      | -   Taller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas reproducibles con gtsummary. |              | `` `r y` `` |             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Junio 01 al 10, 2022 | **Trabajo asincrónico. Desarrollo de 'Problem Set 3'**                                                               |              |             |             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------+--------------+-------------+-------------+
+<table style="width:99%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 51%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Fecha</p></th>
+<th><p>Tema</p></th>
+<th style="text-align: center;"><p>Presentación</p></th>
+<th style="text-align: center;"><p>Código</p></th>
+<th style="text-align: center;"><p>Materiales</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Julio 1, 2022</p></td>
+<td><ul>
+<li><p>Introducción a la Regresión Logística Binaria.</p></li>
+<li><p>Interpretación y supuestos. </p></li>
+</ul></td>
+<td style="text-align: center;"><p><code>r x</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>r z</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li><p>Taller sobre Regresión Logística Binaria en R.</p></li>
+<li><p>Tablas reproducibles con gtsummary. </p></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Julio 06, 2022</p></td>
+<td><ul>
+<li>Introducción a la regresión Log Binomial y Poisson para desenlaces binarios. Tablas reproducibles con gtsummary.</li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li>Taller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas reproducibles con gtsummary.</li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 01 al 10, 2022</p></td>
+<td><p><strong>Trabajo asincrónico. Desarrollo de 'Problem Set 3'</strong></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
 ## MÓDULO 4
 
 **REGRESIÓN PARA DESENLACES TIEMPO A EVENTO**
-
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Fecha                | Tema                                                                                       | Presentación | Código      | Materiales  |
-+======================+============================================================================================+:============:+:===========:+:===========:+
-| Julio 8, 2022        | -   Introducción al análisis de tiempo a evento.                                           | `` `r x` ``  |             | `` `r z` `` |
-|                      |                                                                                            |              |             |             |
-|                      | -   Método de Kaplan-Meier y comparación de curvas de supervivencia.                       |              |             |             |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-|                      | -   Taller sobre análisis de curvas de supervivencia en R.                                 |              | `` `r y` `` |             |
-|                      |                                                                                            |              |             |             |
-|                      | -   Tablas reproducibles desobrevida acumalada con gtsummary.                              |              |             |             |
-|                      |                                                                                            |              |             |             |
-|                      | -   Gráficos de KM con survminer.                                                          |              |             |             |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Julio 13, 2022       | -   Introducción al análisis de regresión de Cox. Supuestos. Interpretación de resultados. | `` `r x` ``  |             | `` `r z` `` |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-|                      | -   Taller sobre análisis de regresión de Cox.                                             |              | `` `r y` `` |             |
-|                      |                                                                                            |              |             |             |
-|                      | -   Tablas reproducibles con gtsummary.                                                    |              |             |             |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Junio 08 al 20, 2022 | **Trabajo asincrónico. Desarrollo de 'Problem Set 4'**                                     |              |             |             |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
-| Junio 20, 2022       | **Evaluación Final**                                                                       |              |             |             |
-+----------------------+--------------------------------------------------------------------------------------------+--------------+-------------+-------------+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 46%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Fecha</p></th>
+<th><p>Tema</p></th>
+<th style="text-align: center;"><p>Presentación</p></th>
+<th style="text-align: center;"><p>Código</p></th>
+<th style="text-align: center;"><p>Materiales</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Julio 8, 2022</p></td>
+<td><ul>
+<li><p>Introducción al análisis de tiempo a evento.</p></li>
+<li><p>Método de Kaplan-Meier y comparación de curvas de supervivencia.</p></li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li><p>Taller sobre análisis de curvas de supervivencia en R.</p></li>
+<li><p>Tablas reproducibles de sobrevida acumulada con gtsummary.</p></li>
+<li><p>Gráficos de KM con survminer.</p></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Julio 13, 2022</p></td>
+<td><ul>
+<li>Introducción al análisis de regresión de Cox. Supuestos. Interpretación de resultados.</li>
+</ul></td>
+<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r z`</code></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><ul>
+<li><p>Taller sobre análisis de regresión de Cox.</p></li>
+<li><p>Tablas reproducibles con gtsummary.</p></li>
+</ul></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><p>Junio 08 al 20, 2022</p></td>
+<td><p><strong>Trabajo asincrónico. Desarrollo de 'Problem Set 4'</strong></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td><p>Junio 20, 2022</p></td>
+<td><p><strong>Evaluación Final</strong></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 :::
