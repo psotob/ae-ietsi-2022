@@ -1,0 +1,12 @@
+---
+title: "Tareas"
+lang: es
+---
+
+En esta sección se encuentran los siguientes tópicos:
+
+#. [Problem sets](problem-set.html)
+
+#. [Evaluación final](evaluacion-final.html)
+
+#. [Ejercicios extras](ejercicios-extras.html)

@@ -1,0 +1,12 @@
+---
+title: "Recomendados en línea"
+lang: es
+---
+
+**LIBROS**
+
+- The Epidemiologist R Handbook [[Enlace](https://epirhandbook.com/en/index.html)]
+
+- R for Epidemiology [[Enlace](https://www.r4epi.com/)]
+
+- R for Data Science [[Enlace](https://r4ds.had.co.nz/)]

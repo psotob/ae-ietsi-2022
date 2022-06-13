@@ -90,10 +90,10 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="./cronograma.html">Cronograma</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tareas.html">Tareas</a>
+    <a class="nav-link" href="./tareas/index.html">Tareas</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./recursos.html">Recursos</a>
+    <a class="nav-link" href="./recursos/index.html">Recursos</a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -137,7 +137,7 @@ ul.task-list{list-style: none;}
 <div class="grid">
 <div class="g-col-8">
 <p align="justify">
-Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso <strong>Análisis Estadístico</strong> del <strong>Programa de Formación Científica 2022</strong> organizado por el Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI del Seguro Social de Salud del Perú (EsSalud). Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. El curso también busca promover y brindar recomendaciones sobre buenas prácticas de análisis bioestadístico con énfasis en principios de Ciencia Abierta y Reproducible.
+Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso <strong>Análisis Estadístico</strong> del <strong>Programa de Formación Científica 2022</strong> organizado por el <strong>Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI</strong> del <strong>Seguro Social de Salud del Perú (EsSalud)</strong>. Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. El curso también busca promover y brindar recomendaciones sobre buenas prácticas de análisis bioestadístico con énfasis en principios de Ciencia Abierta y Reproducible.
 </p>
 </div>
 <div class="g-col-4">
@@ -334,6 +334,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/ietsi-academy-aed\.netlify\.app\//);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
@@ -355,7 +369,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://www.rstudio.com/">RStudio</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.tidyverse.org/">Tidyverse</a>
+    <a class="nav-link" href="https://www.tidyverse.org/">tidyverse</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.danieldsjoberg.com/gtsummary/">gtsummary</a>

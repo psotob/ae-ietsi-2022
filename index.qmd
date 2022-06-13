@@ -10,7 +10,7 @@ editor: source
 
 ::: grid
 ::: g-col-8
-<p align="justify">Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso **Análisis Estadístico** del **Programa de Formación Científica 2022** organizado por el Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI del Seguro Social de Salud del Perú (EsSalud). Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. El curso también busca promover y brindar recomendaciones sobre buenas prácticas de análisis bioestadístico con énfasis en principios de Ciencia Abierta y Reproducible.</p>
+<p align="justify">Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso **Análisis Estadístico** del **Programa de Formación Científica 2022** organizado por el **Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI** del **Seguro Social de Salud del Perú (EsSalud)**. Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. El curso también busca promover y brindar recomendaciones sobre buenas prácticas de análisis bioestadístico con énfasis en principios de Ciencia Abierta y Reproducible.</p>
 :::
 
 ::: g-col-4

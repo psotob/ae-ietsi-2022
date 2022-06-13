@@ -8,7 +8,7 @@ website:
   favicon: "ietsi-logo.png"
   open-graph: true
   twitter-card: true
-  # site-url: ""
+  site-url: https://ietsi-academy-aed.netlify.app/
   repo-url: https://github.com/psotob/ae-ietsi-2022/
   repo-actions: [edit, issue]
   page-navigation: true
@@ -27,7 +27,7 @@ website:
           url: https://www.r-project.org/
         - text: "RStudio"
           url: https://www.rstudio.com/
-        - text: "Tidyverse"
+        - text: "tidyverse"
           url: https://www.tidyverse.org/    
         - text: "gtsummary"
           url: https://www.danieldsjoberg.com/gtsummary/  
@@ -54,25 +54,50 @@ website:
         text: Programa
       - href: cronograma.qmd
         text: Cronograma
-      - href: tareas.qmd
+      - href: tareas/index.qmd
         text: Tareas 
-      - href: recursos.qmd
+      - href: recursos/index.qmd
         text: Recursos
-  # sidebar:
-  #   - id: get-started
-  #     title: "Get Started"
-  #     style: "floating"
-  #     collapse-level: 2
-  #     align: left
-  #     contents:
-  #       - docs/get-started/index.qmd
-  #       - text: "Tutorial: Hello, Quarto"
-  #         href: docs/get-started/hello/
-  #       - text: "Tutorial: Computations"
-  #         href: docs/get-started/computations/
-  #       - text: "Tutorial: Authoring"
-  #         href: docs/get-started/authoring/
-  # 
+        
+  sidebar:
+      - id: tareas
+        collapse-level: 1
+        contents: 
+          - text: "Tareas"
+            href: tareas/index.qmd
+          - section: "Problem Sets"
+            contents: 
+              - tareas/problem-set.qmd
+              - tareas/problem-set/problem-set-1.qmd
+              - tareas/problem-set/problem-set-2.qmd
+              - tareas/problem-set/problem-set-3.qmd
+              - tareas/problem-set/problem-set-4.qmd
+          - section: "Evaluación Final"
+            contents: 
+              - tareas/evaluacion-final.qmd
+              - tareas/evaluacion-final-sol.qmd
+          - section: "Ejercicios Extras"
+            contents: 
+              - tareas/ejercicios-extras.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia1.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia2.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia3.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia4.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia5.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia6.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia7.qmd
+              - tareas/ejercicios-extras/ejercicios-extras-dia8.qmd
+      - id: recursos
+        collapse-level: 1
+        contents: 
+          - text: "Recursos"
+            href: recursos/index.qmd 
+          - text: "Recursos en línea recomendados"
+            href: recursos/enlinea/en-linea.qmd   
+          - text: "Bibliografía recomendada según syllabus"
+            href: recursos/syllabus/syllabus.qmd  
+          - text: "Recursos en línea adicionales"
+            href: recursos/adicionales/adicionales.qmd  
   #   - id: guide
   #     collapse-level: 1
   #     contents:
@@ -364,6 +389,8 @@ format:
     css: styles.css
     toc: true
     include-after-body: js.html
+    link-external-icon: false
+    link-external-newwindow: true
 
 filters:
   - filters/include-files.lua

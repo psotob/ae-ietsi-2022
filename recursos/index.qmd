@@ -1,0 +1,12 @@
+---
+title: "Recursos"
+lang: es
+---
+
+En esta sección encontrará:
+
+#. [Recursos en línea recomendados](enlinea/en-linea.html)
+
+#. [Bibliografía recomendada en syllabus](syllabus/syllabus.html)
+
+#. [Recursos en línea adicionales](adicionales/adicionales.html)

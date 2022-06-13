@@ -10,9 +10,8 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.494">
 
-  <meta name="author" content="Percy Soto-Becerra @github/psotob">
-  <meta name="dcterms.date" content="2018-01-23">
-  <title>Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesión 1</title>
+  <meta name="author" content="Percy Soto-Becerra">
+  <title>Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -380,9 +379,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesión 1">
+<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1">
 <meta property="og:site-name" content="Programa de Formación Cientifica - Análisis Estadístico 2022">
-<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesión 1">
+<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1">
 <meta name="twitter:card" content="summary">
 </head>
 <body>
@@ -390,10 +389,11 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title"><font color="#ffff33"><br>Sesión 1</font></h1>
-  <p class="subtitle"><font color="#FFFFFF" size="10">Programa de Formación Científica:<br>Análisis Estadístico 2022</font></p>
-  <p class="author"><font color="#FFFFFF" size="30">Percy Soto-Becerra</font><br><font color="#FFFFFF" size="6"><span class="citation" data-cites="github/psotob">@github/psotob</span></font></p>
-  <p class="date"><font color="#FFFFFF" size="6">2018-01-23</font></p>
+  <h1 class="title"><img data-src="images/logo-essalud.png" height="72" width="250"> <img data-src="images/logo-pueblo.jpg" height="72" width="250"> <img data-src="images/logo-ietsi.png" height="72" width="250"> <font color="#232429"><br>Sesión 1</font></h1>
+  <p class="subtitle"><font color="#636363" size="7">Programa de Formación Científica:<br>Análisis Estadístico 2022</font></p>
+  <p class="author"><font color="#232429" size="30">Percy Soto-Becerra</font></p>
+  <p class="institute"><font color="#232429" size="5">Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI, EsSalud<br><span class="citation" data-cites="github/psotob">@github/psotob</span></font></p>
+  <p class="date"><font color="#232429" size="6">Junio 15, 2022</font></p>
 </section>
 
 <section class="slide level2">
@@ -401,58 +401,312 @@
 <div class="cell">
 
 </div>
+<!-- 
+::: {.fragment .highlight-red}
+casa
+:::
+-->
 </section>
 <section>
-<section id="introducción-a-r-y-rstudio" class="title-slide slide level1 center">
-<h1><font color="#FFFFFF">Introducción a R y RStudio</font></h1>
+<section id="una-motivación-para-comenzar" class="title-slide slide level1 center">
+<h1><font color="#232429">Una motivación para comenzar</font></h1>
 
 </section>
-<section id="qué-es-r" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="la-estadística-y-la-ciencia-de-datos-en-el-mundo-actual---las-oportunidades" class="slide level2">
+<h2>La Estadística y la Ciencia de Datos en el mundo actual - Las oportunidades</h2>
+<div class="r-stack">
+<p><img data-src="images/fda-realworld.png" class="fragment" width="1336" height="537"></p>
+<p><img data-src="images/nature-bigdata.png" class="fragment" width="824" height="538"></p>
+<p><img data-src="images/jama-machine.png" class="fragment" width="913" height="510"></p>
+<p><img data-src="images/cleveland-ibm.png" class="fragment" width="1207" height="560"></p>
+</div>
+</section>
+<section id="la-crisis-de-replicabilidad-de-la-ciencia-incluyendo-ciencias-médicas" class="slide level2">
+<h2>La crisis de replicabilidad de la Ciencia (incluyendo Ciencias Médicas)</h2>
+
+<img data-src="images/replication.png" class="r-stretch"></section></section>
+<section>
+<section id="introducción-al-curso" class="title-slide slide level1 center">
+<h1><font color="#232429">Introducción al Curso</font></h1>
+
+</section>
+<section id="acerca-de-este-curso" class="slide level2">
+<h2>Acerca de este curso</h2>
+<ul>
+<li><p>Iniciativa de IETSI para promover el desarrollo de investigación científica en EsSalud a través del desarrollo de competencias para análisis de datos.</p></li>
+<li><p>Buscamos desarrollar competencias en análisis de datos a través de la enseñanza de metodologías provenientes de la (Bio)Estadística y la Ciencia de Datos.</p></li>
+<li><p>Información del curso se encuentra alojada en el siguiente enlace: <a href="https://ietsi-academy-aed.netlify.app/">https://ietsi-academy-aed.netlify.app/</a></p></li>
+</ul>
+</section>
+<section id="qué-asumiremos" class="slide level2">
+<h2>¿Qué asumiremos?</h2>
+<ul>
+<li>Los alumnos tienen algún conocimiento de (bio)estadística básica.</li>
+<li>Los alumnos pueden dedicar tiempo a estudiar los materiales compartidos en clase.</li>
+<li>Los alumnos van a aplicar las competencias adquiridas en estudios de investigación.</li>
+</ul>
+</section>
+<section id="veamos-el-programa-y-cronograma-de-este-curso" class="slide level2">
+<h2>Veamos el programa y cronograma de este curso</h2>
+<div class="r-fit-text">
+<p><br><br> <a href="https://ietsi-academy-aed.netlify.app/">https://ietsi-academy-aed.netlify.app/</a></p>
+</div>
+</section>
+<section id="section" class="slide level2" data-background-color="white" data-background-size="1920px 1080px" data-background-repeat="repeat" data-background-iframe="https://ietsi-academy-aed.netlify.app/">
+<h2></h2>
+</section></section>
+<section>
+<section id="filosofía-de-este-curso" class="title-slide slide level1 center">
+<h1><font color="#232429">Filosofía de este curso</font></h1>
+
+</section>
+<section id="cuál-será-el-enfoque-del-curso" class="slide level2">
+<h2>¿Cuál será el enfoque del curso?</h2>
+<ul>
+<li>Nos centraremos en la aplicación de los métodos en el programa estadístico R a través de su interfaz RStudio.</li>
+<li>Poco tiempo para profundizar en el funcionamiento de los métodos. <font size="6">
+</font><ul><font size="6">
+<li>Compartiremos recursos bibliográficos para esto.</li>
+<li>La web ya indica algunos: <a href="https://ietsi-academy-aed.netlify.app/recursos.html">https://ietsi-academy-aed.netlify.app/recursos.html</a></li>
+</font><li><font size="6">Iremos colocando extras, clase por clase. </font></li>
+</ul></li>
+</ul>
+</section>
+<section id="cuál-será-el-enfoque-del-curso-cont." class="slide level2">
+<h2>¿Cuál será el enfoque del curso? (cont.)</h2>
+<ul>
+<li>Promoveremos una filosofía de <strong>(Bio)Estadística/Ciencia de Datos basada en Evidencia</strong>. <font size="6">
+</font><ul><font size="6">
+<li>Nos centraremos en pautas/recomendaciones reconocidas de aplicación de métodos.</li>
+</font><li><font size="6">Siempre que exista consensos internacionales, los indicaremos. </font></li>
+</ul></li>
+<li>Expondremos las malas prácticas para evitarlas. <font size="6">
+</font><ul><font size="6">
+<li>Poco tiempo para detallar justificación teórica/metodológica.</li>
+</font><li><font size="6">Compartiremos literatura para que profundicen. </font></li>
+</ul></li>
+</ul>
+</section>
+<section id="bioestadística-o-ciencia-de-datos-basada-en-evidencia" class="slide level2">
+<h2>¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?</h2>
+<ul>
+<li>Pensemos en la siguiente analogía: los métodos de análisis de datos son como las intervenciones médicas.</li>
+<li>Algunas intervenciones médicas son muy efectivas, otras no.</li>
+<li>Entre dos intervenciones médicas efectivas, alguna será mejor que otra para cierto contexto.</li>
+<li>En otro contexto, la otra podría ser mejor.</li>
+</ul>
+</section>
+<section id="bioestadística-o-ciencia-de-datos-basada-en-evidencia-1" class="slide level2">
+<h2>¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?</h2>
+<ul>
+<li>Hay intervenciones médicas que causan más daño que beneficio <font size="6">
+</font><ul><font size="6">
+<li>Históricamente los médicos las han recomendado.</li>
+</font><li><font size="6">Hasta que lo notaron y las dejaron de usar o restringieron su uso. </font></li>
+</ul></li>
+<li>Hay intervenciones médicas que tienen similar balance riesgo/beneficio. <font size="6">
+</font><ul><font size="6">
+<li>En estos casos, uno puede optar por cualquiera de ellas sin mucho problema.</li>
+</font><li><font size="6">O basarse en otros criterios como preferencias del médico, entre otras. </font></li>
+</ul></li>
+</ul>
+</section>
+<section id="bioestadística-o-ciencia-de-datos-basada-en-evidencia-2" class="slide level2">
+<h2>¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?</h2>
+<ul>
+<li>Las evidencias acerca de la efectividad de intervenciones médicas provienen de diversas fuentes y diferentes metodologías.</li>
+<li>Al igual que en Medicina, en (Bio)Estadística y Ciencia de Datos el experimento computacional (también llamado simulación) bien realizado es considerado el máximo nivel de evidencia.</li>
+<li>Cuando la evidencia se acumula, se pueden crear consensos y recomendaciones, similares a las guías de práctica clínica.</li>
+</ul>
+</section>
+<section id="bioestadística-o-ciencia-de-datos-basada-en-evidencia-3" class="slide level2">
+<h2>¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?</h2>
+<ul>
+<li>En las últimas dos décadas, muchos consensos han emergido basados en evidencia sólida (p.ej., experimentos computacionales, etc.). Este curso promoverá su uso.</li>
+<li>Como pasa en cualquier disciplina, y la Medicina es un ejemplo de esto, muchas buenas prácticas son seguidas por un sector muy pequeño.</li>
+<li>En cambio, priman las malas prácticas. Este curso las expondrá para prevenir que incurran en ellas.</li>
+</ul>
+</section>
+<section id="el-escándalo-de-la-mala-investigación-médica" class="slide level2">
+<h2>El escándalo de la mala investigación médica</h2>
+<p><img data-src="images/scandal2.png" class="absolute" style="top: 200px; left: 0px; width: 400px; height: 400px; "></p>
+<p><img data-src="images/scandal.png" class="absolute" style="top: 200px; right: 50px; width: 600px; height: 400px; "></p>
+
+<aside><div>
+<p><br> <em>BMJ 1994;308:283</em> [<a href="https://doi.org/10.1136/bmj.308.6924.283">Enlace</a>]</p>
+</div></aside></section>
+<section id="el-escándalo-de-la-mala-investigación-médica-.cont" class="slide level2">
+<h2>El escándalo de la mala investigación médica (.cont)</h2>
+<p><img data-src="images/scandal3.png"></p>
+
+<aside><div>
+<p><br> <em>Traducción literal de BMJ 1994;308:283</em> [<a href="https://doi.org/10.1136/bmj.308.6924.283">Enlace</a>]</p>
+</div></aside></section>
+<section id="iniciativa-mundial-stratos" class="slide level2">
+<h2>Iniciativa mundial STRATOS</h2>
+<ul>
+<li>STRATOS (STRengthening Analytical Thinking for Observational Studies) initiative</li>
+<li>Surge en 2013, en nov. 2019 ~100 investigadores de 18 países con fuerte background en métodos bioestadísticos y epidemiológico</li>
+<li>Conectado con organizaciones internacionales: <font size="6">
+</font><ul><font size="6">
+<li>International Society of Clinical Biostatistics (ISCB)</li>
+</font><li><font size="6">International Biometric Society (IBS) </font></li>
+</ul></li>
+<li>Web: <a href="http://www.stratos-initiative.org/">http://www.stratos-initiative.org/</a></li>
+</ul>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+
+<img data-src="images/stratos-web.png" class="r-stretch"></section>
+<section id="iniciativa-mundial-stratos-.cont" class="slide level2">
+<h2>Iniciativa mundial STRATOS (.cont)</h2>
+
+<img data-src="images/stratos-topic.png" class="r-stretch"></section>
+<section id="iniciativa-mundial-stratos-.cont-1" class="slide level2">
+<h2>Iniciativa mundial STRATOS (.cont)</h2>
+<ul>
+<li>Guías desarrolladas están dirigidas a 3 perfiles de usuarios:</li>
+</ul>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Nivel 1</a></li><li><a href="#tabset-1-2">Nivel 2</a></li><li><a href="#tabset-1-3">Nivel 3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><strong>Bajo nivel de estadística</strong></p>
+<ul>
+<li><p>Proponer métodos aceptables que son fácilmente implementables.</p></li>
+<li><p>Resaltar debilidades de enfoques comunes.</p></li>
+</ul>
+</div>
+<div id="tabset-1-2">
+<p><strong>Estadístico experimentado</strong></p>
+<ul>
+<li><p>Hacer referencia a las ventajas y desventajas de enfoques que compiten.</p></li>
+<li><p>Proponer metodología avanzada factibles para analistas experimentados.</p></li>
+</ul>
+</div>
+<div id="tabset-1-3">
+<p><strong>Experto en área específica</strong></p>
+<ul>
+<li><p>Considerar los desarrollos recientes con declaraciones acerca de sus posibles ventajas y desventajas.</p></li>
+<li><p>Identificar áreas que necesitan más investigación u orientación metodológica.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2" data-background-iframe="https://www.stratos-initiative.org/sites/default/files/2020-10/STRATOSposter-offic.pdf" data-background-interactive="false">
+<h2></h2>
+</section>
+<section id="algunos-recursos-para-encontrar-consensos-y-guías-basadas-en-evidencia" class="slide level2">
+<h2>Algunos recursos para encontrar consensos y guías basadas en evidencia</h2>
+<p><img data-src="images/equator-network.png" class="absolute" style="top: 200px; left: 100px; width: 700px; height: 400px; "></p>
+
+<aside><div>
+<p><br> Fuente: <a href="https://www.equator-network.org">https://www.equator-network.org</a></p>
+</div></aside></section>
+<section id="más-recursos" class="slide level2 scrollable">
+<h2>¿Más recursos?</h2>
+<ul>
+<li>Últimas guías de reporte de revistas top incluyen métodos y buenas prácticas reconocidas. <font size="6">
+</font><ul><font size="6">
+</font><li><font size="6">Ejemplos: <a href="https://www.nejm.org/author-center/new-manuscripts">NEJM</a>, <a href="https://www.bmj.com/research/research-methods-and-reporting">BMJ</a>, <a href="https://jamanetwork.com/collections/44042/guide-to-statistics-and-medicine">JAMA</a>, <a href="https://www.nature.com/collections/qghhqm/">Nature</a>, etc. </font></li>
+</ul></li>
+<li>Revistas metodológicas también son buenos puntos de partida: <font size="6">
+</font><ul><font size="6">
+<li>Ejemplos: <a href="https://bmcmedresmethodol.biomedcentral.com/">BMC Medical Research Metodology</a>, <a href="https://onlinelibrary.wiley.com/journal/10970258">Statistics in Medicine</a>, <a href="https://academic.oup.com/ije">IJE</a>, etc.</li>
+<li>Buscar guías, tutoriales o revisiones con recomendaciones.</li>
+</font><li><font size="6"><strong><font color="red">“Precaución:</font></strong> Tener cuidado con propuestas metodológicas nuevas. Son como fármacos nuevos, requieren más estudios para validar sus bondades. </font></li>
+</ul></li>
+</ul>
+</section>
+<section id="cuidado" class="slide level2 scrollable">
+<h2><strong><font color="red">“¡Cuidado!</font></strong></h2>
+<ul>
+<li>Muchas publicaciones en revistas indexadas incurren en malas prácticas.</li>
+<li>Incluso revistas de cuartil 1 como NEJM, JAMA, BMJ, Nature han cometido grandes errores metodológicos! <font size="6">
+</font><ul><font size="6">
+</font><li><font size="6">Y han ocurrido retracciones de estos estudios años después. </font><br>
+</li>
+</ul></li>
+<li>En revistas de menor nivel, incluso grandes y evidentes errores no suelen puntualizarse y no hay retracciones.</li>
+<li>Revisar guías/consensos/artículos metodológicos es más confiable que imitar análisis/prácticas de otras publicaciones.</li>
+</ul>
+</section></section>
+<section>
+<section id="introducción-a-r-y-rstudio" class="title-slide slide level1 center">
+<h1><font color="#232429">Introducción a R y RStudio</font></h1>
+
+</section>
+<section id="qué-es-r" class="slide level2 scrollable">
 <h2>¿Qué es R?</h2>
 <ul>
-<li class="fragment"><p><a href="https://github.com/psotob">Preview</a></p></li>
-<li class="fragment"><p>cARRO</p></li>
+<li><p>Entorno de software para computación estadística y gráficos.</p></li>
+<li><p>Lenguaje de programación estadística.</p></li>
+<li><p>John Chambers y colegas desarrollaron <strong>S</strong> en laboratorios Bell en 1975. <font size="6"></font></p><font size="6">
+</font><ul><font size="6">
+</font><li><font size="6">S es un lenguaje de programación estadística propietario </font></li>
+</ul></li>
+<li><p>Ross Ihaka y Robert Gentleman desarrollan R en la Universidad de Auckland (Nueva Zelanda) <font size="6"></font></p><font size="6">
+</font><ul><font size="6">
+</font><li><font size="6">S no corría en Macintosh. </font></li>
+</ul></li>
+<li><p>Nombre <strong>R</strong> es un juego de palabras <font size="6"></font></p><font size="6">
+</font><ul><font size="6">
+<li>Burla a <strong>S</strong> (R es anterior a S en el abecedario)</li>
+</font><li><font size="6">R es la letra inicial de Ross y Robert. </font></li>
+</ul></li>
 </ul>
-<div class="sourceCode" id="cb1" data-code-line-numbers="|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>a <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
-<span id="cb1-2"><a href="#cb1-2"></a>a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>j</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>,<span class="dv">3</span> ), <span class="at">y =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>))</span>
-<span id="cb2-2"><a href="#cb2-2"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  x y
-1 1 4
-2 2 5
-3 3 6</code></pre>
+</section>
+<section id="r-en-la-actualidad" class="slide level2">
+<h2>R en la actualidad</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><p>Software libre</p></li>
+<li><p>Desarrollada y soportada por R Development Core Team</p></li>
+<li><p>Al 13 de junio de 2022, hay 18 560 paquetes disponibles.</p></li>
+<li><p>Ampliamente utilizado por la comunidad científica.</p></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/R.png"></p>
 </div>
 </div>
 </section>
-<section id="qué-es-rstudio" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="por-qué-r" class="slide level2">
+<h2>¿Por qué R?</h2>
+<h3 id="eficiencia">Eficiencia</h3>
+<ul>
+<li>Programas basados en click-click consumen mucho tiempo.</li>
+<li>Automatizar tareas</li>
+</ul>
+</section>
+<section id="qué-es-rstudio" class="slide level2">
 <h2>¿Qué es RStudio?</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "My document"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>Some markdown content.</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>Some additional markdown content.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "My document"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Some markdown content.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>Some additional markdown content.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="recursos-y-materiales" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="recursos-y-materiales" class="slide level2">
 <h2>Recursos y materiales</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
-<span id="cb5-3"><a href="#cb5-3"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
-<span id="cb5-4"><a href="#cb5-4"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
+<span id="cb2-3"><a href="#cb2-3"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 </section><section recursos-y-materiales-output="recursos-y-materiales-output" class="slide level2 output-location-slide"><h2>Recursos y materiales</h2><div class="cell output-location-slide">
 <div class="cell-output-display">
-<p><img data-src="Sesion-1_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
+<p><img data-src="Sesion-1_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
 </div>
 </div></section></section>
 <section>
@@ -460,12 +714,12 @@
 <h1><font color="#FFFFFF">Manejo de datos</font></h1>
 
 </section>
-<section id="operaciones-matemáticas" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="operaciones-matemáticas" class="slide level2">
 <h2>Operaciones matemáticas</h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Aritmética</a></li><li><a href="#tabset-1-2">Resta</a></li></ul>
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Aritmética</a></li><li><a href="#tabset-2-2">Resta</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1">
+<div id="tabset-2-1">
 <div class="columns">
 <div class="column" style="width:50%;">
 <div>
@@ -473,16 +727,16 @@
 <li>Suma:</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="dv">5</span> <span class="sc">+</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="dv">3</span> <span class="sc">+</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 9</code></pre>
+<pre><code>[1] 11</code></pre>
 </div>
 </div>
 <ul>
 <li>Resta:</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="dv">3</span> <span class="sc">-</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="dv">3</span> <span class="sc">-</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] -5</code></pre>
 </div>
@@ -494,7 +748,7 @@
 <li>Multiplicación</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="dv">3</span> <span class="sc">*</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="dv">3</span> <span class="sc">*</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 24</code></pre>
 </div>
@@ -503,7 +757,7 @@
 <li>División</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="dv">3</span> <span class="sc">*</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="dv">3</span> <span class="sc">*</span> <span class="dv">8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 24</code></pre>
 </div>
@@ -512,22 +766,22 @@
 </div>
 </div>
 </div>
-<div id="tabset-1-2">
+<div id="tabset-2-2">
 <p>Content for <code>Tab B</code></p>
 </div>
 </div>
 </div>
 </section>
-<section id="selección-de-variables" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="selección-de-variables" class="slide level2">
 <h2>Selección de variables</h2>
 </section>
-<section id="filtrado-de-datos" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="filtrado-de-datos" class="slide level2">
 <h2>Filtrado de datos</h2>
 </section>
-<section id="creación-de-variables" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="creación-de-variables" class="slide level2">
 <h2>Creación de variables</h2>
 </section>
-<section id="section" class="slide level2" data-background-color="white" data-background-size="1920px 1080px" data-background-repeat="repeat" data-background-iframe="https://www.tidyverse.org/">
+<section id="section-3" class="slide level2" data-background-color="white" data-background-size="1920px 1080px" data-background-repeat="repeat" data-background-iframe="https://www.tidyverse.org/">
 <h2></h2>
 </section>
 <section id="otro" class="slide level2">
@@ -535,8 +789,8 @@
 <p>Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a>.</p>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes:</p>
 <ul>
-<li class="fragment">Content authored with markdown</li>
-<li class="fragment">Output from executable code</li>
+<li>Content authored with markdown</li>
+<li>Output from executable code</li>
 </ul>
 </section></section>
 <section>
@@ -544,28 +798,39 @@
 <h1><font color="#FFFFFF">Análisis descriptivo en R</font></h1>
 
 </section>
-<section id="descripción-de-variables-numéricas" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="descripción-de-variables-numéricas" class="slide level2">
 <h2>Descripción de variables numéricas</h2>
 <p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
 </div>
 </section>
-<section id="casa" class="slide level2" data-background-color="white" data-background-image="images/bg-ietsi-slide-body.png" data-background-size="1920px 1080px" data-background-repeat="repeat">
+<section id="casa" class="slide level2">
 <h2>Casa</h2>
 <div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Tab A</a></li><li><a href="#tabset-2-2">Tab B</a></li></ul>
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Tab A</a></li><li><a href="#tabset-3-2">Tab B</a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1">
+<div id="tabset-3-1">
 <p>Content for <code>Tab A</code></p>
 </div>
-<div id="tabset-2-2">
+<div id="tabset-3-2">
 <p>Content for <code>Tab B</code></p>
 </div>
 </div>
+</div>
+</section>
+<section id="referencias" class="slide level2">
+<h2>Referencias</h2>
+<p>Estas diapositivas adaptaron contenido de otras presentaciones previas:</p>
+<p>https://www.datascienced.co.uk/slides/intro-to-r.pdf</p>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<div class="r-fit-text">
+<p>Muchas Gracias!</p>
 </div>
 
 
@@ -584,6 +849,8 @@
   <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -607,6 +874,7 @@
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
+'multiplex': {"secret":null,"id":"c03e6e80278f601d","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -749,12 +1017,6 @@
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
 
-        // Parallax background image
-        parallaxBackgroundImage: 'images/bg-ietsi-slide-first.png', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
-
-        // Parallax background size
-        parallaxBackgroundSize: '1920px 1080px', // CSS syntax, e.g. "2100px 900px"
-
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
@@ -786,7 +1048,7 @@
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]
@@ -910,6 +1172,22 @@
           return popup.innerHTML;
         });
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp(/https:\/\/ietsi-academy-aed\.netlify\.app\//);
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+        var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              // default icon
+              link.classList.add("external");
+          }
+        }
     });
     </script>
     

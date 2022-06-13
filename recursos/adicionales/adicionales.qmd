@@ -1,0 +1,6 @@
+---
+title: "Recursos adicionales"
+lang: es
+---
+
+En esta sección compartiremos recursos adicionales que vayan emergiendo a lo largo del curso.

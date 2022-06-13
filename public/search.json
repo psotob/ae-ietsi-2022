@@ -4,7 +4,7 @@
     "href": "cronograma.html",
     "title": "Cronograma",
     "section": "",
-    "text": "Presentación\n\n\n\nCódigo\n\n\n\nMateriales\n\n\n\n\n\n\n\nMÓDULO 1\n\n\n\n\n\nANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJunio 15, 2022\n\n\n\n\n\n\nInstalación de R y Rstudio\n\n\n\n\nManejo básico\n\n\n\n\nInspección inicial de datos y análisis descriptivo\n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller de inspección inicial de datos y análisis descriptivo.\n\n\n\n\nCreación automatizada de Tabla 1 reproducible (R: gtsummary)\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 17, 2022\n\n\n\n\n\nRevisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos. \n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nTaller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 22, 2022\n\n\n\n\n\nRevisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza. \n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nTaller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla 2 reproducible (R: gtsummary).\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 15 al 24, 2022\n\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 1’.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 2\n\n\n\n\n\nREGRESIÓN PARA DATOS NUMÉRICOS\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJunio 24, 2022\n\n\n\n\n\nIntroducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple. \n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nTaller de RLM en R. Tabla 3 reproducible con gtsummary en R.\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 24 hasta Julio 1, 2022\n\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 2’.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 3\n\n\n\n\n\nREGRESIÓN PARA DESENLACES BINARIOS\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJulio 1, 2022\n\n\n\n\n\n\nIntroducción a la Regresión Logística Binaria.\n\n\n\n\nInterpretación y supuestos. \n\n\n\n\n\n\nr x\n\n\n\n\n\n\nr z\n\n\n\n\n\n\n\n\n\n\nTaller sobre Regresión Logística Binaria en R.\n\n\n\n\nTablas reproducibles con gtsummary. \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJulio 06, 2022\n\n\n\n\n\nIntroducción a la regresión Log Binomial y Poisson para desenlaces binarios. Tablas reproducibles con gtsummary.\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\nTaller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas reproducibles con gtsummary.\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 01 al 10, 2022\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 3’\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 4\n\n\n\n\n\nREGRESIÓN PARA DESENLACES TIEMPO A EVENTO\n\n\n\n\n\n\n\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJulio 8, 2022\n\n\n\n\n\n\nIntroducción al análisis de tiempo a evento.\n\n\n\n\nMétodo de Kaplan-Meier y comparación de curvas de supervivencia.\n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller sobre análisis de curvas de supervivencia en R.\n\n\n\n\nTablas reproducibles de sobrevida acumulada con gtsummary.\n\n\n\n\nGráficos de KM con survminer.\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJulio 13, 2022\n\n\n\n\n\nIntroducción al análisis de regresión de Cox. Supuestos. Interpretación de resultados.\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller sobre análisis de regresión de Cox.\n\n\n\n\nTablas reproducibles con gtsummary.\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 08 al 20, 2022\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 4’\n\n\n\n\n\n\n\n\n\n\n\n\nJunio 20, 2022\n\n\n\n\nEvaluación Final"
+    "text": "Presentación\n\n\n\nCódigo\n\n\n\nMateriales\n\n\n\n\n\n\n\nMÓDULO 1\n\n\n\n\n\nANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJunio 15, 2022\n\n\n\n\n\n\nInstalación de R y Rstudio\n\n\n\n\nManejo básico\n\n\n\n\nInspección inicial de datos y análisis descriptivo\n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller de inspección inicial de datos y análisis descriptivo.\n\n\n\n\nCreación automatizada de Tabla 1 reproducible (R: gtsummary)\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 17, 2022\n\n\n\n\n\n\nRevisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos. \n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 22, 2022\n\n\n\n\n\n\nRevisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza. \n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla 2 reproducible (R: gtsummary).\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 15 al 24, 2022\n\n\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 1’.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 2\n\n\n\n\n\nREGRESIÓN PARA DATOS NUMÉRICOS\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJunio 24, 2022\n\n\n\n\n\n\nIntroducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple. \n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller de RLM en R. Tabla 3 reproducible con gtsummary en R.\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 24 hasta Julio 1, 2022\n\n\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 2’.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 3\n\n\n\n\n\nREGRESIÓN PARA DESENLACES BINARIOS\n\n\n\n\n\n\nFecha\n\n\n\n\nTema\n\n\n\n\nPresentación\n\n\n\n\nCódigo\n\n\n\n\nMateriales\n\n\n\n\n\n\n\n\nJulio 1, 2022\n\n\n\n\n\n\nIntroducción a la Regresión Logística Binaria.\n\n\n\n\nInterpretación y supuestos. \n\n\n\n\n\n\nr x\n\n\n\n\n\n\nr z\n\n\n\n\n\n\n\n\n\n\nTaller sobre Regresión Logística Binaria en R.\n\n\n\n\nTablas reproducibles con gtsummary. \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJulio 06, 2022\n\n\n\n\n\n\nIntroducción a la regresión Log Binomial y Poisson para desenlaces binarios. Tablas reproducibles con gtsummary.\n\n\n\n\n\n\n \n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTaller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas reproducibles con gtsummary.\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nJunio 01 al 10, 2022\n\n\n\n\nTrabajo asincrónico. Desarrollo de ‘Problem Set 3’\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMÓDULO 4\n\n\n\n\n\nREGRESIÓN PARA DESENLACES TIEMPO A EVENTO 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AQQBCAGwAQQBHAFkAQQBOAFEAQgBoAEEARABjAEEATgB3AEEAeQBBAEMAMABBAFoAQQBCAGsAQQBEAFkAQQBNAHcAQQB0AEEARABRAEEATgBnAEEAeQBBAEQASQBBAEwAUQBBADQAQQBEAFEAQQBZAGcAQgBtAEEAQwAwAEEAWQBRAEIAbQBBAEQARQBBAE8AUQBBADUAQQBEAFUAQQBZAFEAQQB4AEEARwBJAEEATQBnAEIAaQBBAEQAawBBAAoAcABvAHMAaQB0AGkAbwBuADoATgB3AEEAeQBBAEQARQBBAE0AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBQAEEAQgAwAEEARwBFAEEAWQBnAEIAcwBBAEcAVQBBAEkAQQBCAHoAQQBIAFEAQQBlAFEAQgBzAEEARwBVAEEAUABRAEEAaQBBAEgAYwBBAGEAUQBCAGsAQQBIAFEAQQBhAEEAQQA2AEEARABFAEEATQBBAEEAdwBBAEMAVQBBAE8AdwBBAGkAQQBEADQAQQBDAGcAQQA4AEEARwBNAEEAYgB3AEIAcwBBAEcAYwBBAGMAZwBCAHYAQQBIAFUAQQBjAEEAQQArAEEAQQBvAEEAUABBAEIAagBBAEcAOABBAGIAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAdwBCAHAAQQBHAFEAQQBkAEEAQgBvAEEARABvAEEASQBBAEEAeABBAEQATQBBAEoAUQBBAGkAQQBDAEEAQQBMAHcAQQArAEEAQQBvAEEAUABBAEIAagBBAEcAOABBAGIAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAdwBCAHAAQQBHAFEAQQBkAEEAQgBvAEEARABvAEEASQBBAEEAMABBAEQAWQBBAEoAUQBBAGkAQQBDAEEAQQBMAHcAQQArAEEAQQBvAEEAUABBAEIAagBBAEcAOABBAGIAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAdwBCAHAAQQBHAFEAQQBkAEEAQgBvAEEARABvAEEASQBBAEEAeABBAEQATQBBAEoAUQBBAGkAQQBDAEEAQQBMAHcAQQArAEEAQQBvAEEAUABBAEIAagBBAEcAOABBAGIAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAdwBCAHAAQQBHAFEAQQBkAEEAQgBvAEEARABvAEEASQBBAEEAeABBAEQATQBBAEoAUQBBAGkAQQBDAEEAQQBMAHcAQQArAEEAQQBvAEEAUABBAEIAagBBAEcAOABBAGIAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAdwBCAHAAQQBHAFEAQQBkAEEAQgBvAEEARABvAEEASQBBAEEAeABBAEQATQBBAEoAUQBBAGkAQQBDAEEAQQBMAHcAQQArAEEAQQBvAEEAUABBAEEAdgBBAEcATQBBAGIAdwBCAHMAQQBHAGMAQQBjAGcAQgB2AEEASABVAEEAYwBBAEEAKwBBAEEAbwBBAFAAQQBCADAAQQBHAGcAQQBaAFEAQgBoAEEARwBRAEEAUABnAEEASwBBAEQAdwBBAGQAQQBCAHkAQQBDAEEAQQBZAHcAQgBzAEEARwBFAEEAYwB3AEIAegBBAEQAMABBAEkAZwBCAG8AQQBHAFUAQQBZAFEAQgBrAEEARwBVAEEAYwBnAEEAaQBBAEQANABBAEMAZwBBADgAQQBIAFEAQQBhAEEAQQArAEEARAB3AEEAYwBBAEEAKwBBAEUAWQBBAFoAUQBCAGoAQQBHAGcAQQBZAFEAQQA4AEEAQwA4AEEAYwBBAEEAKwBBAEQAdwBBAEwAdwBCADAAQQBHAGcAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAbwBBAEQANABBAFAAQQBCAHcAQQBEADQAQQBWAEEAQgBsAEEARwAwAEEAWQBRAEEAOABBAEMAOABBAGMAQQBBACsAQQBEAHcAQQBMAHcAQgAwAEEARwBnAEEAUABnAEEASwBBAEQAdwBBAGQAQQBCAG8AQQBDAEEAQQBjAHcAQgAwAEEASABrAEEAYgBBAEIAbABBAEQAMABBAEkAZwBCADAAQQBHAFUAQQBlAEEAQgAwAEEAQwAwAEEAWQBRAEIAcwBBAEcAawBBAFoAdwBCAHUAQQBEAG8AQQBJAEEAQgBqAEEARwBVAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBBADcAQQBDAEkAQQBQAGcAQQA4AEEASABBAEEAUABnAEIAUQBBAEgASQBBAFoAUQBCAHoAQQBHAFUAQQBiAGcAQgAwAEEARwBFAEEAWQB3AEIAcABBAFAATQBBAGIAZwBBADgAQQBDADgAQQBjAEEAQQArAEEARAB3AEEATAB3AEIAMABBAEcAZwBBAFAAZwBBAEsAQQBEAHcAQQBkAEEAQgBvAEEAQwBBAEEAYwB3AEIAMABBAEgAawBBAGIAQQBCAGwAQQBEADAAQQBJAGcAQgAwAEEARwBVAEEAZQBBAEIAMABBAEMAMABBAFkAUQBCAHMAQQBHAGsAQQBaAHcAQgB1AEEARABvAEEASQBBAEIAagBBAEcAVQBBAGIAZwBCADAAQQBHAFUAQQBjAGcAQQA3AEEAQwBJAEEAUABnAEEAOABBAEgAQQBBAFAAZwBCAEQAQQBQAE0AQQBaAEEAQgBwAEEARwBjAEEAYgB3AEEAOABBAEMAOABBAGMAQQBBACsAQQBEAHcAQQBMAHcAQgAwAEEARwBnAEEAUABnAEEASwBBAEQAdwBBAGQAQQBCAG8AQQBDAEEAQQBjAHcAQgAwAEEASABrAEEAYgBBAEIAbABBAEQAMABBAEkAZwBCADAAQQBHAFUAQQBlAEEAQgAwAEEAQwAwAEEAWQBRAEIAcwBBAEcAawBBAFoAdwBCAHUAQQBEAG8AQQBJAEEAQgBqAEEARwBVAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBBADcAQQBDAEkAQQBQAGcAQQA4AEEASABBAEEAUABnAEIATgBBAEcARQBBAGQAQQBCAGwAQQBIAEkAQQBhAFEAQgBoAEEARwB3AEEAWgBRAEIAegBBAEQAdwBBAEwAdwBCAHcAQQBEADQAQQBQAEEAQQB2AEEASABRAEEAYQBBAEEAKwBBAEEAbwBBAFAAQQBBAHYAQQBIAFEAQQBjAGcAQQArAEEAQQBvAEEAUABBAEEAdgBBAEgAUQBBAGEAQQBCAGwAQQBHAEUAQQBaAEEAQQArAEEAQQBvAEEAUABBAEIAMABBAEcASQBBAGIAdwBCAGsAQQBIAGsAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAeQBBAEMAQQBBAFkAdwBCAHMAQQBHAEUAQQBjAHcAQgB6AEEARAAwAEEASQBnAEIAdgBBAEcAUQBBAFoAQQBBAGkAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAWgBBAEEAKwBBAEQAdwBBAGMAQQBBACsAQQBFAG8AQQBkAFEAQgBzAEEARwBrAEEAYgB3AEEAZwBBAEQAZwBBAEwAQQBBAGcAQQBEAEkAQQBNAEEAQQB5AEEARABJAEEAUABBAEEAdgBBAEgAQQBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEgAUQBBAFoAQQBBACsAQQBEAHcAQQBkAFEAQgBzAEEARAA0AEEAQwBnAEEAOABBAEcAdwBBAGEAUQBBACsAQQBEAHcAQQBjAEEAQQArAEEARQBrAEEAYgBnAEIAMABBAEgASQBBAGIAdwBCAGsAQQBIAFUAQQBZAHcAQgBqAEEARwBrAEEAOAB3AEIAdQBBAEMAQQBBAFkAUQBCAHMAQQBDAEEAQQBZAFEAQgB1AEEATwBFAEEAYgBBAEIAcABBAEgATQBBAGEAUQBCAHoAQQBDAEEAQQBaAEEAQgBsAEEAQwBBAEEAZABBAEIAcABBAEcAVQBBAGIAUQBCAHcAQQBHADgAQQBJAEEAQgBoAEEAQwBBAEEAWgBRAEIAMgBBAEcAVQBBAGIAZwBCADAAQQBHADgAQQBMAGcAQQA4AEEAQwA4AEEAYwBBAEEAKwBBAEQAdwBBAEwAdwBCAHMAQQBHAGsAQQBQAGcAQQBLAEEARAB3AEEAYgBBAEIAcABBAEQANABBAFAAQQBCAHcAQQBEADQAQQBUAFEARABwAEEASABRAEEAYgB3AEIAawBBAEcAOABBAEkAQQBCAGsAQQBHAFUAQQBJAEEAQgBMAEEARwBFAEEAYwBBAEIAcwBBAEcARQBBAGIAZwBBAHQAQQBFADAAQQBaAFEAQgBwAEEARwBVAEEAYwBnAEEAZwBBAEgAawBBAEkAQQBCAGoAQQBHADgAQQBiAFEAQgB3AEEARwBFAEEAYwBnAEIAaABBAEcATQBBAGEAUQBEAHoAQQBHADQAQQBJAEEAQgBrAEEARwBVAEEASQBBAEIAagBBAEgAVQBBAGMAZwBCADIAQQBHAEUAQQBjAHcAQQBnAEEARwBRAEEAWgBRAEEAZwBBAEgATQBBAGQAUQBCAHcAQQBHAFUAQQBjAGcAQgAyAEEARwBrAEEAZABnAEIAbABBAEcANABBAFkAdwBCAHAAQQBHAEUAQQBMAGcAQQA4AEEAQwA4AEEAYwBBAEEAKwBBAEQAdwBBAEwAdwBCAHMAQQBHAGsAQQBQAGcAQQBLAEEARAB3AEEATAB3AEIAMQBBAEcAdwBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEgAUQBBAFoAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAQQBCAGwAQQBIAGcAQQBkAEEAQQB0AEEARwBFAEEAYgBBAEIAcABBAEcAYwBBAGIAZwBBADYAQQBDAEEAQQBZAHcAQgBsAEEARwA0AEEAZABBAEIAbABBAEgASQBBAE8AdwBBAGkAQQBEADQAQQBQAEEAQgB3AEEARAA0AEEAUABBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBEADQAQQBZAEEAQgB5AEEAQwBBAEEAZQBBAEIAZwBBAEQAdwBBAEwAdwBCAGoAQQBHADgAQQBaAEEAQgBsAEEARAA0AEEAUABBAEEAdgBBAEgAQQBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEgAUQBBAFoAQQBBAGcAQQBIAE0AQQBkAEEAQgA1AEEARwB3AEEAWgBRAEEAOQBBAEMASQBBAGQAQQBCAGwAQQBIAGcAQQBkAEEAQQB0AEEARwBFAEEAYgBBAEIAcABBAEcAYwBBAGIAZwBBADYAQQBDAEEAQQBZAHcAQgBsAEEARwA0AEEAZABBAEIAbABBAEgASQBBAE8AdwBBAGkAQQBEADQAQQBQAEEAQQB2AEEASABRAEEAWgBBAEEAKwBBAEEAbwBBAFAAQQBCADAAQQBHAFEAQQBJAEEAQgB6AEEASABRAEEAZQBRAEIAcwBBAEcAVQBBAFAAUQBBAGkAQQBIAFEAQQBaAFEAQgA0AEEASABRAEEATABRAEIAaABBAEcAdwBBAGEAUQBCAG4AQQBHADQAQQBPAGcAQQBnAEEARwBNAEEAWgBRAEIAdQBBAEgAUQBBAFoAUQBCAHkAQQBEAHMAQQBJAGcAQQArAEEARAB3AEEAYwBBAEEAKwBBAEQAdwBBAFkAdwBCAHYAQQBHAFEAQQBaAFEAQQArAEEARwBBAEEAYwBnAEEAZwBBAEgAbwBBAFkAQQBBADgAQQBDADgAQQBZAHcAQgB2AEEARwBRAEEAWgBRAEEAKwBBAEQAdwBBAEwAdwBCAHcAQQBEADQAQQBQAEEAQQB2AEEASABRAEEAWgBBAEEAKwBBAEEAbwBBAFAAQQBBAHYAQQBIAFEAQQBjAGcAQQArAEEAQQBvAEEAUABBAEIAMABBAEgASQBBAEkAQQBCAGoAQQBHAHcAQQBZAFEAQgB6AEEASABNAEEAUABRAEEAaQBBAEcAVQBBAGQAZwBCAGwAQQBHADQAQQBJAGcAQQArAEEAQQBvAEEAUABBAEIAMABBAEcAUQBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEgAUQBBAFoAQQBBACsAQQBEAHcAQQBkAFEAQgBzAEEARAA0AEEAQwBnAEEAOABBAEcAdwBBAGEAUQBBACsAQQBEAHcAQQBjAEEAQQArAEEARgBRAEEAWQBRAEIAcwBBAEcAdwBBAFoAUQBCAHkAQQBDAEEAQQBjAHcAQgB2AEEARwBJAEEAYwBnAEIAbABBAEMAQQBBAFkAUQBCAHUAQQBPAEUAQQBiAEEAQgBwAEEASABNAEEAYQBRAEIAegBBAEMAQQBBAFoAQQBCAGwAQQBDAEEAQQBZAHcAQgAxAEEASABJAEEAZABnAEIAaABBAEgATQBBAEkAQQBCAGsAQQBHAFUAQQBJAEEAQgB6AEEASABVAEEAYwBBAEIAbABBAEgASQBBAGQAZwBCAHAAQQBIAFkAQQBaAFEAQgB1AEEARwBNAEEAYQBRAEIAaABBAEMAQQBBAFoAUQBCAHUAQQBDAEEAQQBVAGcAQQB1AEEARAB3AEEATAB3AEIAdwBBAEQANABBAFAAQQBBAHYAQQBHAHcAQQBhAFEAQQArAEEAQQBvAEEAUABBAEIAcwBBAEcAawBBAFAAZwBBADgAQQBIAEEAQQBQAGcAQgBVAEEARwBFAEEAWQBnAEIAcwBBAEcARQBBAGMAdwBBAGcAQQBIAEkAQQBaAFEAQgB3AEEASABJAEEAYgB3AEIAawBBAEgAVQBBAFkAdwBCAHAAQQBHAEkAQQBiAEEAQgBsAEEASABNAEEASQBBAEIAawBBAEcAVQBBAEkAQQBCAHoAQQBHADgAQQBZAGcAQgB5AEEARwBVAEEAZABnAEIAcABBAEcAUQBBAFkAUQBBAGcAQQBHAEUAQQBZAHcAQgAxAEEARwAwAEEAZABRAEIAcwBBAEcARQBBAFoAQQBCAGgAQQBDAEEAQQBZAHcAQgB2AEEARwA0AEEASQBBAEIAbgBBAEgAUQBBAGMAdwBCADEAQQBHADAAQQBiAFEAQgBoAEEASABJAEEAZQBRAEEAdQBBAEQAdwBBAEwAdwBCAHcAQQBEADQAQQBQAEEAQQB2AEEARwB3AEEAYQBRAEEAKwBBAEEAbwBBAFAAQQBCAHMAQQBHAGsAQQBQAGcAQQA4AEEASABBAEEAUABnAEIASABBAEgASQBBADQAUQBCAG0AQQBHAGsAQQBZAHcAQgB2AEEASABNAEEASQBBAEIAawBBAEcAVQBBAEkAQQBCAEwAQQBFADAAQQBJAEEAQgBqAEEARwA4AEEAYgBnAEEAZwBBAEgATQBBAGQAUQBCAHkAQQBIAFkAQQBiAFEAQgBwAEEARwA0AEEAWgBRAEIAeQBBAEMANABBAFAAQQBBAHYAQQBIAEEAQQBQAGcAQQA4AEEAQwA4AEEAYgBBAEIAcABBAEQANABBAEMAZwBBADgAQQBDADgAQQBkAFEAQgBzAEEARAA0AEEAUABBAEEAdgBBAEgAUQBBAFoAQQBBACsAQQBBAG8AQQBQAEEAQgAwAEEARwBRAEEASQBBAEIAegBBAEgAUQBBAGUAUQBCAHMAQQBHAFUAQQBQAFEAQQBpAEEASABRAEEAWgBRAEIANABBAEgAUQBBAEwAUQBCAGgAQQBHAHcAQQBhAFEAQgBuAEEARwA0AEEATwBnAEEAZwBBAEcATQBBAFoAUQBCAHUAQQBIAFEAQQBaAFEAQgB5AEEARABzAEEASQBnAEEAKwBBAEQAdwBBAEwAdwBCADAAQQBHAFEAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAawBBAEMAQQBBAGMAdwBCADAAQQBIAGsAQQBiAEEAQgBsAEEARAAwAEEASQBnAEIAMABBAEcAVQBBAGUAQQBCADAAQQBDADAAQQBZAFEAQgBzAEEARwBrAEEAWgB3AEIAdQBBAEQAbwBBAEkAQQBCAGoAQQBHAFUAQQBiAGcAQgAwAEEARwBVAEEAYwBnAEEANwBBAEMASQBBAFAAZwBBADgAQQBIAEEAQQBQAGcAQQA4AEEARwBNAEEAYgB3AEIAawBBAEcAVQBBAFAAZwBCAGcAQQBIAEkAQQBJAEEAQgA1AEEARwBBAEEAUABBAEEAdgBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBQAGcAQQA4AEEAQwA4AEEAYwBBAEEAKwBBAEQAdwBBAEwAdwBCADAAQQBHAFEAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAawBBAEMAQQBBAGMAdwBCADAAQQBIAGsAQQBiAEEAQgBsAEEARAAwAEEASQBnAEIAMABBAEcAVQBBAGUAQQBCADAAQQBDADAAQQBZAFEAQgBzAEEARwBrAEEAWgB3AEIAdQBBAEQAbwBBAEkAQQBCAGoAQQBHAFUAQQBiAGcAQgAwAEEARwBVAEEAYwBnAEEANwBBAEMASQBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEMAOABBAGQAQQBCAHkAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAYwBnAEEAZwBBAEcATQBBAGIAQQBCAGgAQQBIAE0AQQBjAHcAQQA5AEEAQwBJAEEAYgB3AEIAawBBAEcAUQBBAEkAZwBBACsAQQBBAG8AQQBQAEEAQgAwAEEARwBRAEEAUABnAEEAOABBAEgAQQBBAFAAZwBCAEsAQQBIAFUAQQBiAEEAQgBwAEEARwA4AEEASQBBAEEAeABBAEQATQBBAEwAQQBBAGcAQQBEAEkAQQBNAEEAQQB5AEEARABJAEEAUABBAEEAdgBBAEgAQQBBAFAAZwBBADgAQQBDADgAQQBkAEEAQgBrAEEARAA0AEEAQwBnAEEAOABBAEgAUQBBAFoAQQBBACsAQQBEAHcAQQBkAFEAQgBzAEEARAA0AEEAQwBnAEEAOABBAEcAdwBBAGEAUQBBACsAQQBFAGsAQQBiAGcAQgAwAEEASABJAEEAYgB3AEIAawBBAEgAVQBBAFkAdwBCAGoAQQBHAGsAQQA4AHcAQgB1AEEAQwBBAEEAWQBRAEIAcwBBAEMAQQBBAFkAUQBCAHUAQQBPAEUAQQBiAEEAQgBwAEEASABNAEEAYQBRAEIAegBBAEMAQQBBAFoAQQBCAGwAQQBDAEEAQQBjAGcAQgBsAEEARwBjAEEAYwBnAEIAbABBAEgATQBBAGEAUQBEAHoAQQBHADQAQQBJAEEAQgBrAEEARwBVAEEASQBBAEIARABBAEcAOABBAGUAQQBBAHUAQQBDAEEAQQBVAHcAQgAxAEEASABBAEEAZABRAEIAbABBAEgATQBBAGQAQQBCAHYAQQBIAE0AQQBMAGcAQQBnAEEARQBrAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBCAHcAQQBIAEkAQQBaAFEAQgAwAEEARwBFAEEAWQB3AEIAcABBAFAATQBBAGIAZwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEASABJAEEAWgBRAEIAegBBAEgAVQBBAGIAQQBCADAAQQBHAEUAQQBaAEEAQgB2AEEASABNAEEATABnAEEAOABBAEMAOABBAGIAQQBCAHAAQQBEADQAQQBDAGcAQQA4AEEAQwA4AEEAZABRAEIAcwBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEIAMABBAEcAUQBBAEkAQQBCAHoAQQBIAFEAQQBlAFEAQgBzAEEARwBVAEEAUABRAEEAaQBBAEgAUQBBAFoAUQBCADQAQQBIAFEAQQBMAFEAQgBoAEEARwB3AEEAYQBRAEIAbgBBAEcANABBAE8AZwBBAGcAQQBHAE0AQQBaAFEAQgB1AEEASABRAEEAWgBRAEIAeQBBAEQAcwBBAEkAZwBBACsAQQBEAHcAQQBjAEEAQQArAEEARAB3AEEAWQB3AEIAdgBBAEcAUQBBAFoAUQBBACsAQQBHAEEAQQBjAGcAQQBnAEEASABnAEEAWQBBAEEAOABBAEMAOABBAFkAdwBCAHYAQQBHAFEAQQBaAFEAQQArAEEARAB3AEEATAB3AEIAdwBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEIAMABBAEcAUQBBAEkAQQBCAHoAQQBIAFEAQQBlAFEAQgBzAEEARwBVAEEAUABRAEEAaQBBAEgAUQBBAFoAUQBCADQAQQBIAFEAQQBMAFEAQgBoAEEARwB3AEEAYQBRAEIAbgBBAEcANABBAE8AZwBBAGcAQQBHAE0AQQBaAFEAQgB1AEEASABRAEEAWgBRAEIAeQBBAEQAcwBBAEkAZwBBACsAQQBEAHcAQQBMAHcAQgAwAEEARwBRAEEAUABnAEEASwBBAEQAdwBBAGQAQQBCAGsAQQBDAEEAQQBjAHcAQgAwAEEASABrAEEAYgBBAEIAbABBAEQAMABBAEkAZwBCADAAQQBHAFUAQQBlAEEAQgAwAEEAQwAwAEEAWQBRAEIAcwBBAEcAawBBAFoAdwBCAHUAQQBEAG8AQQBJAEEAQgBqAEEARwBVAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBBADcAQQBDAEkAQQBQAGcAQQA4AEEASABBAEEAUABnAEEAOABBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBQAGcAQgBnAEEASABJAEEASQBBAEIANgBBAEcAQQBBAFAAQQBBAHYAQQBHAE0AQQBiAHcAQgBrAEEARwBVAEEAUABnAEEAOABBAEMAOABBAGMAQQBBACsAQQBEAHcAQQBMAHcAQgAwAEEARwBRAEEAUABnAEEASwBBAEQAdwBBAEwAdwBCADAAQQBIAEkAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAeQBBAEMAQQBBAFkAdwBCAHMAQQBHAEUAQQBjAHcAQgB6AEEARAAwAEEASQBnAEIAbABBAEgAWQBBAFoAUQBCAHUAQQBDAEkAQQBQAGcAQQBLAEEARAB3AEEAZABBAEIAawBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEIAMABBAEcAUQBBAFAAZwBBADgAQQBIAFUAQQBiAEEAQQArAEEAQQBvAEEAUABBAEIAcwBBAEcAawBBAFAAZwBBADgAQQBIAEEAQQBQAGcAQgBVAEEARwBFAEEAYgBBAEIAcwBBAEcAVQBBAGMAZwBBAGcAQQBIAE0AQQBiAHcAQgBpAEEASABJAEEAWgBRAEEAZwBBAEcARQBBAGIAZwBEAGgAQQBHAHcAQQBhAFEAQgB6AEEARwBrAEEAYwB3AEEAZwBBAEcAUQBBAFoAUQBBAGcAQQBIAEkAQQBaAFEAQgBuAEEASABJAEEAWgBRAEIAegBBAEcAawBBADgAdwBCAHUAQQBDAEEAQQBaAEEAQgBsAEEAQwBBAEEAUQB3AEIAdgBBAEgAZwBBAEwAZwBBADgAQQBDADgAQQBjAEEAQQArAEEARAB3AEEATAB3AEIAcwBBAEcAawBBAFAAZwBBAEsAQQBEAHcAQQBiAEEAQgBwAEEARAA0AEEAUABBAEIAdwBBAEQANABBAFYAQQBCAGgAQQBHAEkAQQBiAEEAQgBoAEEASABNAEEASQBBAEIAeQBBAEcAVQBBAGMAQQBCAHkAQQBHADgAQQBaAEEAQgAxAEEARwBNAEEAYQBRAEIAaQBBAEcAdwBBAFoAUQBCAHoAQQBDAEEAQQBZAHcAQgB2AEEARwA0AEEASQBBAEIAbgBBAEgAUQBBAGMAdwBCADEAQQBHADAAQQBiAFEAQgBoAEEASABJAEEAZQBRAEEAdQBBAEQAdwBBAEwAdwBCAHcAQQBEADQAQQBQAEEAQQB2AEEARwB3AEEAYQBRAEEAKwBBAEEAbwBBAFAAQQBBAHYAQQBIAFUAQQBiAEEAQQArAEEARAB3AEEATAB3AEIAMABBAEcAUQBBAFAAZwBBAEsAQQBEAHcAQQBkAEEAQgBrAEEAQwBBAEEAYwB3AEIAMABBAEgAawBBAGIAQQBCAGwAQQBEADAAQQBJAGcAQgAwAEEARwBVAEEAZQBBAEIAMABBAEMAMABBAFkAUQBCAHMAQQBHAGsAQQBaAHcAQgB1AEEARABvAEEASQBBAEIAagBBAEcAVQBBAGIAZwBCADAAQQBHAFUAQQBjAGcAQQA3AEEAQwBJAEEAUABnAEEAOABBAEMAOABBAGQAQQBCAGsAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAWgBBAEEAZwBBAEgATQBBAGQAQQBCADUAQQBHAHcAQQBaAFEAQQA5AEEAQwBJAEEAZABBAEIAbABBAEgAZwBBAGQAQQBBAHQAQQBHAEUAQQBiAEEAQgBwAEEARwBjAEEAYgBnAEEANgBBAEMAQQBBAFkAdwBCAGwAQQBHADQAQQBkAEEAQgBsAEEASABJAEEATwB3AEEAaQBBAEQANABBAFAAQQBCAHcAQQBEADQAQQBQAEEAQgBqAEEARwA4AEEAWgBBAEIAbABBAEQANABBAFkAQQBCAHkAQQBDAEEAQQBlAFEAQgBnAEEARAB3AEEATAB3AEIAagBBAEcAOABBAFoAQQBCAGwAQQBEADQAQQBQAEEAQQB2AEEASABBAEEAUABnAEEAOABBAEMAOABBAGQAQQBCAGsAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAWgBBAEEAZwBBAEgATQBBAGQAQQBCADUAQQBHAHcAQQBaAFEAQQA5AEEAQwBJAEEAZABBAEIAbABBAEgAZwBBAGQAQQBBAHQAQQBHAEUAQQBiAEEAQgBwAEEARwBjAEEAYgBnAEEANgBBAEMAQQBBAFkAdwBCAGwAQQBHADQAQQBkAEEAQgBsAEEASABJAEEATwB3AEEAaQBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEEAdgBBAEgAUQBBAGMAZwBBACsAQQBBAG8AQQBQAEEAQgAwAEEASABJAEEASQBBAEIAagBBAEcAdwBBAFkAUQBCAHoAQQBIAE0AQQBQAFEAQQBpAEEARwA4AEEAWgBBAEIAawBBAEMASQBBAFAAZwBBAEsAQQBEAHcAQQBkAEEAQgBrAEEARAA0AEEAUABBAEIAdwBBAEQANABBAFMAZwBCADEAQQBHADQAQQBhAFEAQgB2AEEAQwBBAEEATQBBAEEANABBAEMAQQBBAFkAUQBCAHMAQQBDAEEAQQBNAGcAQQB3AEEAQwB3AEEASQBBAEEAeQBBAEQAQQBBAE0AZwBBAHkAQQBEAHcAQQBMAHcAQgB3AEEARAA0AEEAUABBAEEAdgBBAEgAUQBBAFoAQQBBACsAQQBBAG8AQQBQAEEAQgAwAEEARwBRAEEAUABnAEEAOABBAEgAQQBBAFAAZwBBADgAQQBIAE0AQQBkAEEAQgB5AEEARwA4AEEAYgBnAEIAbgBBAEQANABBAFYAQQBCAHkAQQBHAEUAQQBZAGcAQgBoAEEARwBvAEEAYgB3AEEAZwBBAEcARQBBAGMAdwBCAHAAQQBHADQAQQBZAHcAQgB5AEEAUABNAEEAYgBnAEIAcABBAEcATQBBAGIAdwBBAHUAQQBDAEEAQQBSAEEAQgBsAEEASABNAEEAWQBRAEIAeQBBAEgASQBBAGIAdwBCAHMAQQBHAHcAQQBiAHcAQQBnAEEARwBRAEEAWgBRAEEAZwBBAEMAYwBBAFUAQQBCAHkAQQBHADgAQQBZAGcAQgBzAEEARwBVAEEAYgBRAEEAZwBBAEYATQBBAFoAUQBCADAAQQBDAEEAQQBOAEEAQQBuAEEARAB3AEEATAB3AEIAegBBAEgAUQBBAGMAZwBCAHYAQQBHADQAQQBaAHcAQQArAEEARAB3AEEATAB3AEIAdwBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEIAMABBAEcAUQBBAEkAQQBCAHoAQQBIAFEAQQBlAFEAQgBzAEEARwBVAEEAUABRAEEAaQBBAEgAUQBBAFoAUQBCADQAQQBIAFEAQQBMAFEAQgBoAEEARwB3AEEAYQBRAEIAbgBBAEcANABBAE8AZwBBAGcAQQBHAE0AQQBaAFEAQgB1AEEASABRAEEAWgBRAEIAeQBBAEQAcwBBAEkAZwBBACsAQQBEAHcAQQBMAHcAQgAwAEEARwBRAEEAUABnAEEASwBBAEQAdwBBAGQAQQBCAGsAQQBDAEEAQQBjAHcAQgAwAEEASABrAEEAYgBBAEIAbABBAEQAMABBAEkAZwBCADAAQQBHAFUAQQBlAEEAQgAwAEEAQwAwAEEAWQBRAEIAcwBBAEcAawBBAFoAdwBCAHUAQQBEAG8AQQBJAEEAQgBqAEEARwBVAEEAYgBnAEIAMABBAEcAVQBBAGMAZwBBADcAQQBDAEkAQQBQAGcAQQA4AEEAQwA4AEEAZABBAEIAawBBAEQANABBAEMAZwBBADgAQQBIAFEAQQBaAEEAQQBnAEEASABNAEEAZABBAEIANQBBAEcAdwBBAFoAUQBBADkAQQBDAEkAQQBkAEEAQgBsAEEASABnAEEAZABBAEEAdABBAEcARQBBAGIAQQBCAHAAQQBHAGMAQQBiAGcAQQA2AEEAQwBBAEEAWQB3AEIAbABBAEcANABBAGQAQQBCAGwAQQBIAEkAQQBPAHcAQQBpAEEARAA0AEEAUABBAEEAdgBBAEgAUQBBAFoAQQBBACsAQQBBAG8AQQBQAEEAQQB2AEEASABRAEEAYwBnAEEAKwBBAEEAbwBBAFAAQQBCADAAQQBIAEkAQQBJAEEAQgBqAEEARwB3AEEAWQBRAEIAegBBAEgATQBBAFAAUQBBAGkAQQBHAFUAQQBkAGcAQgBsAEEARwA0AEEASQBnAEEAKwBBAEEAbwBBAFAAQQBCADAAQQBHAFEAQQBQAGcAQQA4AEEASABBAEEAUABnAEIASwBBAEgAVQBBAGIAZwBCAHAAQQBHADgAQQBJAEEAQQB5AEEARABBAEEATABBAEEAZwBBAEQASQBBAE0AQQBBAHkAQQBEAEkAQQBQAEEAQQB2AEEASABBAEEAUABnAEEAOABBAEMAOABBAGQAQQBCAGsAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAWgBBAEEAKwBBAEQAdwBBAGMAQQBBACsAQQBEAHcAQQBjAHcAQgAwAEEASABJAEEAYgB3AEIAdQBBAEcAYwBBAFAAZwBCAEYAQQBIAFkAQQBZAFEAQgBzAEEASABVAEEAWQBRAEIAagBBAEcAawBBADgAdwBCAHUAQQBDAEEAQQBSAGcAQgBwAEEARwA0AEEAWQBRAEIAcwBBAEQAdwBBAEwAdwBCAHoAQQBIAFEAQQBjAGcAQgB2AEEARwA0AEEAWgB3AEEAKwBBAEQAdwBBAEwAdwBCAHcAQQBEADQAQQBQAEEAQQB2AEEASABRAEEAWgBBAEEAKwBBAEEAbwBBAFAAQQBCADAAQQBHAFEAQQBJAEEAQgB6AEEASABRAEEAZQBRAEIAcwBBAEcAVQBBAFAAUQBBAGkAQQBIAFEAQQBaAFEAQgA0AEEASABRAEEATABRAEIAaABBAEcAdwBBAGEAUQBCAG4AQQBHADQAQQBPAGcAQQBnAEEARwBNAEEAWgBRAEIAdQBBAEgAUQBBAFoAUQBCAHkAQQBEAHMAQQBJAGcAQQArAEEARAB3AEEATAB3AEIAMABBAEcAUQBBAFAAZwBBAEsAQQBEAHcAQQBkAEEAQgBrAEEAQwBBAEEAYwB3AEIAMABBAEgAawBBAGIAQQBCAGwAQQBEADAAQQBJAGcAQgAwAEEARwBVAEEAZQBBAEIAMABBAEMAMABBAFkAUQBCAHMAQQBHAGsAQQBaAHcAQgB1AEEARABvAEEASQBBAEIAagBBAEcAVQBBAGIAZwBCADAAQQBHAFUAQQBjAGcAQQA3AEEAQwBJAEEAUABnAEEAOABBAEMAOABBAGQAQQBCAGsAQQBEADQAQQBDAGcAQQA4AEEASABRAEEAWgBBAEEAZwBBAEgATQBBAGQAQQBCADUAQQBHAHcAQQBaAFEAQQA5AEEAQwBJAEEAZABBAEIAbABBAEgAZwBBAGQAQQBBAHQAQQBHAEUAQQBiAEEAQgBwAEEARwBjAEEAYgBnAEEANgBBAEMAQQBBAFkAdwBCAGwAQQBHADQAQQBkAEEAQgBsAEEASABJAEEATwB3AEEAaQBBAEQANABBAFAAQQBBAHYAQQBIAFEAQQBaAEEAQQArAEEAQQBvAEEAUABBAEEAdgBBAEgAUQBBAGMAZwBBACsAQQBBAG8AQQBQAEEAQQB2AEEASABRAEEAWQBnAEIAdgBBAEcAUQBBAGUAUQBBACsAQQBBAG8AQQBQAEEAQQB2AEEASABRAEEAWQBRAEIAaQBBAEcAdwBBAFoAUQBBACsAQQBBAD0APQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602"
   },
   {
     "objectID": "index.html",
@@ -70,115 +70,388 @@
     "text": "Bibliográfia\nLa bibliografía sugerida, así como otros recursos de aprendizaje adicionales, se encuentran en la sección Recursos."
   },
   {
-    "objectID": "recursos.html",
-    "href": "recursos.html",
+    "objectID": "recursos/adicionales/adicionales.html",
+    "href": "recursos/adicionales/adicionales.html",
+    "title": "Recursos adicionales",
+    "section": "",
+    "text": "En esta sección compartiremos recursos adicionales que vayan emergiendo a lo largo del curso."
+  },
+  {
+    "objectID": "recursos/enlinea/en-linea.html",
+    "href": "recursos/enlinea/en-linea.html",
+    "title": "Recomendados en línea",
+    "section": "",
+    "text": "The Epidemiologist R Handbook [Enlace]\nR for Epidemiology [Enlace]\nR for Data Science [Enlace]"
+  },
+  {
+    "objectID": "recursos/index.html",
+    "href": "recursos/index.html",
     "title": "Recursos",
     "section": "",
-    "text": "LIBROS EN LÍNEA\n\nThe Epidemiologist R Handbook [Enlace]\nR for Epidemiology [Enlace]\nR for Data Science [Enlace]"
+    "text": "Recursos en línea recomendados\nBibliografía recomendada en syllabus\nRecursos en línea adicionales"
   },
   {
-    "objectID": "recursos.html#bibliografía-recomendada-en-syllabus",
-    "href": "recursos.html#bibliografía-recomendada-en-syllabus",
-    "title": "Recursos",
-    "section": "Bibliografía recomendada en syllabus",
-    "text": "Bibliografía recomendada en syllabus\nA continuación se presentan la bibliografía recomendada para cada módulo\n\nMÓDULO 1MÓDULO 2MÓDULO 3MÓDULO 4\n\n\nSesión 1:\n\nMeasurement scales and their summary statistics. BMJ Evidence-Based Medicine 2004;9:164-166. [Enlace]\nBaillie M, le Cessie S, Schmidt CO, Lusa L, Huebner M, for the Topic Group “Initial Data Analysis” of the STRATOS Initiative (2022) Ten simple rules for initial data analysis. PLoS Comput Biol 18(2): e1009819. [Enlace]\nCummings P, Rivara FP. Reporting Statistical Information in Medical Journal Articles. Arch Pediatr Adolesc Med. 2003;157(4):321–324. [Enlace]\n\nSesión 2:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulos 17. [Enlace]\nCannell B, Livingston M. R for Epidemiology. Capítulo IV. [Enlace]\n\nSesión 3:\n\nDriscoll P, Lecky FArticle 5. An introduction to estimation—2: from z to t. Emergency Medicine Journal 2001;18:65-70. [Enlace]\nDriscoll P, Lecky FArticle 6. An introduction to hypothesis testing. Parametric comparison of two groups—1. Emergency Medicine Journal 2001;18:124-130. [Enlace]\nGreenland, S., Senn, S.J., Rothman, K.J. et al. Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. Eur J Epidemiol 31, 337–350 (2016). [Enlace]\nAltman, N., Krzywinski, M. P values and the search for significance. Nat Methods 14, 3–4 (2017). [Enlace]\nAre confidence intervals better termed “uncertainty intervals”? BMJ 2019; 366. [Enlace]\nValentin Amrhein, David Trafimow & Sander Greenland (2019) Inferential Statistics as Descriptive Statistics: There Is No Replication Crisis if We Don’t Expect Replication. The American Statistician, 73:sup1, 262-270. [Enlace]:\nHawkins AT, Samuels LR. Use of Confidence Intervals in Interpreting Nonstatistically Significant Results. JAMA. 2021;326(20):2068–2069.[Enlace]\nAmrhein V, Greenland S, McShane B. Scientists rise up against statistical significance. Nature. marzo de 2019;567(7748):305-7.[Enlace]\n\nSesión 4:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18.[Enlace]\n\nSesión 5:\n\nKim TK. Understanding one-way ANOVA using conceptual figures. Korean J Anesthesiol. 2017;70(1):22-26. [Enlace]\nWeissgerber TL, Garcia-Valencia O, Garovic VD, Milic NM, Winham SJ. Why we need to report more than ‘Data were Analyzed by t-tests or ANOVA’. Elife. 2018;7:e36163. Published 2018 Dec 21. [Enlace]\nLachin JM. Nonparametric Statistical Analysis. JAMA. 2020;323(20):2080–2081. [Enlace]\nCao J, Zhang S. Multiple Comparison Procedures. JAMA. 2014;312(5):543–544. [Enlace]\nBewick V, Cheek L, Ball J. Statistics review 9: one-way analysis of variance. Crit Care. 2004 Apr;8(2):130-6. [Enlace]\nBewick V, Cheek L, Ball J. Statistics review 10: further nonparametric methods. Crit Care. 2004 Jun;8(3):196-9. [Enlace]\n\nSesión 6:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. Enlace]\n\n\n\nSesión 7:\n\nHernán M, et al. A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks. Chance 2019, 32. [Enlace]\nShmueli G. To Explain or to Predict? Statistical Science 2010; 25. Doi: 10.1214/10-STS330. [Enlace]\nSchooling, C.M., Jones, H.E. Clarifying questions about “risk factors”: predictors versus explanation. Emerg Themes Epidemiol 15, 10 (2018). [Enlace]\nRamspek CL, Steyerberg EW, Riley RD, Rosendaal FR, Dekkers OM, Dekker FW, van Diepen M. Prediction or causality? A scoping review of their conflation within current observational research. Eur J Epidemiol. 2021 Sep;36(9):889-898. [Enlace]\nWallisch C, Bach P, Hafermann L, Klein N, Sauerbrei W, et al. (2022) Review of guidance papers on regression modeling in statistical series of medical journals. PLOS ONE 17(1): e0262918. [Enlace]\nAltman, N., Krzywinski, M. Simple linear regression. Nat Methods 12, 999–1000 (2015). [Enlace]\nKrzywinski, M., Altman, N. Multiple linear regression. Nat Methods 12, 1103–1104 (2015).[Enlace]\nSauerbrei, W., Perperoglou, A., Schmid, M. et al. State of the art in selection of variables and functional forms in multivariable analysis—outstanding issues. Diagn Progn Res 4, 3 (2020). [Enlace]\n\nSesión 8:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\n\n\nSesión 9:\n\nBland JM, Altman DG. Statistics notes. The odds ratio. BMJ. 2000;320(7247):1468. [Enlace]\nLever, J., Krzywinski, M. & Altman, N. Logistic regression. Nat Methods 13, 541–542 (2016). [Enlace]\nHarris JK. Primer on binary logistic regression. Family Medicine and Community Health 2021;9:e001290. [Enlace]\nSedgwick P. Logistic regression. BMJ. 12 de julio de 2013;347:f4488. [Enlace]\n\nSesión 10:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\nSesión 11:\n\nTamhane AR, Westfall AO, Burkholder GA, Cutter GR. Prevalence odds ratio versus prevalence ratio: choice comes with consequences [published correction appears in Stat Med. 2017 Oct 15;36(23 ):3760]. Stat Med. 2016;35(30):5730-5735. [Enlace]\nZou G. A modified poisson regression approach to prospective studies with binary data. Am J Epidemiol. 2004 Apr 1;159(7):702-6. [Enlace]\nCummings P. The Relative Merits of Risk Ratios and Odds Ratios. Arch Pediatr Adolesc Med. 4 de mayo de 2009;163(5):438-45. [Enlace]\n\nSesión 12:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\n\n\nSesión 13:\n\nClark, T., Bradburn, M., Love, S. et al. Survival Analysis Part I: Basic concepts and first analyses. Br J Cancer 89, 232–238 (2003). [Enlace]\nTolles J, Lewis RJ. Time-to-Event Analysis. JAMA. 2016;315(10):1046–1047. [Enlace]\nAndersen PK, et al. Analysis of time-to-event for observational studies: Guidance to the use of intensity models. Statistics in Medicine 2022; 40. [Enlace]\nMorris TP, Jarvis CI, Cragg W, et al. Proposals on Kaplan–Meier plots in medical research and a survey of stakeholder views: KMunicate. BMJ Open 2019;9:e030215. [Enlace]\nSurvival analysis | The BMJ [Internet]. The BMJ | The BMJ: leading general medical journal. Research. Education. Comment. [Enlace]\nSedgwick P, Joekes K. Kaplan-Meier survival curves: interpretation and communication of risk. BMJ. 29 de noviembre de 2013;347:f7118. [Enlace]\nSedgwick P. How to read a Kaplan-Meier survival plot. BMJ. 12 de septiembre de 2014;349:g5608. [Enlace]\n\nSesión 14:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\nSesión 15:\n\nBradburn, M., Clark, T., Love, S. et al. Survival Analysis Part II: Multivariate data analysis – an introduction to concepts and methods. Br J Cancer 89, 431–436 (2003). [Enlace]\nBradburn, M., Clark, T., Love, S. et al. Survival Analysis Part III: Multivariate data analysis – choosing a model and assessing its adequacy and fit. Br J Cancer 89, 605–611 (2003). [Enlace]\nClark, T., Bradburn, M., Love, S. et al. Survival Analysis Part IV: Further concepts and methods in survival analysis. Br J Cancer 89, 781–786 (2003). [Enlace]\nSedgwick P. Cox proportional hazards regression. BMJ. 9 de agosto de 2013;347:f4919. [Enlace]\nHernán MA. The hazards of hazard ratios. Epidemiology. 2010 Jan;21(1):13-5. Erratum in: Epidemiology. 2011 Jan;22(1):134. [Enlace]\nScheer D, Benighaus C, Benighaus L, Renn O, Gold S, Röder B, Böl GF. The distinction between risk and hazard: understanding and use in stakeholder communication. Risk Anal. 2014 Jul;34(7):1270-85. [Enlace]\nStensrud MJ, Hernán MA. Why Test for Proportional Hazards? JAMA. 2020;323(14):1401–1402. [Enlace]\n\nSesión 16:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]"
+    "objectID": "recursos/syllabus/syllabus.html",
+    "href": "recursos/syllabus/syllabus.html",
+    "title": "Bibliografía recomendada según syllabus",
+    "section": "",
+    "text": "MÓDULO 1MÓDULO 2MÓDULO 3MÓDULO 4\n\n\nANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA\nSesión 1:\n\nMeasurement scales and their summary statistics. BMJ Evidence-Based Medicine 2004;9:164-166. [Enlace]\nBaillie M, le Cessie S, Schmidt CO, Lusa L, Huebner M, for the Topic Group “Initial Data Analysis” of the STRATOS Initiative (2022) Ten simple rules for initial data analysis. PLoS Comput Biol 18(2): e1009819. [Enlace]\nCummings P, Rivara FP. Reporting Statistical Information in Medical Journal Articles. Arch Pediatr Adolesc Med. 2003;157(4):321–324. [Enlace]\n\nSesión 2:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulos 17. [Enlace]\nCannell B, Livingston M. R for Epidemiology. Capítulo IV. [Enlace]\n\nSesión 3:\n\nDriscoll P, Lecky FArticle 5. An introduction to estimation—2: from z to t. Emergency Medicine Journal 2001;18:65-70. [Enlace]\nDriscoll P, Lecky FArticle 6. An introduction to hypothesis testing. Parametric comparison of two groups—1. Emergency Medicine Journal 2001;18:124-130. [Enlace]\nGreenland, S., Senn, S.J., Rothman, K.J. et al. Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. Eur J Epidemiol 31, 337–350 (2016). [Enlace]\nAltman, N., Krzywinski, M. P values and the search for significance. Nat Methods 14, 3–4 (2017). [Enlace]\nAre confidence intervals better termed “uncertainty intervals”? BMJ 2019; 366. [Enlace]\nValentin Amrhein, David Trafimow & Sander Greenland (2019) Inferential Statistics as Descriptive Statistics: There Is No Replication Crisis if We Don’t Expect Replication. The American Statistician, 73:sup1, 262-270. [Enlace]:\nHawkins AT, Samuels LR. Use of Confidence Intervals in Interpreting Nonstatistically Significant Results. JAMA. 2021;326(20):2068–2069.[Enlace]\nAmrhein V, Greenland S, McShane B. Scientists rise up against statistical significance. Nature. marzo de 2019;567(7748):305-7.[Enlace]\n\nSesión 4:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18.[Enlace]\n\nSesión 5:\n\nKim TK. Understanding one-way ANOVA using conceptual figures. Korean J Anesthesiol. 2017;70(1):22-26. [Enlace]\nWeissgerber TL, Garcia-Valencia O, Garovic VD, Milic NM, Winham SJ. Why we need to report more than ‘Data were Analyzed by t-tests or ANOVA’. Elife. 2018;7:e36163. Published 2018 Dec 21. [Enlace]\nLachin JM. Nonparametric Statistical Analysis. JAMA. 2020;323(20):2080–2081. [Enlace]\nCao J, Zhang S. Multiple Comparison Procedures. JAMA. 2014;312(5):543–544. [Enlace]\nBewick V, Cheek L, Ball J. Statistics review 9: one-way analysis of variance. Crit Care. 2004 Apr;8(2):130-6. [Enlace]\nBewick V, Cheek L, Ball J. Statistics review 10: further nonparametric methods. Crit Care. 2004 Jun;8(3):196-9. [Enlace]\n\nSesión 6:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. Enlace]\n\n\n\nREGRESIÓN PARA DATOS NUMÉRICOS\nSesión 7:\n\nHernán M, et al. A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks. Chance 2019, 32. [Enlace]\nShmueli G. To Explain or to Predict? Statistical Science 2010; 25. Doi: 10.1214/10-STS330. [Enlace]\nSchooling, C.M., Jones, H.E. Clarifying questions about “risk factors”: predictors versus explanation. Emerg Themes Epidemiol 15, 10 (2018). [Enlace]\nRamspek CL, Steyerberg EW, Riley RD, Rosendaal FR, Dekkers OM, Dekker FW, van Diepen M. Prediction or causality? A scoping review of their conflation within current observational research. Eur J Epidemiol. 2021 Sep;36(9):889-898. [Enlace]\nWallisch C, Bach P, Hafermann L, Klein N, Sauerbrei W, et al. (2022) Review of guidance papers on regression modeling in statistical series of medical journals. PLOS ONE 17(1): e0262918. [Enlace]\nAltman, N., Krzywinski, M. Simple linear regression. Nat Methods 12, 999–1000 (2015). [Enlace]\nKrzywinski, M., Altman, N. Multiple linear regression. Nat Methods 12, 1103–1104 (2015).[Enlace]\nSauerbrei, W., Perperoglou, A., Schmid, M. et al. State of the art in selection of variables and functional forms in multivariable analysis—outstanding issues. Diagn Progn Res 4, 3 (2020). [Enlace]\n\nSesión 8:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\n\n\nREGRESIÓN PARA DESENLACES BINARIOS\nSesión 9:\n\nBland JM, Altman DG. Statistics notes. The odds ratio. BMJ. 2000;320(7247):1468. [Enlace]\nLever, J., Krzywinski, M. & Altman, N. Logistic regression. Nat Methods 13, 541–542 (2016). [Enlace]\nHarris JK. Primer on binary logistic regression. Family Medicine and Community Health 2021;9:e001290. [Enlace]\nSedgwick P. Logistic regression. BMJ. 12 de julio de 2013;347:f4488. [Enlace]\n\nSesión 10:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\nSesión 11:\n\nTamhane AR, Westfall AO, Burkholder GA, Cutter GR. Prevalence odds ratio versus prevalence ratio: choice comes with consequences [published correction appears in Stat Med. 2017 Oct 15;36(23 ):3760]. Stat Med. 2016;35(30):5730-5735. [Enlace]\nZou G. A modified poisson regression approach to prospective studies with binary data. Am J Epidemiol. 2004 Apr 1;159(7):702-6. [Enlace]\nCummings P. The Relative Merits of Risk Ratios and Odds Ratios. Arch Pediatr Adolesc Med. 4 de mayo de 2009;163(5):438-45. [Enlace]\n\nSesión 12:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\n\n\nREGRESIÓN PARA DESENLACES TIEMPO A EVENTO\nSesión 13:\n\nClark, T., Bradburn, M., Love, S. et al. Survival Analysis Part I: Basic concepts and first analyses. Br J Cancer 89, 232–238 (2003). [Enlace]\nTolles J, Lewis RJ. Time-to-Event Analysis. JAMA. 2016;315(10):1046–1047. [Enlace]\nAndersen PK, et al. Analysis of time-to-event for observational studies: Guidance to the use of intensity models. Statistics in Medicine 2022; 40. [Enlace]\nMorris TP, Jarvis CI, Cragg W, et al. Proposals on Kaplan–Meier plots in medical research and a survey of stakeholder views: KMunicate. BMJ Open 2019;9:e030215. [Enlace]\nSurvival analysis | The BMJ [Internet]. The BMJ | The BMJ: leading general medical journal. Research. Education. Comment. [Enlace]\nSedgwick P, Joekes K. Kaplan-Meier survival curves: interpretation and communication of risk. BMJ. 29 de noviembre de 2013;347:f7118. [Enlace]\nSedgwick P. How to read a Kaplan-Meier survival plot. BMJ. 12 de septiembre de 2014;349:g5608. [Enlace]\n\nSesión 14:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]\n\nSesión 15:\n\nBradburn, M., Clark, T., Love, S. et al. Survival Analysis Part II: Multivariate data analysis – an introduction to concepts and methods. Br J Cancer 89, 431–436 (2003). [Enlace]\nBradburn, M., Clark, T., Love, S. et al. Survival Analysis Part III: Multivariate data analysis – choosing a model and assessing its adequacy and fit. Br J Cancer 89, 605–611 (2003). [Enlace]\nClark, T., Bradburn, M., Love, S. et al. Survival Analysis Part IV: Further concepts and methods in survival analysis. Br J Cancer 89, 781–786 (2003). [Enlace]\nSedgwick P. Cox proportional hazards regression. BMJ. 9 de agosto de 2013;347:f4919. [Enlace]\nHernán MA. The hazards of hazard ratios. Epidemiology. 2010 Jan;21(1):13-5. Erratum in: Epidemiology. 2011 Jan;22(1):134. [Enlace]\nScheer D, Benighaus C, Benighaus L, Renn O, Gold S, Röder B, Böl GF. The distinction between risk and hazard: understanding and use in stakeholder communication. Risk Anal. 2014 Jul;34(7):1270-85. [Enlace]\nStensrud MJ, Hernán MA. Why Test for Proportional Hazards? JAMA. 2020;323(14):1401–1402. [Enlace]\n\nSesión 16:\n\nBatra, Neale, et al. The Epidemiologist R Handbook. 2021. DOI 10.5281/zenodo.4752646. Capítulo 18. [Enlace]\nIrman K. Data Analysis in Medicine and Health using R. 2022. Capitulo 8. [Enlace]"
   },
   {
-    "objectID": "recursos.html#recursos-en-línea-adicionales",
-    "href": "recursos.html#recursos-en-línea-adicionales",
-    "title": "Recursos",
-    "section": "Recursos en línea adicionales",
-    "text": "Recursos en línea adicionales\nEn esta sección compartiremos recursos adicionales que vayan emergiendo a lo largo del curso."
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#la-estadística-y-la-ciencia-de-datos-en-el-mundo-actual---las-oportunidades",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#la-estadística-y-la-ciencia-de-datos-en-el-mundo-actual---las-oportunidades",
+    "title": "   Sesión 1",
+    "section": "La Estadística y la Ciencia de Datos en el mundo actual - Las oportunidades",
+    "text": "La Estadística y la Ciencia de Datos en el mundo actual - Las oportunidades"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#la-crisis-de-replicabilidad-de-la-ciencia-incluyendo-ciencias-médicas",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#la-crisis-de-replicabilidad-de-la-ciencia-incluyendo-ciencias-médicas",
+    "title": "   Sesión 1",
+    "section": "La crisis de replicabilidad de la Ciencia (incluyendo Ciencias Médicas)",
+    "text": "La crisis de replicabilidad de la Ciencia (incluyendo Ciencias Médicas)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#acerca-de-este-curso",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#acerca-de-este-curso",
+    "title": "   Sesión 1",
+    "section": "Acerca de este curso",
+    "text": "Acerca de este curso\n\nIniciativa de IETSI para promover el desarrollo de investigación científica en EsSalud a través del desarrollo de competencias para análisis de datos.\nBuscamos desarrollar competencias en análisis de datos a través de la enseñanza de metodologías provenientes de la (Bio)Estadística y la Ciencia de Datos.\nInformación del curso se encuentra alojada en el siguiente enlace: https://ietsi-academy-aed.netlify.app/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#qué-asumiremos",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#qué-asumiremos",
+    "title": "   Sesión 1",
+    "section": "¿Qué asumiremos?",
+    "text": "¿Qué asumiremos?\n\nLos alumnos tienen algún conocimiento de (bio)estadística básica.\nLos alumnos pueden dedicar tiempo a estudiar los materiales compartidos en clase.\nLos alumnos van a aplicar las competencias adquiridas en estudios de investigación."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#veamos-el-programa-y-cronograma-de-este-curso",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#veamos-el-programa-y-cronograma-de-este-curso",
+    "title": "   Sesión 1",
+    "section": "Veamos el programa y cronograma de este curso",
+    "text": "Veamos el programa y cronograma de este curso\n\n https://ietsi-academy-aed.netlify.app/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#cuál-será-el-enfoque-del-curso",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#cuál-será-el-enfoque-del-curso",
+    "title": "   Sesión 1",
+    "section": "¿Cuál será el enfoque del curso?",
+    "text": "¿Cuál será el enfoque del curso?\n\nNos centraremos en la aplicación de los métodos en el programa estadístico R a través de su interfaz RStudio.\nPoco tiempo para profundizar en el funcionamiento de los métodos. \n\nCompartiremos recursos bibliográficos para esto.\nLa web ya indica algunos: https://ietsi-academy-aed.netlify.app/recursos.html\nIremos colocando extras, clase por clase."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#cuál-será-el-enfoque-del-curso-cont.",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#cuál-será-el-enfoque-del-curso-cont.",
+    "title": "   Sesión 1",
+    "section": "¿Cuál será el enfoque del curso? (cont.)",
+    "text": "¿Cuál será el enfoque del curso? (cont.)\n\nPromoveremos una filosofía de (Bio)Estadística/Ciencia de Datos basada en Evidencia. \n\nNos centraremos en pautas/recomendaciones reconocidas de aplicación de métodos.\nSiempre que exista consensos internacionales, los indicaremos. \n\nExpondremos las malas prácticas para evitarlas. \n\nPoco tiempo para detallar justificación teórica/metodológica.\nCompartiremos literatura para que profundicen."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia",
+    "title": "   Sesión 1",
+    "section": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?",
+    "text": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?\n\nPensemos en la siguiente analogía: los métodos de análisis de datos son como las intervenciones médicas.\nAlgunas intervenciones médicas son muy efectivas, otras no.\nEntre dos intervenciones médicas efectivas, alguna será mejor que otra para cierto contexto.\nEn otro contexto, la otra podría ser mejor."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-1",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-1",
+    "title": "   Sesión 1",
+    "section": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?",
+    "text": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?\n\nHay intervenciones médicas que causan más daño que beneficio \n\nHistóricamente los médicos las han recomendado.\nHasta que lo notaron y las dejaron de usar o restringieron su uso. \n\nHay intervenciones médicas que tienen similar balance riesgo/beneficio. \n\nEn estos casos, uno puede optar por cualquiera de ellas sin mucho problema.\nO basarse en otros criterios como preferencias del médico, entre otras."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-2",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-2",
+    "title": "   Sesión 1",
+    "section": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?",
+    "text": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?\n\nLas evidencias acerca de la efectividad de intervenciones médicas provienen de diversas fuentes y diferentes metodologías.\nAl igual que en Medicina, en (Bio)Estadística y Ciencia de Datos el experimento computacional (también llamado simulación) bien realizado es considerado el máximo nivel de evidencia.\nCuando la evidencia se acumula, se pueden crear consensos y recomendaciones, similares a las guías de práctica clínica."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-3",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#bioestadística-o-ciencia-de-datos-basada-en-evidencia-3",
+    "title": "   Sesión 1",
+    "section": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?",
+    "text": "¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?\n\nEn las últimas dos décadas, muchos consensos han emergido basados en evidencia sólida (p.ej., experimentos computacionales, etc.). Este curso promoverá su uso.\nComo pasa en cualquier disciplina, y la Medicina es un ejemplo de esto, muchas buenas prácticas son seguidas por un sector muy pequeño.\nEn cambio, priman las malas prácticas. Este curso las expondrá para prevenir que incurran en ellas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#el-escándalo-de-la-mala-investigación-médica",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#el-escándalo-de-la-mala-investigación-médica",
+    "title": "   Sesión 1",
+    "section": "El escándalo de la mala investigación médica",
+    "text": "El escándalo de la mala investigación médica\n\n\n\n\n BMJ 1994;308:283 [Enlace]"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#el-escándalo-de-la-mala-investigación-médica-.cont",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#el-escándalo-de-la-mala-investigación-médica-.cont",
+    "title": "   Sesión 1",
+    "section": "El escándalo de la mala investigación médica (.cont)",
+    "text": "El escándalo de la mala investigación médica (.cont)\n\n\n\n Traducción literal de BMJ 1994;308:283 [Enlace]"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos",
+    "title": "   Sesión 1",
+    "section": "Iniciativa mundial STRATOS",
+    "text": "Iniciativa mundial STRATOS\n\nSTRATOS (STRengthening Analytical Thinking for Observational Studies) initiative\nSurge en 2013, en nov. 2019 ~100 investigadores de 18 países con fuerte background en métodos bioestadísticos y epidemiológico\nConectado con organizaciones internacionales: \n\nInternational Society of Clinical Biostatistics (ISCB)\nInternational Biometric Society (IBS) \n\nWeb: http://www.stratos-initiative.org/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos-.cont",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos-.cont",
+    "title": "   Sesión 1",
+    "section": "Iniciativa mundial STRATOS (.cont)",
+    "text": "Iniciativa mundial STRATOS (.cont)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos-.cont-1",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#iniciativa-mundial-stratos-.cont-1",
+    "title": "   Sesión 1",
+    "section": "Iniciativa mundial STRATOS (.cont)",
+    "text": "Iniciativa mundial STRATOS (.cont)\n\nGuías desarrolladas están dirigidas a 3 perfiles de usuarios:\n\n\nNivel 1Nivel 2Nivel 3\n\n\nBajo nivel de estadística\n\nProponer métodos aceptables que son fácilmente implementables.\nResaltar debilidades de enfoques comunes.\n\n\n\nEstadístico experimentado\n\nHacer referencia a las ventajas y desventajas de enfoques que compiten.\nProponer metodología avanzada factibles para analistas experimentados.\n\n\n\nExperto en área específica\n\nConsiderar los desarrollos recientes con declaraciones acerca de sus posibles ventajas y desventajas.\nIdentificar áreas que necesitan más investigación u orientación metodológica."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#algunos-recursos-para-encontrar-consensos-y-guías-basadas-en-evidencia",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#algunos-recursos-para-encontrar-consensos-y-guías-basadas-en-evidencia",
+    "title": "   Sesión 1",
+    "section": "Algunos recursos para encontrar consensos y guías basadas en evidencia",
+    "text": "Algunos recursos para encontrar consensos y guías basadas en evidencia\n\n\n\n Fuente: https://www.equator-network.org"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#más-recursos",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#más-recursos",
+    "title": "   Sesión 1",
+    "section": "¿Más recursos?",
+    "text": "¿Más recursos?\n\nÚltimas guías de reporte de revistas top incluyen métodos y buenas prácticas reconocidas. \n\nEjemplos: NEJM, BMJ, JAMA, Nature, etc. \n\nRevistas metodológicas también son buenos puntos de partida: \n\nEjemplos: BMC Medical Research Metodology, Statistics in Medicine, IJE, etc.\nBuscar guías, tutoriales o revisiones con recomendaciones.\n“Precaución: Tener cuidado con propuestas metodológicas nuevas. Son como fármacos nuevos, requieren más estudios para validar sus bondades."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#cuidado",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#cuidado",
+    "title": "   Sesión 1",
+    "section": "“¡Cuidado!",
+    "text": "“¡Cuidado!\n\nMuchas publicaciones en revistas indexadas incurren en malas prácticas.\nIncluso revistas de cuartil 1 como NEJM, JAMA, BMJ, Nature han cometido grandes errores metodológicos! \n\nY han ocurrido retracciones de estos estudios años después. \n\n\nEn revistas de menor nivel, incluso grandes y evidentes errores no suelen puntualizarse y no hay retracciones.\nRevisar guías/consensos/artículos metodológicos es más confiable que imitar análisis/prácticas de otras publicaciones."
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#qué-es-r",
     "href": "Sesiones/Sesion-1/Sesion-1.html#qué-es-r",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "¿Qué es R?",
-    "text": "¿Qué es R?\n\nPreview\ncARRO\n\na <- c(1, 2, 3)\na\nj\n\ndata <- data.frame(x = c(1, 2,3 ), y = c(4, 5, 6))\ndata\n\n  x y\n1 1 4\n2 2 5\n3 3 6"
+    "text": "¿Qué es R?\n\nEntorno de software para computación estadística y gráficos.\nLenguaje de programación estadística.\nJohn Chambers y colegas desarrollaron S en laboratorios Bell en 1975. \n\nS es un lenguaje de programación estadística propietario \n\nRoss Ihaka y Robert Gentleman desarrollan R en la Universidad de Auckland (Nueva Zelanda) \n\nS no corría en Macintosh. \n\nNombre R es un juego de palabras \n\nBurla a S (R es anterior a S en el abecedario)\nR es la letra inicial de Ross y Robert."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#r-en-la-actualidad",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#r-en-la-actualidad",
+    "title": "   Sesión 1",
+    "section": "R en la actualidad",
+    "text": "R en la actualidad\n\n\n\nSoftware libre\nDesarrollada y soportada por R Development Core Team\nAl 13 de junio de 2022, hay 18 560 paquetes disponibles.\nAmpliamente utilizado por la comunidad científica."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#por-qué-r",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#por-qué-r",
+    "title": "   Sesión 1",
+    "section": "¿Por qué R?",
+    "text": "¿Por qué R?\nEficiencia\n\nProgramas basados en click-click consumen mucho tiempo.\nAutomatizar tareas"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#qué-es-rstudio",
     "href": "Sesiones/Sesion-1/Sesion-1.html#qué-es-rstudio",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "¿Qué es RStudio?",
     "text": "¿Qué es RStudio?\n---\ntitle: \"My document\"\n---\n\nSome markdown content.\n\n```{python}\n1 + 1\n```\n\nSome additional markdown content."
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#recursos-y-materiales",
     "href": "Sesiones/Sesion-1/Sesion-1.html#recursos-y-materiales",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Recursos y materiales",
     "text": "Recursos y materiales\n\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#operaciones-matemáticas",
     "href": "Sesiones/Sesion-1/Sesion-1.html#operaciones-matemáticas",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Operaciones matemáticas",
-    "text": "Operaciones matemáticas\n\nAritméticaResta\n\n\n\n\n\n\nSuma:\n\n\n5 + 4\n\n[1] 9\n\n\n\nResta:\n\n\n3 - 8\n\n[1] -5\n\n\n\n\n\n\nMultiplicación\n\n\n3 * 8\n\n[1] 24\n\n\n\nDivisión\n\n\n3 * 8\n\n[1] 24\n\n\n\n\n\n\n\nContent for Tab B"
+    "text": "Operaciones matemáticas\n\nAritméticaResta\n\n\n\n\n\n\nSuma:\n\n\n3 + 8\n\n[1] 11\n\n\n\nResta:\n\n\n3 - 8\n\n[1] -5\n\n\n\n\n\n\nMultiplicación\n\n\n3 * 8\n\n[1] 24\n\n\n\nDivisión\n\n\n3 * 8\n\n[1] 24\n\n\n\n\n\n\n\nContent for Tab B"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#selección-de-variables",
     "href": "Sesiones/Sesion-1/Sesion-1.html#selección-de-variables",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Selección de variables",
     "text": "Selección de variables"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#filtrado-de-datos",
     "href": "Sesiones/Sesion-1/Sesion-1.html#filtrado-de-datos",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Filtrado de datos",
     "text": "Filtrado de datos"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#creación-de-variables",
     "href": "Sesiones/Sesion-1/Sesion-1.html#creación-de-variables",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Creación de variables",
     "text": "Creación de variables"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#otro",
     "href": "Sesiones/Sesion-1/Sesion-1.html#otro",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Otro",
     "text": "Otro\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#descripción-de-variables-numéricas",
     "href": "Sesiones/Sesion-1/Sesion-1.html#descripción-de-variables-numéricas",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Descripción de variables numéricas",
     "text": "Descripción de variables numéricas\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1.html#casa",
     "href": "Sesiones/Sesion-1/Sesion-1.html#casa",
-    "title": "Sesión 1",
+    "title": "   Sesión 1",
     "section": "Casa",
-    "text": "Casa\n\nTab ATab B\n\n\nContent for Tab A\n\n\nContent for Tab B\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1"
+    "text": "Casa\n\nTab ATab B\n\n\nContent for Tab A\n\n\nContent for Tab B"
   },
   {
-    "objectID": "tareas.html",
-    "href": "tareas.html",
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#referencias",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#referencias",
+    "title": "   Sesión 1",
+    "section": "Referencias",
+    "text": "Referencias\nEstas diapositivas adaptaron contenido de otras presentaciones previas:\nhttps://www.datascienced.co.uk/slides/intro-to-r.pdf"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1.html#section-4",
+    "href": "Sesiones/Sesion-1/Sesion-1.html#section-4",
+    "title": "   Sesión 1",
+    "section": "",
+    "text": "Muchas Gracias!\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1"
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",
+    "title": "Día 1",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia2.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia2.html",
+    "title": "Día 2",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia3.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia3.html",
+    "title": "Día 3",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia4.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia4.html",
+    "title": "Día 4",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia5.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia5.html",
+    "title": "Día 5",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia6.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia6.html",
+    "title": "Día 6",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia7.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia7.html",
+    "title": "Día 7",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia8.html",
+    "href": "tareas/ejercicios-extras/ejercicios-extras-dia8.html",
+    "title": "Día 8",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/ejercicios-extras.html",
+    "href": "tareas/ejercicios-extras.html",
+    "title": "Indicaciones",
+    "section": "",
+    "text": "Aquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+  },
+  {
+    "objectID": "tareas/evaluacion-final-sol.html",
+    "href": "tareas/evaluacion-final-sol.html",
+    "title": "Solucionario",
+    "section": "",
+    "text": "La evaluación final será posteada el 20 de julio de 2022. Esta evaluación es individual y tiene un 20% de la nota final."
+  },
+  {
+    "objectID": "tareas/evaluacion-final.html",
+    "href": "tareas/evaluacion-final.html",
+    "title": "Indicaciones",
+    "section": "",
+    "text": "La evaluación final será posteada el 20 de julio de 2022. Esta evaluación es individual y tiene un 20% de la nota final."
+  },
+  {
+    "objectID": "tareas/index.html",
+    "href": "tareas/index.html",
     "title": "Tareas",
     "section": "",
-    "text": "Aquí postearemos los Problem Set de acuerdo con el cronograma. Estos son calificados y, en conjunto, valen el 80% de la nota final (20% cada uno). Los participantes conformarán grupos de entre 5 o 6 personas. Se deberá enviar al correo electrónico los siguientes archivos:\n\nArchivo RMarkdown con código de análisis.\nResultados del análisis en formato html (tal y como lo knitea RMarkdown).\nTablas reproducibles en Microsoft Office (tal como son generadas por RMarkdown).\n\n\n\nProblem Set 1 será posteado el 15 de junio de 2022.\n\n\n\nProblem Set 2 será posteado el 24 de junio de 2022.\n\n\n\nProblem Set 3 será posteado el 01 de julio de 2022.\n\n\n\nProblem Set 4 será posteado el 08 de julio de 2022."
+    "text": "Problem sets\nEvaluación final\nEjercicios extras"
   },
   {
-    "objectID": "tareas.html#evaluación-final",
-    "href": "tareas.html#evaluación-final",
-    "title": "Tareas",
-    "section": "Evaluación Final",
-    "text": "Evaluación Final\nLa evaluación final será posteada el 20 de julio de 2022. Esta evaluación es individual y tiene un 20% de la nota final."
+    "objectID": "tareas/problem-set/problem-set-1.html",
+    "href": "tareas/problem-set/problem-set-1.html",
+    "title": "Problem Set 1",
+    "section": "",
+    "text": "Problem Set 1 será posteado el 15 de junio de 2022."
   },
   {
-    "objectID": "tareas.html#ejercicios-extras",
-    "href": "tareas.html#ejercicios-extras",
-    "title": "Tareas",
-    "section": "Ejercicios Extras",
-    "text": "Ejercicios Extras\nAquí postearemos ejercicios complementarios para ayudar a afianzar algunos conocimientos o competencias que los alumnos soliciten. Estos ejercicios no serán calificados."
+    "objectID": "tareas/problem-set/problem-set-2.html",
+    "href": "tareas/problem-set/problem-set-2.html",
+    "title": "Problem Set 2",
+    "section": "",
+    "text": "Problem Set 2 será posteado el 24 de junio de 2022."
+  },
+  {
+    "objectID": "tareas/problem-set/problem-set-3.html",
+    "href": "tareas/problem-set/problem-set-3.html",
+    "title": "Problem Set 3",
+    "section": "",
+    "text": "Problem Set 3 será posteado el 01 de julio de 2022."
+  },
+  {
+    "objectID": "tareas/problem-set/problem-set-4.html",
+    "href": "tareas/problem-set/problem-set-4.html",
+    "title": "Problem Set 4",
+    "section": "",
+    "text": "Problem Set 4 será posteado el 08 de julio de 2022."
+  },
+  {
+    "objectID": "tareas/problem-set.html",
+    "href": "tareas/problem-set.html",
+    "title": "Indicaciones",
+    "section": "",
+    "text": "Aquí postearemos los Problem Set de acuerdo con el cronograma. Estos son calificados y, en conjunto, valen el 80% de la nota final (20% cada uno). Los participantes conformarán grupos de entre 5 o 6 personas. Se deberá enviar al correo electrónico los siguientes archivos:"
+  },
+  {
+    "objectID": "tareas/problem-set.html#problem-sets",
+    "href": "tareas/problem-set.html#problem-sets",
+    "title": "Indicaciones",
+    "section": "Problem Sets",
+    "text": "Problem Sets\n\nProblem Set 1\nProblem Set 1 será posteado el 15 de junio de 2022.\n\n\nProblem Set 2\nProblem Set 2 será posteado el 24 de junio de 2022.\n\n\nProblem Set 3\nProblem Set 3 será posteado el 01 de julio de 2022.\n\n\nProblem Set 4\nProblem Set 4 será posteado el 08 de julio de 2022."
   }
 ]
