@@ -49,15 +49,25 @@ website:
     collapse-below: lg
     left:
       - href: index.qmd
-        text: Inicio
+        text: "Inicio"
       - href: programa.qmd
-        text: Programa
+        text: "Programa"
       - href: cronograma.qmd
-        text: Cronograma
+        text: "Cronograma"
       - href: tareas/index.qmd
-        text: Tareas 
+        text: "Tareas "
       - href: recursos/index.qmd
-        text: Recursos
+        text: "Recursos"
+      - text: "Ayuda"
+        menu: 
+          - text: "Guía Instalación"
+            href: 
+          - text: "Reporta un Problema"
+            icon: "bug"
+            href: "https://github.com/psotob/ae-ietsi-2022/issues/1""
+          - text: "Foro de discusión/consultas"
+            icon: "chat-right-text"
+            href: "https://github.com/psotob/ae-ietsi-2022/discussions"
         
   sidebar:
       - id: tareas
