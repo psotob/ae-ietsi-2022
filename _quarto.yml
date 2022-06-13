@@ -61,13 +61,15 @@ website:
       - text: "Ayuda"
         menu: 
           - text: "Guía Instalación"
-            href: 
+            href: manualr-ietsi.Rmd
           - text: "Reporta un Problema"
             icon: "bug"
-            href: "https://github.com/psotob/ae-ietsi-2022/issues/1""
+            href: "https://github.com/psotob/ae-ietsi-2022/issues/1"
           - text: "Foro de discusión/consultas"
             icon: "chat-right-text"
             href: "https://github.com/psotob/ae-ietsi-2022/discussions"
+          - text: "Licencia"
+            href: "https://github.com/psotob/ae-ietsi-2022/blob/main/LICENSE.md"
         
   sidebar:
       - id: tareas

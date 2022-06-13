@@ -1,20 +1,6 @@
 ---
-title: "**Manual de instalación de R, RStudio y Rtools para Windows**"
-subtitle: "IETSI - EsSalud"
-#date: "*Actualizado el 10/06/2022*"
-fontsize: 12pt
-output:
-  rmarkdown::html_document:
-    #css: style.css
-    theme: readable
-    toc: true
-    toc_float: true 
-    #in_header: hola.html 
-lang: es-ES
-urlcolor: blue
-editor_options: 
-  markdown: 
-    wrap: 72
+title: "Guía de Instalación"
+lang: es
 ---
 
 <br>
@@ -37,7 +23,7 @@ el programa dando click en "**Download R 4.2.0 for Windows**". <br>
 <br>
 
 ```{r, echo=FALSE, out.width='90%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/1.png')  
+knitr::include_graphics('imagenes/1.png')  
 ```
 
 <br> <br>
@@ -50,7 +36,7 @@ del asistente de instalación de R.
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/2.png')  
+knitr::include_graphics('imagenes/2.png')  
 ```
 
 <br> <br>
@@ -61,7 +47,7 @@ click en "siguiente".<br>
 :::
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/3.png')
+knitr::include_graphics('imagenes/3.png')
 ```
 
 <br> <br>
@@ -80,7 +66,7 @@ durante nuestra práctica diaria con R.<br>
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/4.png')
+knitr::include_graphics('imagenes/4.png')
 ```
 
 <br> <br>
@@ -93,7 +79,7 @@ A continuación, el **cuarto paso** consiste simplemente en dar click en
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/5.png')
+knitr::include_graphics('imagenes/5.png')
 ```
 
 <br> <br>
@@ -106,7 +92,7 @@ de configuración, recomendamos marcar "sí".<br>
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/6.png')
+knitr::include_graphics('imagenes/6.png')
 ```
 
 <br> <br>
@@ -119,7 +105,7 @@ Luego, para el **sexto paso** seleccionamos MDI y damos click en
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/7.png')
+knitr::include_graphics('imagenes/7.png')
 ```
 
 <br> <br>
@@ -132,7 +118,7 @@ En el **séptimo paso** elegimos *ayuda HTML* y damos click en
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/8.png')
+knitr::include_graphics('imagenes/8.png')
 ```
 
 <br> <br>
@@ -146,19 +132,19 @@ y, una vez termine, concluimos dando click en "finalizar".<br>
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/9.png')
+knitr::include_graphics('imagenes/9.png')
 ```
 
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/10.png')
+knitr::include_graphics('imagenes/10.png')
 ```
 
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/11.png')
+knitr::include_graphics('imagenes/11.png')
 ```
 
 <br>
@@ -167,7 +153,7 @@ knitr::include_graphics('imagenes_guia/11.png')
 
 ::: text-justify
 Al igual que en la sección anterior, para instalar la versión
-2022.02.0+443. de nuestro IDE, primero vamos a la página oficial de
+2022.02.3+492. de nuestro IDE, primero vamos a la página oficial de
 [**Rstudio**](https://www.rstudio.com/products/rstudio/download/),
 escogemos la opción "**Free**" y damos click en "**download RStudio for
 Windows**".<br>
@@ -176,13 +162,13 @@ Windows**".<br>
 <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/12.png')
+knitr::include_graphics('imagenes/12.png')
 ```
 
 <br> <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/13.png')
+knitr::include_graphics('imagenes/13.png')
 ```
 
 <br> <br>
@@ -195,7 +181,7 @@ dando click en "Siguiente".<br>
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/14.png')
+knitr::include_graphics('imagenes/14.png')
 ```
 
 <br> <br>
@@ -212,13 +198,13 @@ la siguiente.<br>
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/15.png')
+knitr::include_graphics('imagenes/15.png')
 ```
 
 <br> <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/16.png')
+knitr::include_graphics('imagenes/16.png')
 ```
 
 <br> <br>
@@ -229,7 +215,7 @@ en "Terminar".<br>
 :::
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/17.png')
+knitr::include_graphics('imagenes/17.png')
 ```
 
 <br>
@@ -238,14 +224,14 @@ knitr::include_graphics('imagenes_guia/17.png')
 
 ::: text-justify
 Por último, vamos a descargar [**Rtools
-4.0**](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
-dando click en "**rtools40-x86_64.exe**".<br>
+4.2**](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html)
+dando click en [**Rtools42 installer**](https://cran.r-project.org/bin/windows/Rtools/rtools42/files/rtools42-5253-5107.exe).<br>
 :::
 
 <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/18.png')
+knitr::include_graphics('imagenes/18.png')
 ```
 
 <br> <br>
@@ -258,13 +244,13 @@ Una vez descargado, iniciamos el asistente de instalación dando click en
 <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/19.png')
+knitr::include_graphics('imagenes/19.png')
 ```
 
 <br> <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/20.png')
+knitr::include_graphics('imagenes/20.png')
 ```
 
 <br> <br>
@@ -276,13 +262,13 @@ asistente dando click en "finish".<br>
 :::
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/21.png')
+knitr::include_graphics('imagenes/21.png')
 ```
 
 <br> <br>
 
 ```{r, echo=FALSE, out.width='60%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/22.png')
+knitr::include_graphics('imagenes/22.png')
 ```
 
 <br> <br>
@@ -295,7 +281,7 @@ RStudio y llegar a esta pantalla:<br>
 <br>
 
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('imagenes_guia/23.png')
+knitr::include_graphics('imagenes/23.png')
 ```
 
 <br> <br>
@@ -377,16 +363,6 @@ Video de [R Epidemics Consortium
 4.  Manual de [Antoine Soetewey](https://statsandr.com/blog/how-to-install-r-and-rstudio/)
 :::
 
-<br> \_\_\_ <br> 
-Este manual forma parte del material del [Curso de Análisis Estadístico](https://ietsi-academy-aed.netlify.app/) del Programa de Formación Científica 2022 del IETSI - EsSalud. <br>
-<br>
-
-```{r, echo=FALSE, out.width='50%', fig.align='left'}
-knitr::include_graphics('imagenes_guia/logo-ietsi.png')
-```
-<br>
-```{r, echo=FALSE, out.width='50%', fig.align='left'}
-knitr::include_graphics('imagenes_guia/logo-essalud.png')
-```
 <br> <br>
-_Adaptado de **InkaStats Data Science Solutions**_
+_Adaptado de manual elaborado para curso **R para Ciencia de Datos en Salud** dictado por **InkaStats Data Science Solutions** en 2022_
+_Autor: [Anthony Romero-Cerdán](https://scholar.google.com.pe/citations?user=bSpylR0AAAAJ&hl=es)_

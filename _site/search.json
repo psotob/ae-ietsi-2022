@@ -14,6 +14,41 @@
     "text": "Este sitio contiene el syllabus, cronograma, tareas y otros recursos para el curso Análisis Estadístico del Programa de Formación Científica 2022 organizado por el Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI del Seguro Social de Salud del Perú (EsSalud). Al finalizar el entrenamiento, el alumno estará en la capacidad de llevar a cabo un análisis exploratorio explicativo (factores asociados) o confirmatorio (efectividad clínica comparativa o evaluación de impacto) para desenlaces numéricos continuos, binarios y de tiempo a evento mediante un enfoque de modelado de regresión. El curso también busca promover y brindar recomendaciones sobre buenas prácticas de análisis bioestadístico con énfasis en principios de Ciencia Abierta y Reproducible.\n\n\n\nDOCENTE   Percy Soto-Becerra   percys1991@gmail.com   0000-0001-5332-9254   psotob"
   },
   {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Programa de Formación Cientifica - Análisis Estadístico 2022",
+    "section": "",
+    "text": "Copyright (c) 2022 Percy Soto-Becerra\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "manualr-ietsi.html#instalando-r",
+    "href": "manualr-ietsi.html#instalando-r",
+    "title": "Guía de Instalación",
+    "section": "1. Instalando R",
+    "text": "1. Instalando R\n\nAntes de instalar R(v4.2.0), debemos ir al sitio web de CRAN para descargar el programa dando click en “Download R 4.2.0 for Windows”. \n\n\n\n\n\n\n\n\n\n\n\n \n\nUna vez descargado el programa, el primer paso es escoger el idioma del asistente de instalación de R.\n\n\n\n\n\n\n\n\n\n\n\n \n\nEscogido el idioma, para el segundo paso simplemente debemos dar click en “siguiente”.\n\n\n\n\n\n\n\n\n\n\n \n\nEn la siguiente ventana, el tercer paso consiste en elegir en qué carpeta se instalará R y sus dependencias. Si tenemos permisos de administrador en nuestro dispositivo, podemos dejar que R se instale en la carpeta por defecto (“program files”); sin embargo, si esto no es así (por ejemplo, si no es nuestro dispositivo o compartimos su uso mediante distintos usuarios), lo más recomendable es elegir otra ubicación, por ejemplo “documentos”. Esto nos evitará problemas de accesos o permisos durante nuestra práctica diaria con R.\n\n\n\n\n\n\n\n\n\n\n\n \n\nA continuación, el cuarto paso consiste simplemente en dar click en “siguiente”.\n\n\n\n\n\n\n\n\n\n\n\n \n\nEn el quinto paso, nos preguntará si deseamos utilizar las opciones de configuración, recomendamos marcar “sí”.\n\n\n\n\n\n\n\n\n\n\n\n \n\nLuego, para el sexto paso seleccionamos MDI y damos click en “siguiente”.\n\n\n\n\n\n\n\n\n\n\n\n \n\nEn el séptimo paso elegimos ayuda HTML y damos click en “siguiente”.\n\n\n\n\n\n\n\n\n\n\n\n \n\nComo octavo paso, en las siguientes dos ventanas daremos click en “siguiente”, lo cual iniciará la instalación de R en nuestro dispositivo y, una vez termine, concluimos dando click en “finalizar”."
+  },
+  {
+    "objectID": "manualr-ietsi.html#instalando-rstudio",
+    "href": "manualr-ietsi.html#instalando-rstudio",
+    "title": "Guía de Instalación",
+    "section": "2. Instalando RStudio",
+    "text": "2. Instalando RStudio\n\nAl igual que en la sección anterior, para instalar la versión 2022.02.3+492. de nuestro IDE, primero vamos a la página oficial de Rstudio, escogemos la opción “Free” y damos click en “download RStudio for Windows”.\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\nUna vez descargado el programa, iniciamos el asistente de instalación dando click en “Siguiente”.\n\n\n\n\n\n\n\n\n\n\n\n \n\nEn la siguiente ventana nos preguntarán en qué carpeta deseamos instalar nuestro RStudio. Aquí es importante tener las mismas consideraciones que mencionamos en la primera sección: Si no tenemos acceso de administrador, es mejor escoger “Documentos”, de lo contrario, simplemente damos click en “siguiente” en esta ventana e “instalar” en la siguiente.\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\nTerminado el proceso de instalación, cerramos el asistente dando click en “Terminar”."
+  },
+  {
+    "objectID": "manualr-ietsi.html#instalando-rtools",
+    "href": "manualr-ietsi.html#instalando-rtools",
+    "title": "Guía de Instalación",
+    "section": "3. Instalando Rtools",
+    "text": "3. Instalando Rtools\n\nPor último, vamos a descargar Rtools 4.2 dando click en Rtools42 installer.\n\n\n\n\n\n\n\n\n\n\n\n \n\nUna vez descargado, iniciamos el asistente de instalación dando click en “next” en las siguientes dos ventanas.\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\nA continuación, iniciamos la instalación dando click en “install” y esperamos a que el proceso se complete. Finalmente, cerramos el asistente dando click en “finish”.\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\nSi hemos realizado el proceso correctamente, podremos abrir nuestro RStudio y llegar a esta pantalla:\n\n\n\n\n\n\n\n\n\n\n\n \n\nSi desea más información sobre cómo instalar estos programas en Windows y/o MAC, visite la página oficial del proyecto R."
+  },
+  {
+    "objectID": "manualr-ietsi.html#recursos-adicionales",
+    "href": "manualr-ietsi.html#recursos-adicionales",
+    "title": "Guía de Instalación",
+    "section": "4. Recursos adicionales",
+    "text": "4. Recursos adicionales\nVideos de youtube recomendados:\n\n\n\n\n\n\n\n\n\n\nVideo de henryholder01\n\n\n\n\n\n\n\n\n\n\n\n\nVideo de Renzo Caceres Rossi\n\n\n\n\n\n\n\n\n\n\n\n\nVideo de Roger Miranda\n\n\n\n\n\n\n\n\n\n\n\n\nVideo de R Epidemics Consortium (RECON)\n\n\nManuales disponibles en la web:\n\n\nManual de Alessio Bocco\nManual de Giorgio Boccardo y Felipe Ruiz\nManual del libro Hands-On Programming with R\nManual de Antoine Soetewey\n\n\n  Adaptado de manual elaborado para curso R para Ciencia de Datos en Salud dictado por InkaStats Data Science Solutions en 2022 Autor: Anthony Romero-Cerdán"
+  },
+  {
     "objectID": "programa.html",
     "href": "programa.html",
     "title": "Programa",
