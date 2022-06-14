@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Programa de Formación Científica - Análisis Estadístico 2022
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+```{r,fig.cap="", out.width= '100%',echo=FALSE, fig.align='center'}
+knitr::include_graphics("afiche_curso.jpeg")
+```
+
+## Página Web
+
+<https://ietsi-academy-aed.netlify.app/>
+
+## Presentaciones
+
+<https://ietsi-academy-aed.netlify.app/cronograma.html>
+
+## Contacto
+
+Percy Soto Becerra \| [`@psotob91`](https://https://twitter.com/psotob91) \|
+<percys1991@gmail.com>
+
+Project Link: <https://github.com/psotob91/ae-ietsi-2022>
