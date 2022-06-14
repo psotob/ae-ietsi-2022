@@ -46,218 +46,6 @@ pacman::p_unload("all") # Unloading all package except base
 pacman::p_load(tidyverse) # Loading packages
 ```
 
-<!-- 
-::: {.fragment .highlight-red}
-casa
-:::
--->
-
-# <FONT color='#232429'>Una motivación para comenzar</FONT>
-
-## La Estadística y la Ciencia de Datos en el mundo actual - Las oportunidades
-
-::: {.r-stack}
-![](images/fda-realworld.png){.fragment width="1336" height="537"}
-
-
-![](images/nature-bigdata.png){.fragment width="824" height="538"}
-
-![](images/jama-machine.png){.fragment width="913" height="510"}
-
-![](images/cleveland-ibm.png){.fragment width="1207" height="560"}
-:::
-
-## La crisis de replicabilidad de la Ciencia (incluyendo Ciencias Médicas)
-
-![](images/replication.png)
-
-# <FONT color='#232429'>Introducción al Curso</FONT>
-
-## Acerca de este curso
-
-- Iniciativa de IETSI para promover el desarrollo de investigación científica en EsSalud a través del desarrollo de competencias para análisis de datos. 
-
-- Buscamos desarrollar competencias en análisis de datos a través de la enseñanza de metodologías provenientes de la (Bio)Estadística y la Ciencia de Datos.
-
-- Información del curso se encuentra alojada en el siguiente enlace: [https://ietsi-academy-aed.netlify.app/](https://ietsi-academy-aed.netlify.app/)
-
-## ¿Qué asumiremos?
-
-- Los alumnos tienen algún conocimiento de (bio)estadística  básica. 
-- Los alumnos pueden dedicar tiempo a estudiar los materiales compartidos en clase. 
-- Los alumnos van a aplicar las competencias adquiridas en estudios de investigación.
-
-## Veamos el programa y cronograma de este curso
-
-::: {.r-fit-text}
-<br><br>
-[https://ietsi-academy-aed.netlify.app/](https://ietsi-academy-aed.netlify.app/)
-:::
-
-## {background-color="white"
-background-size="1920px 1080px" 
-background-repeat="repeat"
-background-iframe="https://ietsi-academy-aed.netlify.app/"}
-
-# <FONT color='#232429'>Filosofía de este curso</FONT>
-
-## ¿Cuál será el enfoque del curso? 
-
-- Nos centraremos en la aplicación de los métodos en el programa estadístico R a través de su interfaz RStudio.
-- Poco tiempo para profundizar en el funcionamiento de los métodos. 
-<FONT size='6'>
-    + Compartiremos recursos bibliográficos para esto.
-    + La web ya indica algunos: [https://ietsi-academy-aed.netlify.app/recursos.html](https://ietsi-academy-aed.netlify.app/recursos.html)
-    + Iremos colocando extras, clase por clase.
-</FONT>
-
-## ¿Cuál será el enfoque del curso? (cont.)
-
-- Promoveremos una filosofía de **(Bio)Estadística/Ciencia de Datos basada en Evidencia**. 
-<FONT size='6'>
-    + Nos centraremos en pautas/recomendaciones reconocidas de aplicación de métodos.
-    + Siempre que exista consensos internacionales, los indicaremos.
- </FONT>
-- Expondremos las malas prácticas para evitarlas. 
-<FONT size='6'>
-    + Poco tiempo para detallar justificación teórica/metodológica. 
-    + Compartiremos literatura para que profundicen.
-</FONT>
-
-## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?
-
-- Pensemos en la siguiente analogía: los métodos de análisis de datos son como las intervenciones médicas.
-- Algunas intervenciones médicas son muy efectivas, otras no. 
-- Entre dos intervenciones médicas efectivas, alguna será mejor que otra para cierto contexto. 
-- En otro contexto, la otra podría ser mejor. 
-
-## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?
-
-- Hay intervenciones médicas que causan más daño que beneficio
-<FONT size='6'>
-    + Históricamente los médicos las han recomendado. 
-    + Hasta que lo notaron y las dejaron de usar o restringieron su uso.
-</FONT>
-- Hay intervenciones médicas que tienen similar balance riesgo/beneficio. 
-<FONT size='6'>
-    + En estos casos, uno puede optar por cualquiera de ellas sin mucho problema.
-    + O basarse en otros criterios como preferencias del médico, entre otras.
-</FONT>
-
-## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?
-
-- Las evidencias acerca de la efectividad de intervenciones médicas provienen de diversas fuentes y diferentes metodologías. 
-- Al igual que en Medicina, en (Bio)Estadística y Ciencia de Datos el experimento computacional (también llamado simulación) bien realizado es considerado el máximo nivel de evidencia.
-- Cuando la evidencia se acumula, se pueden crear consensos y recomendaciones, similares a las guías de práctica clínica. 
-
-## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?
-
-- En las últimas dos décadas, muchos consensos han emergido basados en evidencia sólida (p.ej., experimentos computacionales, etc.). Este curso promoverá su uso.
-- Como pasa en cualquier disciplina, y la Medicina es un ejemplo de esto, muchas buenas prácticas son seguidas por un sector muy pequeño.
-- En cambio, priman las malas prácticas. Este curso las expondrá para prevenir que incurran en ellas.
-
-## El escándalo de la mala investigación médica
-
-![](images/scandal2.png){.absolute top=200 left=0 width="400" height="400"}
-
-![](images/scandal.png){.absolute top=200 right=50 width="600" height="400"}
-
-::: aside
-<br>
-*BMJ 1994;308:283* [[Enlace](https://doi.org/10.1136/bmj.308.6924.283)]
-:::
-
-## El escándalo de la mala investigación médica (.cont)
-
-![](images/scandal3.png)
-
-::: aside
-<br>
-*Traducción literal de BMJ 1994;308:283* [[Enlace](https://doi.org/10.1136/bmj.308.6924.283)]
-:::
-
-## Iniciativa mundial STRATOS
-
-- STRATOS (STRengthening Analytical Thinking for Observational Studies) initiative
-- Surge en 2013, en nov. 2019 ~100 investigadores de 18 países con fuerte background en métodos bioestadísticos y epidemiológico
-- Conectado con organizaciones internacionales:
-<FONT size='6'>
-    + International Society of Clinical Biostatistics (ISCB)
-    + International Biometric Society (IBS)
-</FONT>
-- Web: [http://www.stratos-initiative.org/](http://www.stratos-initiative.org/)
-
-## 
-
-![](images/stratos-web.png)
-
-## Iniciativa mundial STRATOS (.cont)
-
-![](images/stratos-topic.png)
-
-## Iniciativa mundial STRATOS (.cont)
-
-- Guías desarrolladas están dirigidas a 3 perfiles de usuarios:
-
-::: panel-tabset
-### Nivel 1
-**Bajo nivel de estadística**
-
-- Proponer métodos aceptables que son fácilmente implementables.
-
-- Resaltar debilidades de enfoques comunes.
-
-### Nivel 2 
-**Estadístico experimentado**
-
-- Hacer referencia a las ventajas y desventajas de enfoques que compiten.
-
-- Proponer metodología avanzada factibles para analistas experimentados.
-
-### Nivel 3
-**Experto en área específica**
-
-- Considerar los desarrollos recientes con declaraciones acerca de sus posibles ventajas y desventajas.
-
-- Identificar áreas que necesitan más investigación u orientación metodológica.
-:::
-
-## {background-iframe="https://www.stratos-initiative.org/sites/default/files/2020-10/STRATOSposter-offic.pdf"
-background-interactive=false}
-
-## Algunos recursos para encontrar consensos y guías basadas en evidencia
-
-![](images/equator-network.png){.absolute top=200 left=100 width="700" height="400"}
-
-::: aside
-<br>
-Fuente: [https://www.equator-network.org](https://www.equator-network.org)
-:::
-
-## ¿Más recursos?{.scrollable}
-
-- Últimas guías de reporte de revistas top incluyen métodos y buenas prácticas reconocidas.
-<FONT size='6'>
-    + Ejemplos: [NEJM](https://www.nejm.org/author-center/new-manuscripts), [BMJ](https://www.bmj.com/research/research-methods-and-reporting), [JAMA](https://jamanetwork.com/collections/44042/guide-to-statistics-and-medicine), [Nature](https://www.nature.com/collections/qghhqm/), etc.
-</FONT>
-    
-- Revistas metodológicas también son buenos puntos de partida:
-<FONT size='6'>
-    + Ejemplos: [BMC Medical Research Metodology](https://bmcmedresmethodol.biomedcentral.com/), [Statistics in Medicine](https://onlinelibrary.wiley.com/journal/10970258), [IJE](https://academic.oup.com/ije), etc.
-    + Buscar guías, tutoriales o revisiones con recomendaciones.
-    + **<FONT color='red'>"Precaución:</FONT>** Tener cuidado con propuestas metodológicas nuevas. Son como fármacos nuevos, requieren más estudios para validar sus bondades. 
-</FONT>
-
-## **<FONT color='red'>"¡Cuidado!</FONT>**{.scrollable}
-
-- Muchas publicaciones en revistas indexadas incurren en malas prácticas.
-- Incluso revistas de cuartil 1 como NEJM, JAMA, BMJ, Nature han cometido grandes errores metodológicos!
-<FONT size='6'>
-    + Y han ocurrido retracciones de estos estudios años después.
-</FONT>    
-- En revistas de menor nivel, incluso grandes y evidentes errores no suelen puntualizarse y no hay retracciones. 
-- Revisar guías/consensos/artículos metodológicos es más confiable que imitar análisis/prácticas de otras publicaciones.
-
 # <FONT color='#232429'>Introducción a R y RStudio</FONT>
 
 ## ¿Qué es R?{.scrollable} 
@@ -280,6 +68,10 @@ Fuente: [https://www.equator-network.org](https://www.equator-network.org)
     + R es la letra inicial de Ross y Robert.
 </FONT>
 
+## 
+
+![](images/R.jpg)
+
 ## R en la actualidad
 
 :::: {.columns}
@@ -301,39 +93,140 @@ Fuente: [https://www.equator-network.org](https://www.equator-network.org)
 ::::
 
 ## ¿Por qué R? 
-### Eficiencia
-- Programas basados en click-click consumen mucho tiempo.
-- Automatizar tareas 
 
+- Programas basados en click-click consumen mucho tiempo.
+<FONT size='6'>
+    + Automatizar tareas es más rentable.
+</FONT>
+- Facilita la reproducibilidad de los resultados.
+<FONT size='6'>
+    + Es más fácil cuando se hace con código.
+</FONT>
+- Es flexible.
+- Gráficos elegantes y académicos.
+- Es gratis y libre.
+
+## El problema de R: su aspecto
+
+![](images/Rconsola.png)
 
 ## ¿Qué es RStudio? 
+- Un modo fácil (más fácil) de usar R
+- Entorno de Desarrollo Integrado (IDE, _Integrated Development Environment_)
+<FONT size='6'>
+    + Un aported e J. J. Allaire (McAlester College, '91) al mundo.
+</FONT> 
+- Tiene herramientas adicionales que facilitan la creación de código en R:
+<FONT size='6'>
+    + Interfaz interactiva y amigable
+    + R Markdown, Shiny, Blogdown, Bookdown, Quarto
+</FONT>    
+- Es libre pero está soportada por una empresa con fines de lucro
 
-````
----
-title: "My document"
----
+## ¿Qué es RStudio? (cont.)
 
-Some markdown content.
+![](images/RStudio_exp.png)
 
-```{{python}}
-1 + 1
-```
+## ¿Qué es RStudio? (cont.)
 
-Some additional markdown content.
+![](images/RStudioConsola.png)
 
-````
+## RStudio desarrolla herramientas para R: tidyverse
 
-## Recursos y materiales
+![](images/tidyverse.png)
 
-```{r}
-#| output-location: slide
-library(ggplot2)
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-```
+## En resumen, R y RStudio + RMardown
 
-# <FONT color='#FFFFFF'>Manejo de datos</FONT>
+![](images/ryrstudio.png)
+
+## Ventanas de RStudio
+
+![](images/rstudio-partes.png)
+
+
+## Código en scripts de R 
+:::: {.columns}
+::: {.column width="70%"}
+![](images/r-script.png)
+:::
+
+::: {.column width="30%"}
+- <FONT size='6'>El código se escribe en el Script, pero no se imprime.</FONT>
+- <FONT size='6'>Los resultado se imprimen en la consola.</FONT>
+
+:::
+::::
+
+## Código en notebooks de RMarkdown
+:::: {.columns}
+::: {.column width="70%"}
+![](images/r-notebook.png)
+:::
+
+::: {.column width="30%"}
+- <FONT size='6'>El código se escribe en el Notebook y se imprime simultáneamente.</FONT>
+- <FONT size='6'>Solo se requiere trabajar con el Notebook en RMarkdown.</FONT>
+:::
+::::
+
+## R Markdown es muy flexible
+
+- Herramienta de Programación Literaria:
+<FONT size='6'>
+    + Legible para la computadora y para el ser humano.
+</FONT>
+- Útil para alcanzar reproducibilidad.
+- También muy útiles para diversas actividades académicas:
+<FONT size='6'>
+    + Presentaciones académicas
+    + Artículos científicos
+    + Diseño de blogs, web u otra herramienta de difusión de conocimiento.
+</FONT>
+
+## Este curso está hecho completamente en R: La página web
+
+![](images/pagina-web.png)
+
+## Este curso está hecho completamente en R: Las diapositivas
+
+![](images/presentacion.png)
+
+## En resumen: R vs. RStudio
+
+![](images/rvsrstudio.png)
+
+## Jerga en R
+
+- *Paquete*: "Library" en inglés. 
+
+- *Función*: 
+
+- *"R base"*: 
+
+- *R en estilo 'tidy'*:
+
+## En resumen: R, RStudio y paquetes
+
+![](images/r-rstudio-paq.png)
+
+::: aside
+<br>
+<FONT size='6'>*Tomado de Sesion2.Introducción a R y RStudio. Valle Andree y Loyola Steev*[[Enlace](https://docs.google.com/presentation/d/1tadIMMxP6oy2JaXIBGIhWw2CNUXT9rNIbXbdBjP3Nrs/edit#slide=id.p)]</FONT>
+:::
+
+
+## R es un lenguaje con varios dialectos
+
+- 
+
+## R tidy-style
+
+## {background-color="white"
+background-size="1920px 1080px" 
+background-repeat="repeat"
+background-iframe="https://www.tidyverse.org/"}
+
+# Aspectos básicos de R
 
 ## Operaciones matemáticas
 
@@ -343,7 +236,6 @@ ggplot(airquality, aes(Temp, Ozone)) +
 
 :::: {.columns}
 ::: {.column width="50%"}
-::: {.nonincremental}
 - Suma: 
 
 ```{r}
@@ -358,10 +250,8 @@ ggplot(airquality, aes(Temp, Ozone)) +
 3 - 8
 ```
 :::
-:::
 
 ::: {.column width="50%"}
-::: {.nonincremental}
 - Multiplicación
 
 ```{r}
@@ -376,14 +266,31 @@ ggplot(airquality, aes(Temp, Ozone)) +
 3 * 8
 ```
 :::
-:::
 ::::
 
-### Resta
+### Variables y objetos
 
-Content for `Tab B`
+
 
 :::
+
+::::
+
+### Vectores atómicos y lista
+
+
+
+:::
+
+::::
+
+### Dataframes y Tibbles
+
+
+
+:::
+
+# Manejo de datos
 
 ## Selección de variables 
 
@@ -391,52 +298,24 @@ Content for `Tab B`
 
 ## Creación de variables 
 
-## {background-color="white"
-background-size="1920px 1080px" 
-background-repeat="repeat"
-background-iframe="https://www.tidyverse.org/"}
 
-## Otro
+# Análisis inicial de datos
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-# <FONT color='#FFFFFF'>Análisis descriptivo en R</FONT>
+# Análisis descriptivo en R
 
 ## Descripción de variables numéricas 
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-## Casa 
-
-::: {.panel-tabset}
-
-### Tab A
-
-Content for `Tab A`
-
-### Tab B
-
-Content for `Tab B`
-
-:::
 
 ## Referencias
 
-Estas diapositivas adaptaron contenido de otras presentaciones previas: 
-
-https://www.datascienced.co.uk/slides/intro-to-r.pdf
 
 ##
 
-::: {.r-fit-text}
-Muchas Gracias!
+::: r-fit-text
+<center>¡Gracias!</center>
+
+<center>Percy Soto Becerra</center><br/>
+<center>`r icons::fontawesome$brands$twitter` `r icons::fontawesome$brands$github` **@psotob**</center> 
+<center>`r icons::fontawesome$solid$inbox` __percys1991@gmail.com__</center>
 :::

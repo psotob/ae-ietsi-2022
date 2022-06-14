@@ -3,28 +3,20 @@ title: "Indicaciones"
 lang: es
 ---
 
-Aquí postearemos los Problem Set de acuerdo con el cronograma. Estos son calificados y, en conjunto, valen el 80% de la nota final (20% cada uno). Los participantes conformarán grupos de entre 5 o 6 personas. Se deberá enviar al correo electrónico los siguientes archivos:
+Aquí postearemos los Problem Set de acuerdo con el cronograma. Estos son calificados y, en conjunto, valen el 80% de la nota final (20% cada uno). 
 
-#. Archivo RMarkdown con código de análisis.
+Tener en cuenta lo siguiente: 
 
-#. Resultados del análisis en formato html (tal y como lo knitea RMarkdown).
+- Los participantes conformarán grupos de entre 5 o 6 personas de acuerdo con la lista proporcionada por la Coordinación del curso.
 
-#. Tablas reproducibles en Microsoft Office (tal como son generadas por RMarkdown).
+- Se deberá subir al siguiente enlace [https://redcap.link/ietsi-academy-aed](https://redcap.link/ietsi-academy-aed) una carpeta comprimida (.zip, .rar o .tar) los siguientes archivos:
 
-## Problem Sets
+    #. Archivo RMarkdown con código de análisis.
+    
+    #. Resultados del análisis en formato html (tal y como lo knitea RMarkdown).
+    
+    #. Tablas reproducibles en Microsoft Office (tal como son generadas por RMarkdown).
 
-### Problem Set 1
+- Por cada 12 horas de retraso, se descontará 5 puntos a la calificación final del envío. Se calculará una fracción de penalización aplicando regla de 3 simple.
 
-Problem Set 1 será posteado el 15 de junio de 2022.
-
-### Problem Set 2
-
-Problem Set 2 será posteado el 24 de junio de 2022.
-
-### Problem Set 3
-
-Problem Set 3 será posteado el 01 de julio de 2022.
-
-### Problem Set 4
-
-Problem Set 4 será posteado el 08 de julio de 2022.
+- No se tolerará el plagio ni ningún tipo de mala conducta académica. La detección de alguno de estos representará la expulsión automática del programa.

@@ -1,0 +1,281 @@
+---
+title: "<img data-src='images/logo-essalud.png' height='72' width='250'/> <img data-src='images/logo-pueblo.jpg' height='72' width='250'/> <img data-src='images/logo-ietsi.png' height='72' width='250'/> <FONT color='#232429'><br>Sesión 0</FONT>"
+subtitle: "<FONT color='#636363' size='7'>Programa de Formación Científica:<br>Análisis Estadístico 2022</FONT>"
+author: "<FONT color='#232429' size='30'>Percy Soto-Becerra</FONT>"
+institute: "<FONT color='#232429' size='5'>Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI, EsSalud<br>@github/psotob</FONT>"
+date: "<FONT color='#232429' size='6'>Junio 15, 2022</FONT>"
+format: 
+  revealjs: 
+    theme: default
+    footer: "Programa de Formación Científica: Análisis Estadístico 2022 - Sesión 0"
+    logo: images/logo-ietsi.png
+    transition: convex
+    background-transition: zoom
+    incremental: false
+    slide-number: true
+    preview-links: true
+    # parallax-background-image: images/bg-ietsi-slide-first.png
+    # parallax-background-size: "1920px 1080px"
+    chalkboard: true
+    code-block-background: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: solarized
+    echo: true
+    multiplex: true
+    touch: true
+    auto-stretch: true
+    link-external-icon: true
+    link-external-newwindow: true
+---
+
+```{r}
+#| echo: false
+#| output: false
+
+# Removing all objects including loaded libraries
+rm(list = ls(all = TRUE))
+gc()
+
+# Installing and loading packages
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+
+pacman::p_unload("all") # Unloading all package except base
+
+pacman::p_load(tidyverse) # Loading packages
+```
+
+```{=html}
+<!-- 
+::: {.fragment .highlight-red}
+casa
+:::
+-->
+```
+
+# <FONT color='#232429'>Una motivación para comenzar</FONT>
+
+## La Estadística y la Ciencia de Datos en el mundo actual - Las oportunidades
+
+::: r-stack
+![](images/fda-realworld.png){.fragment width="1336" height="537"}
+
+![](images/nature-bigdata.png){.fragment width="824" height="538"}
+
+![](images/jama-machine.png){.fragment width="913" height="510"}
+
+![](images/cleveland-ibm.png){.fragment width="1207" height="560"}
+:::
+
+## La crisis de replicabilidad de la Ciencia (incluyendo Ciencias Médicas)
+
+![](images/replication.png)
+
+# <FONT color='#232429'>Introducción al Curso</FONT>
+
+## Acerca de este curso
+
+-   Iniciativa de IETSI para promover el desarrollo de investigación científica en EsSalud a través del desarrollo de competencias para análisis de datos.
+
+-   Buscamos desarrollar competencias en análisis de datos a través de la enseñanza de metodologías provenientes de la (Bio)Estadística y la Ciencia de Datos.
+
+-   Información del curso se encuentra alojada en el siguiente enlace: <https://ietsi-academy-aed.netlify.app/>
+
+## ¿Qué asumiremos?
+
+-   Los alumnos tienen algún conocimiento de (bio)estadística básica.
+-   Los alumnos pueden dedicar tiempo a estudiar los materiales compartidos en clase.
+-   Los alumnos van a aplicar las competencias adquiridas en estudios de investigación.
+
+## Veamos el programa y cronograma de este curso
+
+::: r-fit-text
+<br><br> <https://ietsi-academy-aed.netlify.app/>
+:::
+
+##  {background-color="white" background-size="1920px 1080px" background-repeat="repeat" background-iframe="https://ietsi-academy-aed.netlify.app/"}
+
+# <FONT color='#232429'>Filosofía de este curso</FONT>
+
+## ¿Cuál será el enfoque del curso?
+
+-   Nos centraremos en la aplicación de los métodos en el programa estadístico R a través de su interfaz RStudio.
+-   Poco tiempo para profundizar en el funcionamiento de los métodos. <FONT size='6'>
+    -   Compartiremos recursos bibliográficos para esto.
+    -   La web ya indica algunos: <https://ietsi-academy-aed.netlify.app/recursos.html>
+    -   Iremos colocando extras, clase por clase. </FONT>
+
+## ¿Cuál será el enfoque del curso? (cont.)
+
+-   Promoveremos una filosofía de **(Bio)Estadística/Ciencia de Datos basada en Evidencia**. <FONT size='6'>
+    -   Nos centraremos en pautas/recomendaciones reconocidas de aplicación de métodos.
+    -   Siempre que exista consensos internacionales, los indicaremos. </FONT>
+-   Expondremos las malas prácticas para evitarlas. <FONT size='6'>
+    -   Poco tiempo para detallar justificación teórica/metodológica.
+    -   Compartiremos literatura para que profundicen. </FONT>
+
+## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia?
+
+-   Pensemos en la siguiente analogía: los métodos de análisis de datos son como las intervenciones médicas.
+-   Algunas intervenciones médicas son muy efectivas, otras no.
+-   Entre dos intervenciones médicas efectivas, alguna será mejor que otra para cierto contexto.
+-   En otro contexto, la otra podría ser mejor.
+
+## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia? (cont.)
+
+-   Hay intervenciones médicas que causan más daño que beneficio <FONT size='6'>
+    -   Históricamente los médicos las han recomendado.
+    -   Hasta que lo notaron y las dejaron de usar o restringieron su uso. </FONT>
+-   Hay intervenciones médicas que tienen similar balance riesgo/beneficio. <FONT size='6'>
+    -   En estos casos, uno puede optar por cualquiera de ellas sin mucho problema.
+    -   O basarse en otros criterios como preferencias del médico, entre otras. </FONT>
+
+## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia? (cont.)
+
+-   Las evidencias acerca de la efectividad de intervenciones médicas provienen de diversas fuentes y diferentes metodologías.
+-   Al igual que en Medicina, en (Bio)Estadística y Ciencia de Datos el experimento computacional (también llamado simulación) bien realizado es considerado el máximo nivel de evidencia.
+-   Cuando la evidencia se acumula, se pueden crear consensos y recomendaciones, similares a las guías de práctica clínica.
+
+## ¿(Bio)Estadística o Ciencia de Datos basada en Evidencia? (cont.)
+
+-   En las últimas dos décadas, muchos consensos han emergido basados en evidencia sólida (p.ej., experimentos computacionales, etc.). Este curso promoverá su uso.
+-   Como pasa en cualquier disciplina, y la Medicina es un ejemplo de esto, muchas buenas prácticas son seguidas por un sector muy pequeño.
+-   En cambio, priman las malas prácticas. Este curso las expondrá para prevenir que incurran en ellas.
+
+## El escándalo de la mala investigación médica
+
+![](images/scandal2.png){.absolute top="200" left="0" width="400" height="400"}
+
+![](images/scandal.png){.absolute top="200" right="50" width="600" height="400"}
+
+::: aside
+<br> *BMJ 1994;308:283* \[[Enlace](https://doi.org/10.1136/bmj.308.6924.283)\]
+:::
+
+## El escándalo de la mala investigación médica (cont.)
+
+![](images/scandal3.png)
+
+::: aside
+<br> *Traducción literal de BMJ 1994;308:283* \[[Enlace](https://doi.org/10.1136/bmj.308.6924.283)\]
+:::
+
+## Iniciativa mundial STRATOS
+
+-   STRATOS (STRengthening Analytical Thinking for Observational Studies) initiative
+-   Surge en 2013, en nov. 2019 \~100 investigadores de 18 países con fuerte background en métodos bioestadísticos y epidemiológico
+-   Conectado con organizaciones internacionales: <FONT size='6'>
+    -   International Society of Clinical Biostatistics (ISCB)
+    -   International Biometric Society (IBS) </FONT>
+-   Web: <http://www.stratos-initiative.org/>
+
+## 
+
+![](images/stratos-web.png)
+
+## Iniciativa mundial STRATOS (cont.)
+
+![](images/stratos-topic.png)
+
+## Iniciativa mundial STRATOS (cont.)
+
+-   Guías desarrolladas están dirigidas a 3 perfiles de usuarios:
+
+::: panel-tabset
+### Nivel 1
+
+**Bajo nivel de estadística**
+
+-   Proponer métodos aceptables que son fácilmente implementables.
+
+-   Resaltar debilidades de enfoques comunes.
+
+### Nivel 2
+
+**Estadístico experimentado**
+
+-   Hacer referencia a las ventajas y desventajas de enfoques que compiten.
+
+-   Proponer metodología avanzada factibles para analistas experimentados.
+
+### Nivel 3
+
+**Experto en área específica**
+
+-   Considerar los desarrollos recientes con declaraciones acerca de sus posibles ventajas y desventajas.
+
+-   Identificar áreas que necesitan más investigación u orientación metodológica.
+:::
+
+## Algunos recursos para encontrar consensos y guías basadas en evidencia
+
+![](images/equator-network.png){.absolute top="200" left="100" width="700" height="400"}
+
+::: aside
+<br> Fuente: <https://www.equator-network.org>
+:::
+
+## ¿Más recursos? {.scrollable}
+
+-   Últimas guías de reporte de revistas top incluyen métodos y buenas prácticas reconocidas. <FONT size='6'>
+    -   Ejemplos: [NEJM](https://www.nejm.org/author-center/new-manuscripts), [BMJ](https://www.bmj.com/research/research-methods-and-reporting), [JAMA](https://jamanetwork.com/collections/44042/guide-to-statistics-and-medicine), [Nature](https://www.nature.com/collections/qghhqm/), etc. </FONT>
+-   Revistas metodológicas también son buenos puntos de partida: <FONT size='6'>
+    -   Ejemplos: [BMC Medical Research Metodology](https://bmcmedresmethodol.biomedcentral.com/), [Statistics in Medicine](https://onlinelibrary.wiley.com/journal/10970258), [IJE](https://academic.oup.com/ije), etc.
+    -   Buscar guías, tutoriales o revisiones con recomendaciones.
+    -   <FONT color='red'>"Precaución:</FONT> Tener cuidado con propuestas metodológicas nuevas. Son como fármacos nuevos, requieren más estudios para validar sus bondades. </FONT>
+
+## <FONT color='red'>"¡Cuidado!</FONT> {.scrollable}
+
+-   Muchas publicaciones en revistas indexadas incurren en malas prácticas.
+-   Incluso revistas de cuartil 1 como NEJM, JAMA, BMJ, Nature han cometido grandes errores metodológicos! <FONT size='6'>
+    -   Y han ocurrido retracciones de estos estudios años después. </FONT>\
+-   En revistas de menor nivel, incluso grandes y evidentes errores no suelen puntualizarse y no hay retracciones.
+-   Revisar guías/consensos/artículos metodológicos es más confiable que imitar análisis/prácticas de otras publicaciones.
+
+## Recursos sobre Bioestadística con R
+
+- The Epidemiologist R Handbook: [https://epirhandbook.com/en/](https://epirhandbook.com/en/)
+- R for Epidemiology: [https://www.r4epi.com/](https://www.r4epi.com/)
+- R for Health Data Science: [https://argoshare.is.ed.ac.uk/healthyr_book/](https://argoshare.is.ed.ac.uk/healthyr_book/)
+- R for Data Science: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
+
+## {background-iframe=https://www.epirhandbook.com/en/}
+
+## {background-iframe=https://www.r4epi.com/}
+
+## {background-iframe=https://argoshare.is.ed.ac.uk/healthyr_book/}
+
+## {background-iframe=https://r4ds.had.co.nz/}
+
+## R Bookdown tiene varios recursos interesantes 
+
+<br><br>
+
+::: r-fit-text
+
+[https://bookdown.org/home/archive/](https://bookdown.org/home/archive/)
+
+:::
+
+## {background-iframe=https://bookdown.org/home/archive/}
+
+## Libros en R Bookdown
+
+- Fundamentals of Wrangling Healthcare Data with R: [https://bookdown.org/jkylearmstrong/jeff_data_wrangling/](https://bookdown.org/jkylearmstrong/jeff_data_wrangling/)
+- Introduction to Regression Methods for Public Health Using R: [https://bookdown.org/rwnahhas/RMPH/](https://bookdown.org/rwnahhas/RMPH/)
+
+
+## Libros en R Bookdown (cont.)
+
+- Reproducible Medical Research with R: [https://bookdown.org/pdr_higgins/rmrwr/](https://bookdown.org/pdr_higgins/rmrwr/)
+- Data Analysis in Medicine and Health using R: [https://bookdown.org/drki_musa/dataanalysis/](https://bookdown.org/drki_musa/dataanalysis/)
+- (Mostly Clinical) Epidemiology with R: [https://bookdown.org/jbrophy115/bookdown-clinepi/](https://bookdown.org/jbrophy115/bookdown-clinepi/)
+
+::: r-fit-text
+<center>¡Gracias!</center>
+
+<center>Percy Soto Becerra</center><br/>
+<center>`r icons::fontawesome$brands$twitter` `r icons::fontawesome$brands$github` **@psotob**</center> 
+<center>`r icons::fontawesome$solid$inbox` __percys1991@gmail.com__</center>
+:::
