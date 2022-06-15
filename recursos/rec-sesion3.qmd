@@ -1,0 +1,24 @@
+---
+title: "Sesion 3"
+---
+
+## Diapositivas
+
+- Sesión 3a [[Enlace](../Sesiones/Sesion-3/Sesion-3a.html)]
+
+- Sesión 3b [[Enlace](../Sesiones/Sesion-3/Sesion-3b.html)]
+
+
+## Código para taller
+
+- Sesión 3a:
+
+    + R script: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3a.Rmd)]
+
+- Sesión 3b:
+
+    + R script: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3b.Rmd)]

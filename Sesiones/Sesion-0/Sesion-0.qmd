@@ -278,6 +278,6 @@ casa
 <center>¡Gracias!</center>
 
 <center>Percy Soto Becerra</center><br/>
-<center>`r icons::fontawesome$brands$twitter` `r icons::fontawesome$brands$github` **@psotob**</center> 
+<center>`r icons::fontawesome$brands$twitter` `r icons::fontawesome$brands$github` **@psotob91**</center> 
 <center>`r icons::fontawesome$solid$inbox` __percys1991@gmail.com__</center>
 :::

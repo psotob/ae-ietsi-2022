@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-0.9.494">
 
   <meta name="author" content="Percy Soto-Becerra">
-  <title>Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1</title>
+  <title>Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1b</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -379,9 +379,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1">
+<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1b">
 <meta property="og:site-name" content="Programa de Formación Cientifica - Análisis Estadístico 2022">
-<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1">
+<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 -    Sesión 1b">
 <meta name="twitter:card" content="summary">
 </head>
 <body>
@@ -389,7 +389,7 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title"><img data-src="images/logo-essalud.png" height="72" width="250"> <img data-src="images/logo-pueblo.jpg" height="72" width="250"> <img data-src="images/logo-ietsi.png" height="72" width="250"> <font color="#232429"><br>Sesión 1</font></h1>
+  <h1 class="title"><img data-src="images/logo-essalud.png" height="72" width="250"> <img data-src="images/logo-pueblo.jpg" height="72" width="250"> <img data-src="images/logo-ietsi.png" height="72" width="250"> <font color="#232429"><br>Sesión 1b</font></h1>
   <p class="subtitle"><font color="#636363" size="7">Programa de Formación Científica:<br>Análisis Estadístico 2022</font></p>
   <p class="author"><font color="#232429" size="30">Percy Soto-Becerra</font></p>
   <p class="institute"><font color="#232429" size="5">Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI, EsSalud<br><span class="citation" data-cites="github/psotob">@github/psotob</span></font></p>
@@ -403,197 +403,17 @@
 </div>
 </section>
 <section>
-<section id="introducción-a-r-y-rstudio" class="title-slide slide level1 center">
-<h1><font color="#232429">Introducción a R y RStudio</font></h1>
+<section id="manejo-básico-de-r" class="title-slide slide level1 center">
+<h1>Manejo básico de R</h1>
 
 </section>
-<section id="qué-es-r" class="slide level2 scrollable">
-<h2>¿Qué es R?</h2>
-<ul>
-<li><p>Entorno de software para computación estadística y gráficos.</p></li>
-<li><p>Lenguaje de programación estadística.</p></li>
-<li><p>John Chambers y colegas desarrollaron <strong>S</strong> en laboratorios Bell en 1975. <font size="6"></font></p><font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">S es un lenguaje de programación estadística propietario </font></li>
-</ul></li>
-<li><p>Ross Ihaka y Robert Gentleman desarrollan R en la Universidad de Auckland (Nueva Zelanda) <font size="6"></font></p><font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">S no corría en Macintosh. </font></li>
-</ul></li>
-<li><p>Nombre <strong>R</strong> es un juego de palabras <font size="6"></font></p><font size="6">
-</font><ul><font size="6">
-<li>Burla a <strong>S</strong> (R es anterior a S en el abecedario)</li>
-</font><li><font size="6">R es la letra inicial de Ross y Robert. </font></li>
-</ul></li>
-</ul>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-
-<img data-src="images/R.jpg" class="r-stretch"></section>
-<section id="r-en-la-actualidad" class="slide level2">
-<h2>R en la actualidad</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ul>
-<li><p>Software libre</p></li>
-<li><p>Desarrollada y soportada por R Development Core Team</p></li>
-<li><p>Al 13 de junio de 2022, hay 18 560 paquetes disponibles.</p></li>
-<li><p>Ampliamente utilizado por la comunidad científica.</p></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/R.png"></p>
-</div>
-</div>
-</section>
-<section id="por-qué-r" class="slide level2">
-<h2>¿Por qué R?</h2>
-<ul>
-<li>Programas basados en click-click consumen mucho tiempo. <font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">Automatizar tareas es más rentable. </font></li>
-</ul></li>
-<li>Facilita la reproducibilidad de los resultados. <font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">Es más fácil cuando se hace con código. </font></li>
-</ul></li>
-<li>Es flexible.</li>
-<li>Gráficos elegantes y académicos.</li>
-<li>Es gratis y libre.</li>
-</ul>
-</section>
-<section id="el-problema-de-r-su-aspecto" class="slide level2">
-<h2>El problema de R: su aspecto</h2>
-
-<img data-src="images/Rconsola.png" class="r-stretch"></section>
-<section id="qué-es-rstudio" class="slide level2">
-<h2>¿Qué es RStudio?</h2>
-<ul>
-<li>Un modo fácil (más fácil) de usar R</li>
-<li>Entorno de Desarrollo Integrado (IDE, <em>Integrated Development Environment</em>) <font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">Un aported e J. J. Allaire (McAlester College, ’91) al mundo. </font></li>
-</ul></li>
-<li>Tiene herramientas adicionales que facilitan la creación de código en R: <font size="6">
-</font><ul><font size="6">
-<li>Interfaz interactiva y amigable</li>
-</font><li><font size="6">R Markdown, Shiny, Blogdown, Bookdown, Quarto </font><br>
-</li>
-</ul></li>
-<li>Es libre pero está soportada por una empresa con fines de lucro</li>
-</ul>
-</section>
-<section id="qué-es-rstudio-cont." class="slide level2">
-<h2>¿Qué es RStudio? (cont.)</h2>
-
-<img data-src="images/RStudio_exp.png" class="r-stretch"></section>
-<section id="qué-es-rstudio-cont.-1" class="slide level2">
-<h2>¿Qué es RStudio? (cont.)</h2>
-
-<img data-src="images/RStudioConsola.png" class="r-stretch"></section>
-<section id="rstudio-desarrolla-herramientas-para-r-tidyverse" class="slide level2">
-<h2>RStudio desarrolla herramientas para R: tidyverse</h2>
-
-<img data-src="images/tidyverse.png" class="r-stretch"></section>
-<section id="en-resumen-r-y-rstudio-rmardown" class="slide level2">
-<h2>En resumen, R y RStudio + RMardown</h2>
-
-<img data-src="images/ryrstudio.png" class="r-stretch"></section>
-<section id="ventanas-de-rstudio" class="slide level2">
-<h2>Ventanas de RStudio</h2>
-
-<img data-src="images/rstudio-partes.png" class="r-stretch"></section>
-<section id="código-en-scripts-de-r" class="slide level2">
-<h2>Código en scripts de R</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><img data-src="images/r-script.png"></p>
-</div><div class="column" style="width:30%;">
-<ul>
-<li><font size="6">El código se escribe en el Script, pero no se imprime.</font></li>
-<li><font size="6">Los resultado se imprimen en la consola.</font></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="código-en-notebooks-de-rmarkdown" class="slide level2">
-<h2>Código en notebooks de RMarkdown</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><img data-src="images/r-notebook.png"></p>
-</div><div class="column" style="width:30%;">
-<ul>
-<li><font size="6">El código se escribe en el Notebook y se imprime simultáneamente.</font></li>
-<li><font size="6">Solo se requiere trabajar con el Notebook en RMarkdown.</font></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="r-markdown-es-muy-flexible" class="slide level2">
-<h2>R Markdown es muy flexible</h2>
-<ul>
-<li>Herramienta de Programación Literaria: <font size="6">
-</font><ul><font size="6">
-</font><li><font size="6">Legible para la computadora y para el ser humano. </font></li>
-</ul></li>
-<li>Útil para alcanzar reproducibilidad.</li>
-<li>También muy útiles para diversas actividades académicas: <font size="6">
-</font><ul><font size="6">
-<li>Presentaciones académicas</li>
-<li>Artículos científicos</li>
-</font><li><font size="6">Diseño de blogs, web u otra herramienta de difusión de conocimiento. </font></li>
-</ul></li>
-</ul>
-</section>
-<section id="este-curso-está-hecho-completamente-en-r-la-página-web" class="slide level2">
-<h2>Este curso está hecho completamente en R: La página web</h2>
-
-<img data-src="images/pagina-web.png" class="r-stretch"></section>
-<section id="este-curso-está-hecho-completamente-en-r-las-diapositivas" class="slide level2">
-<h2>Este curso está hecho completamente en R: Las diapositivas</h2>
-
-<img data-src="images/presentacion.png" class="r-stretch"></section>
-<section id="en-resumen-r-vs.-rstudio" class="slide level2">
-<h2>En resumen: R vs.&nbsp;RStudio</h2>
-
-<img data-src="images/rvsrstudio.png" class="r-stretch"></section>
-<section id="jerga-en-r" class="slide level2">
-<h2>Jerga en R</h2>
-<ul>
-<li><p><em>Paquete</em>: “Library” en inglés.</p></li>
-<li><p><em>Función</em>:</p></li>
-<li><p><em>“R base”</em>:</p></li>
-<li><p><em>R en estilo ‘tidy’</em>:</p></li>
-</ul>
-</section>
-<section id="en-resumen-r-rstudio-y-paquetes" class="slide level2">
-<h2>En resumen: R, RStudio y paquetes</h2>
-<p><img data-src="images/r-rstudio-paq.png"></p>
-
-<aside><div>
-<p><br> <font size="6"><em>Tomado de Sesion2.Introducción a R y RStudio. Valle Andree y Loyola Steev</em>[<a href="https://docs.google.com/presentation/d/1tadIMMxP6oy2JaXIBGIhWw2CNUXT9rNIbXbdBjP3Nrs/edit#slide=id.p">Enlace</a>]</font></p>
-</div></aside></section>
-<section id="r-es-un-lenguaje-con-varios-dialectos" class="slide level2">
-<h2>R es un lenguaje con varios dialectos</h2>
-<ul>
-<li></li>
-</ul>
-</section>
-<section id="r-tidy-style" class="slide level2">
-<h2>R tidy-style</h2>
-</section>
-<section id="section-1" class="slide level2" data-background-color="white" data-background-size="1920px 1080px" data-background-repeat="repeat" data-background-iframe="https://www.tidyverse.org/">
-<h2></h2>
-</section></section>
-<section>
-<section id="aspectos-básicos-de-r" class="title-slide slide level1 center">
-<h1>Aspectos básicos de R</h1>
-
+<section id="instalación-y-uso-de-paquetes" class="slide level2">
+<h2>Instalación y uso de paquetes</h2>
 </section>
 <section id="operaciones-matemáticas" class="slide level2">
 <h2>Operaciones matemáticas</h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Aritmética</a></li><li><a href="#tabset-1-2">Variables y objetos</a></li></ul>
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Aritmética</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
 <div class="columns">
@@ -638,17 +458,13 @@
 </div>
 </div>
 </div>
-<div id="tabset-1-2">
-
 </div>
 </div>
-</div>
-<p>::::</p>
+</section>
+<section id="variables-y-objetos" class="slide level2">
+<h2>Variables y objetos</h2>
 <h3 id="vectores-atómicos-y-lista">Vectores atómicos y lista</h3>
-<p>:::</p>
-<p>::::</p>
 <h3 id="dataframes-y-tibbles">Dataframes y Tibbles</h3>
-<p>:::</p>
 </section></section>
 <section>
 <section id="manejo-de-datos" class="title-slide slide level1 center">
@@ -680,21 +496,37 @@
 <section id="referencias" class="slide level2">
 <h2>Referencias</h2>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="r-fit-text">
+<p><br></p>
+<center>
+<p>slides:</p>
+</center>
+<center>
+<p><a href="https://ietsi-academy-aed.netlify.app/sesiones/sesion-1/sesion-1b">https://bit.ly/3Okolxb</a></p>
+</center>
+</div>
+</section>
+<section id="section-1" class="slide level2">
 <h2></h2>
 <div class="r-fit-text">
 <center>
-¡Gracias!
+<strong>¡Gracias por su atención!</strong>
 </center>
 <center>
-Percy Soto Becerra
+<strong>¡Encantado de responder sus consultas!</strong>
+</center>
+<br>
+<center>
+<strong>Percy Soto-Becerra</strong>
 </center>
 <br>
 <center>
 <svg viewbox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
 </svg>
-<svg viewbox="0 0 496 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"> <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> <strong><span class="citation" data-cites="psotob">@psotob</span></strong>
+<svg viewbox="0 0 496 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"> <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> <span class="citation" data-cites="psotob91">@psotob91</span>
 </center>
 <center>
 <svg viewbox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
@@ -705,10 +537,13 @@ Percy Soto Becerra
 </div>
 
 
-<img src="images/logo-ietsi.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>Programa de Formación Científica: Análisis Estadístico 2022 - Sesión 1</p>
+<p><img src="images/logo-ietsi.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Programa de Formación Científica: Análisis Estadístico 2022 - Sesión 1b</p>
 </div>
-</section></section>
+<aside><div>
+<p><br> <font size="4">Presentación creada vía <code>Revealjs</code> en <code>Quarto</code> en <code>RStudio</code>.</font></p>
+</div></aside></section></section>
     </div>
   </div>
 

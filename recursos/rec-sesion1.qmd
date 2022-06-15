@@ -1,0 +1,25 @@
+---
+title: "Sesion 1"
+---
+
+## Diapositivas
+
+- Sesión 1a [[Enlace](../Sesiones/Sesion-1/Sesion-1a.html)]
+
+- Sesión 1b [[Enlace](../Sesiones/Sesion-1/Sesion-1b.html)]
+
+- Sesión 1c [[Enlace](../Sesiones/Sesion-1/Sesion-1c.html)]
+
+## Código para taller
+
+- Sesión 1b:
+
+    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1b.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1b.Rmd)]
+
+- Sesión 1c:
+
+    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.Rmd)]

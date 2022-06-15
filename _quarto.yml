@@ -33,7 +33,7 @@ website:
           url: https://www.danieldsjoberg.com/gtsummary/  
       right:
         - icon: twitter
-          href: https://twitter.com/percysotobecer1
+          href: https://twitter.com/psotob91
           aria-label: Percy Soto-Becerra Twitter
         - icon: github
           href: https://github.com/psotob91/ae-ietsi-2022
@@ -104,6 +104,17 @@ website:
         contents: 
           - text: "Recursos"
             href: recursos/index.qmd 
+          - section: "Materiales de clase"
+            contents: 
+              - recursos/rec-sesion0.qmd
+              - recursos/rec-sesion1.qmd
+              - recursos/rec-sesion2.qmd
+              - recursos/rec-sesion3.qmd
+              - recursos/rec-sesion4.qmd
+              - recursos/rec-sesion5.qmd
+              - recursos/rec-sesion6.qmd
+              - recursos/rec-sesion7.qmd
+              - recursos/rec-sesion8.qmd
           - text: "Recursos en línea recomendados"
             href: recursos/enlinea/en-linea.qmd   
           - text: "Bibliografía recomendada según syllabus"

@@ -1,0 +1,24 @@
+---
+title: "Sesion 8"
+---
+
+## Diapositivas
+
+- Sesión 8a [[Enlace](../Sesiones/Sesion-8/Sesion-8a.html)]
+
+- Sesión 8b [[Enlace](../Sesiones/Sesion-8/Sesion-8b.html)]
+
+
+## Código para taller
+
+- Sesión 8a:
+
+    + R script: [[Enlace](../Sesiones/Sesion-8/Code/Sesion8a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-8/Code/Sesion8a.Rmd)]
+
+- Sesión 8b:
+
+    + R script: [[Enlace](../Sesiones/Sesion-8/Code/Sesion8a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-8/Code/Sesion8b.Rmd)]

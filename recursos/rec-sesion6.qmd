@@ -1,0 +1,24 @@
+---
+title: "Sesion 6"
+---
+
+## Diapositivas
+
+- Sesión 6a [[Enlace](../Sesiones/Sesion-6/Sesion-6a.html)]
+
+- Sesión 6b [[Enlace](../Sesiones/Sesion-6/Sesion-6b.html)]
+
+
+## Código para taller
+
+- Sesión 6a:
+
+    + R script: [[Enlace](../Sesiones/Sesion-6/Code/Sesion6a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-6/Code/Sesion6a.Rmd)]
+
+- Sesión 6b:
+
+    + R script: [[Enlace](../Sesiones/Sesion-6/Code/Sesion6a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-6/Code/Sesion6b.Rmd)]

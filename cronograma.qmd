@@ -39,7 +39,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li><p>Introducción al curso</p></li>
 </ul></td>
-<td style="text-align: center;"><p><a href="../Sesiones/Sesion-0/Sesion-0.html"><code>`r x`</code></a></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion0.html"><code>`r x`</code></a></p></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
@@ -50,9 +50,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Manejo básico</p></li>
 <li><p>Inspección inicial de datos y análisis descriptivo</p></li>
 </ul></td>
-<td style="text-align: center;"><p><a href="../Sesiones/Sesion-1/Sesion-1.html"><code>`r x`</code></a></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion1.html"><code>`r x`</code></a></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion1.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -61,7 +61,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Creación automatizada de Tabla 1 reproducible (R: gtsummary)</p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion1.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -69,9 +69,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li><p>Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para un grupo y dos grupos. </p></li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion2.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion2.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -79,7 +79,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Taller sobre estimación y prueba de hipótesis e intervalos de confianza para uno o dos grupos.</p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion2.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -87,9 +87,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li><p>Revisión de inferencia estadística: Pruebas de hipótesis paramétricas y no paramétricas para tres o más grupos. Valor p e intervalo de confianza. </p></li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion3.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion3.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -97,7 +97,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Taller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla 2 reproducible (R: gtsummary).</p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion3.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -141,9 +141,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li>Introducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple. </li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion4.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion4.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -151,7 +151,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li>Taller de RLM en R. Tabla 3 reproducible con gtsummary en R.</li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion4.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -196,9 +196,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Introducción a la Regresión Logística Binaria.</p></li>
 <li><p>Interpretación y supuestos. </p></li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion5.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion5.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -207,7 +207,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Tablas reproducibles con gtsummary. </p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion5.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -215,9 +215,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li>Introducción a la regresión Log Binomial y Poisson para desenlaces binarios. Tablas reproducibles con gtsummary.</li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion6.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion6.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -225,7 +225,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li>Taller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas reproducibles con gtsummary.</li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion6.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -267,9 +267,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Introducción al análisis de tiempo a evento.</p></li>
 <li><p>Método de Kaplan-Meier y comparación de curvas de supervivencia.</p></li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion7.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion7.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -279,7 +279,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Gráficos de KM con survminer.</p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion7.html"><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
@@ -287,9 +287,9 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <td><ul>
 <li>Introducción al análisis de regresión de Cox. Supuestos. Interpretación de resultados.</li>
 </ul></td>
-<td style="text-align: center;"><p><code>`r x`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion8.html"><code>`r x`</code></p></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r z`</code></p></td>
+<td style="text-align: center;"><p><a href="../recursos/rec-sesion8.html"><code>`r z`</code></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -298,7 +298,7 @@ icons::fontawesome(name = "landmark", style = "solid") -> z
 <li><p>Tablas reproducibles con gtsummary.</p></li>
 </ul></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><p><code>`r y`</code></p></td>
+<td style="text-align: center;"><a href="../recursos/rec-sesion8.html"><p><code>`r y`</code></p></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">

@@ -1,0 +1,24 @@
+---
+title: "Sesion 2"
+---
+
+## Diapositivas
+
+- Sesión 2a [[Enlace](../Sesiones/Sesion-2/Sesion-2a.html)]
+
+- Sesión 2b [[Enlace](../Sesiones/Sesion-2/Sesion-2b.html)]
+
+
+## Código para taller
+
+- Sesión 2a:
+
+    + R script: [[Enlace](../Sesiones/Sesion-2/Code/Sesion2a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-2/Code/Sesion2a.Rmd)]
+
+- Sesión 2b:
+
+    + R script: [[Enlace](../Sesiones/Sesion-2/Code/Sesion2a.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-2/Code/Sesion2b.Rmd)]
