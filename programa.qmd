@@ -74,21 +74,25 @@ Al finalizar las unidades, el personal de salud será capaz de:
 
 ::: panel-tabset
 ### MÓDULO 1
+
 **ANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA**
 
 Instalar y conocer los principios básicos de manejo de R a través de R studio, así como realizar un análisis descriptivo e inferencial con un paquete estadístico y generar tablas reproducibles de estos. Asimismo, el personal de salud será capaz de reconocer los principales sesgos y malas prácticas asociados a realizar múltiples inferencias en análisis exploratorios y formas de cómo evitarlos.
 
 ### MÓDULO 2
+
 **REGRESIÓN PARA DATOS NUMÉRICOS**
 
 Modelar desenlaces numéricos continuos mediante análisis de regresión lineal (si es apropiado) con un paquete estadístico y generar tablas reproducibles en formato de publicación para revista médica.
 
 ### MÓDULO 3
+
 **REGRESIÓN PARA DESENLACES BINARIOS**
 
 Modelar desenlaces binarios mediante regresión logística binaria, log-binomial o Poisson con un paquete estadístico y generar tablas reproducibles en formato de publicación para revista médica.
 
 ### MÓDULO 4
+
 **REGRESIÓN PARA DESENLACES TIEMPO A EVENTO**
 
 Describir desenlaces de tipo tiempo a evento mediante curvas de supervivencia y modelar desenlaces tipo tiempo a evento mediante regresión de Cox.
@@ -100,6 +104,7 @@ Los contenidos por módulo serán los siguientes:
 
 ::: panel-tabset
 ### MÓDULO 1
+
 **ANÁLISIS DESCRIPTIVO Y PRINCIPIOS DE INFERENCIA**
 
 -   Inspección inicial de datos y análisis descriptivo.
@@ -110,12 +115,14 @@ Los contenidos por módulo serán los siguientes:
 -   Taller sobre estimación y prueba de hipótesis e intervalos de confianza para tres o más grupos. Creación automatizada de Tabla bivariada reproducible (R: gtsummary).
 
 ### MÓDULO 2
+
 **REGRESIÓN PARA DATOS NUMÉRICOS**
 
 -   Introducción al modelado Bioestadístico. Objetivos de modelado: Descripción, Explicación y Predicción. Regresión Lineal Simple y múltiple.
 -   Taller de RLM en R. Tabla análisis multivariado reproducible con gtsummary en R.
 
 ### MÓDULO 3
+
 **REGRESIÓN PARA DESENLACES BINARIOS**
 
 -   Introducción a la Regresión Logística Binaria. Interpretación y supuestos.
@@ -124,6 +131,7 @@ Los contenidos por módulo serán los siguientes:
 -   Taller sobre Regresión Log-Binomial y Poisson para desenlaces binarios en R. Tablas (univariado, bivariado y multivariado) reproducibles con gtsummary.
 
 ### MÓDULO 4
+
 **REGRESIÓN PARA DESENLACES TIEMPO A EVENTO**
 
 -   Introducción al análisis de tiempo a evento. Método de Kaplan-Meier y comparación de curvas de supervivencia.
@@ -160,14 +168,15 @@ A continuación, se describen los conjuntos de datos que planeamos utilizar por 
 |                                                                                                          |                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                |                                                                                                           |
 |                                                                                                          |                                                                                                                                                                                                                                                                      | Versión preliminar en español disponible en: MINJUS. El Fenómeno Criminológico y la Política Criminal en las Regiones. I Convocatoria Nacional de Artículos. Página 33. \[[Enlace](https://indagaweb.minjus.gob.pe/wp-content/uploads/2019/12/Libro-I-Convocatoria-Nacional-de-Art%C3%ADculos-compilaci%C3%B2n.pdf)\]                                          |                                                                                                           |
 +----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
-| maca_meno_perclin.xlsx                                                                                   | Conjunto de datos simulados de un estudio pre-clínico que buscó evaluar el efecto de un extracto de maca en desenlaces metabólicos en un modelo murino de menopausia.                                                                                                | Valdivia M, Soto-Becerra P, Laguna-Barraza R, et al. **Effect of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids on body weight and metabolic parameters in a menopausal murine model induced by bilateral ovariectomy**. Gynecological Endocrinology 36; 2020. \[[Enlace](https://doi.org/10.1080/09513590.2020.1821639)\] | Datos originales sujetos a restricciones. Los datos simulados replican los resultados del paper original. |
+| [maca_meno_perclin.xlsx](Data/maca_meno_perclin.xlsx)                                                    | Conjunto de datos simulados de un estudio pre-clínico que buscó evaluar el efecto de un extracto de maca en desenlaces metabólicos en un modelo murino de menopausia.                                                                                                | Valdivia M, Soto-Becerra P, Laguna-Barraza R, et al. **Effect of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids on body weight and metabolic parameters in a menopausal murine model induced by bilateral ovariectomy**. Gynecological Endocrinology 36; 2020. \[[Enlace](https://doi.org/10.1080/09513590.2020.1821639)\] | Datos originales sujetos a restricciones. Los datos simulados replican los resultados del paper original. |
 +----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
-| maca_meno_fase1.dta                                                                                      | Conjunto de datos simulados de un ensayo clínico fase I que buscó evaluar el efecto de un extracto de maca en desenlaces metabólicos en mujeres post-menopáusicas sanas.                                                                                             | Villar-López M, Soto-Becerra P, Choque R, et al. **Safety and tolerability of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids in adult women: a randomized phase I, placebo-controlled, multi-arm, double-blinded clinical trial**. Gynecological Endocrinology 37; 2021. \[[Enlace](10.1080/09513590.2021.1960965)\]       | Datos originales sujetos a restricciones. Los datos simulados replican los resultados del paper original. |
+| [maca_meno_fase1.dta](Data/maca_meno_fase1.dta)                                                          | Conjunto de datos simulados de un ensayo clínico fase I que buscó evaluar el efecto de un extracto de maca en desenlaces metabólicos en mujeres post-menopáusicas sanas.                                                                                             | Villar-López M, Soto-Becerra P, Choque R, et al. **Safety and tolerability of a natural supplement containing glucosinolates, phytosterols and citrus flavonoids in adult women: a randomized phase I, placebo-controlled, multi-arm, double-blinded clinical trial**. Gynecological Endocrinology 37; 2021. \[[Enlace](10.1080/09513590.2021.1960965)\]       | Datos originales sujetos a restricciones. Los datos simulados replican los resultados del paper original. |
 +----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 | [indo_rct.rds](https://higgi13425.github.io/medicaldata/)                                                | Conjunto de datos reales del ensayo clínico de prevención de pancreatitis post-ERC con indometacina.                                                                                                                                                                 | Elmunzer JB, Scheiman JM, Lehman GA, et al. A **Randomized Trial of Rectal Indomethacin to Prevent Post-ERCP Pancreatitis**. NEJM 2012; 366. \[[Enlace](10.1056/NEJMoa1111103)\]                                                                                                                                                                               | Datos originales del estudio disponibles libremente.                                                      |
 +----------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 
 ### Módulo 2
+
 **REGRESIÓN PARA DATOS NUMÉRICOS**
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -185,6 +194,7 @@ A continuación, se describen los conjuntos de datos que planeamos utilizar por 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Módulo 3
+
 **REGRESIÓN PARA DESENLACES BINARIOS**
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -202,6 +212,7 @@ A continuación, se describen los conjuntos de datos que planeamos utilizar por 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Módulo 4
+
 **REGRESIÓN PARA DESENLACES TIEMPO A EVENTO**
 
 +-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+

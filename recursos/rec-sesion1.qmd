@@ -23,3 +23,19 @@ title: "Sesion 1"
     + R script: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.r)]
     
     + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.Rmd)]
+    
+## Datos 
+
+- [BD_Penales.dta](https://github.com/culquichicon/2016-Peruvian-Prison-Census/blob/master/BD_Penales.dta?raw=true) (Datos contienen metadatos)
+
+- [maca_meno_perclin.xlsx](../Data/maca_meno_perclin.xlsx) (Excel contiene `codebook` en otra hoja)
+
+- [maca_meno_fase1.dta](../Data/maca_meno_fase1.dta) (Datos contienen metadatos)
+
+- [indo_rct.rds]():
+        
+    + Instalar y cargar paquete [`medicaldata`](https://higgi13425.github.io/medicaldata/) y llamar usando la siguiente función: `indo_rct <- medicaldata::indo_rct`
+        
+    + `Codebook` en este [enlace](https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/codebooks/indo_rct_codebook.html)
+        
+    + `Descripción` en este [enlace](https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/indo_rct_desc.html)
