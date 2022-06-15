@@ -17,6 +17,6 @@ editor: source
 **DOCENTE**<br>
 `r icons::fontawesome("smile", style = "solid")` Percy Soto-Becerra<br> `r icons::fontawesome("envelope-open", style = "solid")` percys1991\@gmail.com<br> 
 [`r icons::fontawesome$brands$orcid`](https://orcid.org/0000-0001-5332-9254) 0000-0001-5332-9254<br> 
-[`r icons::fontawesome$brands$github`](https://github.com/psotob) psotob
+[`r icons::fontawesome$brands$github`](https://github.com/psotob91) psotob91
 :::
 :::
