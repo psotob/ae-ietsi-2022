@@ -144,7 +144,7 @@
     "href": "recursos/rec-sesion1.html#código-para-taller",
     "title": "Sesion 1",
     "section": "Código para taller",
-    "text": "Código para taller\n\nSesión 1b:\n\nR script: [Enlace]\nR notebook: [Enlace]\n\nSesión 1c:\n\nR script: [Enlace]\nR notebook: [Enlace]"
+    "text": "Código para taller\n\nTaller 1:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]\n\nTaller 2:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]"
   },
   {
     "objectID": "recursos/rec-sesion1.html#datos",
@@ -1027,6 +1027,20 @@
     "title": "   Sesión 1b",
     "section": "",
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller1.html",
+    "href": "Sesiones/Sesion-1/Taller1.html",
+    "title": "Taller 1 - Familiarizandose con R",
+    "section": "",
+    "text": "Tiempo: 15 min\nDescripción: En este taller nos familizaremos con la configuración del programa R a través de RStudio."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller1.html#realice-las-siguientes-acciones-en-su-computador",
+    "href": "Sesiones/Sesion-1/Taller1.html#realice-las-siguientes-acciones-en-su-computador",
+    "title": "Taller 1 - Familiarizandose con R",
+    "section": "Realice las siguientes acciones en su computador:",
+    "text": "Realice las siguientes acciones en su computador:\n\nCree una carpeta denominada: Sesión 1.\nCree un Proyecto de R denominado igual que la carpeta: Sesión 1.\nDescargue los datos denominados: maca_meno_preclin.xlsx y maca_meno-fase1.dta del siguiente enlace: https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html\nColoque los datos en la carpeta Sesion1\nCree un notebook de RMarkdown al cual denomine: Ejercicios de Taller 1.\nEn el Notebook haga lo siguiente:\n\nCree un titulo diferente para cada dataset:\n\nTítulo 1: Dataset maca_meno_preclin\nTítulo 2: Dataset maca_meno_fase1\n\nInstale el paquete labelled().\nCargue estos paquetes.\nImporte los datos a R tratando de convervar la mayor información posible de los datos de origen.\nHaga comentarios de cada proceso en el notebook.\nCompile el notebook."
   },
   {
     "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",

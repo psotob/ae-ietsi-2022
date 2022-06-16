@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesion 1</title>
+<title>Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 1 - Familiarizandose con R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,27 +18,25 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../recursos/rec-sesion2.html" rel="next">
-<link href="../recursos/rec-sesion0.html" rel="prev">
-<link href="../ietsi-logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../ietsi-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,21 +58,21 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesion 1">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 1 - Familiarizandose con R">
 <meta property="og:site-name" content="Programa de Formación Cientifica - Análisis Estadístico 2022">
-<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Sesion 1">
+<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 1 - Familiarizandose con R">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
-    <img src="../ietsi-logo.png" alt="">
+      <a class="navbar-brand" href="../../index.html">
+    <img src="../../ietsi-logo.png" alt="">
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -82,25 +80,25 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">Inicio</a>
+    <a class="nav-link" href="../../index.html">Inicio</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../programa.html">Programa</a>
+    <a class="nav-link" href="../../programa.html">Programa</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cronograma.html">Cronograma</a>
+    <a class="nav-link" href="../../cronograma.html">Cronograma</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tareas/index.html">Tareas</a>
+    <a class="nav-link" href="../../tareas/index.html">Tareas</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../recursos/index.html" aria-current="page">Recursos</a>
+    <a class="nav-link" href="../../recursos/index.html">Recursos</a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ayuda" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ayuda</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-ayuda">    
         <li>
-    <a class="dropdown-item" href="../manualr-ietsi.html">
+    <a class="dropdown-item" href="../../manualr-ietsi.html">
  <span class="dropdown-text">Guía Instalación</span></a>
   </li>  
         <li>
@@ -132,117 +130,27 @@ ul.task-list{list-style: none;}
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Sesion 1</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/index.html" class="sidebar-item-text sidebar-link">Recursos</a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-    <div class="sidebar-item-container"> 
-        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Materiales de clase</a>
-      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
-        <i class="bi bi-chevron-right ms-2"></i>
-      </a>
-    </div>
-    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion0.html" class="sidebar-item-text sidebar-link">Sesion 0</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion1.html" class="sidebar-item-text sidebar-link active">Sesion 1</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion2.html" class="sidebar-item-text sidebar-link">Sesion 2</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion3.html" class="sidebar-item-text sidebar-link">Sesion 3</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion4.html" class="sidebar-item-text sidebar-link">Sesion 4</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion5.html" class="sidebar-item-text sidebar-link">Sesion 5</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion6.html" class="sidebar-item-text sidebar-link">Sesion 6</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion7.html" class="sidebar-item-text sidebar-link">Sesion 7</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/rec-sesion8.html" class="sidebar-item-text sidebar-link">Sesion 8</a>
-  </div>
-</li>
-    </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/enlinea/en-linea.html" class="sidebar-item-text sidebar-link">Recursos en línea recomendados</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/syllabus/syllabus.html" class="sidebar-item-text sidebar-link">Bibliografía recomendada según syllabus</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../recursos/adicionales/adicionales.html" class="sidebar-item-text sidebar-link">Recursos en línea adicionales</a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#diapositivas" id="toc-diapositivas" class="nav-link active" data-scroll-target="#diapositivas">Diapositivas</a></li>
-  <li><a href="#código-para-taller" id="toc-código-para-taller" class="nav-link" data-scroll-target="#código-para-taller">Código para taller</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos">Datos</a></li>
+  <li><a href="#instrucciones" id="toc-instrucciones" class="nav-link active" data-scroll-target="#instrucciones">INSTRUCCIONES</a></li>
+  <li><a href="#realice-las-siguientes-acciones-en-su-computador" id="toc-realice-las-siguientes-acciones-en-su-computador" class="nav-link" data-scroll-target="#realice-las-siguientes-acciones-en-su-computador">Realice las siguientes acciones en su computador:</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/psotob91/ae-ietsi-2022/edit/main/recursos/rec-sesion1.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/psotob91/ae-ietsi-2022/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/psotob91/ae-ietsi-2022/edit/main/Sesiones/Sesion-1/Taller1.Rmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/psotob91/ae-ietsi-2022/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Sesion 1</h1>
+<h1 class="title">Taller 1 - Familiarizandose con R</h1>
 </div>
 
 
@@ -256,44 +164,35 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="diapositivas" class="level2">
-<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<section id="instrucciones" class="level2">
+<h2 class="anchored" data-anchor-id="instrucciones">INSTRUCCIONES</h2>
 <ul>
-<li><p>Sesión 1a [<a href="../Sesiones/Sesion-1/Sesion-1a.html">Enlace</a>]</p></li>
-<li><p>Sesión 1b [<a href="../Sesiones/Sesion-1/Sesion-1b.html">Enlace</a>]</p></li>
-<li><p>Sesión 1c [<a href="../Sesiones/Sesion-1/Sesion-1c.html">Enlace</a>]</p></li>
+<li><p>Tiempo: 15 min</p></li>
+<li><p>Descripción: En este taller nos familizaremos con la configuración del programa R a través de RStudio.</p></li>
 </ul>
 </section>
-<section id="código-para-taller" class="level2">
-<h2 class="anchored" data-anchor-id="código-para-taller">Código para taller</h2>
+<section id="realice-las-siguientes-acciones-en-su-computador" class="level2">
+<h2 class="anchored" data-anchor-id="realice-las-siguientes-acciones-en-su-computador">Realice las siguientes acciones en su computador:</h2>
+<ol type="1">
+<li><p>Cree una carpeta denominada: <code>Sesión 1</code>.</p></li>
+<li><p>Cree un Proyecto de R denominado igual que la carpeta: <code>Sesión 1</code>.</p></li>
+<li><p>Descargue los datos denominados: <code>maca_meno_preclin.xlsx</code> y <code>maca_meno-fase1.dta</code> del siguiente enlace: https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html</p></li>
+<li><p>Coloque los datos en la carpeta <code>Sesion1</code></p></li>
+<li><p>Cree un notebook de RMarkdown al cual denomine: <code>Ejercicios de Taller 1</code>.</p></li>
+<li><p>En el Notebook haga lo siguiente:</p>
 <ul>
-<li><p>Taller 1:</p>
+<li><p>Cree un titulo diferente para cada dataset:</p>
 <ul>
-<li><p>Instrucciones: [<a href="../Sesiones/Sesion-1/Taller1.html">Enlace</a>]</p></li>
-<li><p>R script: [<a href="../Sesiones/Sesion-1/Code/Taller1_sol.r">Enlace</a>]</p></li>
-<li><p>R notebook: [<a href="../Sesiones/Sesion-1/Code/Taller1_sol.Rmd">Enlace</a>]</p></li>
+<li><p>Título 1: <strong>Dataset maca_meno_preclin</strong></p></li>
+<li><p>Título 2: <strong>Dataset maca_meno_fase1</strong></p></li>
 </ul></li>
-<li><p>Taller 2:</p>
-<ul>
-<li><p>Instrucciones: [<a href="../Sesiones/Sesion-1/Taller2.Rmd">Enlace</a>]</p></li>
-<li><p>R script: [<a href="../Sesiones/Sesion-1/Code/Taller2_sol.r">Enlace</a>]</p></li>
-<li><p>R notebook: [<a href="../Sesiones/Sesion-1/Code/Taller2_sol.Rmd">Enlace</a>]</p></li>
+<li><p>Instale el paquete <code>labelled()</code>.</p></li>
+<li><p>Cargue estos paquetes.</p></li>
+<li><p>Importe los datos a R tratando de convervar la mayor información posible de los datos de origen.</p></li>
+<li><p>Haga comentarios de cada proceso en el notebook.</p></li>
+<li><p>Compile el notebook.</p></li>
 </ul></li>
-</ul>
-</section>
-<section id="datos" class="level2">
-<h2 class="anchored" data-anchor-id="datos">Datos</h2>
-<ul>
-<li><p><a href="https://github.com/culquichicon/2016-Peruvian-Prison-Census/blob/master/BD_Penales.dta?raw=true">BD_Penales.dta</a> (Datos contienen metadatos)</p></li>
-<li><p><a href="../Data/maca_meno_perclin.xlsx">maca_meno_perclin.xlsx</a> (Excel contiene <code>codebook</code> en otra hoja)</p></li>
-<li><p><a href="../Data/maca_meno_fase1.dta">maca_meno_fase1.dta</a> (Datos contienen metadatos)</p></li>
-<li><p><a href="">indo_rct.rds</a>:</p>
-<ul>
-<li><p>Instalar y cargar paquete <a href="https://higgi13425.github.io/medicaldata/"><code>medicaldata</code></a> y llamar usando la siguiente función: <code>indo_rct &lt;- medicaldata::indo_rct</code></p></li>
-<li><p><code>Codebook</code> en este <a href="https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/codebooks/indo_rct_codebook.html">enlace</a></p></li>
-<li><p><code>Descripción</code> en este <a href="https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/indo_rct_desc.html">enlace</a></p></li>
-</ul></li>
-</ul>
+</ol>
 
 
 </section>
@@ -501,18 +400,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../recursos/rec-sesion0.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Sesion 0</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../recursos/rec-sesion2.html" class="pagination-link">
-        <span class="nav-page-text">Sesion 2</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -12,17 +12,21 @@ title: "Sesion 1"
 
 ## Código para taller
 
-- Sesión 1b:
+- Taller 1:
 
-    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1b.r)]
+    + Instrucciones: [[Enlace](../Sesiones/Sesion-1/Taller1.Rmd)]
     
-    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1b.Rmd)]
-
-- Sesión 1c:
-
-    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.r)]
+    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Taller1_sol.r)]
     
-    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Sesion1c.Rmd)]
+    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Taller1_sol.Rmd)]
+
+- Taller 2:
+
+    + Instrucciones: [[Enlace](../Sesiones/Sesion-1/Taller2.Rmd)]
+
+    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Taller2_sol.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Taller2_sol.Rmd)]
     
 ## Datos 
 
