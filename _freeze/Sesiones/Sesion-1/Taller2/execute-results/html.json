@@ -1,0 +1,14 @@
+{
+  "hash": "98fbf0d0f160efc2a2012e67ab83e4b8",
+  "result": {
+    "markdown": "---\ntitle: \"Taller 2 - Manejo de datos con tidyverse\"\noutput: html_notebook\n---\n\n\n## INSTRUCCIONES\n\n-   Tiempo: 25 min\n\n-   Descripción: En este taller nos familizaremos con el manejo de datos\n\n-   Realice las siguientes acciones en su computador:\n\n    1)  Trabajaremos con el proyecto configurado en el Taller 1.\n\n    2)  Trabaje sobre este R Notebook.\n\n    3)  Use el conjunto de datos  `datos_fase1` que se importó de `maca_meno-fase1.dta`.\n    \n\n## Desarrollo del taller:\n\n### Cargar los paquetes\n\nCon este código se cargan los paquetes. Es recomendable instalar todos los paquetes al inicio y luego cargarlos todos! Solo instala una vez, luego comenta para no reinstalar a cada rato.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n```\n:::\n\n\n### Importar datos\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: objeto <- read_stata(\"archivo.dta\")\n```\n:::\n\n\n### Filtre al grupo tratado == 1 y guardelo como datos2. Imprima datos2\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: Use filter()\n```\n:::\n\n\n### Filtre a quienes tienen edad > 27 y menor de 33 sin guardarlo, solo imprimalo:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: Use filter()\n```\n:::\n\n\n### Selecciona las variables id, treat, age y married. Guarde como data3 e imprima.\n\n\n\n### Elimine las varaibles married2 y weight. No guarde solo imprima.\n\n\n\n### Seleccione id, time y race y married. Luego, filtre por status marital 0.\n\n\n\n### Seleccione id, treat, weight y height. Luego, calcule el indice de masa corporal. Guarde como data4 e imprima. Llame a esta variable imc.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: Use select() y luego mutate()\n```\n:::\n\n\n### Categorice edad en edad 20-25, 26-35, 36-41. Guarde como data5 e imprima.\n\n\n\n### Categorice indice de masa corporal en <18.5 (Bajo peso), 18.5 a 24.9 (peso normal), 25-29.9 (sobrepeso) y 30+ (obeso). Llame a esta variable imc_cat. GUarde como data6 e imprima\n\n\n\n### Coloque etiquetas a imc y a imc_cat para que otro investigador entienda su significado.\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

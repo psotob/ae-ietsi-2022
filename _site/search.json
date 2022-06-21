@@ -144,7 +144,7 @@
     "href": "recursos/rec-sesion1.html#código-para-taller",
     "title": "Sesion 1",
     "section": "Código para taller",
-    "text": "Código para taller\n\nTaller 1:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]\n\nTaller 2:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]"
+    "text": "Código para taller\n\nTaller 1:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]\n\nTaller 2:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]\n\nTaller 3:\n\nInstrucciones: [Enlace]\nR script: [Enlace]\nR notebook: [Enlace]"
   },
   {
     "objectID": "recursos/rec-sesion1.html#datos",
@@ -665,6 +665,370 @@
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1a\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#r-base-funciona-como-una-calculadora",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#r-base-funciona-como-una-calculadora",
+    "title": "   Sesión 1b",
+    "section": "R base funciona como una calculadora",
+    "text": "R base funciona como una calculadora\n\nBásicas 1Básicas 2Avanzadas 1Comparaciones\n\n\n\n\n\nSuma:\n\n\n3 + 8\n\n[1] 11\n\n\n\nResta:\n\n\n3 - 8\n\n[1] -5\n\n\n\n\nMultiplicación\n\n\n3 * 8\n\n[1] 24\n\n\n\nDivisión\n\n\n3 * 8\n\n[1] 24\n\n\n\n\n\n\n\n\n\nPotencia:\n\n\n3 ^ 3 # ^ se obtiene mediante: ALT + 94\n\n[1] 27\n\n\n\nRaíz cuadrada:\n\n\nsqrt(16)\n\n[1] 4\n\n\n\n\nOtra raíz\n\n\n8 ^ (1 / 3) # Raíz cúbica\n\n[1] 2\n\n\n\nOperación combinada\n\n\n15 + (64 - 60) ^ (1/2)\n\n[1] 17\n\n\n\n\n\n\n\n\n\nLogaritmo natural:\n\n\nlog(12) # log es logaritmo natural o neperiano\n\n[1] 2.484907\n\n\n\nLogaritmo base 10:\n\n\nlog10(100)\n\n[1] 2\n\n\n\n\nExponencial\n\n\nexp(2)\n\n[1] 7.389056\n\n\n\npi\n\n\npi\n\n[1] 3.141593\n\n\n\n\n\n\n\n\n\nMayor que:\n\n\n5 > 4\n\n[1] TRUE\n\n\n\nMenor igual que:\n\n\n6 <= 3\n\n[1] FALSE\n\n\n\n\nIgualdad:\n\n\n7 == 7\n\n[1] TRUE\n\n\n\nDiferente:\n\n\n8 != 5\n\n[1] TRUE"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#todo-en-r-es-un-objeto",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#todo-en-r-es-un-objeto",
+    "title": "   Sesión 1b",
+    "section": "Todo en R es un objeto",
+    "text": "Todo en R es un objeto\n\nHay varios tipos de objetos.\nLos datos se estructuran como objetos para almacenar información.\n\nSon como los sustantivos de una oración.\nSe construyen sobre estructuras básicas.\n\nLas funciones son objetos que realizan acciones sobre otros.\n\nSon como los verbos de una oración."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#estructuras-de-datos-en-r",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#estructuras-de-datos-en-r",
+    "title": "   Sesión 1b",
+    "section": "Estructuras de datos en R",
+    "text": "Estructuras de datos en R"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#vectores-atómicos-en-r",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#vectores-atómicos-en-r",
+    "title": "   Sesión 1b",
+    "section": "Vectores atómicos en R",
+    "text": "Vectores atómicos en R\n\nLos vectores (atómicos) guardan datos en una columna o fila (solo 1 de ellas).\nUn número es un vector de un solo elemento\n\n\n# Presión arterial sistólica de Juan\n122.3\n\n[1] 122.3\n\n\n\nVarios números se pueden almacenar en un vector\n\n\n# Presiones arteriales sistólicas de Juan, María y Sandra\nc(122.3, 142.1, 100.2)\n\n[1] 122.3 142.1 100.2"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-en-r",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-en-r",
+    "title": "   Sesión 1b",
+    "section": "Operador asignar en R",
+    "text": "Operador asignar en R\n\nPara poder reutilizar los datos y manipularlos, preferimos ponerles un nombre para poder convocarlos después:\n\n\n# Presiones arteriales sistólicas de Juan, María y Sandra \n# se guardan con el nombre que Ud. quieran:\npas <- c(122.3, 142.1, 100.2) # <- Operador asignar, es una flecha\n\n\nEl objeto de nombre pas no se imprime pero aparece en el ambiente (environment) de RStudio. \n\nExiste pero no puedes ver su contenido en la consola.\nSolo un resumen en las pestaña de environment."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#imprimir-el-contenido-de-un-objeto",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#imprimir-el-contenido-de-un-objeto",
+    "title": "   Sesión 1b",
+    "section": "Imprimir el contenido de un objeto",
+    "text": "Imprimir el contenido de un objeto\n\nPara ver lo que un objeto contiene, solo hay que poner su nombre en el script de código:\n\n\npas\n\n[1] 122.3 142.1 100.2\n\n\n\nVeamos un ejemplo más:  Crear objeto: Introducir datos con c().\nNombrarlo: Usar asignar <- par darle un mote.\nImprimir su contenido: Correr el mote para convocarlo.\n\n\n# Presiones arteriales diastólicas de Juan, María y Sandra \npad <- c(74, 81, 79)\npad\n\n[1] 74 81 79"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-es-coercitivo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-es-coercitivo",
+    "title": "   Sesión 1b",
+    "section": "Operador asignar es coercitivo",
+    "text": "Operador asignar es coercitivo\n\nEl operador asignar tiene tipado dinámico.\nSi a un objeto le pones el nombre de otro, entonces R olvidará al objeto anterior:\n\n\n# El primer objeto c(25, 32) se llama \"peso\"\npeso <- c(55, 62)\npeso\n\n[1] 55 62\n\n\n\n# El segundo objeto c(45, 80) quiero guardarlo con el nombre \"peso\"\npeso <- c(45, 80) # R olvidará al objeto c(25, 32)\npeso              # Y guardará al nuevo objeto c(45, 80) como \"peso\"\n\n[1] 45 80\n\n\n\nMucho cuidado, mejor usa nuevos nombres si no quieres perder datos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-hacer-operaciones-con-los-elementos-de-los-vectores",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-hacer-operaciones-con-los-elementos-de-los-vectores",
+    "title": "   Sesión 1b",
+    "section": "Podemos hacer operaciones con los elementos de los vectores",
+    "text": "Podemos hacer operaciones con los elementos de los vectores\n\nImaginen que desean calcular la presión arterial media de Juan, María y Sandra de acuerdo con la siguiente fórmula:\n\n \\[PAM = \\frac{PAS + 2PAD}{3}\\] \n\nEsto se puede calcular usando los vectores:\n\n\n# Cálculo de presión arterial media: pam\npam <- (pas + 2 * pad) / 3 \npam\n\n[1]  90.10000 101.36667  86.06667"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-vectores-atómicos-tienen-varios-tipos-de-estructuras-de-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-vectores-atómicos-tienen-varios-tipos-de-estructuras-de-datos",
+    "title": "   Sesión 1b",
+    "section": "Los vectores atómicos tienen varios tipos de estructuras de datos",
+    "text": "Los vectores atómicos tienen varios tipos de estructuras de datos\n\nDoubleIntegerCharacterLogicLogic 2\n\n\nVector numérico double:\n\nAcepta decimales.\nAnálogo a la variable numérica continua.\n\n\n# Peso de Juan, María y Sandra\npeso <- c(75.2, 82.1, 59.3)\ntypeof(peso)\n\n[1] \"double\"\n\n\n\n\nVector numérico entero:\n\nSolo enteros (no decimales).\nAnálogo a la variable numérica discreta.\n\n\n# Número de hijos de Juan, María y Sandra\nnhijos <- c(2L, 0L, 3L) # La L fuerza a ser entero\ntypeof(nhijos)\n\n[1] \"integer\"\n\n\n\n\nVector character:\n\nAlmacena cadenas de texto (strings).\nAnálogo a la variable categórica.\n\n\n# Sexo de Juan, María y Sandra\nsex <- c(\"masculino\", \"Femenino\", \"mujer\")\nsex\n\n[1] \"masculino\" \"Femenino\"  \"mujer\"    \n\n\n\n\nVector lógico:\n\nAlmacena datos lógicos: TRUE, FALSE, NA.\nAnálogo a una variable binaria.\n\n\n# \"Tiene diabetes\" para Juan, María y Sandra\ndiabetes <- c(TRUE, FALSE, T) # Se puede usar T o F\n\n\n\n¿La presión arterial sistólica es mayor a la diastólica para Juan, María y José?\n\n# Recuerde el orden: Juan, María y Sandra\npas > pad\n\n[1] TRUE TRUE TRUE\n\n\n\npas_mayor_pad <- pas > pad\npas_mayor_pad\n\n[1] TRUE TRUE TRUE\n\n\n\ntypeof(pas_mayor_pad)\n\n[1] \"logical\""
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#en-resumen-los-tipos-básico-de-vectores-son",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#en-resumen-los-tipos-básico-de-vectores-son",
+    "title": "   Sesión 1b",
+    "section": "En resumen, los tipos básico de vectores son:",
+    "text": "En resumen, los tipos básico de vectores son:\n\n\n\n Adaptado de ggplot2 and the tidyverse. PMAP 8521. [Enlace]"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-y-data.tibble-almacenan-varios-vectores",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-y-data.tibble-almacenan-varios-vectores",
+    "title": "   Sesión 1b",
+    "section": "Los data.frame y data.tibble almacenan varios vectores",
+    "text": "Los data.frame y data.tibble almacenan varios vectores\n\nLos vectores están limitados a un único tipo de dato.\nSi quiero apilar varios vectores con distitos tipos de datos se requiere usar un data.frame (forma nativa de R base)-\nLos data.tibble son una versión aumentada de los data.frame del tidyverso (forma más elegante de data.frame)\nLas funciones que funcionan con data.frames también lo hacen con data.tibbles."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#para-análisis-las-tablas-de-datos-rectangulares-son-más-apropiadas",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#para-análisis-las-tablas-de-datos-rectangulares-son-más-apropiadas",
+    "title": "   Sesión 1b",
+    "section": "Para análisis las tablas de datos rectangulares son más apropiadas",
+    "text": "Para análisis las tablas de datos rectangulares son más apropiadas\n\nTabla de datos rectangular:\n\n\nAdaptado de Smit Aj, Abrahams A & Schlegel RW. Intro R Workshop: Data Manipulation, Analysius, and Visualization."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-son-tablas-de-datos-rectangulares",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-son-tablas-de-datos-rectangulares",
+    "title": "   Sesión 1b",
+    "section": "Los data.frame son tablas de datos rectangulares",
+    "text": "Los data.frame son tablas de datos rectangulares\n\ndata.frame y data.tibble guardan los datos en tablas de datos rectangulares.\nUn ejemplo de data.frame:\n\n\ndatos <- data.frame(\n  pas = c(122.3, 142.1, 100.2), \n  pad = c(74, 81, 79), \n  pam = c(90.10000, 101.36667, 86.06667)) \n\ndatos\n\n    pas pad       pam\n1 122.3  74  90.10000\n2 142.1  81 101.36667\n3 100.2  79  86.06667\n\n\n\nUn ejemplo de data.tibble:\n\n\nas_tibble(datos)\n\n# A tibble: 3 × 3\n    pas   pad   pam\n  <dbl> <dbl> <dbl>\n1  122.    74  90.1\n2  142.    81 101. \n3  100.    79  86.1"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#instalación-y-uso-de-paquetes",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#instalación-y-uso-de-paquetes",
+    "title": "   Sesión 1b",
+    "section": "Instalación y uso de paquetes",
+    "text": "Instalación y uso de paquetes\n\nInstalación de paquete:\n\ninstall.packages(\"nombre_paquete\") \n\nCargar paquete:\n\nlibrary(nombre_paquete)\n\nAyuda con el paquete:\n\n??nombre_paquete\n\nMás sobre paquetes: aquí"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#un-ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#un-ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Un ejemplo",
+    "text": "Un ejemplo\n\nInstalen Hmisc:\n\ninstall.packages(\"Hmisc\") \n\n\nCarguen el paquete Hmisc:\n\nlibrary(Hmisc)\n\n\nConsulten la ayuda del paquete Hmisc\n\n??Hmisc"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#ahora-es-su-turno",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#ahora-es-su-turno",
+    "title": "   Sesión 1b",
+    "section": "Ahora es su turno",
+    "text": "Ahora es su turno\n\nInstalen tidyverse:\n\ninstall.packages(\"tidyverse\") \n\nCarguen el metapaquete tidyverse:\n\nlibrary(tidyverse)\n\nConsulten la ayuda del metapaquete tidyverse\n\n??tidyverse"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#funciones",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#funciones",
+    "title": "   Sesión 1b",
+    "section": "Funciones",
+    "text": "Funciones\n\nFragmento de código empaquetado que facilita su reutilización con diferentes datos iniciales.\nRealizan un acción sobre objetos para producir un resultado.\nLos paquetes contienen una o más funciones que realizan tareas relacionadas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#partes-de-una-función",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#partes-de-una-función",
+    "title": "   Sesión 1b",
+    "section": "Partes de una función",
+    "text": "Partes de una función\n\nUn solo argumento:\n\nfunción(argumento = \"opción\")\n\nVarios argumentos:\n\nEstructura básica:\nfunción(argumento1 = \"opción1\", argumento2 = \"opción2\")\nPuedes obviar el nombre del “argumento” si y solo si se mantiene el orden:\nfunción(\"opción1\", \"opción2\")\nCaso contrario, debes especificar el nombre del argumento:\nfunción(argumento2 = \"opción2\", argumento1 = \"opción1\")"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\n\nCrear un carpeta donde tendrá el proyecto.\nCrear un Proyecto de RStudio.\nColocar los datos en la misma Carpeta que el proyecto.\nAbrir Notebook de RMarkdown y comenzar a codear!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-1",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-1",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\n1. Crear un carpeta donde tendrá el proyecto."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-2",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-2",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\n1. Crear un carpeta donde tendrá el proyecto."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-3",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-3",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\n2. Crear un Proyecto de RStudio"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-4",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-4",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\n3. Colocar los datos en la misma Carpeta que el proyecto"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-5",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-5",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\nCrear Notebook de RMarkdown"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-6",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-6",
+    "title": "   Sesión 1b",
+    "section": "Preparando R para trabajar con datos",
+    "text": "Preparando R para trabajar con datos\nComenzar a codear en notebook de RMarkdown!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-con-tidyverse",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-con-tidyverse",
+    "title": "   Sesión 1b",
+    "section": "Importar datos con tidyverse",
+    "text": "Importar datos con tidyverse"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos",
+    "title": "   Sesión 1b",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nImportar datos de excel:\n\n\nlibrary(readxl)\nmis_datos <- read_excel(\"maca_meno_perclin.xlsx\")\n\n\nExplorar datos importados\n\n\nhead(mis_datos) #Muestra primeras fials de ejemplo\n\n# A tibble: 6 × 13\n  id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n     <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n1        1        1 control     ovx               26         33.3      0.089\n2        1        2 control     ovx               24.5       30.5      0.063\n3        1        3 control     ovx               20.4       29.9      0.078\n4        2        4 control     hemiovx           26.6       32.2      0.134\n5        2        5 control     ovx               23.5       30.4      0.052\n6        2        6 maca        ovx               25         30.4      0.055\n# … with 6 more variables: chol <dbl>, glucose <dbl>, tag <dbl>, prot <dbl>,\n#   urea <dbl>, album <dbl>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-1",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-1",
+    "title": "   Sesión 1b",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nImportar datos de Stata:\n\n\nlibrary(haven) \nmis_datos <- read_stata(\"maca_meno_fase1.dta\")\n\n\nExplorar datos importados:\n\n\nhead(mis_datos) #Muestra primeras fials de ejemplo\n\n# A tibble: 6 × 14\n     id       time   treat   age race  married married2 procedence weight height\n  <dbl>  <dbl+lbl> <dbl+l> <dbl> <chr> <dbl+l> <dbl+lb> <chr>       <dbl>  <dbl>\n1     1 0 [Baseli… 1 [PLA…    33 Mest… 1 [Sin… 0 [With… Callao       59      1.4\n2     1 1 [3 mont… 1 [PLA…    32 Mest… 1 [Sin… 0 [With… Callao       59.9    1.3\n3     2 0 [Baseli… 3 [WAR…    27 Mest… 1 [Sin… 0 [With… Santa Ani…   62      1.5\n4     2 1 [3 mont… 3 [WAR…    27 Mest… 1 [Sin… 0 [With… Santa Ani…   62.1    1.6\n5     3 0 [Baseli… 2 [WAR…    25 Mest… 1 [Sin… 0 [With… Callao       62      1.6\n6     3 1 [3 mont… 2 [WAR…    25 Mest… 1 [Sin… 0 [With… Callao       60      1.6\n# … with 4 more variables: e2 <dbl>, lh <dbl>, fsh <dbl>, prog <dbl>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#el-problema-de-importar-datos-de-stata",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#el-problema-de-importar-datos-de-stata",
+    "title": "   Sesión 1b",
+    "section": "El problema de importar datos de Stata",
+    "text": "El problema de importar datos de Stata\n\nLas etiquetas de variable se importan.\n\n\n\nPero no las etiquetas de valor."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#solución-al-problema-de-importar-datos-en-stata",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#solución-al-problema-de-importar-datos-en-stata",
+    "title": "   Sesión 1b",
+    "section": "Solución al problema de importar datos en Stata",
+    "text": "Solución al problema de importar datos en Stata\n\nSi quieres heredar metadatos de la etiqueta de valor:\n\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") \nmis_datos <- as_factor(mis_datos)\n\n\nmis_datos\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nLas etiquetas de valor también se importan!!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section",
+    "title": "   Sesión 1b",
+    "section": "%>%",
+    "text": "%>%\n\nOperador pipe: %>% del paquete magrittr de tidyverse.\nConector de secuencia de acciones.\n\n\nFuente: Sesion2-Introduccion a R y RStudio. Andre Valle y Steev Loyola Enlace"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operadar-en-acción",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operadar-en-acción",
+    "title": "   Sesión 1b",
+    "section": "Operadar %>% en acción",
+    "text": "Operadar %>% en acción\nEsto de aquí:\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") \nmis_datos <- as_factor(mis_datos)\n\nSe puede simplificar a esto:\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") %>% \n  as_factor()"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-1",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-1",
+    "title": "   Sesión 1b",
+    "section": "",
+    "text": "Ahora es tu turno de aplicar lo revisado!!\nVolvemos en 10 minutos.\nNo te desconectes, pero no veas las pantallas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#librería-dplr",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#librería-dplr",
+    "title": "   Sesión 1b",
+    "section": "Librería dplr",
+    "text": "Librería dplr\n\nEl paquete dplyr es una ‘suite’ de funciones para manipular dato"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter",
+    "title": "   Sesión 1b",
+    "section": "Filtrado de datos con filter()",
+    "text": "Filtrado de datos con filter()\n\nExtrae filas que cumplen cierta condición lógica"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-comparadores",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-comparadores",
+    "title": "   Sesión 1b",
+    "section": "Filtrado de datos con filter() y comparadores",
+    "text": "Filtrado de datos con filter() y comparadores"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-booleanos",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-booleanos",
+    "title": "   Sesión 1b",
+    "section": "Filtrado de datos con filter() y booleanos",
+    "text": "Filtrado de datos con filter() y booleanos"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter---ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter---ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Filtrado de datos con filter() - ejemplo",
+    "text": "Filtrado de datos con filter() - ejemplo\n\nSe tienen los datos originales:\n\n\ndatos_fase1 <- read_stata(\"maca_meno_fase1.dta\") %>% \n  as_factor()\n\ndatos_fase1\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi se filtra solo para tener a los individuos en su medición basal:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\")\n\n# A tibble: 53 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 3     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 4     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 5     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 6     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 7     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n 8     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 9     9 Base… WARM…    30 Mest… Single  Without… SMP          61      1.6  49.6\n10    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n# … with 43 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nPodemos querer filtrar a los individuos en la medición basal Y que sean placebo:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\" & treat == \"PLACEBO\")\n\n# A tibble: 17 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 3     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 4     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 5    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n 6    14 Base… PLAC…    33 Mest… Single  Without… Surquillo    65      1.6  47.4\n 7    15 Base… PLAC…    37 Mest… Married With co… Comas        50.5    1.4 143. \n 8    17 Base… PLAC…    40 Mest… Widowed Without… Surquillo    65      1.6  91.8\n 9    18 Base… PLAC…    36 Mest… Married With co… Miraflores   70      1.6 131  \n10    20 Base… PLAC…    22 Mest… Single  Without… Surquillo    59      1.5  99.0\n11    21 Base… PLAC…    29 Mest… Married With co… SJL          56.9    1.4  71.6\n12    25 Base… PLAC…    37 Mest… Married With co… San Borja    58.1    1.6  67.0\n13    26 Base… PLAC…    32 Mest… Married With co… Chosica      72.1    1.7 117. \n14    40 Base… PLAC…    20 Mest… Single  Without… VES          61      1.5  98.6\n15    43 Base… PLAC…    36 Mest… Single  Without… Villa el …   56.9    1.4 132. \n16    45 Base… PLAC…    35 Mest… Married With co… Los Olivos   78.1    1.7 123. \n17    48 Base… PLAC…    27 Mest… Single  Without… Callao       55.9    1.4 185. \n# … with 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nPodemos querer filtrar a los individuos en la medición basal O que sean placebo:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\" | treat == \"PLACEBO\")\n\n# A tibble: 70 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 5     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 6     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 7     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n 8     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 9     6 3 mo… PLAC…    38 Mest… Married With co… Los Olivos   53.9    1.5  44.7\n10     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n# … with 60 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi queremos solo las mujeres entre 34 y 38 años de edad:\n\n\ndatos_fase1 %>% \n  filter(age >= 34 & age <= 38)\n\n# A tibble: 36 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 2     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 3     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 4     6 3 mo… PLAC…    38 Mest… Married With co… Los Olivos   53.9    1.5  44.7\n 5     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 6     8 3 mo… PLAC…    34 Mest… Married With co… Carabayllo   59      1.5 134. \n 7    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n 8    10 3 mo… PLAC…    38 Mest… Single  Without… Pueblo Li…   54.9    1.5  71.5\n 9    11 Base… WARM…    37 Mest… Married With co… El Agusti…   72      1.6  66.4\n10    11 3 mo… WARM…    36 Mest… Married With co… El Agusti…   NA     NA   110. \n# … with 26 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi queremos a quienes son de Santa Anita, Callao, SMP o Carabayllo:\n\nOpción válida pero ineficiente:\n\ndatos_fase1 %>% \n  filter(procedence == \"Santa Anita\" | procedence == \"Callao\" | procedence == \"SMP\" | procedence == \"Carabayllo\")\n\n# A tibble: 24 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n10     7 3 mo… WARM…    26 Mest… Married With co… SMP          58.6    1.6  91.3\n# … with 14 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\nOpción válida y eficiente:\n\ndatos_fase1 %>% \n  filter(procedence %in% c(\"Santa Anita\", \"Callao\", \"SMP\", \"Carabayllo\"))\n\n# A tibble: 24 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n10     7 3 mo… WARM…    26 Mest… Married With co… SMP          58.6    1.6  91.3\n# … with 14 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select",
+    "title": "   Sesión 1b",
+    "section": "Selección de columnas con select()",
+    "text": "Selección de columnas con select()\n\nLa función select() selecciona columnas\nEl signo - permite elegir qué columnas eliminar.\nA veces es mejor llamarla usando: dplyr::select() debido a que otros paquetes también tienen una función con el mismo nombre select()"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select---ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select---ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Selección de columnas con select() - ejemplo",
+    "text": "Selección de columnas con select() - ejemplo\n\nLos datos originales:\n\n\ndatos_fase1\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi solo quiero seleccionar a id, time, age, race y procedence:\n\n\ndatos_fase1_seleccionados <- datos_fase1 %>% \n  select(id, time, age, race, procedence)\n\ndatos_fase1_seleccionados \n\n# A tibble: 106 × 5\n      id time       age race    procedence \n   <dbl> <fct>    <dbl> <chr>   <chr>      \n 1     1 Baseline    33 Mestiza Callao     \n 2     1 3 months    32 Mestiza Callao     \n 3     2 Baseline    27 Mestiza Santa Anita\n 4     2 3 months    27 Mestiza Santa Anita\n 5     3 Baseline    25 Mestiza Callao     \n 6     3 3 months    25 Mestiza Callao     \n 7     4 Baseline    37 Mestiza Callao     \n 8     4 3 months    38 Mestiza Callao     \n 9     5 Baseline    31 Mestiza La Molina  \n10     5 3 months    32 Mestiza La Molina  \n# … with 96 more rows\n\n\n\nSi quisiera excluir a procedence:\n\n\ndatos_fase1_seleccionados %>% \n  select(-procedence) #notar el signo -\n\n# A tibble: 106 × 4\n      id time       age race   \n   <dbl> <fct>    <dbl> <chr>  \n 1     1 Baseline    33 Mestiza\n 2     1 3 months    32 Mestiza\n 3     2 Baseline    27 Mestiza\n 4     2 3 months    27 Mestiza\n 5     3 Baseline    25 Mestiza\n 6     3 3 months    25 Mestiza\n 7     4 Baseline    37 Mestiza\n 8     4 3 months    38 Mestiza\n 9     5 Baseline    31 Mestiza\n10     5 3 months    32 Mestiza\n# … with 96 more rows"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-anidar-con-varias-tareas",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-anidar-con-varias-tareas",
+    "title": "   Sesión 1b",
+    "section": "Podemos anidar con %>% varias tareas",
+    "text": "Podemos anidar con %>% varias tareas\n\ndatos_fase1 %>% \n  filter(age > 35) %>% # Primero filtro por age\n  select(id, time, treat, race, age) # Luego me quedo solo con estas 5 columnas\n\n# A tibble: 40 × 5\n      id time     treat       race      age\n   <dbl> <fct>    <fct>       <chr>   <dbl>\n 1     4 Baseline WARMI 3 C/D Mestiza    37\n 2     4 3 months WARMI 3 C/D Mestiza    38\n 3     6 Baseline PLACEBO     Mestiza    38\n 4     6 3 months PLACEBO     Mestiza    38\n 5    10 Baseline PLACEBO     Mestiza    38\n 6    10 3 months PLACEBO     Mestiza    38\n 7    11 Baseline WARMI 6 C/D Mestiza    37\n 8    11 3 months WARMI 6 C/D Mestiza    36\n 9    15 Baseline PLACEBO     Mestiza    37\n10    15 3 months PLACEBO     Mestiza    37\n# … with 30 more rows"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate",
+    "title": "   Sesión 1b",
+    "section": "Creación de nuevas columnas con mutate()",
+    "text": "Creación de nuevas columnas con mutate()\n\nLa función mutate() crea nuevas columnas en base a otras."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate---ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate---ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Creación de nuevas columnas con mutate() - ejemplo",
+    "text": "Creación de nuevas columnas con mutate() - ejemplo\n\nSi queremos crear la variable índice de masa corporal:\n\n\ndatos_fase1 %>% \n  select(id, weight, height) %>% # Nos quedamos con peso y talla \n  mutate(imc = weight / height ^ 2) # Creamos IMC en base a peso y talla\n\n# A tibble: 106 × 4\n      id weight height   imc\n   <dbl>  <dbl>  <dbl> <dbl>\n 1     1   59      1.4  30.1\n 2     1   59.9    1.3  35.4\n 3     2   62      1.5  27.6\n 4     2   62.1    1.6  24.3\n 5     3   62      1.6  24.2\n 6     3   60      1.6  23.4\n 7     4   60.9    1.5  27.1\n 8     4   61.4    1.5  27.3\n 9     5   64      1.5  28.4\n10     5   58.1    1.6  22.7\n# … with 96 more rows"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate",
+    "title": "   Sesión 1b",
+    "section": "Modificación de columnas existentes con mutate()",
+    "text": "Modificación de columnas existentes con mutate()\n\nmutate() también remplaza columnas existentes.\nTener cuidado si se quiere reutilizar la variable original, en ese caso es mejor crear columna nueva."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate---ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate---ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Modificación de columnas existentes con mutate() - ejemplo",
+    "text": "Modificación de columnas existentes con mutate() - ejemplo\n\nQueremos que la edad sea reportada en meses:\n\nPodríamos crear una columna nueva para edad en meses:\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(age2 = age * 12) # Notar que se creó una columa nueva llamada age2\n\n# A tibble: 106 × 3\n      id   age  age2\n   <dbl> <dbl> <dbl>\n 1     1    33   396\n 2     1    32   384\n 3     2    27   324\n 4     2    27   324\n 5     3    25   300\n 6     3    25   300\n 7     4    37   444\n 8     4    38   456\n 9     5    31   372\n10     5    32   384\n# … with 96 more rows\n\n\nLa otra opción es remplazar la edad:\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(age = age * 12) # Notar que se remplazó age \n\n# A tibble: 106 × 2\n      id   age\n   <dbl> <dbl>\n 1     1   396\n 2     1   384\n 3     2   324\n 4     2   324\n 5     3   300\n 6     3   300\n 7     4   444\n 8     4   456\n 9     5   372\n10     5   384\n# … with 96 more rows"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when",
+    "title": "   Sesión 1b",
+    "section": "Categorización de variables con case_when()",
+    "text": "Categorización de variables con case_when()\n\nFunción de apoyo a mutate().\nCategoriza variables de acuerdo a condiciones complejas"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when-ejemplo",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when-ejemplo",
+    "title": "   Sesión 1b",
+    "section": "Categorización de variables con case_when()-ejemplo",
+    "text": "Categorización de variables con case_when()-ejemplo\n\nSe quieren crear categorías de edad: 20-30, 31-35 y 36-41\n\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(agecat = case_when(age >= 20 & age <= 30 ~ \"20-30\", \n                            age >= 31 & age <= 35 ~ \"31-35\", \n                            age >= 36 & age <= 41 ~ \"36-41\", \n                            TRUE ~ as.character(NA))) # Siempre cerrar con esto\n\n# A tibble: 106 × 3\n      id   age agecat\n   <dbl> <dbl> <chr> \n 1     1    33 31-35 \n 2     1    32 31-35 \n 3     2    27 20-30 \n 4     2    27 20-30 \n 5     3    25 20-30 \n 6     3    25 20-30 \n 7     4    37 36-41 \n 8     4    38 36-41 \n 9     5    31 31-35 \n10     5    32 31-35 \n# … with 96 more rows"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels",
+    "title": "   Sesión 1b",
+    "section": "Etiquetar variables con set_var_labels()",
+    "text": "Etiquetar variables con set_var_labels()\n\nLa función set_var_labels() del paquete labelled() es muy útil para etiquetar columnas.\nLos datos deben tener metadatos que permitan ser legibles por el ser humano.\nEsta función debería ser usada al final de todo el proceso."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels-1",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels-1",
+    "title": "   Sesión 1b",
+    "section": "Etiquetar variables con set_var_labels()",
+    "text": "Etiquetar variables con set_var_labels()\n\nVeamos el ejemplo inicial:\n\n\n\nAhora pongamos una etiqueta:\n\n\nlibrary(labelled)\ndatos2 <- datos %>% \n  set_variable_labels(\n    pam = \"Presión Arterial Media\", \n    pas = \"Presión Arterial Sistólica\", \n    pad = \"Presión Arterial Diastólica\"\n  )"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-2",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-2",
+    "title": "   Sesión 1b",
+    "section": "",
+    "text": "Ahora es tu turno de aplicar lo revisado!!\nVolvemos en 10 minutos.\nNo te desconectes, pero no veas las pantallas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-3",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-3",
+    "title": "   Sesión 1b",
+    "section": "",
+    "text": "slides:\n\n\nhttps://bit.ly/3Okolxb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-4",
+    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-4",
+    "title": "   Sesión 1b",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
     "objectID": "Sesiones/Sesion-1/Sesion-1b.html#r-base-funciona-como-una-calculadora",
     "href": "Sesiones/Sesion-1/Sesion-1b.html#r-base-funciona-como-una-calculadora",
     "title": "   Sesión 1b",
@@ -1029,6 +1393,230 @@
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-exploratorio-de-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-exploratorio-de-datos",
+    "title": "   Sesión 1c",
+    "section": "Análisis Exploratorio de Datos",
+    "text": "Análisis Exploratorio de Datos\n\nEl análisis exploratorio de datos (AED) es un enfoque de análisis de conjunto de datos para identificar patrones y formular nuevas hipótesis.\nSe trata de ver qué nos dice los datos más allá de ideas pre-concebidas.\nLas nuevas hipótesis luego se confirman en otros nuevos estudios rigurosos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-exploratorio-de-datos-cont.",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-exploratorio-de-datos-cont.",
+    "title": "   Sesión 1c",
+    "section": "Análisis Exploratorio de Datos (cont.)",
+    "text": "Análisis Exploratorio de Datos (cont.)\n\nSu versión moderna: \n\nMinería de Datos (‘Data Minning’) \n\nUsa diversas técnicas estadísticas: \n\nMedidas de resumen estadístico \nVisualización de datos  \nModelado"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos",
+    "title": "   Sesión 1c",
+    "section": "Análisis Inicial de Datos",
+    "text": "Análisis Inicial de Datos\n\nEl análisis inicial de datos (AID) a menudo se confunde erróneamente con el AED, son dos enfoques totalmente diferentes.\nObjetivo del AID:\n\n\n“(…) garantizar principalmente la transparencia y la integridad de las condiciones previas para realizar análisis estadísticos apropiados de manera responsable para responder preguntas de investigación predefinidas.” Baillie M, et al. PLoS Comput Biol, 2022"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-vs.-análisis-exploratorio-de-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-vs.-análisis-exploratorio-de-datos",
+    "title": "   Sesión 1c",
+    "section": "Análisis Inicial de Datos vs. Análisis Exploratorio de Datos",
+    "text": "Análisis Inicial de Datos vs. Análisis Exploratorio de Datos\n\n\n\n\n \n  \n    AID \n    AED \n  \n \n\n  \n    1. AID es el paso inicial del proceso de confirmación de hipótesis pre-definidas. \n    1. AED busca generar hipótesis nuevas. \n  \n  \n    2. En investigación clínico-epidemiológica, a menudo queremos y deberíamos hacer AID. \n    2. Rara vez queremos AED (p. ej., enfermedades nuevas, fenómenos muy poco conocidos) \n  \n  \n    3. Proceso clave para garantizar responder adecuadamente objetivos pre-planeados de estudio. \n    3. Proceso con alto riesgo de contaminar respuesta a objetivos pre-planeados de estudio."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#mala-práctica-hacer-aed-en-vez-de-aid",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#mala-práctica-hacer-aed-en-vez-de-aid",
+    "title": "   Sesión 1c",
+    "section": "Mala práctica: ¡Hacer AED en vez de AID!",
+    "text": "Mala práctica: ¡Hacer AED en vez de AID!\n\nA menudo, investigadores no realizan AID de manera sistemática.\nMezclan actividades de AID con tareas posteriores de análisis de datos, como generación o exploración de hipótesis, análisis formal e interpretación de conclusiones.\nComo se hacen “informalmente”, no se reportan en detalle generándose análisis ocultos.\n\n\n\nBMC Med Res Methodol 20, 61 (2020)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#mala-práctica-hacer-aed-en-vez-de-aid-cont.",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#mala-práctica-hacer-aed-en-vez-de-aid-cont.",
+    "title": "   Sesión 1c",
+    "section": "Mala práctica: ¡Hacer AED en vez de AID! (cont.)",
+    "text": "Mala práctica: ¡Hacer AED en vez de AID! (cont.)\n\nEstos análisis ocultos generan problemas en la reproducibilidad de los estudios.\nGeneran muchos grados de libertad adicionales ocasionando problemas serios de validez de los análisis: p-hacking, post-selection inference, double-dipping, overfitting, etc.\nIniciativa STRATOS ha dado pautas para realizar AID apropiados.\n\n\n\nBMC Med Res Methodol 20, 61 (2020)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#el-problema-de-los-análisis-ocultos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#el-problema-de-los-análisis-ocultos",
+    "title": "   Sesión 1c",
+    "section": "El problema de los análisis ocultos",
+    "text": "El problema de los análisis ocultos\n\nBMC Med Res Methodol 20, 61 (2020)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-hacer-un-buen-aid",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-hacer-un-buen-aid",
+    "title": "   Sesión 1c",
+    "section": "Recomendaciones de STRATOS para hacer un buen AID",
+    "text": "Recomendaciones de STRATOS para hacer un buen AID\n\nPLoS Comput Biol 18(2): e1009819"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#aid-es-un-proceso-iterativo",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#aid-es-un-proceso-iterativo",
+    "title": "   Sesión 1c",
+    "section": "AID es un proceso iterativo",
+    "text": "AID es un proceso iterativo\n\nProceso no lineal, al contrario, requiere muchas iteraciones.\nRiesgo: Puede influir en análisis e inducir conclusiones erróneas. \n\nMayor riesgo de restultados falsos positivos. \n\nSer cuidados para: \n\nEvitar alterar la pregunta de investigación. \n\nProveer documentación completa del proceso."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#aid-como-parte-del-plan-de-investigación",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#aid-como-parte-del-plan-de-investigación",
+    "title": "   Sesión 1c",
+    "section": "AID como parte del plan de investigación",
+    "text": "AID como parte del plan de investigación\n\nIntroducing the Initial Data Analysis Topic Group (TG3)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#aid-como-parte-del-plan-de-investigación-1",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#aid-como-parte-del-plan-de-investigación-1",
+    "title": "   Sesión 1c",
+    "section": "AID como parte del plan de investigación",
+    "text": "AID como parte del plan de investigación\n\nHuebner M, Vach W, et al."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-un-buen-aid",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-un-buen-aid",
+    "title": "   Sesión 1c",
+    "section": "10 recomendaciones de STRATOS para un buen AID",
+    "text": "10 recomendaciones de STRATOS para un buen AID\n\nRegla 1: Desarrolle un plan de AID que respalde el objetivo de la investigación.\nRegla 2: AID toma tiempo y recursos.\nRegla 3: AID debe ser reproducible.\nRegla 4: El contexto importa, conoce tus datos.\nRegla 5: Evite los adelantos, AID no toca la pregunta de investigación."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-un-buen-aid-cont.",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-de-stratos-para-un-buen-aid-cont.",
+    "title": "   Sesión 1c",
+    "section": "10 recomendaciones de STRATOS para un buen AID (cont.)",
+    "text": "10 recomendaciones de STRATOS para un buen AID (cont.)\n\nRegla 6: Visualiza tus datos.\nRegla 7: Compruebe lo que falte.\nRegla 8: Comunicar los hallazgos y considerar las consecuencias.\nRegla 9: Reporte los hallazgos del AID en trabajos de investigación (¡adjunte anexos!)\nRegla 10: Sea proactivo y riguroso."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-con-r",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-con-r",
+    "title": "   Sesión 1c",
+    "section": "Análisis Inicial de Datos con R",
+    "text": "Análisis Inicial de Datos con R"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-con-r-1",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-inicial-de-datos-con-r-1",
+    "title": "   Sesión 1c",
+    "section": "Análisis Inicial de Datos con R",
+    "text": "Análisis Inicial de Datos con R"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-el-contexto-importa-conoce-tus-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-el-contexto-importa-conoce-tus-datos",
+    "title": "   Sesión 1c",
+    "section": "Regla 3: El contexto importa, conoce tus datos",
+    "text": "Regla 3: El contexto importa, conoce tus datos\n\nDé una primera mirada global a los datos\nDiseñe una lista de validaciones a realizar desde el proyecto.\nValida tus datos: \n\nIdentifique duplicados y detecte inconsistencias \nValores extremos no plausibles \nIdentifique valores perdidos \n\n\nEn R, use los 5 verbos básicos de {dplyr}: filter(), select(), mutate(), arrange() y summarise() para hacer consultas (\"queries\") a sus datos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-resumen-global-de-los-datos",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-resumen-global-de-los-datos",
+    "title": "   Sesión 1c",
+    "section": "Regla 3 con R: Resumen global de los datos",
+    "text": "Regla 3 con R: Resumen global de los datos\n\nglimpse()contents()\n\n\n\nglimpse(datos)\n\nRows: 26\nColumns: 13\n$ id_jaula     <dbl> 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 8, 8, 9, 9, 9, …\n$ id_raton     <dbl> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17…\n$ tratamiento  <chr> \"control\", \"control\", \"control\", \"control\", \"control\", \"m…\n$ protocolo    <chr> \"ovx\", \"ovx\", \"ovx\", \"hemiovx\", \"ovx\", \"ovx\", \"ovx\", \"ovx…\n$ peso_inicial <dbl> 26.00, 24.50, 20.40, 26.59, 23.50, 25.00, 24.80, 23.20, 2…\n$ peso_final   <dbl> 33.28, 30.50, 29.93, 32.19, 30.37, 30.43, 28.77, 27.30, 2…\n$ peso_utero   <dbl> 0.089, 0.063, 0.078, 0.134, 0.052, 0.055, 0.064, 0.062, 0…\n$ chol         <dbl> 85.990, 94.460, 99.670, 83.380, 82.080, 107.490, 76.870, …\n$ glucose      <dbl> 109.97, 81.62, 118.37, 71.91, 95.53, 160.36, 195.53, 182.…\n$ tag          <dbl> 182.42, 211.87, 195.16, 98.46, 108.13, 141.10, 95.82, 105…\n$ prot         <dbl> 5.37, 4.68, NA, NA, 5.33, NA, 5.02, 6.12, NA, 4.85, NA, N…\n$ urea         <dbl> 66.27, 76.73, 52.32, 50.71, 26.02, NA, 40.78, 66.94, NA, …\n$ album        <dbl> 66.82, 55.36, NA, NA, NA, 72.14, 67.09, 70.64, 66.27, 83.…\n\n\n\n\n\nTambién de Hmisc:\n\n\ncontents(datos)\n\n\nData frame:datos    26 observations and 13 variables    Maximum # NAs:13\n\n               Storage NAs\nid_jaula        double   0\nid_raton        double   0\ntratamiento  character   0\nprotocolo    character   0\npeso_inicial    double   0\npeso_final      double   0\npeso_utero      double   0\nchol            double   0\nglucose         double   0\ntag             double   0\nprot            double  12\nurea            double  10\nalbum           double  13\n\n\n\nhtml(contents(datos), levelType = 'table')\n\n\nData frame:datos26 observations and 13 variables, maximum # NAs:13  \n \n \n \n NameStorageNAs\n id_jauladouble 0\n id_ratondouble 0\n tratamientocharacter 0\n protocolocharacter 0\n peso_inicialdouble 0\n peso_finaldouble 0\n peso_uterodouble 0\n choldouble 0\n glucosedouble 0\n tagdouble 0\n protdouble12\n ureadouble10\n albumdouble13"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-detecte-duplicados",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-detecte-duplicados",
+    "title": "   Sesión 1c",
+    "section": "Regla 3 con R: Detecte duplicados",
+    "text": "Regla 3 con R: Detecte duplicados\n\nFunción get_dupes del paquete {janitor}.\n\n\nFilas duplicadasID duplicadosElimine duplicados\n\n\n\nSi solo colocamos get_dupes(), entonces nos identifica duplicados de fila completa:\n\n\nlibrary(janitor)\ndatos %>% \n  get_dupes()\n\n# A tibble: 6 × 14\n  id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n     <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n1        1        1 control     ovx               26         33.3      0.089\n2        1        1 control     ovx               26         33.3      0.089\n3        2        5 control     ovx               23.5       30.4      0.052\n4        2        5 control     ovx               23.5       30.4      0.052\n5        3        9 maca        hemiovx           22.7       26.9      0.07 \n6        3        9 maca        hemiovx           22.7       26.9      0.07 \n# … with 7 more variables: chol <dbl>, glucose <dbl>, tag <dbl>, prot <dbl>,\n#   urea <dbl>, album <dbl>, dupe_count <int>\n\n\n\n\n\nSi colocamos una o más variables dentro de get_dupes(), entonces nos identifica duplicados solo de esa variable.\nA menudo lo hacemos para encontrar individus duplicados.\n\n\ndatos %>% \n  get_dupes(id_raton)\n\n# A tibble: 6 × 14\n  id_raton dupe_count id_jaula tratamiento protocolo peso_inicial peso_final\n     <dbl>      <int>    <dbl> <chr>       <chr>            <dbl>      <dbl>\n1        1          2        1 control     ovx               26         33.3\n2        1          2        1 control     ovx               26         33.3\n3        5          2        2 control     ovx               23.5       30.4\n4        5          2        2 control     ovx               23.5       30.4\n5        9          2        3 maca        hemiovx           22.7       26.9\n6        9          2        3 maca        hemiovx           22.7       26.9\n# … with 7 more variables: peso_utero <dbl>, chol <dbl>, glucose <dbl>,\n#   tag <dbl>, prot <dbl>, urea <dbl>, album <dbl>\n\n\n\n\n\nSi el duplicado es erróneo, lo podemos eliminar con distinct y el argumento .keep_all = TRUE.\nSe debde espeficiar si el duplicado es de fila o de alguna variable (p. ej., id).\n\n\ndatos <- datos %>% \n  distinct(id_raton, .keep_all = TRUE)\n\ndatos\n\n# A tibble: 23 × 13\n   id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n      <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n 1        1        1 control     ovx               26         33.3      0.089\n 2        1        2 control     ovx               24.5       30.5      0.063\n 3        1        3 control     ovx               20.4       29.9      0.078\n 4        2        4 control     hemiovx           26.6       32.2      0.134\n 5        2        5 control     ovx               23.5       30.4      0.052\n 6        2        6 maca        ovx               25         30.4      0.055\n 7        2        7 maca        ovx               24.8       28.8      0.064\n 8        3        8 maca        ovx               23.2       27.3      0.062\n 9        3        9 maca        hemiovx           22.7       26.9      0.07 \n10        3       10 maca        ovx               23.9       29.1      0.113\n# … with 13 more rows, and 6 more variables: chol <dbl>, glucose <dbl>,\n#   tag <dbl>, prot <dbl>, urea <dbl>, album <dbl>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-identifique-valores-extremos-no-plausibles",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-identifique-valores-extremos-no-plausibles",
+    "title": "   Sesión 1c",
+    "section": "Regla 3 con R: Identifique valores extremos no plausibles",
+    "text": "Regla 3 con R: Identifique valores extremos no plausibles\n\nskim()describe()Gráficos\n\n\n\nFunción de paquete {skimr}:\n1)  `install.packages(\"skimr)`\n\n2)  `library(skimr)`\nRevise, variable por variable valores extremos no plausibles o plausibles, pero sospechosamente extremos. El valor mínimo es p0 y el valor máximo es p100. Deben ser plausibles.\n\n\nskim(datos)\n\n\n\n\nData summary\n\n\n\n\nName\n\n\ndatos\n\n\n\n\nNumber of rows\n\n\n23\n\n\n\n\nNumber of columns\n\n\n13\n\n\n\n\n_______________________\n\n\n\n\n\n\nColumn type frequency:\n\n\n\n\n\n\ncharacter\n\n\n2\n\n\n\n\nnumeric\n\n\n11\n\n\n\n\n________________________\n\n\n\n\n\n\nGroup variables\n\n\nNone\n\n\n\n\n\nVariable type: character\n\n\n\n\n\nskim_variable\n\n\nn_missing\n\n\ncomplete_rate\n\n\nmin\n\n\nmax\n\n\nempty\n\n\nn_unique\n\n\nwhitespace\n\n\n\n\n\n\ntratamiento\n\n\n0\n\n\n1\n\n\n4\n\n\n25\n\n\n0\n\n\n5\n\n\n0\n\n\n\n\nprotocolo\n\n\n0\n\n\n1\n\n\n3\n\n\n7\n\n\n0\n\n\n3\n\n\n0\n\n\n\n\n\nVariable type: numeric\n\n\n\n\n\nskim_variable\n\n\nn_missing\n\n\ncomplete_rate\n\n\nmean\n\n\nsd\n\n\np0\n\n\np25\n\n\np50\n\n\np75\n\n\np100\n\n\nhist\n\n\n\n\n\n\nid_jaula\n\n\n0\n\n\n1.00\n\n\n5.30\n\n\n3.38\n\n\n1.00\n\n\n2.00\n\n\n5.00\n\n\n9.00\n\n\n10.00\n\n\n▇▃▅▂▇\n\n\n\n\nid_raton\n\n\n0\n\n\n1.00\n\n\n12.00\n\n\n6.78\n\n\n1.00\n\n\n6.50\n\n\n12.00\n\n\n17.50\n\n\n23.00\n\n\n▇▆▇▆▇\n\n\n\n\npeso_inicial\n\n\n0\n\n\n1.00\n\n\n23.68\n\n\n1.99\n\n\n18.90\n\n\n22.59\n\n\n23.50\n\n\n24.90\n\n\n27.90\n\n\n▂▃▇▇▂\n\n\n\n\npeso_final\n\n\n0\n\n\n1.00\n\n\n28.59\n\n\n2.18\n\n\n23.80\n\n\n27.08\n\n\n28.77\n\n\n30.10\n\n\n33.28\n\n\n▂▆▇▅▂\n\n\n\n\npeso_utero\n\n\n0\n\n\n1.00\n\n\n0.09\n\n\n0.10\n\n\n0.01\n\n\n0.06\n\n\n0.07\n\n\n0.09\n\n\n0.54\n\n\n▇▁▁▁▁\n\n\n\n\nchol\n\n\n0\n\n\n1.00\n\n\n81.96\n\n\n12.89\n\n\n59.28\n\n\n72.31\n\n\n82.08\n\n\n87.29\n\n\n107.49\n\n\n▅▃▇▃▃\n\n\n\n\nglucose\n\n\n0\n\n\n1.00\n\n\n124.74\n\n\n37.27\n\n\n60.10\n\n\n99.08\n\n\n118.37\n\n\n147.50\n\n\n195.53\n\n\n▅▇▇▃▅\n\n\n\n\ntag\n\n\n0\n\n\n1.00\n\n\n153.06\n\n\n52.36\n\n\n90.99\n\n\n108.13\n\n\n141.10\n\n\n190.11\n\n\n282.64\n\n\n▇▃▅▁▂\n\n\n\n\nprot\n\n\n11\n\n\n0.52\n\n\n5.22\n\n\n0.49\n\n\n4.68\n\n\n4.91\n\n\n5.08\n\n\n5.34\n\n\n6.17\n\n\n▇▃▅▁▃\n\n\n\n\nurea\n\n\n9\n\n\n0.61\n\n\n56.95\n\n\n32.34\n\n\n26.02\n\n\n38.87\n\n\n48.16\n\n\n64.80\n\n\n157.89\n\n\n▇▃▁▁▁\n\n\n\n\nalbum\n\n\n12\n\n\n0.48\n\n\n66.15\n\n\n8.44\n\n\n52.77\n\n\n62.12\n\n\n66.82\n\n\n69.62\n\n\n83.73\n\n\n▃▃▇▂▂\n\n\n\n\n\n\n\n\n\n\nFunción de paquete {Hmisc}:\n1)  `install.packages(\"Hmisc\")`\n\n2)  `library(Hmisc)`\nPermite hacer algo similar\n\n\ndescribe(datos)\n\ndatos \n\n 13  Variables      23  Observations\n--------------------------------------------------------------------------------\nid_jaula \n       n  missing distinct     Info     Mean      Gmd \n      23        0        7    0.979    5.304    3.881 \n\nlowest :  1  2  3  5  8, highest:  3  5  8  9 10\n                                                    \nValue          1     2     3     5     8     9    10\nFrequency      3     4     3     4     2     4     3\nProportion 0.130 0.174 0.130 0.174 0.087 0.174 0.130\n--------------------------------------------------------------------------------\nid_raton \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       23        1       12        8      2.1      3.2 \n     .25      .50      .75      .90      .95 \n     6.5     12.0     17.5     20.8     21.9 \n\nlowest :  1  2  3  4  5, highest: 19 20 21 22 23\n--------------------------------------------------------------------------------\ntratamiento \n       n  missing distinct \n      23        0        5 \n\nlowest : control                   maca                      maca + critro             sham operated             triple dosis maca + citro\nhighest: control                   maca                      maca + critro             sham operated             triple dosis maca + citro\n\ncontrol (5, 0.217), maca (5, 0.217), maca + critro (4, 0.174), sham operated\n(4, 0.174), triple dosis maca + citro (5, 0.217)\n--------------------------------------------------------------------------------\nprotocolo \n       n  missing distinct \n      23        0        3 \n                                  \nValue      hemiovx  no ovx     ovx\nFrequency        2       4      17\nProportion   0.087   0.174   0.739\n--------------------------------------------------------------------------------\npeso_inicial \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       19    0.998    23.68    2.244    20.55    21.90 \n     .25      .50      .75      .90      .95 \n   22.59    23.50    24.90    25.90    26.53 \n\nlowest : 18.90 20.40 21.90 22.40 22.50, highest: 25.30 25.50 26.00 26.59 27.90\n                                                                            \nValue      18.90 20.40 21.90 22.40 22.50 22.69 22.90 23.20 23.40 23.50 23.90\nFrequency      1     1     2     1     1     1     1     1     2     2     1\nProportion 0.043 0.043 0.087 0.043 0.043 0.043 0.043 0.043 0.087 0.087 0.043\n                                                          \nValue      24.50 24.80 25.00 25.30 25.50 26.00 26.59 27.90\nFrequency      2     1     1     1     1     1     1     1\nProportion 0.087 0.043 0.043 0.043 0.043 0.043 0.043 0.043\n--------------------------------------------------------------------------------\npeso_final \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       21    0.999    28.59    2.483    25.11    26.68 \n     .25      .50      .75      .90      .95 \n   27.08    28.77    30.10    30.49    32.02 \n\nlowest : 23.80 24.93 26.68 26.70 26.86, highest: 30.37 30.43 30.50 32.19 33.28\n--------------------------------------------------------------------------------\npeso_utero \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       23        1   0.0927  0.07728   0.0166   0.0268 \n     .25      .50      .75      .90      .95 \n  0.0560   0.0680   0.0885   0.1298   0.1718 \n\nlowest : 0.014 0.016 0.022 0.046 0.052, highest: 0.108 0.113 0.134 0.176 0.535\n--------------------------------------------------------------------------------\nchol \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       21    0.999    81.96     14.9    64.54    66.05 \n     .25      .50      .75      .90      .95 \n   72.31    82.08    87.29    98.89   104.36 \n\nlowest :  59.28  64.40  65.79  67.10  68.40, highest:  94.46  95.76  99.67 104.88 107.49\n--------------------------------------------------------------------------------\nglucose \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       23        1    124.7    43.44    72.54    78.90 \n     .25      .50      .75      .90      .95 \n   99.08   118.37   147.50   179.63   184.30 \n\nlowest :  60.10  71.91  78.22  81.62  94.23, highest: 160.36 168.50 182.41 184.51 195.53\n--------------------------------------------------------------------------------\ntag \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      23        0       22        1    153.1    59.41    93.45    96.35 \n     .25      .50      .75      .90      .95 \n  108.13   141.10   190.11   209.50   241.54 \n\nlowest :  90.99  93.19  95.82  98.46 105.49, highest: 199.12 200.00 211.87 244.84 282.64\n--------------------------------------------------------------------------------\nprot \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      12       11       10    0.993    5.222   0.5367    4.735    4.787 \n     .25      .50      .75      .90      .95 \n   4.910    5.085    5.340    6.045    6.143 \n\nlowest : 4.68 4.78 4.85 4.93 5.02, highest: 5.15 5.33 5.37 6.12 6.17\n                                                                      \nValue       4.68  4.78  4.85  4.93  5.02  5.15  5.33  5.37  6.12  6.17\nFrequency      1     1     1     2     1     1     2     1     1     1\nProportion 0.083 0.083 0.083 0.167 0.083 0.083 0.167 0.083 0.083 0.083\n--------------------------------------------------------------------------------\nurea \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      14        9       14        1    56.95    30.41    31.52    35.52 \n     .25      .50      .75      .90      .95 \n   38.87    48.16    64.80    73.79   105.14 \n\nlowest :  26.02  34.48  37.96  38.23  40.78, highest:  60.37  66.27  66.94  76.73 157.89\n                                                                         \nValue       26.02  34.48  37.96  38.23  40.78  43.06  45.61  50.71  52.32\nFrequency       1      1      1      1      1      1      1      1      1\nProportion  0.071  0.071  0.071  0.071  0.071  0.071  0.071  0.071  0.071\n                                             \nValue       60.37  66.27  66.94  76.73 157.89\nFrequency       1      1      1      1      1\nProportion  0.071  0.071  0.071  0.071  0.071\n--------------------------------------------------------------------------------\nalbum \n       n  missing distinct     Info     Mean      Gmd      .05      .10 \n      11       12       11        1    66.15    9.592    54.06    55.36 \n     .25      .50      .75      .90      .95 \n   62.12    66.82    69.62    72.14    77.94 \n\nlowest : 52.77 55.36 59.59 64.64 66.27, highest: 67.09 68.59 70.64 72.14 83.73\n                                                                            \nValue      52.77 55.36 59.59 64.64 66.27 66.82 67.09 68.59 70.64 72.14 83.73\nFrequency      1     1     1     1     1     1     1     1     1     1     1\nProportion 0.091 0.091 0.091 0.091 0.091 0.091 0.091 0.091 0.091 0.091 0.091\n--------------------------------------------------------------------------------\n\n\n\n\n\nEl gráfico de cajas nos muestra la disrtibución de la variable numérica en termino de sus cuantiles.\nLos puntos aislados, fuera de las cajas y bigotes, son considerados valores extremos.\nEstos pueden ser plausibles o no plausibles.\nEl gráfico de cajas permite identificar, rápidamente, valores extremos potencialmente no plausibles o problemáticos.\n\n\nboxplot(datos$peso_final)\n\n\n\n\n\nboxplot(datos$peso_utero)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-haga-algunas-consultas-queries-de-interés",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#regla-3-con-r-haga-algunas-consultas-queries-de-interés",
+    "title": "   Sesión 1c",
+    "section": "Regla 3 con R: Haga algunas consultas (queries) de interés",
+    "text": "Regla 3 con R: Haga algunas consultas (queries) de interés\n\nConsulta 1Consulta 2Consulta 3Consulta 4\n\n\nMuestre el peso inicial mínimo, máximo y promedio del grupo control:\n\ndatos %>% \n  filter(tratamiento == \"control\") %>% \n  summarise(\n    minimo_peso = min(peso_inicial), \n    maximo_peso = max(peso_inicial), \n    promedio_peso = mean(peso_inicial)\n  )\n\n# A tibble: 1 × 3\n  minimo_peso maximo_peso promedio_peso\n        <dbl>       <dbl>         <dbl>\n1        20.4        26.6          24.2\n\n\n\n\nMuestre los pesos inicial máximos, mínimo y promedio según grupo de tratamiento. También muestre el número de ratones por grupo:\n\ndatos %>% \n  group_by(tratamiento) %>% \n  summarise(\n    minimo_peso = min(peso_inicial), \n    maximo_peso = max(peso_inicial), \n    promedio_peso = mean(peso_inicial), \n    n_ratones = n()\n  )\n\n# A tibble: 5 × 5\n  tratamiento               minimo_peso maximo_peso promedio_peso n_ratones\n  <chr>                           <dbl>       <dbl>         <dbl>     <int>\n1 control                          20.4        26.6          24.2         5\n2 maca                             22.7        25            23.9         5\n3 maca + critro                    21.9        23.4          22.4         4\n4 sham operated                    22.5        25.5          23.6         4\n5 triple dosis maca + citro        18.9        27.9          24.0         5\n\n\n\n\nMuestre los id_jaula con el número de ratones por jaula\n\ndatos %>% \n  group_by(id_jaula) %>% \n  summarise(n_ratones_por_jaula = n())\n\n# A tibble: 7 × 2\n  id_jaula n_ratones_por_jaula\n     <dbl>               <int>\n1        1                   3\n2        2                   4\n3        3                   3\n4        5                   4\n5        8                   2\n6        9                   4\n7       10                   3\n\n\n\n\nIdentifique los ID de los ratones del grupo control con una razón glucosa / colesterol > 1\n\ndatos %>% \n  filter(tratamiento == \"control\" & glucose / chol > 1)\n\n# A tibble: 3 × 13\n  id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n     <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n1        1        1 control     ovx               26         33.3      0.089\n2        1        3 control     ovx               20.4       29.9      0.078\n3        2        5 control     ovx               23.5       30.4      0.052\n# … with 6 more variables: chol <dbl>, glucose <dbl>, tag <dbl>, prot <dbl>,\n#   urea <dbl>, album <dbl>\n\n\nOtra forma de hacerlo, es crear primerio la razón glucose / chol y filtrar:\n\ndatos %>% \n  mutate(ratio_gluc_chol = glucose / chol) %>% \n  filter(tratamiento == \"control\" & ratio_gluc_chol > 1)\n\n# A tibble: 3 × 14\n  id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n     <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n1        1        1 control     ovx               26         33.3      0.089\n2        1        3 control     ovx               20.4       29.9      0.078\n3        2        5 control     ovx               23.5       30.4      0.052\n# … with 7 more variables: chol <dbl>, glucose <dbl>, tag <dbl>, prot <dbl>,\n#   urea <dbl>, album <dbl>, ratio_gluc_chol <dbl>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo",
+    "title": "   Sesión 1c",
+    "section": "Análisis descriptivo",
+    "text": "Análisis descriptivo\n\nLuego de AID uno ya está listo para describir sus datos.\nHay muchas formas de describir datos, todos son combinación de medidas de resumen en texto y tablas, así como gràficos gráficos.\nDescribir las medidas que faciliten la comparación de nuestra población de estudio con otras."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-numérica",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-numérica",
+    "title": "   Sesión 1c",
+    "section": "Análisis descriptivo de variable numérica",
+    "text": "Análisis descriptivo de variable numérica\n\nTend. CentralPosiciónDispersiónDistribución\n\n\n\nMedias de tendencia central \n\nMedia \nMediana (es también medida de posición) \nModa (no es usual) \n\n\n\n\n\nMedidas de posición \n\nCuantiles (en general) \nMediana = percentil 50 (es también medida de tendencia central) \nPercentil 25 (p25) \nPercentil 75 (p75) \n\n\n\n\n\nMedidas de dispersión \n\nRango (máximo - mínimo) \nVarianza / Desviación estándar \nRango intercuartílico (p75 - p25) \n\n\n\n\n\nSimétrica\nAsimétrica (o ‘sesgada’) \n\nPositiva (A la derecha) \nNegativa (A la izquierda) \n\nResumiendo:"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-numérica---recomendaciones",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-numérica---recomendaciones",
+    "title": "   Sesión 1c",
+    "section": "Análisis descriptivo de variable numérica - recomendaciones",
+    "text": "Análisis descriptivo de variable numérica - recomendaciones\n\n¿Qué reportar?Ejemplo 1Ejemplo 2\n\n\n\nMedia +/- Desviación estándar \n\nSi distribución es simétrica y variabilidad es relativamente baja. \nLa distribución normal es un ejemplo de distribución simétrica. \n\nMediana (percentil 25 - percentil 75) \n\nSi distribución es asimétrica o variabilidad es relativamente alta. \nMejor percentiles 25 y 75 en vez de rango intercuartílico (más información`de los primeros) \n\nMáximo y mínimo siempre: \n\nEs mejor que rango, provee más información.\nPreferentemente en tabla principal.\nSi problemas de espacio, usar tabla anexa.\n\n\n\n\nPara la variable numérica peso inicial Se usa la función skim() y se coloca la variable de interés.\n\n\np0 es el valor mínimo y p100 es el valor máximo. \nLa mediana es p50. \nmean es el promedio y sd es la desviación estándar. \n\n\n# Para la variable numérica peso_inicial\ndatos %>% \n  skim(peso_inicial)\n\n\n\n\nData summary\n\n\n\n\nName\n\n\nPiped data\n\n\n\n\nNumber of rows\n\n\n23\n\n\n\n\nNumber of columns\n\n\n13\n\n\n\n\n_______________________\n\n\n\n\n\n\nColumn type frequency:\n\n\n\n\n\n\nnumeric\n\n\n1\n\n\n\n\n________________________\n\n\n\n\n\n\nGroup variables\n\n\nNone\n\n\n\n\n\nVariable type: numeric\n\n\n\n\n\nskim_variable\n\n\nn_missing\n\n\ncomplete_rate\n\n\nmean\n\n\nsd\n\n\np0\n\n\np25\n\n\np50\n\n\np75\n\n\np100\n\n\nhist\n\n\n\n\n\n\npeso_inicial\n\n\n0\n\n\n1\n\n\n23.68\n\n\n1.99\n\n\n18.9\n\n\n22.59\n\n\n23.5\n\n\n24.9\n\n\n27.9\n\n\n▂▃▇▇▂\n\n\n\n\n\n\n\nTambién analizamos la distribución de manera gráfica con un histograma. Se aprecia que la variable es aproximadamente simétrica:\n\n\nMedia vs mediana muy parecidas y \nGráfico con desviaciones ligeras de simetría. \n\nPor lo tanto, decidimos reportar media (desviación estándar). Mímimo y máximo debería tambier reportarse (en texto o en tabla anexo).\n\nhist(datos$peso_inicial)\n\n\n\n\nDescripción del resultado (ejemplo):\n\nEl peso inicial varió entre 18.9 g y 27.9 g, con un promedio de 23.68 g (DE = 1.99 g).\n\n\n\nPara la variable numérica triglicéridos al final del estudio, se tiene las siguientes medidas de resumen:\n\ndatos %>% \n  skim(tag)\n\n\n\n\nData summary\n\n\n\n\nName\n\n\nPiped data\n\n\n\n\nNumber of rows\n\n\n23\n\n\n\n\nNumber of columns\n\n\n13\n\n\n\n\n_______________________\n\n\n\n\n\n\nColumn type frequency:\n\n\n\n\n\n\nnumeric\n\n\n1\n\n\n\n\n________________________\n\n\n\n\n\n\nGroup variables\n\n\nNone\n\n\n\n\n\nVariable type: numeric\n\n\n\n\n\nskim_variable\n\n\nn_missing\n\n\ncomplete_rate\n\n\nmean\n\n\nsd\n\n\np0\n\n\np25\n\n\np50\n\n\np75\n\n\np100\n\n\nhist\n\n\n\n\n\n\ntag\n\n\n0\n\n\n1\n\n\n153.06\n\n\n52.36\n\n\n90.99\n\n\n108.13\n\n\n141.1\n\n\n190.11\n\n\n282.64\n\n\n▇▃▅▁▂\n\n\n\n\n\n\n\n\nNotar que la media y la mediana difieren en aprox. 12 mg/dl. Esto sugiere la existencia de alguna asimetría en la distribución de esta variable.\nVeamos el gráfico:\n\n\nhist(datos$tag)\n\n\n\n\n\nSe aprecia que la distribución es sesgada hacia la derecha.\nPor lo tanto, la media no sería un buen representante de toda la distribución de datos.\nLa mediana es más robusta al sesgo de la distribución y se prefiere reportarla en compañía de los percentiles 25 y 75.\n\nDescripción del resultado (ejemplo):\n\nEl nivel de triglicéridos al final del seguimiento varió entre 90.99 mg/dL y 282.64 mg/dL, con una mediana de 141.1 mg/dL (108.13 mg/dL a 190.11 mg/dL)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-categórica",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#análisis-descriptivo-de-variable-categórica",
+    "title": "   Sesión 1c",
+    "section": "Análisis descriptivo de variable categórica",
+    "text": "Análisis descriptivo de variable categórica\n\n¿Qué reportar?Ejemplo 1Ejemplo 2\n\n\n\nAcompañe siempre frecuencias absolutas con relativas.\nCuando interprete, no reporte solo % o proporción, también indique el n, al menos entre paréntesis.\nFrecuencia absoluta: Es el número de individuos.\nFrecuencia relativa: Es un porcentaje (entre 0% y 100%) o una proporción (entre 0 y 1).\nCuidado: Reportar bien si es porcentaje (colocar siempre el %) o es una proporción (nunca colocar el %).\nExcepción: En muestras que usan pesos muestrales, puede ser mejor solo reprotar frecuencias relativas (% o proporciones) y las frecuencias absolutas (observadas[no ponderadas] y ponderadas) dejarlas para el anexo.\n\n\n\n\nPodemos usar la función tabyl() del paquete {janitor} para describir la distribución de frecuencias relativas y acumuladas:\n\n\ndatos %>% \n  tabyl(tratamiento) \n\n               tratamiento n   percent\n                   control 5 0.2173913\n                      maca 5 0.2173913\n             maca + critro 4 0.1739130\n             sham operated 4 0.1739130\n triple dosis maca + citro 5 0.2173913\n\n\n\nLa columna percent() es en realidad una proporción. Para reportar un porcentaje, se puede agregar adorn_pct_formatting():\n\n\ndatos %>% \n  tabyl(tratamiento) %>% \n  adorn_pct_formatting()\n\n               tratamiento n percent\n                   control 5   21.7%\n                      maca 5   21.7%\n             maca + critro 4   17.4%\n             sham operated 4   17.4%\n triple dosis maca + citro 5   21.7%\n\n\nDescripción del resultado (ejemplo):\n\nLos grupos control, maca y triple dosis maca + citro representaron el 21.7% (n = 5) de los animales de experimentación.\n\n\n\n\n\n\n\nPara la variable Glucosa categorizada tenemos la siguiente distribución de frecuencias:\n\n\ndatos %>% \n  tabyl(glucose_cat) %>% \n  adorn_pct_formatting()\n\n   glucose_cat  n percent\n 120-200 mg/dL 11   47.8%\n  60-120 mg/dL 12   52.2%\n\n\n\nSe puede mejorar la presentación usando la función gt() del paquete {gt}.\n\n\nlibrary(gt)\ndatos %>% \n  tabyl(glucose_cat) %>% \n  adorn_pct_formatting() %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      glucose_cat\n      n\n      percent\n    \n  \n  \n    120-200 mg/dL\n11\n47.8%\n    60-120 mg/dL\n12\n52.2%\n  \n  \n  \n\n\n\n\nDescripción del resultado (ejemplo):\n\nEl 52.2% (n = 12) de los animales de experimentación tuvo valores de glucosa entre 60 y 120 mg/dL."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-sobre-reporte-descriptivo-según-strobe",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-sobre-reporte-descriptivo-según-strobe",
+    "title": "   Sesión 1c",
+    "section": "Recomendaciones sobre reporte descriptivo según STROBE",
+    "text": "Recomendaciones sobre reporte descriptivo según STROBE\n\nStrengthening the Reporting of Observational Studies in Epidemiology (STROBE) es una guía de reporte de estudios observacionales en salud mundialmente reconocida.\nLas revistas de alto impacto solicitan que los investigadores se adhieran a estas guías y llenen un checklist.\n\n\n\n\nVanderbroucke JP, Elm Ev, Altman DG, et al. 2007\n\n\n\n\n\nLo que mencionamos acerca de reportar variables numéricas:\n\n\n\n\n\nVanderbroucke JP, Elm Ev, Altman DG, et al. 2007\n\n\n\n\n\n\n\n\n\nVanderbroucke JP, Elm Ev, Altman DG, et al. 2007\n\n\n\n\nTambién debe reportarse el número de participantes con datos perdidos para cada variable de interés"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-adicionales-para-mejorar-un-reporte-descriptivo-transparente-según-remark",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-adicionales-para-mejorar-un-reporte-descriptivo-transparente-según-remark",
+    "title": "   Sesión 1c",
+    "section": "Recomendaciones adicionales para mejorar un reporte descriptivo transparente según REMARK",
+    "text": "Recomendaciones adicionales para mejorar un reporte descriptivo transparente según REMARK\n\nReporting Recommendations for Tumor Marker Prognostic Studies (REMARK) es una guía de reporte para estudios de marcadores pronósticos: \n\nInicialmente para cáncer.  \nDebido a su amplio alcance, se usa en casi cualquier campo (p. ej., cardiología, neurología, etc.) donde se evalúe un marcador pronóstico.\n\n\n\n\n\nSauerbrei W, Taube SE, McShane LM, et al. JNCI 2018\n\n\n\n\n\nSauerbrei W, Taube SE, McShane LM, et al. JNCI 2018\n\n\n\n\n\nREMARK indica que debe reportarse la distribución de los marcadores o factores pronóstico de interés y del desenlace: \n\nBiomarcador o score de predicción \nDesenlace \n\n\n\n\n\n\nSauerbrei W, Taube SE, McShane LM, et al. JNCI 2018\n\n\n\n\n\nLamentablemente es una mala práctica no hacerlo. \n\nUsen anexos si el espacio queda corto y no quieren distraer al lector del mensaje principal. \nNo hay excusa para no reportar esto."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-adicionales-para-mejorar-un-reporte-descriptivo-transparente-cont.",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#recomendaciones-adicionales-para-mejorar-un-reporte-descriptivo-transparente-cont.",
+    "title": "   Sesión 1c",
+    "section": "Recomendaciones adicionales para mejorar un reporte descriptivo transparente (cont.)",
+    "text": "Recomendaciones adicionales para mejorar un reporte descriptivo transparente (cont.)\n\nNo cree la tabla “manualmente”.\nGenere las tablas con código: \n\nEs reproducible. \nMenos propenso a error de digitación o lapsus calamis. \nHan habido retracciones de ensayos clínicos por errores de tipeo!! \nEs más rápido, ahorrarás tiempo!!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#generación-de-tabla-descriptiva-reproducible",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#generación-de-tabla-descriptiva-reproducible",
+    "title": "   Sesión 1c",
+    "section": "Generación de tabla descriptiva reproducible",
+    "text": "Generación de tabla descriptiva reproducible\n\nA menudo se la conoce como la Tabla 1. \n\nPuede haber más de una, no hay reglas, solo buenos o malos criterios para presentar resultados. \n\nHay muchos paquetes: {flextable}, {gt}, etc.\nSugerimos: {gtsummary}: https://www.danieldsjoberg.com/gtsummary/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#tabla-decriptiva-reproducible-con-gtsummary",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#tabla-decriptiva-reproducible-con-gtsummary",
+    "title": "   Sesión 1c",
+    "section": "Tabla decriptiva reproducible con {gtsummary}",
+    "text": "Tabla decriptiva reproducible con {gtsummary}\n\nPermite crear tablas en formato de revistas biomédicas.\nFunción tbl_summary() para tablas descriptivas univariadas y comparativas (bivariadas)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#función-tbl_summary-paso-a-paso",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#función-tbl_summary-paso-a-paso",
+    "title": "   Sesión 1c",
+    "section": "Función tbl_summary() paso a paso",
+    "text": "Función tbl_summary() paso a paso\n\nPaso 1Paso 2Paso 3Paso 4Paso 5\n\n\n\nSeleccionar las variables que desea reportar con función select(), luego usar tbl_summary():\n\n\n\n\n\nlibrary(gtsummary)\ndatos2 %>% \n  select(age, race, married2, weight, height, e2, lh, fsh, prog) %>% \n  tbl_summary()\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      N = 1061\n    \n  \n  \n    Age, years\n33.0 (29.0, 37.0)\n    Race\n\n    Mestiza\n106 (100%)\n    Marital status, recat\n\n    Without couple\n54 (51%)\n    With couple\n52 (49%)\n    Weight, kg\n59 (55, 65)\n    Unknown\n3\n    Height, m\n\n    1.3\n1 (1.0%)\n    1.4\n12 (12%)\n    1.5\n52 (50%)\n    1.6\n28 (27%)\n    1.7\n10 (9.7%)\n    Unknown\n3\n    Estradiol\n92 (59, 132)\n    Luteinizant Hormon\n6 (3, 13)\n    Folicullo stimulant hormon\n3.66 (2.12, 5.09)\n    Progesterone\n10 (5, 12)\n  \n  \n  \n    \n      1 Median (IQR); n (%)\n    \n  \n\n\n\n\n\nPor defecto, las variables numéricas son reportadas como mediana (percentil 25, percentil 75).\nAsimismo, si una variable numérica tiene pocos valores, esta se muestra como categórica.\nUno puede personalizar esto. Veamos los siguientes pasos.\n\n\n\n\nIndicar qué variables son numéricas con el argumento type =\n\n\ndatos2 %>% \n  select(age, race, married2, weight, height, e2, lh, fsh, prog) %>% \n  tbl_summary(\n    type = list(height ~ \"continuous\")\n  )\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      N = 1061\n    \n  \n  \n    Age, years\n33.0 (29.0, 37.0)\n    Race\n\n    Mestiza\n106 (100%)\n    Marital status, recat\n\n    Without couple\n54 (51%)\n    With couple\n52 (49%)\n    Weight, kg\n59 (55, 65)\n    Unknown\n3\n    Height, m\n1.50 (1.50, 1.60)\n    Unknown\n3\n    Estradiol\n92 (59, 132)\n    Luteinizant Hormon\n6 (3, 13)\n    Folicullo stimulant hormon\n3.66 (2.12, 5.09)\n    Progesterone\n10 (5, 12)\n  \n  \n  \n    \n      1 Median (IQR); n (%)\n    \n  \n\n\n\n\n\nNotar que ahora height es considerada una variable numérica y se reporta como mediana con sus respectivos percentiles.\n\n\n\n\n¿Qué pasa si queremos reportar media (desviación estándar) para las variables simétricas height y weight, pero mantener la mediana (percentiles) para las variables e2, lh, fsh, y prog.\nSe puede configurar esto con el argumento statistic =\n\n\ndatos2 %>% \n  select(age, race, married2, weight, height, e2, lh, fsh, prog) %>% \n  tbl_summary(\n    type = list(height ~ \"continuous\"), \n    statistic = list(c(age, weight, height) ~ \"{mean} ({sd})\", c(e2, lh, fsh, prog) ~ \"{median} ({p25}, {p75})\")\n  )\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      N = 1061\n    \n  \n  \n    Age, years\n32.8 (5.5)\n    Race\n\n    Mestiza\n106 (100%)\n    Marital status, recat\n\n    Without couple\n54 (51%)\n    With couple\n52 (49%)\n    Weight, kg\n61 (8)\n    Unknown\n3\n    Height, m\n1.53 (0.08)\n    Unknown\n3\n    Estradiol\n92 (59, 132)\n    Luteinizant Hormon\n6 (3, 13)\n    Folicullo stimulant hormon\n3.66 (2.12, 5.09)\n    Progesterone\n10 (5, 12)\n  \n  \n  \n    \n      1 Mean (SD); n (%); Median (IQR)\n    \n  \n\n\n\n\n\n\n\nSe pueden realizar más configuraciones adicionales con R o realizarlas manualmente en el Word.\nPara más información sobre cómo hacer tablas descriptivas con {gtsummary}: https://www.danieldsjoberg.com/gtsummary/articles/tbl_summary.html\nPor ejemplo, podemos crear una tabla con máximos y minimos:\n\n\ndatos2 %>% \n  select(age, race, married2, weight, height, e2, lh, fsh, prog) %>% \n  tbl_summary(\n    type = list(height ~ \"continuous\"), \n    statistic = list(c(age, weight, height, e2, lh, fsh, prog) ~ \"{min} - {max}\")\n  )\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      N = 1061\n    \n  \n  \n    Age, years\n20.0 - 41.0\n    Race\n\n    Mestiza\n106 (100%)\n    Marital status, recat\n\n    Without couple\n54 (51%)\n    With couple\n52 (49%)\n    Weight, kg\n48 - 92\n    Unknown\n3\n    Height, m\n1.30 - 1.70\n    Unknown\n3\n    Estradiol\n21 - 404\n    Luteinizant Hormon\n1 - 93\n    Folicullo stimulant hormon\n0.82 - 21.18\n    Progesterone\n0 - 28\n  \n  \n  \n    \n      1 Range; n (%)\n    \n  \n\n\n\n\n\n\n\nSe puede descargar la tabla en formato MS. Word para reporte reproducible.\nPrimero se guarda como un objeto de R:\n\n\ndatos2 %>% \n  select(age, race, married2, weight, height, e2, lh, fsh, prog) %>% \n  tbl_summary(\n    type = list(height ~ \"continuous\"), \n    statistic = list(c(age, weight, height) ~ \"{mean} ({sd})\", c(e2, lh, fsh, prog) ~ \"{median} ({p25}, {p75})\")\n  ) -> tabla1 \n\ntabla1\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      N = 1061\n    \n  \n  \n    Age, years\n32.8 (5.5)\n    Race\n\n    Mestiza\n106 (100%)\n    Marital status, recat\n\n    Without couple\n54 (51%)\n    With couple\n52 (49%)\n    Weight, kg\n61 (8)\n    Unknown\n3\n    Height, m\n1.53 (0.08)\n    Unknown\n3\n    Estradiol\n92 (59, 132)\n    Luteinizant Hormon\n6 (3, 13)\n    Folicullo stimulant hormon\n3.66 (2.12, 5.09)\n    Progesterone\n10 (5, 12)\n  \n  \n  \n    \n      1 Mean (SD); n (%); Median (IQR)\n    \n  \n\n\n\n\n\nLuego, al objeto se lo guarda como un archivo de MS Word. Para esto, se usa la función as_flex_table() del paquete {gtsummary} y la función save_as_docx() del paquete {flextable}:\n\n\n# install.packages(flextable)\nlibrary(flextable)\ntabla1 %>% \n  as_flex_table() %>% \n  save_as_docx(path = \"Tabla1.docx\")\n\n\nEl MS Word aparecerá en la carpeta del proyecto:\n\n\n\nY la tabla en Word lucirá así:"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#section",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#section",
+    "title": "   Sesión 1c",
+    "section": "",
+    "text": "slides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Sesion-1c.html#section-1",
+    "href": "Sesiones/Sesion-1/Sesion-1c.html#section-1",
+    "title": "   Sesión 1c",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1c\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
     "objectID": "Sesiones/Sesion-1/Taller1.html",
     "href": "Sesiones/Sesion-1/Taller1.html",
     "title": "Taller 1 - Familiarizandose con R",
@@ -1041,6 +1629,41 @@
     "title": "Taller 1 - Familiarizandose con R",
     "section": "Realice las siguientes acciones en su computador:",
     "text": "Realice las siguientes acciones en su computador:\n\nCree una carpeta denominada: Sesión 1.\nCree un Proyecto de R denominado igual que la carpeta: Sesión 1.\nDescargue los datos denominados: maca_meno_preclin.xlsx y maca_meno-fase1.dta del siguiente enlace: https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html\nColoque los datos en la carpeta Sesion1\nCree un notebook de RMarkdown al cual denomine: Ejercicios de Taller 1.\nEn el Notebook haga lo siguiente:\n\nCree un titulo diferente para cada dataset:\n\nTítulo 1: Dataset maca_meno_preclin\nTítulo 2: Dataset maca_meno_fase1\n\nInstale el paquete labelled().\nCargue estos paquetes.\nImporte los datos a R tratando de convervar la mayor información posible de los datos de origen.\nHaga comentarios de cada proceso en el notebook.\nCompile el notebook."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller2.html",
+    "href": "Sesiones/Sesion-1/Taller2.html",
+    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "section": "",
+    "text": "Tiempo: 25 min\nDescripción: En este taller nos familizaremos con el manejo de datos\nRealice las siguientes acciones en su computador:\n\nTrabajaremos con el proyecto configurado en el Taller 1.\nTrabaje sobre este R Notebook.\nUse el conjunto de datos datos_fase1 que se importó de maca_meno-fase1.dta."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller2.html#desarrollo-del-taller",
+    "href": "Sesiones/Sesion-1/Taller2.html#desarrollo-del-taller",
+    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "section": "Desarrollo del taller:",
+    "text": "Desarrollo del taller:\n\nCargar los paquetes\nCon este código se cargan los paquetes. Es recomendable instalar todos los paquetes al inicio y luego cargarlos todos! Solo instala una vez, luego comenta para no reinstalar a cada rato.\n\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n\n\n\nImportar datos\n\n# Tip: objeto <- read_stata(\"archivo.dta\")\n\n\n\nFiltre al grupo tratado == 1 y guardelo como datos2. Imprima datos2\n\n# Tip: Use filter()\n\n\n\nFiltre a quienes tienen edad > 27 y menor de 33 sin guardarlo, solo imprimalo:\n\n# Tip: Use filter()\n\n\n\nSelecciona las variables id, treat, age y married. Guarde como data3 e imprima.\n\n\nElimine las varaibles married2 y weight. No guarde solo imprima.\n\n\nSeleccione id, time y race y married. Luego, filtre por status marital 0.\n\n\nSeleccione id, treat, weight y height. Luego, calcule el indice de masa corporal. Guarde como data4 e imprima. Llame a esta variable imc.\n\n# Tip: Use select() y luego mutate()\n\n\n\nCategorice edad en edad 20-25, 26-35, 36-41. Guarde como data5 e imprima.\n\n\nCategorice indice de masa corporal en <18.5 (Bajo peso), 18.5 a 24.9 (peso normal), 25-29.9 (sobrepeso) y 30+ (obeso). Llame a esta variable imc_cat. GUarde como data6 e imprima\n\n\nColoque etiquetas a imc y a imc_cat para que otro investigador entienda su significado."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller3.html",
+    "href": "Sesiones/Sesion-1/Taller3.html",
+    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "section": "",
+    "text": "Tiempo: 30 min\nDescripción: En este taller nos familizaremos con el manejo de datos\nRealice las siguientes acciones en su computador:\n\nTrabajaremos con el proyecto configurado en el Taller 1.\nTrabaje sobre este R Notebook.\nUse el conjunto de datos maca_meno_preclin.xlsx que importó con el nombre de datos_preclin.\nAbra el archivo en excel maca_meno_preclin.xlsx, en la hoja 2 está el libro de códigos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller3.html#desarrollo-del-taller",
+    "href": "Sesiones/Sesion-1/Taller3.html#desarrollo-del-taller",
+    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "section": "Desarrollo del taller:",
+    "text": "Desarrollo del taller:\n\nCargar los paquetes\n\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n\n\n\nImportar datos\n\n# Tip: objeto <- read_excel(\"archivo.xlsx\")\n\n\n\nExplore globalmente los datos\n\n# Tip: Use glimpse() y contents()\n\n\n\nIdentifique filas completamente duplicadas\n\n\n\n\n\nIdentifique filas duplicadas solo por ID\n\n\nSi hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.\n\n\nIdentifique valores extremos no plausibles con medidas descriptivas\n\n\nIdentifique valores extremos no plausibles con grafico de cajas\n\n\nHaga algunas consultas (queries) de interés\n\n\nConsulta 1\nMuestre la glucosa final y trigliceridos final mínimo, máximo y promedio del grupo control:\n\n\n\n\n\nConsulta 2\nCategorice el peso inicial en <22 y >=22. Luego muestre el promedio y mediana de colesterol según las categorias de peso creadas.\n\n\nConsulta 3\nCree la variable diferencia de peso final menos inicial y muestre el minimo y maximo segun protocolo seguido."
+  },
+  {
+    "objectID": "Sesiones/Sesion-1/Taller3.html#tabla-descriptiva-con-gtsummary",
+    "href": "Sesiones/Sesion-1/Taller3.html#tabla-descriptiva-con-gtsummary",
+    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "section": "Tabla descriptiva con gtsummary()",
+    "text": "Tabla descriptiva con gtsummary()\n\nCree una tabla descriptiva con toda la muestra y todas las variables excepto id.\n\n\n\n\n\nCree una tabla comparativa de grupos segun tratamiento (sin tabla global). No incluya a id.\n\n\n\n\n\nCree una taba comparativa y global (no incluya id)\n\n\n\n\n\nCree una tabla anexa donde reporte minimos y maximos."
   },
   {
     "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",

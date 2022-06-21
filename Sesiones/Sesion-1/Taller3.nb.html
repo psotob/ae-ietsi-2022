@@ -11,7 +11,7 @@
 
 
 
-<title>Taller 1 - Familiarizandose con R</title>
+<title>Taller 2 - Manejo de datos con tidyverse</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1762,7 +1762,8 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Taller 1 - Familiarizandose con R</h1>
+<h1 class="title toc-ignore">Taller 2 - Manejo de datos con
+tidyverse</h1>
 
 </div>
 
@@ -1771,42 +1772,133 @@ pre code {
 <div id="instrucciones" class="section level2">
 <h2>INSTRUCCIONES</h2>
 <ul>
-<li><p>Tiempo: 15 min</p></li>
-<li><p>Descripción: En este taller nos familizaremos con la
-configuración del programa R a través de RStudio.</p></li>
+<li><p>Tiempo: 30 min</p></li>
+<li><p>Descripción: En este taller nos familizaremos con el manejo de
+datos</p></li>
+<li><p>Realice las siguientes acciones en su computador:</p>
+<ol style="list-style-type: decimal">
+<li><p>Trabajaremos con el proyecto configurado en el Taller 1.</p></li>
+<li><p>Trabaje sobre este R Notebook.</p></li>
+<li><p>Use el conjunto de datos <code>maca_meno_preclin.xlsx</code> que
+importó con el nombre de <code>datos_preclin</code>.</p></li>
+<li><p>Abra el archivo en excel <code>maca_meno_preclin.xlsx</code>, en
+la hoja 2 está el libro de códigos.</p></li>
+</ol></li>
 </ul>
 </div>
-<div id="realice-las-siguientes-acciones-en-su-computador" class="section level2">
-<h2>Realice las siguientes acciones en su computador:</h2>
-<ol style="list-style-type: decimal">
-<li><p>Cree una carpeta denominada: <code>Sesión 1</code>.</p></li>
-<li><p>Cree un Proyecto de R denominado igual que la carpeta:
-<code>Sesión 1</code>.</p></li>
-<li><p>Descargue los datos denominados:
-<code>maca_meno_preclin.xlsx</code> y <code>maca_meno-fase1.dta</code>
-del siguiente enlace: <a href="https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html" class="uri">https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html</a></p></li>
-<li><p>Coloque los datos en la carpeta <code>Sesion1</code></p></li>
-<li><p>Cree un notebook de RMarkdown al cual denomine:
-<code>Ejercicios de Taller 1</code>.</p></li>
-<li><p>En el Notebook haga lo siguiente:</p>
-<ul>
-<li><p>Cree un titulo diferente para cada dataset:</p>
-<ul>
-<li><p>Título 1: <strong>Dataset maca_meno_preclin</strong></p></li>
-<li><p>Título 2: <strong>Dataset maca_meno_fase1</strong></p></li>
-</ul></li>
-<li><p>Instale el paquete <code>labelled()</code>.</p></li>
-<li><p>Cargue estos paquetes.</p></li>
-<li><p>Importe los datos a R tratando de convervar la mayor información
-posible de los datos de origen.</p></li>
-<li><p>Haga comentarios de cada proceso en el notebook.</p></li>
-<li><p>Compile el notebook.</p></li>
-</ul></li>
-</ol>
+<div id="desarrollo-del-taller" class="section level2">
+<h2>Desarrollo del taller:</h2>
+<div id="cargar-los-paquetes" class="section level3">
+<h3>Cargar los paquetes</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBUaXA6IGxpYnJhcnkocGFxdWV0ZSlcbiMgVGlwMjogQ2FyZ3VlIHRpZHl2ZXJzZSwgSG1pc2MgeSBqYW5pdG9yXG5cbmBgYCJ9 -->
+<pre class="r"><code># Tip: library(paquete)
+# Tip2: Cargue tidyverse, Hmisc y janitor
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="importar-datos" class="section level3">
+<h3>Importar datos</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBUaXA6IG9iamV0byA8LSByZWFkX2V4Y2VsKFwiYXJjaGl2by54bHN4XCIpXG5cbmBgYCJ9 -->
+<pre class="r"><code># Tip: objeto &lt;- read_excel(&quot;archivo.xlsx&quot;)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="explore-globalmente-los-datos" class="section level3">
+<h3>Explore globalmente los datos</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBUaXA6IFVzZSBnbGltcHNlKCkgeSBjb250ZW50cygpXG5cbmBgYCJ9 -->
+<pre class="r"><code># Tip: Use glimpse() y contents()
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="identifique-filas-completamente-duplicadas" class="section level3">
+<h3>Identifique filas completamente duplicadas</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="identifique-filas-duplicadas-solo-por-id" class="section level3">
+<h3>Identifique filas duplicadas solo por ID</h3>
+</div>
+<div id="si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta." class="section level3">
+<h3>Si hay duplicados, eliminelos. Si no hay duplicados, justifique su
+respuesta.</h3>
+</div>
+<div id="identifique-valores-extremos-no-plausibles-con-medidas-descriptivas" class="section level3">
+<h3>Identifique valores extremos no plausibles con medidas
+descriptivas</h3>
+</div>
+<div id="identifique-valores-extremos-no-plausibles-con-grafico-de-cajas" class="section level3">
+<h3>Identifique valores extremos no plausibles con grafico de cajas</h3>
+</div>
+<div id="haga-algunas-consultas-queries-de-interés" class="section level3">
+<h3>Haga algunas consultas (queries) de interés</h3>
+</div>
+<div id="consulta-1" class="section level3">
+<h3>Consulta 1</h3>
+<p>Muestre la glucosa final y trigliceridos final mínimo, máximo y
+promedio del grupo control:</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="consulta-2" class="section level3">
+<h3>Consulta 2</h3>
+<p>Categorice el peso inicial en &lt;22 y &gt;=22. Luego muestre el
+promedio y mediana de colesterol según las categorias de peso
+creadas.</p>
+</div>
+<div id="consulta-3" class="section level3">
+<h3>Consulta 3</h3>
+<p>Cree la variable diferencia de peso final menos inicial y muestre el
+minimo y maximo segun protocolo seguido.</p>
+</div>
+</div>
+<div id="tabla-descriptiva-con-gtsummary" class="section level2">
+<h2>Tabla descriptiva con gtsummary()</h2>
+<div id="cree-una-tabla-descriptiva-con-toda-la-muestra-y-todas-las-variables-excepto-id." class="section level3">
+<h3>Cree una tabla descriptiva con toda la muestra y todas las variables
+excepto id.</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="cree-una-tabla-comparativa-de-grupos-segun-tratamiento-sin-tabla-global.-no-incluya-a-id." class="section level3">
+<h3>Cree una tabla comparativa de grupos segun tratamiento (sin tabla
+global). No incluya a id.</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="cree-una-taba-comparativa-y-global-no-incluya-id" class="section level3">
+<h3>Cree una taba comparativa y global (no incluya id)</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="cree-una-tabla-anexa-donde-reporte-minimos-y-maximos." class="section level3">
+<h3>Cree una tabla anexa donde reporte minimos y maximos.</h3>
 <!-- rnb-text-end -->
 </div>
+</div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlRhbGxlciAxIC0gRmFtaWxpYXJpemFuZG9zZSBjb24gUiINCm91dHB1dDogaHRtbF9ub3RlYm9vaw0KLS0tDQoNCiMjIElOU1RSVUNDSU9ORVMNCg0KLSBUaWVtcG86IDE1IG1pbg0KDQotIERlc2NyaXBjacOzbjogRW4gZXN0ZSB0YWxsZXIgbm9zIGZhbWlsaXphcmVtb3MgY29uIGxhIGNvbmZpZ3VyYWNpw7NuIGRlbCBwcm9ncmFtYSBSIGEgdHJhdsOpcyBkZSBSU3R1ZGlvLg0KDQojIyBSZWFsaWNlIGxhcyBzaWd1aWVudGVzIGFjY2lvbmVzIGVuIHN1IGNvbXB1dGFkb3I6DQoNCjEpIENyZWUgdW5hIGNhcnBldGEgZGVub21pbmFkYTogYFNlc2nDs24gMWAuDQoNCjMpIENyZWUgdW4gUHJveWVjdG8gZGUgUiBkZW5vbWluYWRvIGlndWFsIHF1ZSBsYSBjYXJwZXRhOiBgU2VzacOzbiAxYC4NCg0KNCkgRGVzY2FyZ3VlIGxvcyBkYXRvcyBkZW5vbWluYWRvczogYG1hY2FfbWVub19wcmVjbGluLnhsc3hgIHkgYG1hY2FfbWVuby1mYXNlMS5kdGFgIGRlbCBzaWd1aWVudGUgZW5sYWNlOiBodHRwczovL2lldHNpLWFjYWRlbXktYWVkLm5ldGxpZnkuYXBwL3JlY3Vyc29zL3JlYy1zZXNpb24xLmh0bWwNCg0KNSkgQ29sb3F1ZSBsb3MgZGF0b3MgZW4gbGEgY2FycGV0YSBgU2VzaW9uMWANCg0KNikgQ3JlZSB1biBub3RlYm9vayBkZSBSTWFya2Rvd24gYWwgY3VhbCBkZW5vbWluZTogYEVqZXJjaWNpb3MgZGUgVGFsbGVyIDFgLg0KDQo3KSBFbiBlbCBOb3RlYm9vayBoYWdhIGxvIHNpZ3VpZW50ZToNCg0KICAgIC0gQ3JlZSB1biB0aXR1bG8gZGlmZXJlbnRlIHBhcmEgY2FkYSBkYXRhc2V0Og0KICAgIA0KICAgICAgICArIFTDrXR1bG8gMTogKipEYXRhc2V0IG1hY2FfbWVub19wcmVjbGluKioNCiAgICAgICAgDQogICAgICAgICsgVMOtdHVsbyAyOiAqKkRhdGFzZXQgbWFjYV9tZW5vX2Zhc2UxKioNCiAgICAgICAgDQogICAgLSBJbnN0YWxlIGVsIHBhcXVldGUgYGxhYmVsbGVkKClgLg0KICAgIA0KICAgIC0gQ2FyZ3VlIGVzdG9zIHBhcXVldGVzLg0KICAgIA0KICAgIC0gSW1wb3J0ZSBsb3MgZGF0b3MgYSBSIHRyYXRhbmRvIGRlIGNvbnZlcnZhciBsYSBtYXlvciBpbmZvcm1hY2nDs24gcG9zaWJsZSBkZSBsb3MgZGF0b3MgZGUgb3JpZ2VuLg0KICAgIA0KICAgIC0gSGFnYSBjb21lbnRhcmlvcyBkZSBjYWRhIHByb2Nlc28gZW4gZWwgbm90ZWJvb2suDQogICAgDQogICAgLSBDb21waWxlIGVsIG5vdGVib29rLg0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlRhbGxlciAyIC0gTWFuZWpvIGRlIGRhdG9zIGNvbiB0aWR5dmVyc2UiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQojIyBJTlNUUlVDQ0lPTkVTDQoNCi0gICBUaWVtcG86IDMwIG1pbg0KDQotICAgRGVzY3JpcGNpw7NuOiBFbiBlc3RlIHRhbGxlciBub3MgZmFtaWxpemFyZW1vcyBjb24gZWwgbWFuZWpvIGRlIGRhdG9zDQoNCi0gICBSZWFsaWNlIGxhcyBzaWd1aWVudGVzIGFjY2lvbmVzIGVuIHN1IGNvbXB1dGFkb3I6DQoNCiAgICAxKSAgVHJhYmFqYXJlbW9zIGNvbiBlbCBwcm95ZWN0byBjb25maWd1cmFkbyBlbiBlbCBUYWxsZXIgMS4NCg0KICAgIDIpICBUcmFiYWplIHNvYnJlIGVzdGUgUiBOb3RlYm9vay4NCg0KICAgIDMpICBVc2UgZWwgY29uanVudG8gZGUgZGF0b3MgYG1hY2FfbWVub19wcmVjbGluLnhsc3hgIHF1ZSBpbXBvcnTDsyBjb24gZWwgbm9tYnJlIGRlIGBkYXRvc19wcmVjbGluYC4NCg0KICAgIDQpICBBYnJhIGVsIGFyY2hpdm8gZW4gZXhjZWwgYG1hY2FfbWVub19wcmVjbGluLnhsc3hgLCBlbiBsYSBob2phIDIgZXN0w6EgZWwgbGlicm8gZGUgY8OzZGlnb3MuDQoNCiMjIERlc2Fycm9sbG8gZGVsIHRhbGxlcjoNCg0KIyMjIENhcmdhciBsb3MgcGFxdWV0ZXMNCg0KYGBge3J9DQojIFRpcDogbGlicmFyeShwYXF1ZXRlKQ0KIyBUaXAyOiBDYXJndWUgdGlkeXZlcnNlLCBIbWlzYyB5IGphbml0b3INCg0KYGBgDQoNCiMjIyBJbXBvcnRhciBkYXRvcw0KDQpgYGB7cn0NCiMgVGlwOiBvYmpldG8gPC0gcmVhZF9leGNlbCgiYXJjaGl2by54bHN4IikNCg0KYGBgDQoNCiMjIyBFeHBsb3JlIGdsb2JhbG1lbnRlIGxvcyBkYXRvcw0KDQpgYGB7cn0NCiMgVGlwOiBVc2UgZ2xpbXBzZSgpIHkgY29udGVudHMoKQ0KDQpgYGANCg0KIyMjIElkZW50aWZpcXVlIGZpbGFzIGNvbXBsZXRhbWVudGUgZHVwbGljYWRhcw0KDQpgYGB7cn0NCg0KYGBgDQoNCiMjIyBJZGVudGlmaXF1ZSBmaWxhcyBkdXBsaWNhZGFzIHNvbG8gcG9yIElEDQoNCiMjIyBTaSBoYXkgZHVwbGljYWRvcywgZWxpbWluZWxvcy4gU2kgbm8gaGF5IGR1cGxpY2Fkb3MsIGp1c3RpZmlxdWUgc3UgcmVzcHVlc3RhLg0KDQojIyMgSWRlbnRpZmlxdWUgdmFsb3JlcyBleHRyZW1vcyBubyBwbGF1c2libGVzIGNvbiBtZWRpZGFzIGRlc2NyaXB0aXZhcw0KDQojIyMgSWRlbnRpZmlxdWUgdmFsb3JlcyBleHRyZW1vcyBubyBwbGF1c2libGVzIGNvbiBncmFmaWNvIGRlIGNhamFzDQoNCiMjIyBIYWdhIGFsZ3VuYXMgY29uc3VsdGFzIChxdWVyaWVzKSBkZSBpbnRlcsOpcw0KDQojIyMgQ29uc3VsdGEgMQ0KDQpNdWVzdHJlIGxhIGdsdWNvc2EgZmluYWwgeSB0cmlnbGljZXJpZG9zIGZpbmFsIG3DrW5pbW8sIG3DoXhpbW8geSBwcm9tZWRpbyBkZWwgZ3J1cG8gY29udHJvbDoNCg0KYGBge3J9DQoNCmBgYA0KDQojIyMgQ29uc3VsdGEgMg0KDQpDYXRlZ29yaWNlIGVsIHBlc28gaW5pY2lhbCBlbiBcPDIyIHkgXD49MjIuIEx1ZWdvIG11ZXN0cmUgZWwgcHJvbWVkaW8geSBtZWRpYW5hIGRlIGNvbGVzdGVyb2wgc2Vnw7puIGxhcyBjYXRlZ29yaWFzIGRlIHBlc28gY3JlYWRhcy4NCg0KIyMjIENvbnN1bHRhIDMNCg0KQ3JlZSBsYSB2YXJpYWJsZSBkaWZlcmVuY2lhIGRlIHBlc28gZmluYWwgbWVub3MgaW5pY2lhbCB5IG11ZXN0cmUgZWwgbWluaW1vIHkgbWF4aW1vIHNlZ3VuIHByb3RvY29sbyBzZWd1aWRvLg0KDQojIyBUYWJsYSBkZXNjcmlwdGl2YSBjb24gZ3RzdW1tYXJ5KCkNCg0KIyMjIENyZWUgdW5hIHRhYmxhIGRlc2NyaXB0aXZhIGNvbiB0b2RhIGxhIG11ZXN0cmEgeSB0b2RhcyBsYXMgdmFyaWFibGVzIGV4Y2VwdG8gaWQuDQoNCmBgYHtyfQ0KDQpgYGANCg0KIyMjIENyZWUgdW5hIHRhYmxhIGNvbXBhcmF0aXZhIGRlIGdydXBvcyBzZWd1biB0cmF0YW1pZW50byAoc2luIHRhYmxhIGdsb2JhbCkuIE5vIGluY2x1eWEgYSBpZC4NCg0KYGBge3J9DQoNCmBgYA0KDQojIyMgQ3JlZSB1bmEgdGFiYSBjb21wYXJhdGl2YSB5IGdsb2JhbCAobm8gaW5jbHV5YSBpZCkNCg0KYGBge3J9DQoNCmBgYA0KDQojIyMgQ3JlZSB1bmEgdGFibGEgYW5leGEgZG9uZGUgcmVwb3J0ZSBtaW5pbW9zIHkgbWF4aW1vcy4NCg==</div>
 
 
 
@@ -1853,7 +1945,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("Taller1.Rmd");
+  window.initializeSourceEmbed("Taller3.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>

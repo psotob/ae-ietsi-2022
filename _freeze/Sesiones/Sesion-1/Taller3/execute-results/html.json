@@ -1,0 +1,14 @@
+{
+  "hash": "34b7846e4fd9a0a26317fe18a08f4ed5",
+  "result": {
+    "markdown": "---\ntitle: \"Taller 2 - Manejo de datos con tidyverse\"\noutput: html_notebook\n---\n\n\n## INSTRUCCIONES\n\n-   Tiempo: 30 min\n\n-   Descripción: En este taller nos familizaremos con el manejo de datos\n\n-   Realice las siguientes acciones en su computador:\n\n    1)  Trabajaremos con el proyecto configurado en el Taller 1.\n\n    2)  Trabaje sobre este R Notebook.\n\n    3)  Use el conjunto de datos `maca_meno_preclin.xlsx` que importó con el nombre de `datos_preclin`.\n\n    4)  Abra el archivo en excel `maca_meno_preclin.xlsx`, en la hoja 2 está el libro de códigos.\n\n## Desarrollo del taller:\n\n### Cargar los paquetes\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n```\n:::\n\n\n### Importar datos\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: objeto <- read_excel(\"archivo.xlsx\")\n```\n:::\n\n\n### Explore globalmente los datos\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Tip: Use glimpse() y contents()\n```\n:::\n\n\n### Identifique filas completamente duplicadas\n\n\n::: {.cell}\n\n:::\n\n\n### Identifique filas duplicadas solo por ID\n\n### Si hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.\n\n### Identifique valores extremos no plausibles con medidas descriptivas\n\n### Identifique valores extremos no plausibles con grafico de cajas\n\n### Haga algunas consultas (queries) de interés\n\n### Consulta 1\n\nMuestre la glucosa final y trigliceridos final mínimo, máximo y promedio del grupo control:\n\n\n::: {.cell}\n\n:::\n\n\n### Consulta 2\n\nCategorice el peso inicial en \\<22 y \\>=22. Luego muestre el promedio y mediana de colesterol según las categorias de peso creadas.\n\n### Consulta 3\n\nCree la variable diferencia de peso final menos inicial y muestre el minimo y maximo segun protocolo seguido.\n\n## Tabla descriptiva con gtsummary()\n\n### Cree una tabla descriptiva con toda la muestra y todas las variables excepto id.\n\n\n::: {.cell}\n\n:::\n\n\n### Cree una tabla comparativa de grupos segun tratamiento (sin tabla global). No incluya a id.\n\n\n::: {.cell}\n\n:::\n\n\n### Cree una taba comparativa y global (no incluya id)\n\n\n::: {.cell}\n\n:::\n\n\n### Cree una tabla anexa donde reporte minimos y maximos.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

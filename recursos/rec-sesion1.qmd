@@ -28,6 +28,14 @@ title: "Sesion 1"
     
     + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Taller2_sol.Rmd)]
     
+- Taller 3:
+
+    + Instrucciones: [[Enlace](../Sesiones/Sesion-1/Taller3.Rmd)]
+
+    + R script: [[Enlace](../Sesiones/Sesion-1/Code/Taller3_sol.r)]
+    
+    + R notebook: [[Enlace](../Sesiones/Sesion-1/Code/Taller3_sol.Rmd)]
+    
 ## Datos 
 
 - [BD_Penales.dta](https://github.com/culquichicon/2016-Peruvian-Prison-Census/blob/master/BD_Penales.dta?raw=true) (Datos contienen metadatos)
