@@ -1,0 +1,351 @@
+---
+title: "<img data-src='images/logo-essalud.png' height='72' width='250'/> <img data-src='images/logo-pueblo.jpg' height='72' width='250'/> <img data-src='images/logo-ietsi.png' height='72' width='250'/> <FONT color='#232429'><br>Sesión 2b</FONT>"
+subtitle: "<FONT color='#636363' size='7'>Programa de Formación Científica:<br>Análisis Estadístico 2022</FONT>"
+author: "<FONT color='#232429' size='30'>Percy Soto-Becerra</FONT>"
+institute: "<FONT color='#232429' size='5'>Instituto de Evaluación de Tecnologías en Salud e Investigación - IETSI, EsSalud<br>@github/psotob</FONT>"
+date: "<FONT color='#232429' size='6'>Junio 22, 2022</FONT>"
+format: 
+  revealjs: 
+    theme: default
+    footer: "Programa de Formación Científica: Análisis Estadístico 2022 - Sesión 2b"
+    logo: images/logo-ietsi.png
+    transition: convex
+    background-transition: zoom
+    incremental: false
+    slide-number: true
+    preview-links: true
+    # parallax-background-image: images/bg-ietsi-slide-first.png
+    # parallax-background-size: "1920px 1080px"
+    chalkboard: true
+    code-block-background: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: solarized
+    echo: true
+    multiplex: true
+    touch: true
+    auto-stretch: true
+    link-external-icon: true
+    link-external-newwindow: true
+---
+
+```{r}
+#| echo: false
+#| output: false
+
+# Removing all objects including loaded libraries
+rm(list = ls(all = TRUE))
+gc()
+
+# Installing and loading packages
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+
+pacman::p_unload("all") # Unloading all package except base
+
+pacman::p_load(tidyverse, 
+               janitor, 
+               gt, 
+               gtsummary, 
+               flextable, 
+               kableExtra, 
+               skimr, 
+               Hmisc, 
+               readxl, 
+               rstatix) # Loading packages
+
+# icons::download_fontawesome()
+```
+
+```{r}
+#| echo: false
+datos_preclin <- read_excel("maca_meno_perclin.xlsx")
+datos_preclin2 <- datos_preclin %>% 
+  filter(tratamiento %in% c("control", "triple dosis maca + citr"))
+```
+
+## Pruebas de Hipótesis {.scrollable}
+
+```{mermaid}
+flowchart TD
+  A[Pruebas de Hipótesis] --> B{Supuestos?}
+  B -->|Sí| C[Parámetrica]
+  B -->|No| D[No Paramétrica]
+  D --> E{IC o Dif. Medias?}
+  E -->|No| F[Rangos]
+  E -->|Sí| G[Remuestreo]
+```
+
+## Pruebas de Hipótesis Paramétricas {.scrollable}
+
+```{mermaid}
+flowchart TD
+  A[Pruebas de Hipótesis Paramétricas] --> B[Para Medias] --> C{1 Grupo?}
+  C --> |Sí| C0[Prueba t de Student\n para 1 grupo]
+  C --> |No| D{Dependencia?} --> D1[Independencia]
+  D --> D2[Dependencia]
+  D1 --> E1[2 grupos] --> H1[t de Student para \n2 grupos independientes]
+  D1 --> E2[3 grupos] --> I1[Análisis de varianza \nde una vía]
+  D2 --> G1[2 grupos] --> H2[t de Student para \n2 grupos dependientes]
+  D2 --> G2[3 grupos] --> I2[Extensiones del \nAnálisis de Varianza]
+```
+
+## Pruebas de Hipótesis No Paramétricas {.scrollable}
+
+```{mermaid}
+flowchart TD
+  A[Pruebas de Hipótesis \nNo Paramétricas\n Basadas en Rangos] --> B[Para Medianas] --> B1{1 grupo?}
+  B1 -->|Sí| B2[Prueba del Signo]
+  B1 -->|No| C{Dependencia?} 
+  C --> D1(Independientes)
+  C --> D2(Dependientes)
+  D1 --> N2(2 grupos) --> F[Prueba de \nU Mann Whitney]
+  D1 --> N3(3 grupos) --> G[Prueba de \nKruskal Wallis]
+  D2 --> M2(2 grupos) --> F2[Prueba \ndel Signo]
+  M2 --> F3[Prueba de Rangos \nSignados de Wilcoxon]
+  D2 --> M3(3 grupos) --> G2[Prueba de \nFriedman]
+```
+
+## ¿Qué paquetes usaremos? 
+
+- Existen `distintos paquetes` en R base para realizar `PH` o `estimación`.
+
+- Hay mucha `inconsistencia` entre estos.
+
+- El paquete `{rstatix}` compila todos estos en una sola sintaxis `R tidy`. 
+
+```{r}
+# install.packages("rstatix")
+library(rstatix)
+```
+
+- Enlace web: [https://rpkgs.datanovia.com/rstatix/](https://rpkgs.datanovia.com/rstatix/)
+
+## ¿Qué paquetes usaremos? (cont.)
+
+- Para el enfoque de remuestreo, existen varios paquetes de R base. 
+
+- El paquete `{infer}` usa formato `R tidy` por lo que lo usaremos en este curso.
+
+```{r}
+# install.packages("infer")
+
+```
+
+- Enlace web: [https://infer.netlify.app/](https://infer.netlify.app/)
+
+# Estimación y Pruebas de Hipótesis para Variables Respuesta Numéricas
+
+## Para un grupo {.scrollable}
+
+::: panel-tabset
+
+### Param.
+
+- Se usa función `t_test()` de paquete `{rstatix}`.
+
+- Permite obtener el `valor p` para una hipótesis dada y el `intervalo de confianza` para la `media`.
+
+```{r}
+datos_preclin2 %>% 
+  t_test(glucose ~ 1, mu = 100, detailed = TRUE) 
+```
+
+- El argumento `mu = número` es un valor de referencia contra el que deseamos compararnos.
+
+- El argumento `detailed = TRUE` permite obtener también los `intervalos de confianza`. 
+
+- La función `gt()` es para mejorar visualización del resultado. 
+
+```{r}
+library(gt)
+datos_preclin2 %>% 
+  t_test(glucose ~ 1, mu = 0, detailed = TRUE) %>% 
+  gt()
+```
+
+- Agregaremos gt() a partir de ahora.
+
+- **Interpretación:**
+
+> La media estimada de glucosa fue de 95.5 mg/dL (IC95% 71.6 mg/dL a 119.4 mg/dL). Aunque este valor fue menor a 100 mg/dL (valor de referencia), no es posible concluir que la media poblacional es diferente del valor de refrencia (p = 0.627).
+
+:::{.callout-important}
+
+**Supuestos**:
+
+- **`Aleatorización`**:
+<FONT size='4'>
+    + **Muestra es aleatoria:** Para generalizar a una población de interés `O`</FONT><FONT size='4'>
+    + **'Representatividad teórica'**: Aunque no hayamos obtenido una muestra aleatoria, la muestra se comporta como si lo hubiéramos hecho.</FONT>
+    
+- **`Observaciones son independientes`**:
+<FONT size='4'>
+    + Esto es equivalente a pensar que todos los sujetos son muestreados de la misma población y que han sido seleccionados de manera independiente de los otros.</FONT><FONT size='4'>
+    + La selección de un individuo no afecta la selección de otro.</FONT><FONT size='4'>
+    + ¿Cuándo falla la independencia de observaciones? Cuando hay pareamiento</FONT>
+
+- **`Normalidad de la distribución muestral de medias`**:
+    + Clásicamente, se alcanza si la distribución de la variable respuesta es normal.
+    + Si la distribución de la `variable respuesta no es normal`, pero la `muestra es suficientemente grande` ($n \to \infty$), entonces la `distribución muestral de medias` es `normal`.
+
+- 
+
+- 
+
+:::
+
+:::{.callout-warning}
+
+## Advertencia Nº1: Abuso de la representatividad teórica!
+
+En `investigación clínica` a menudo se abusa de la `representividad teórica` . Esto debería evitarse y reservarse solo a casos en los que resulta imposible hacer un muestreo aleatorio (y obtener `representatividad estadística`) pero se tenga algún procedimiento `no probabilístico` que pueda, bajo ciertas asunciones razonables, emular la representatividad estadística. 
+
+Un ejemplo clásico es usar un `muestreo consecutivo` (bien realizado) en ensayos clínicos, estudios de prueba diagnóstica o pronóstica. Este procedimiento es aceptado en ámbitos clínicos dado que no existe un marco muestral observable o se desea generalizar a nuevos pacientes (idea de superpobación). 
+:::
+
+:::{.callout-warning}
+
+## Advertencia Nº2: ¿Cómo impacta un valor extremo en los supuestos?
+
+Uno o más `outlier` afecta la validez de las pruebas porque 
+:::
+
+:::{.callout-warning}
+
+## Advertencia Nº3: ¿Cuándo una muestra es suficientemente grande?
+
+    + Problema: ¿Cuándo la muestra es `suficientemente` grande?
+    + Incluso con muestras consideradas 'muy grandes' si distribución es sesgada, no se alcanza la normalidad de la distribución muestral de medias.
+:::
+
+
+### No param. Rangos
+
+- Se usa función `t_test()` de paquete `{rstatix}`.
+
+```{r}
+datos_preclin2 %>% 
+  t_test(glucose ~ 1, mu = 0, detailed = TRUE) 
+```
+
+### No param. Remuestreo
+
+
+:::
+
+## Estimación y PH para dos grupos dependientes
+
+::: panel-tabset
+
+### Paramétrico
+
+:::{.callout-important}
+
+**Supuestos**:
+
+- **'Aleatorización':**
+<FONT size='6'>
+    + **Muestra es aleatoria:** Para generalizar a una población de interés O </FONT><FONT size='6'>
+    + **Muestra proviene de intervenciones asignadas por azar:** Para hacer inferencias causales O </FONT><FONT size='6'>
+    + **'Representatividad teórica' o `Emulación de asignación aleatoria`:** Aunque no hayamos obtenido una muestra aleatoria ni aleatorizado, la muestra se comporta como si lo hubiéramos hecho. </FONT>
+    
+- **Observaciones son independientes:**
+
+- 
+
+- 
+
+- 
+
+:::
+
+
+### No param. Rangos
+
+
+
+### No param. Bootstrapping
+
+
+:::
+
+## Estimación y PH para dos grupos independientes
+
+::: panel-tabset
+
+### Paramétrico
+
+
+### No param. Rangos
+
+
+
+### No param. Bootstrapping
+
+
+:::
+
+# Pruebas de hipótesis para variables respuesta categóricas
+
+## Prueba Chi cuadrado
+
+## Prueba exacta de Fisher
+
+::: r-fit-text
+<br>
+
+<center>
+
+slides:
+
+</center>
+
+<center>
+
+[https://bit.ly/3n6Ejzb](https://ietsi-academy-aed.netlify.app/sesiones/sesion-1/sesion-1c)
+
+</center>
+:::
+
+## 
+
+::: r-fit-text
+<center>
+
+**¡Gracias por su atención!**
+
+</center>
+
+<center>
+
+**¡Encantado de responder sus consultas!**
+
+</center>
+
+<br>
+
+<center>
+
+**Percy Soto-Becerra**
+
+</center>
+
+<br>
+
+<center>
+
+`r icons::fontawesome$brands$twitter` `r icons::fontawesome$brands$github` @psotob91
+
+</center>
+
+<center>
+
+`r icons::fontawesome$solid$inbox` **percys1991\@gmail.com**
+
+</center>
+:::
+
+::: aside
+<br> <FONT size='4'>Presentación creada vía `Revealjs` en `Quarto` en `RStudio`.</FONT>
+:::

@@ -665,370 +665,6 @@
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1a\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#r-base-funciona-como-una-calculadora",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#r-base-funciona-como-una-calculadora",
-    "title": "   Sesión 1b",
-    "section": "R base funciona como una calculadora",
-    "text": "R base funciona como una calculadora\n\nBásicas 1Básicas 2Avanzadas 1Comparaciones\n\n\n\n\n\nSuma:\n\n\n3 + 8\n\n[1] 11\n\n\n\nResta:\n\n\n3 - 8\n\n[1] -5\n\n\n\n\nMultiplicación\n\n\n3 * 8\n\n[1] 24\n\n\n\nDivisión\n\n\n3 * 8\n\n[1] 24\n\n\n\n\n\n\n\n\n\nPotencia:\n\n\n3 ^ 3 # ^ se obtiene mediante: ALT + 94\n\n[1] 27\n\n\n\nRaíz cuadrada:\n\n\nsqrt(16)\n\n[1] 4\n\n\n\n\nOtra raíz\n\n\n8 ^ (1 / 3) # Raíz cúbica\n\n[1] 2\n\n\n\nOperación combinada\n\n\n15 + (64 - 60) ^ (1/2)\n\n[1] 17\n\n\n\n\n\n\n\n\n\nLogaritmo natural:\n\n\nlog(12) # log es logaritmo natural o neperiano\n\n[1] 2.484907\n\n\n\nLogaritmo base 10:\n\n\nlog10(100)\n\n[1] 2\n\n\n\n\nExponencial\n\n\nexp(2)\n\n[1] 7.389056\n\n\n\npi\n\n\npi\n\n[1] 3.141593\n\n\n\n\n\n\n\n\n\nMayor que:\n\n\n5 > 4\n\n[1] TRUE\n\n\n\nMenor igual que:\n\n\n6 <= 3\n\n[1] FALSE\n\n\n\n\nIgualdad:\n\n\n7 == 7\n\n[1] TRUE\n\n\n\nDiferente:\n\n\n8 != 5\n\n[1] TRUE"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#todo-en-r-es-un-objeto",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#todo-en-r-es-un-objeto",
-    "title": "   Sesión 1b",
-    "section": "Todo en R es un objeto",
-    "text": "Todo en R es un objeto\n\nHay varios tipos de objetos.\nLos datos se estructuran como objetos para almacenar información.\n\nSon como los sustantivos de una oración.\nSe construyen sobre estructuras básicas.\n\nLas funciones son objetos que realizan acciones sobre otros.\n\nSon como los verbos de una oración."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#estructuras-de-datos-en-r",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#estructuras-de-datos-en-r",
-    "title": "   Sesión 1b",
-    "section": "Estructuras de datos en R",
-    "text": "Estructuras de datos en R"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#vectores-atómicos-en-r",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#vectores-atómicos-en-r",
-    "title": "   Sesión 1b",
-    "section": "Vectores atómicos en R",
-    "text": "Vectores atómicos en R\n\nLos vectores (atómicos) guardan datos en una columna o fila (solo 1 de ellas).\nUn número es un vector de un solo elemento\n\n\n# Presión arterial sistólica de Juan\n122.3\n\n[1] 122.3\n\n\n\nVarios números se pueden almacenar en un vector\n\n\n# Presiones arteriales sistólicas de Juan, María y Sandra\nc(122.3, 142.1, 100.2)\n\n[1] 122.3 142.1 100.2"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-en-r",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-en-r",
-    "title": "   Sesión 1b",
-    "section": "Operador asignar en R",
-    "text": "Operador asignar en R\n\nPara poder reutilizar los datos y manipularlos, preferimos ponerles un nombre para poder convocarlos después:\n\n\n# Presiones arteriales sistólicas de Juan, María y Sandra \n# se guardan con el nombre que Ud. quieran:\npas <- c(122.3, 142.1, 100.2) # <- Operador asignar, es una flecha\n\n\nEl objeto de nombre pas no se imprime pero aparece en el ambiente (environment) de RStudio. \n\nExiste pero no puedes ver su contenido en la consola.\nSolo un resumen en las pestaña de environment."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#imprimir-el-contenido-de-un-objeto",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#imprimir-el-contenido-de-un-objeto",
-    "title": "   Sesión 1b",
-    "section": "Imprimir el contenido de un objeto",
-    "text": "Imprimir el contenido de un objeto\n\nPara ver lo que un objeto contiene, solo hay que poner su nombre en el script de código:\n\n\npas\n\n[1] 122.3 142.1 100.2\n\n\n\nVeamos un ejemplo más:  Crear objeto: Introducir datos con c().\nNombrarlo: Usar asignar <- par darle un mote.\nImprimir su contenido: Correr el mote para convocarlo.\n\n\n# Presiones arteriales diastólicas de Juan, María y Sandra \npad <- c(74, 81, 79)\npad\n\n[1] 74 81 79"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-es-coercitivo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operador-asignar-es-coercitivo",
-    "title": "   Sesión 1b",
-    "section": "Operador asignar es coercitivo",
-    "text": "Operador asignar es coercitivo\n\nEl operador asignar tiene tipado dinámico.\nSi a un objeto le pones el nombre de otro, entonces R olvidará al objeto anterior:\n\n\n# El primer objeto c(25, 32) se llama \"peso\"\npeso <- c(55, 62)\npeso\n\n[1] 55 62\n\n\n\n# El segundo objeto c(45, 80) quiero guardarlo con el nombre \"peso\"\npeso <- c(45, 80) # R olvidará al objeto c(25, 32)\npeso              # Y guardará al nuevo objeto c(45, 80) como \"peso\"\n\n[1] 45 80\n\n\n\nMucho cuidado, mejor usa nuevos nombres si no quieres perder datos."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-hacer-operaciones-con-los-elementos-de-los-vectores",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-hacer-operaciones-con-los-elementos-de-los-vectores",
-    "title": "   Sesión 1b",
-    "section": "Podemos hacer operaciones con los elementos de los vectores",
-    "text": "Podemos hacer operaciones con los elementos de los vectores\n\nImaginen que desean calcular la presión arterial media de Juan, María y Sandra de acuerdo con la siguiente fórmula:\n\n \\[PAM = \\frac{PAS + 2PAD}{3}\\] \n\nEsto se puede calcular usando los vectores:\n\n\n# Cálculo de presión arterial media: pam\npam <- (pas + 2 * pad) / 3 \npam\n\n[1]  90.10000 101.36667  86.06667"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-vectores-atómicos-tienen-varios-tipos-de-estructuras-de-datos",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-vectores-atómicos-tienen-varios-tipos-de-estructuras-de-datos",
-    "title": "   Sesión 1b",
-    "section": "Los vectores atómicos tienen varios tipos de estructuras de datos",
-    "text": "Los vectores atómicos tienen varios tipos de estructuras de datos\n\nDoubleIntegerCharacterLogicLogic 2\n\n\nVector numérico double:\n\nAcepta decimales.\nAnálogo a la variable numérica continua.\n\n\n# Peso de Juan, María y Sandra\npeso <- c(75.2, 82.1, 59.3)\ntypeof(peso)\n\n[1] \"double\"\n\n\n\n\nVector numérico entero:\n\nSolo enteros (no decimales).\nAnálogo a la variable numérica discreta.\n\n\n# Número de hijos de Juan, María y Sandra\nnhijos <- c(2L, 0L, 3L) # La L fuerza a ser entero\ntypeof(nhijos)\n\n[1] \"integer\"\n\n\n\n\nVector character:\n\nAlmacena cadenas de texto (strings).\nAnálogo a la variable categórica.\n\n\n# Sexo de Juan, María y Sandra\nsex <- c(\"masculino\", \"Femenino\", \"mujer\")\nsex\n\n[1] \"masculino\" \"Femenino\"  \"mujer\"    \n\n\n\n\nVector lógico:\n\nAlmacena datos lógicos: TRUE, FALSE, NA.\nAnálogo a una variable binaria.\n\n\n# \"Tiene diabetes\" para Juan, María y Sandra\ndiabetes <- c(TRUE, FALSE, T) # Se puede usar T o F\n\n\n\n¿La presión arterial sistólica es mayor a la diastólica para Juan, María y José?\n\n# Recuerde el orden: Juan, María y Sandra\npas > pad\n\n[1] TRUE TRUE TRUE\n\n\n\npas_mayor_pad <- pas > pad\npas_mayor_pad\n\n[1] TRUE TRUE TRUE\n\n\n\ntypeof(pas_mayor_pad)\n\n[1] \"logical\""
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#en-resumen-los-tipos-básico-de-vectores-son",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#en-resumen-los-tipos-básico-de-vectores-son",
-    "title": "   Sesión 1b",
-    "section": "En resumen, los tipos básico de vectores son:",
-    "text": "En resumen, los tipos básico de vectores son:\n\n\n\n Adaptado de ggplot2 and the tidyverse. PMAP 8521. [Enlace]"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-y-data.tibble-almacenan-varios-vectores",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-y-data.tibble-almacenan-varios-vectores",
-    "title": "   Sesión 1b",
-    "section": "Los data.frame y data.tibble almacenan varios vectores",
-    "text": "Los data.frame y data.tibble almacenan varios vectores\n\nLos vectores están limitados a un único tipo de dato.\nSi quiero apilar varios vectores con distitos tipos de datos se requiere usar un data.frame (forma nativa de R base)-\nLos data.tibble son una versión aumentada de los data.frame del tidyverso (forma más elegante de data.frame)\nLas funciones que funcionan con data.frames también lo hacen con data.tibbles."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#para-análisis-las-tablas-de-datos-rectangulares-son-más-apropiadas",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#para-análisis-las-tablas-de-datos-rectangulares-son-más-apropiadas",
-    "title": "   Sesión 1b",
-    "section": "Para análisis las tablas de datos rectangulares son más apropiadas",
-    "text": "Para análisis las tablas de datos rectangulares son más apropiadas\n\nTabla de datos rectangular:\n\n\nAdaptado de Smit Aj, Abrahams A & Schlegel RW. Intro R Workshop: Data Manipulation, Analysius, and Visualization."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-son-tablas-de-datos-rectangulares",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#los-data.frame-son-tablas-de-datos-rectangulares",
-    "title": "   Sesión 1b",
-    "section": "Los data.frame son tablas de datos rectangulares",
-    "text": "Los data.frame son tablas de datos rectangulares\n\ndata.frame y data.tibble guardan los datos en tablas de datos rectangulares.\nUn ejemplo de data.frame:\n\n\ndatos <- data.frame(\n  pas = c(122.3, 142.1, 100.2), \n  pad = c(74, 81, 79), \n  pam = c(90.10000, 101.36667, 86.06667)) \n\ndatos\n\n    pas pad       pam\n1 122.3  74  90.10000\n2 142.1  81 101.36667\n3 100.2  79  86.06667\n\n\n\nUn ejemplo de data.tibble:\n\n\nas_tibble(datos)\n\n# A tibble: 3 × 3\n    pas   pad   pam\n  <dbl> <dbl> <dbl>\n1  122.    74  90.1\n2  142.    81 101. \n3  100.    79  86.1"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#instalación-y-uso-de-paquetes",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#instalación-y-uso-de-paquetes",
-    "title": "   Sesión 1b",
-    "section": "Instalación y uso de paquetes",
-    "text": "Instalación y uso de paquetes\n\nInstalación de paquete:\n\ninstall.packages(\"nombre_paquete\") \n\nCargar paquete:\n\nlibrary(nombre_paquete)\n\nAyuda con el paquete:\n\n??nombre_paquete\n\nMás sobre paquetes: aquí"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#un-ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#un-ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Un ejemplo",
-    "text": "Un ejemplo\n\nInstalen Hmisc:\n\ninstall.packages(\"Hmisc\") \n\n\nCarguen el paquete Hmisc:\n\nlibrary(Hmisc)\n\n\nConsulten la ayuda del paquete Hmisc\n\n??Hmisc"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#ahora-es-su-turno",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#ahora-es-su-turno",
-    "title": "   Sesión 1b",
-    "section": "Ahora es su turno",
-    "text": "Ahora es su turno\n\nInstalen tidyverse:\n\ninstall.packages(\"tidyverse\") \n\nCarguen el metapaquete tidyverse:\n\nlibrary(tidyverse)\n\nConsulten la ayuda del metapaquete tidyverse\n\n??tidyverse"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#funciones",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#funciones",
-    "title": "   Sesión 1b",
-    "section": "Funciones",
-    "text": "Funciones\n\nFragmento de código empaquetado que facilita su reutilización con diferentes datos iniciales.\nRealizan un acción sobre objetos para producir un resultado.\nLos paquetes contienen una o más funciones que realizan tareas relacionadas."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#partes-de-una-función",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#partes-de-una-función",
-    "title": "   Sesión 1b",
-    "section": "Partes de una función",
-    "text": "Partes de una función\n\nUn solo argumento:\n\nfunción(argumento = \"opción\")\n\nVarios argumentos:\n\nEstructura básica:\nfunción(argumento1 = \"opción1\", argumento2 = \"opción2\")\nPuedes obviar el nombre del “argumento” si y solo si se mantiene el orden:\nfunción(\"opción1\", \"opción2\")\nCaso contrario, debes especificar el nombre del argumento:\nfunción(argumento2 = \"opción2\", argumento1 = \"opción1\")"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\n\nCrear un carpeta donde tendrá el proyecto.\nCrear un Proyecto de RStudio.\nColocar los datos en la misma Carpeta que el proyecto.\nAbrir Notebook de RMarkdown y comenzar a codear!"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-1",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-1",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\n1. Crear un carpeta donde tendrá el proyecto."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-2",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-2",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\n1. Crear un carpeta donde tendrá el proyecto."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-3",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-3",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\n2. Crear un Proyecto de RStudio"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-4",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-4",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\n3. Colocar los datos en la misma Carpeta que el proyecto"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-5",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-5",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\nCrear Notebook de RMarkdown"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-6",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#preparando-r-para-trabajar-con-datos-6",
-    "title": "   Sesión 1b",
-    "section": "Preparando R para trabajar con datos",
-    "text": "Preparando R para trabajar con datos\nComenzar a codear en notebook de RMarkdown!"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-con-tidyverse",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-con-tidyverse",
-    "title": "   Sesión 1b",
-    "section": "Importar datos con tidyverse",
-    "text": "Importar datos con tidyverse"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos",
-    "title": "   Sesión 1b",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nImportar datos de excel:\n\n\nlibrary(readxl)\nmis_datos <- read_excel(\"maca_meno_perclin.xlsx\")\n\n\nExplorar datos importados\n\n\nhead(mis_datos) #Muestra primeras fials de ejemplo\n\n# A tibble: 6 × 13\n  id_jaula id_raton tratamiento protocolo peso_inicial peso_final peso_utero\n     <dbl>    <dbl> <chr>       <chr>            <dbl>      <dbl>      <dbl>\n1        1        1 control     ovx               26         33.3      0.089\n2        1        2 control     ovx               24.5       30.5      0.063\n3        1        3 control     ovx               20.4       29.9      0.078\n4        2        4 control     hemiovx           26.6       32.2      0.134\n5        2        5 control     ovx               23.5       30.4      0.052\n6        2        6 maca        ovx               25         30.4      0.055\n# … with 6 more variables: chol <dbl>, glucose <dbl>, tag <dbl>, prot <dbl>,\n#   urea <dbl>, album <dbl>"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-1",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#importar-datos-1",
-    "title": "   Sesión 1b",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nImportar datos de Stata:\n\n\nlibrary(haven) \nmis_datos <- read_stata(\"maca_meno_fase1.dta\")\n\n\nExplorar datos importados:\n\n\nhead(mis_datos) #Muestra primeras fials de ejemplo\n\n# A tibble: 6 × 14\n     id       time   treat   age race  married married2 procedence weight height\n  <dbl>  <dbl+lbl> <dbl+l> <dbl> <chr> <dbl+l> <dbl+lb> <chr>       <dbl>  <dbl>\n1     1 0 [Baseli… 1 [PLA…    33 Mest… 1 [Sin… 0 [With… Callao       59      1.4\n2     1 1 [3 mont… 1 [PLA…    32 Mest… 1 [Sin… 0 [With… Callao       59.9    1.3\n3     2 0 [Baseli… 3 [WAR…    27 Mest… 1 [Sin… 0 [With… Santa Ani…   62      1.5\n4     2 1 [3 mont… 3 [WAR…    27 Mest… 1 [Sin… 0 [With… Santa Ani…   62.1    1.6\n5     3 0 [Baseli… 2 [WAR…    25 Mest… 1 [Sin… 0 [With… Callao       62      1.6\n6     3 1 [3 mont… 2 [WAR…    25 Mest… 1 [Sin… 0 [With… Callao       60      1.6\n# … with 4 more variables: e2 <dbl>, lh <dbl>, fsh <dbl>, prog <dbl>"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#el-problema-de-importar-datos-de-stata",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#el-problema-de-importar-datos-de-stata",
-    "title": "   Sesión 1b",
-    "section": "El problema de importar datos de Stata",
-    "text": "El problema de importar datos de Stata\n\nLas etiquetas de variable se importan.\n\n\n\nPero no las etiquetas de valor."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#solución-al-problema-de-importar-datos-en-stata",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#solución-al-problema-de-importar-datos-en-stata",
-    "title": "   Sesión 1b",
-    "section": "Solución al problema de importar datos en Stata",
-    "text": "Solución al problema de importar datos en Stata\n\nSi quieres heredar metadatos de la etiqueta de valor:\n\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") \nmis_datos <- as_factor(mis_datos)\n\n\nmis_datos\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nLas etiquetas de valor también se importan!!"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section",
-    "title": "   Sesión 1b",
-    "section": "%>%",
-    "text": "%>%\n\nOperador pipe: %>% del paquete magrittr de tidyverse.\nConector de secuencia de acciones.\n\n\nFuente: Sesion2-Introduccion a R y RStudio. Andre Valle y Steev Loyola Enlace"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#operadar-en-acción",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#operadar-en-acción",
-    "title": "   Sesión 1b",
-    "section": "Operadar %>% en acción",
-    "text": "Operadar %>% en acción\nEsto de aquí:\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") \nmis_datos <- as_factor(mis_datos)\n\nSe puede simplificar a esto:\n\nmis_datos <- read_stata(\"maca_meno_fase1.dta\") %>% \n  as_factor()"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-1",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-1",
-    "title": "   Sesión 1b",
-    "section": "",
-    "text": "Ahora es tu turno de aplicar lo revisado!!\nVolvemos en 10 minutos.\nNo te desconectes, pero no veas las pantallas."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#librería-dplr",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#librería-dplr",
-    "title": "   Sesión 1b",
-    "section": "Librería dplr",
-    "text": "Librería dplr\n\nEl paquete dplyr es una ‘suite’ de funciones para manipular dato"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter",
-    "title": "   Sesión 1b",
-    "section": "Filtrado de datos con filter()",
-    "text": "Filtrado de datos con filter()\n\nExtrae filas que cumplen cierta condición lógica"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-comparadores",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-comparadores",
-    "title": "   Sesión 1b",
-    "section": "Filtrado de datos con filter() y comparadores",
-    "text": "Filtrado de datos con filter() y comparadores"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-booleanos",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter-y-booleanos",
-    "title": "   Sesión 1b",
-    "section": "Filtrado de datos con filter() y booleanos",
-    "text": "Filtrado de datos con filter() y booleanos"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter---ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#filtrado-de-datos-con-filter---ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Filtrado de datos con filter() - ejemplo",
-    "text": "Filtrado de datos con filter() - ejemplo\n\nSe tienen los datos originales:\n\n\ndatos_fase1 <- read_stata(\"maca_meno_fase1.dta\") %>% \n  as_factor()\n\ndatos_fase1\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi se filtra solo para tener a los individuos en su medición basal:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\")\n\n# A tibble: 53 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 3     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 4     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 5     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 6     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 7     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n 8     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 9     9 Base… WARM…    30 Mest… Single  Without… SMP          61      1.6  49.6\n10    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n# … with 43 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nPodemos querer filtrar a los individuos en la medición basal Y que sean placebo:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\" & treat == \"PLACEBO\")\n\n# A tibble: 17 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 3     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 4     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 5    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n 6    14 Base… PLAC…    33 Mest… Single  Without… Surquillo    65      1.6  47.4\n 7    15 Base… PLAC…    37 Mest… Married With co… Comas        50.5    1.4 143. \n 8    17 Base… PLAC…    40 Mest… Widowed Without… Surquillo    65      1.6  91.8\n 9    18 Base… PLAC…    36 Mest… Married With co… Miraflores   70      1.6 131  \n10    20 Base… PLAC…    22 Mest… Single  Without… Surquillo    59      1.5  99.0\n11    21 Base… PLAC…    29 Mest… Married With co… SJL          56.9    1.4  71.6\n12    25 Base… PLAC…    37 Mest… Married With co… San Borja    58.1    1.6  67.0\n13    26 Base… PLAC…    32 Mest… Married With co… Chosica      72.1    1.7 117. \n14    40 Base… PLAC…    20 Mest… Single  Without… VES          61      1.5  98.6\n15    43 Base… PLAC…    36 Mest… Single  Without… Villa el …   56.9    1.4 132. \n16    45 Base… PLAC…    35 Mest… Married With co… Los Olivos   78.1    1.7 123. \n17    48 Base… PLAC…    27 Mest… Single  Without… Callao       55.9    1.4 185. \n# … with 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nPodemos querer filtrar a los individuos en la medición basal O que sean placebo:\n\n\ndatos_fase1 %>% \n  filter(time == \"Baseline\" | treat == \"PLACEBO\")\n\n# A tibble: 70 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 5     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 6     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n 7     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n 8     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 9     6 3 mo… PLAC…    38 Mest… Married With co… Los Olivos   53.9    1.5  44.7\n10     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n# … with 60 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi queremos solo las mujeres entre 34 y 38 años de edad:\n\n\ndatos_fase1 %>% \n  filter(age >= 34 & age <= 38)\n\n# A tibble: 36 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 2     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 3     6 Base… PLAC…    38 Mest… Married With co… Los Olivos   54.5    1.5  36.2\n 4     6 3 mo… PLAC…    38 Mest… Married With co… Los Olivos   53.9    1.5  44.7\n 5     8 Base… PLAC…    34 Mest… Married With co… Carabayllo   64      1.5  65.6\n 6     8 3 mo… PLAC…    34 Mest… Married With co… Carabayllo   59      1.5 134. \n 7    10 Base… PLAC…    38 Mest… Single  Without… Pueblo Li…   56.1    1.7 115. \n 8    10 3 mo… PLAC…    38 Mest… Single  Without… Pueblo Li…   54.9    1.5  71.5\n 9    11 Base… WARM…    37 Mest… Married With co… El Agusti…   72      1.6  66.4\n10    11 3 mo… WARM…    36 Mest… Married With co… El Agusti…   NA     NA   110. \n# … with 26 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi queremos a quienes son de Santa Anita, Callao, SMP o Carabayllo:\n\nOpción válida pero ineficiente:\n\ndatos_fase1 %>% \n  filter(procedence == \"Santa Anita\" | procedence == \"Callao\" | procedence == \"SMP\" | procedence == \"Carabayllo\")\n\n# A tibble: 24 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n10     7 3 mo… WARM…    26 Mest… Married With co… SMP          58.6    1.6  91.3\n# … with 14 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\nOpción válida y eficiente:\n\ndatos_fase1 %>% \n  filter(procedence %in% c(\"Santa Anita\", \"Callao\", \"SMP\", \"Carabayllo\"))\n\n# A tibble: 24 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     7 Base… WARM…    26 Mest… Married With co… SMP          59.1    1.6  91.3\n10     7 3 mo… WARM…    26 Mest… Married With co… SMP          58.6    1.6  91.3\n# … with 14 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select",
-    "title": "   Sesión 1b",
-    "section": "Selección de columnas con select()",
-    "text": "Selección de columnas con select()\n\nLa función select() selecciona columnas\nEl signo - permite elegir qué columnas eliminar.\nA veces es mejor llamarla usando: dplyr::select() debido a que otros paquetes también tienen una función con el mismo nombre select()"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select---ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#selección-de-columnas-con-select---ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Selección de columnas con select() - ejemplo",
-    "text": "Selección de columnas con select() - ejemplo\n\nLos datos originales:\n\n\ndatos_fase1\n\n# A tibble: 106 × 14\n      id time  treat   age race  married married2 procedence weight height    e2\n   <dbl> <fct> <fct> <dbl> <chr> <fct>   <fct>    <chr>       <dbl>  <dbl> <dbl>\n 1     1 Base… PLAC…    33 Mest… Single  Without… Callao       59      1.4  87.3\n 2     1 3 mo… PLAC…    32 Mest… Single  Without… Callao       59.9    1.3 210. \n 3     2 Base… WARM…    27 Mest… Single  Without… Santa Ani…   62      1.5 169. \n 4     2 3 mo… WARM…    27 Mest… Single  Without… Santa Ani…   62.1    1.6  99.9\n 5     3 Base… WARM…    25 Mest… Single  Without… Callao       62      1.6  78.8\n 6     3 3 mo… WARM…    25 Mest… Single  Without… Callao       60      1.6 155. \n 7     4 Base… WARM…    37 Mest… Divorc… Without… Callao       60.9    1.5  41.0\n 8     4 3 mo… WARM…    38 Mest… Divorc… Without… Callao       61.4    1.5 109. \n 9     5 Base… PLAC…    31 Mest… Single  Without… La Molina    64      1.5  43.0\n10     5 3 mo… PLAC…    32 Mest… Single  Without… La Molina    58.1    1.6  56.0\n# … with 96 more rows, and 3 more variables: lh <dbl>, fsh <dbl>, prog <dbl>\n\n\n\nSi solo quiero seleccionar a id, time, age, race y procedence:\n\n\ndatos_fase1_seleccionados <- datos_fase1 %>% \n  select(id, time, age, race, procedence)\n\ndatos_fase1_seleccionados \n\n# A tibble: 106 × 5\n      id time       age race    procedence \n   <dbl> <fct>    <dbl> <chr>   <chr>      \n 1     1 Baseline    33 Mestiza Callao     \n 2     1 3 months    32 Mestiza Callao     \n 3     2 Baseline    27 Mestiza Santa Anita\n 4     2 3 months    27 Mestiza Santa Anita\n 5     3 Baseline    25 Mestiza Callao     \n 6     3 3 months    25 Mestiza Callao     \n 7     4 Baseline    37 Mestiza Callao     \n 8     4 3 months    38 Mestiza Callao     \n 9     5 Baseline    31 Mestiza La Molina  \n10     5 3 months    32 Mestiza La Molina  \n# … with 96 more rows\n\n\n\nSi quisiera excluir a procedence:\n\n\ndatos_fase1_seleccionados %>% \n  select(-procedence) #notar el signo -\n\n# A tibble: 106 × 4\n      id time       age race   \n   <dbl> <fct>    <dbl> <chr>  \n 1     1 Baseline    33 Mestiza\n 2     1 3 months    32 Mestiza\n 3     2 Baseline    27 Mestiza\n 4     2 3 months    27 Mestiza\n 5     3 Baseline    25 Mestiza\n 6     3 3 months    25 Mestiza\n 7     4 Baseline    37 Mestiza\n 8     4 3 months    38 Mestiza\n 9     5 Baseline    31 Mestiza\n10     5 3 months    32 Mestiza\n# … with 96 more rows"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-anidar-con-varias-tareas",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#podemos-anidar-con-varias-tareas",
-    "title": "   Sesión 1b",
-    "section": "Podemos anidar con %>% varias tareas",
-    "text": "Podemos anidar con %>% varias tareas\n\ndatos_fase1 %>% \n  filter(age > 35) %>% # Primero filtro por age\n  select(id, time, treat, race, age) # Luego me quedo solo con estas 5 columnas\n\n# A tibble: 40 × 5\n      id time     treat       race      age\n   <dbl> <fct>    <fct>       <chr>   <dbl>\n 1     4 Baseline WARMI 3 C/D Mestiza    37\n 2     4 3 months WARMI 3 C/D Mestiza    38\n 3     6 Baseline PLACEBO     Mestiza    38\n 4     6 3 months PLACEBO     Mestiza    38\n 5    10 Baseline PLACEBO     Mestiza    38\n 6    10 3 months PLACEBO     Mestiza    38\n 7    11 Baseline WARMI 6 C/D Mestiza    37\n 8    11 3 months WARMI 6 C/D Mestiza    36\n 9    15 Baseline PLACEBO     Mestiza    37\n10    15 3 months PLACEBO     Mestiza    37\n# … with 30 more rows"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate",
-    "title": "   Sesión 1b",
-    "section": "Creación de nuevas columnas con mutate()",
-    "text": "Creación de nuevas columnas con mutate()\n\nLa función mutate() crea nuevas columnas en base a otras."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate---ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#creación-de-nuevas-columnas-con-mutate---ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Creación de nuevas columnas con mutate() - ejemplo",
-    "text": "Creación de nuevas columnas con mutate() - ejemplo\n\nSi queremos crear la variable índice de masa corporal:\n\n\ndatos_fase1 %>% \n  select(id, weight, height) %>% # Nos quedamos con peso y talla \n  mutate(imc = weight / height ^ 2) # Creamos IMC en base a peso y talla\n\n# A tibble: 106 × 4\n      id weight height   imc\n   <dbl>  <dbl>  <dbl> <dbl>\n 1     1   59      1.4  30.1\n 2     1   59.9    1.3  35.4\n 3     2   62      1.5  27.6\n 4     2   62.1    1.6  24.3\n 5     3   62      1.6  24.2\n 6     3   60      1.6  23.4\n 7     4   60.9    1.5  27.1\n 8     4   61.4    1.5  27.3\n 9     5   64      1.5  28.4\n10     5   58.1    1.6  22.7\n# … with 96 more rows"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate",
-    "title": "   Sesión 1b",
-    "section": "Modificación de columnas existentes con mutate()",
-    "text": "Modificación de columnas existentes con mutate()\n\nmutate() también remplaza columnas existentes.\nTener cuidado si se quiere reutilizar la variable original, en ese caso es mejor crear columna nueva."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate---ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#modificación-de-columnas-existentes-con-mutate---ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Modificación de columnas existentes con mutate() - ejemplo",
-    "text": "Modificación de columnas existentes con mutate() - ejemplo\n\nQueremos que la edad sea reportada en meses:\n\nPodríamos crear una columna nueva para edad en meses:\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(age2 = age * 12) # Notar que se creó una columa nueva llamada age2\n\n# A tibble: 106 × 3\n      id   age  age2\n   <dbl> <dbl> <dbl>\n 1     1    33   396\n 2     1    32   384\n 3     2    27   324\n 4     2    27   324\n 5     3    25   300\n 6     3    25   300\n 7     4    37   444\n 8     4    38   456\n 9     5    31   372\n10     5    32   384\n# … with 96 more rows\n\n\nLa otra opción es remplazar la edad:\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(age = age * 12) # Notar que se remplazó age \n\n# A tibble: 106 × 2\n      id   age\n   <dbl> <dbl>\n 1     1   396\n 2     1   384\n 3     2   324\n 4     2   324\n 5     3   300\n 6     3   300\n 7     4   444\n 8     4   456\n 9     5   372\n10     5   384\n# … with 96 more rows"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when",
-    "title": "   Sesión 1b",
-    "section": "Categorización de variables con case_when()",
-    "text": "Categorización de variables con case_when()\n\nFunción de apoyo a mutate().\nCategoriza variables de acuerdo a condiciones complejas"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when-ejemplo",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#categorización-de-variables-con-case_when-ejemplo",
-    "title": "   Sesión 1b",
-    "section": "Categorización de variables con case_when()-ejemplo",
-    "text": "Categorización de variables con case_when()-ejemplo\n\nSe quieren crear categorías de edad: 20-30, 31-35 y 36-41\n\n\ndatos_fase1 %>% \n  select(id, age) %>% \n  mutate(agecat = case_when(age >= 20 & age <= 30 ~ \"20-30\", \n                            age >= 31 & age <= 35 ~ \"31-35\", \n                            age >= 36 & age <= 41 ~ \"36-41\", \n                            TRUE ~ as.character(NA))) # Siempre cerrar con esto\n\n# A tibble: 106 × 3\n      id   age agecat\n   <dbl> <dbl> <chr> \n 1     1    33 31-35 \n 2     1    32 31-35 \n 3     2    27 20-30 \n 4     2    27 20-30 \n 5     3    25 20-30 \n 6     3    25 20-30 \n 7     4    37 36-41 \n 8     4    38 36-41 \n 9     5    31 31-35 \n10     5    32 31-35 \n# … with 96 more rows"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels",
-    "title": "   Sesión 1b",
-    "section": "Etiquetar variables con set_var_labels()",
-    "text": "Etiquetar variables con set_var_labels()\n\nLa función set_var_labels() del paquete labelled() es muy útil para etiquetar columnas.\nLos datos deben tener metadatos que permitan ser legibles por el ser humano.\nEsta función debería ser usada al final de todo el proceso."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels-1",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#etiquetar-variables-con-set_var_labels-1",
-    "title": "   Sesión 1b",
-    "section": "Etiquetar variables con set_var_labels()",
-    "text": "Etiquetar variables con set_var_labels()\n\nVeamos el ejemplo inicial:\n\n\n\nAhora pongamos una etiqueta:\n\n\nlibrary(labelled)\ndatos2 <- datos %>% \n  set_variable_labels(\n    pam = \"Presión Arterial Media\", \n    pas = \"Presión Arterial Sistólica\", \n    pad = \"Presión Arterial Diastólica\"\n  )"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-2",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-2",
-    "title": "   Sesión 1b",
-    "section": "",
-    "text": "Ahora es tu turno de aplicar lo revisado!!\nVolvemos en 10 minutos.\nNo te desconectes, pero no veas las pantallas."
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-3",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-3",
-    "title": "   Sesión 1b",
-    "section": "",
-    "text": "slides:\n\n\nhttps://bit.ly/3Okolxb"
-  },
-  {
-    "objectID": "Sesiones/Sesion-1/Sesion-1b (1).html#section-4",
-    "href": "Sesiones/Sesion-1/Sesion-1b (1).html#section-4",
-    "title": "   Sesión 1b",
-    "section": "",
-    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 1b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
-  },
-  {
     "objectID": "Sesiones/Sesion-1/Sesion-1b.html#r-base-funciona-como-una-calculadora",
     "href": "Sesiones/Sesion-1/Sesion-1b.html#r-base-funciona-como-una-calculadora",
     "title": "   Sesión 1b",
@@ -1664,6 +1300,356 @@
     "title": "Taller 2 - Manejo de datos con tidyverse",
     "section": "Tabla descriptiva con gtsummary()",
     "text": "Tabla descriptiva con gtsummary()\n\nCree una tabla descriptiva con toda la muestra y todas las variables excepto id.\n\n\n\n\n\nCree una tabla comparativa de grupos segun tratamiento (sin tabla global). No incluya a id.\n\n\n\n\n\nCree una taba comparativa y global (no incluya id)\n\n\n\n\n\nCree una tabla anexa donde reporte minimos y maximos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#inferencia-estadística",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#inferencia-estadística",
+    "title": "   Sesión 2a",
+    "section": "Inferencia Estadística",
+    "text": "Inferencia Estadística\n\nRama de la Estadística que trata sobre procedimientos que permiten obtener conclusiones de la población basándonos en los datos de una sola muestra.\nHay dos enfoques predominantes: \n\nFrecuentista\nBayesianismo\n\nEn este curso, como en la mayoría de cursos básicos, seguiremos el enfoque frecuentista."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#inferencia-estadística-bajo-la-lupa-frecuentista",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#inferencia-estadística-bajo-la-lupa-frecuentista",
+    "title": "   Sesión 2a",
+    "section": "Inferencia Estadística bajo la lupa frecuentista",
+    "text": "Inferencia Estadística bajo la lupa frecuentista\n\nLos procedimientos de prueba de hipóteis y de estimación de intervalos de confianza trabajan bajo el enfoque frecuentista.\nEs la estadística de pre-grado (y post-grado).\nTrabaja bajo la idea que puedes repetir infnitas o muchísimas veces el mismo estudio, pero sobre una nueva muestra aleatoria obtenida."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#estimación",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#estimación",
+    "title": "   Sesión 2a",
+    "section": "Estimación",
+    "text": "Estimación"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#estimación-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#estimación-cont.",
+    "title": "   Sesión 2a",
+    "section": "Estimación (cont.)",
+    "text": "Estimación (cont.)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#prueba-de-hipótesis",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#prueba-de-hipótesis",
+    "title": "   Sesión 2a",
+    "section": "Prueba de hipótesis",
+    "text": "Prueba de hipótesis"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#lógica-frecuentista",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#lógica-frecuentista",
+    "title": "   Sesión 2a",
+    "section": "Lógica frecuentista",
+    "text": "Lógica frecuentista"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#la-distribución-muestral-es-lo-importante",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#la-distribución-muestral-es-lo-importante",
+    "title": "   Sesión 2a",
+    "section": "La distribución muestral es lo importante!",
+    "text": "La distribución muestral es lo importante!\n\nNo importa tanto la distribución de la muestra o de la población.\nSi no que la distribución de todas las muestras posibles siga cierto comportamiento!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#la-distribución-muestral-es-lo-importante-1",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#la-distribución-muestral-es-lo-importante-1",
+    "title": "   Sesión 2a",
+    "section": "La distribución muestral es lo importante",
+    "text": "La distribución muestral es lo importante\n\n\n\nEntrar: https://onlinestatbook.com/stat_sim/sampling_dist/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#prueba-de-hipótesis-ph",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#prueba-de-hipótesis-ph",
+    "title": "   Sesión 2a",
+    "section": "Prueba de Hipótesis (PH)",
+    "text": "Prueba de Hipótesis (PH)\n\n“Método para evaluar una afirmación o hipótesis sobre un parámetro poblacional usando datos de una muestra.”\nUsar métodos estadísticos para determinar la probabilidad de que nuestras hipótesis sean consistentes con los datos. \n\nBajo ciertas suposiciones y puntos de corte, podemos tomar decisiones acerca de en qué creemos o no.\nComo toda decisión, esta se mantiene hasta encontrar nueva evidencia en contra. Son decisiones ‘temporales’."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.",
+    "title": "   Sesión 2a",
+    "section": "PH (cont.)",
+    "text": "PH (cont.)\n\nDepende del tipo de variables incluidas, de su distribución, del pareamiento, etc.\nLos métodos de prueba de hipótesis que veremos hoy se basan en la Hipótesis Nula, por ende, su nombre completo (a menudo obviado) es: Prueba de Significancia de Hipótesis Nula."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.-1",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.-1",
+    "title": "   Sesión 2a",
+    "section": "PH (cont.)",
+    "text": "PH (cont.)\n\n\n\n\n\n\nAlerta terminológica!\n\n\n\nCuando nos referimos a ‘probar’ una hipótesis nos estamos refiriendo a la traducción del inglés ‘test’, que significa ‘evaluar’, ‘someter a prueba’.\nEsta es una evaluación empírica: basada en los dato que tenemos disponibles.\nLos datos provienen a menudo de muestras, ergo, parte de lo que observamos podría deberse a que nos tocó ‘por azar’ una muestra extrema o ‘rara’.\nA menudo, confundimos ‘probar’ con ‘demostrar’.\nEn estadística no demostramos nunca.\nSolo comprobamos, es decir, vemos datos y confirmamos nuestros hallazgos si son parecidos o los falseamos si son diferentes."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.-2",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#ph-cont.-2",
+    "title": "   Sesión 2a",
+    "section": "PH (cont.)",
+    "text": "PH (cont.)\n\n\n\n\n\n\nOtra alerta terminológica!\n\n\n\nNos interesan hipótesis estadísticas acerca de la población, no sobre la muestra.\nUsamos un estadístico calculado de los datos de la muestra para probar una hipótesis acerca de un parámetro de la población.\nNunca probamos hipótesis sobre individuos de la población (p. ej., el peso de un individuo), si no sobre parámetros de la población (p. ej., el promedio de peso de la población).\nPara una misma variable pueden interesarnos parámetros diferentes (p. ej., mediana de peso versus media de peso versus desviación estándar de peso)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#qué-solemos-probar-o-estimar",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#qué-solemos-probar-o-estimar",
+    "title": "   Sesión 2a",
+    "section": "¿Qué solemos probar o estimar?",
+    "text": "¿Qué solemos probar o estimar?\n\nAcerca de un parámetro: PH contra valor hipotético o estimar el parámetro de una población.\n\n\n\n\n\n\n\nNote\n\n\nEj. 1. Tengo dudas acerca de si una prueba de laboratorio de anticuerpos mide bien o no: ¿El promedio de anticuerpos en mis pocillos control es igual o diferente que el especificado en el inserto?\n\n\n\n\n\n\n\n\n\nNote\n\n\nEj. 2. La adherencia a una guía de práctica clínica se evalúa de acuerdo a un punto de corte establecido: ¿El porcentaje de cumplimiento de la GPC es mayor a 80%?"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#qué-solemos-probar-o-estimar-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#qué-solemos-probar-o-estimar-cont.",
+    "title": "   Sesión 2a",
+    "section": "¿Qué solemos probar o estimar? (cont.)",
+    "text": "¿Qué solemos probar o estimar? (cont.)\n\nAcerca de dos o más parámetros:\n\n\n\n\n\n\n\nNote\n\n\nEj. 1. Quiero saber si un nuevo medicamento reduce la presión arterial: ¿El promedio de presión arterial de la población que toma el medicamento es menor o mayor igual que el promedio de presión arterial de la población que no toma el medicamento?\n\n\n\n\n\n\n\n\n\nNote\n\n\nEj. 2. Tengo dudas acerca de si un medicamento aumenta la incidencia de cura de COVID-19: ¿La incidencia acumulada de cura a 1 mes de la población que toma el medicamento es mayor o menor igual que la incidencia acumulada de cura a 1 mes de la población que no toma el medicamento?"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#la-inferencia-estadística-puede-tener-2-usos",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#la-inferencia-estadística-puede-tener-2-usos",
+    "title": "   Sesión 2a",
+    "section": "La inferencia estadística puede tener 2 usos:",
+    "text": "La inferencia estadística puede tener 2 usos:\n\nDescribir diferencias entre dos poblaciones usando datos de muestra.\n\nEjemplo: Comparar prevalencia de anemia por regiones. Las regiones no causan anemia, pero saber estas diferencias regionales nos permite conocer las inequidades. Estamos comparando dos poblaciones diferentes.\n\nHacer inferencias causales.\n\nEjemplo: Estimar la eficacia o efectividad de las vacunas. Queremos inferir qué le hubiera pasado a una población si tomara un tratamiento contrafactual. Estamos comparando la misma población contra sigo misma en un universo contrafactual."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#procedimiento-de-prueba-de-hipótesis",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#procedimiento-de-prueba-de-hipótesis",
+    "title": "   Sesión 2a",
+    "section": "Procedimiento de prueba de hipótesis",
+    "text": "Procedimiento de prueba de hipótesis\n\nFormular las hipótesis nula y alterna.\nEstablecer los criterios de decisión para evaluar la veracidad de la hipótesis nula.\nAsumir que la H0 es verdadera y estimar la probabilidad de observar un valor igual o más extremo que el valor observado si pudieramos repetir el estudio infinitas veces (o al menso un número muy grande!). Esto es el valor p.\nTomar una decisión respecto a si creemos o no en la hipótesis nula."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#qué-es-el-valor-p",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#qué-es-el-valor-p",
+    "title": "   Sesión 2a",
+    "section": "¿Qué es el valor p?",
+    "text": "¿Qué es el valor p?\n\nProbabilidad de…\nObservar un determinado valor o más extremo.\nEn una muestra aleatoria de tamaño “n”.\nDado que asumimos que la hipótesis nula es verdadera."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión",
+    "title": "   Sesión 2a",
+    "section": "Criterios de decisión",
+    "text": "Criterios de decisión\n\nBasado en el nivel de significancia estadístico (usualmente 5%, pero puede cambiar y a menudo cambia).\n\n\nValor p mide la probabilidad de observar, en una muestra, un determinado valor o más extremo que este valor si la muestra proviniera de una población donde la hipótesis nula es verdadero.\n\n\n\n\n\n\n\nEjemplo 1\n\n\n\nSi p = 30%, quiere decir que en 100 muestras al azar de una población donde la H0 es verdadera, en 30 encontraríamos un estadístico igual o más extremo que el observado en la muestra.\nEs decir, es muy común encontrar estos valores en muestras tomadas de una población donde la H0 es verdadera.\nPor lo tanto decido suponer que no tengo evidencia suficiente para concluir que la H0 sea falsa.\nEsta decisión, si es errónea, puede tener consecuencias."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión-cont.",
+    "title": "   Sesión 2a",
+    "section": "Criterios de decisión (cont.)",
+    "text": "Criterios de decisión (cont.)\n\nValor p mide la probabilidad de observar, en una muestra, un determinado valor o más extremo que este valor si la muestra proviniera de una población donde la hipótesis nula es verdadero.\n\n\n\n\n\n\n\nEjemplo 2\n\n\n\nSi p = 1%, quiere decir que en 100 muestras al azar de una población donde la H0 es verdadera, solo en 1 encontraríamos un estadístico igual o más extremo al observado.\nEs decir, es muy raro encontrar estos valores en muestras tomadas de una población de una población donde la H0 es verdadera. Es posible, pero improbable.\nPor lo tanto, pensamos mal, y decidimos suponer que es más probable que la H0 sea falsa a que nos haya tocado una muestra extrema siendo la H0 verdadera.\nDecido rechazar la H0.\nEsta decisión, si es errónea, puede tener consecuencias."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión-cont.-1",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#criterios-de-decisión-cont.-1",
+    "title": "   Sesión 2a",
+    "section": "Criterios de decisión (cont.)",
+    "text": "Criterios de decisión (cont.)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#errores-de-decisión",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#errores-de-decisión",
+    "title": "   Sesión 2a",
+    "section": "Errores de decisión",
+    "text": "Errores de decisión"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#definición-de-intervalo-de-confianza-al-p",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#definición-de-intervalo-de-confianza-al-p",
+    "title": "   Sesión 2a",
+    "section": "Definición de intervalo de confianza al P%",
+    "text": "Definición de intervalo de confianza al P%\n\nRango de valores que contendrían el verdadero valor del parámetro P% de las veces, si pudiera repetir el estudio muchísimas veces con muestras aleatorias diferentes del mismo tamaño.\nEl IC95% significa que si pudiera tuviera 100 estudios similares, con mismo n pero muestras aleatorias diferentes, aprox. 95 estudios tendrían IC que capturarían el verdadero valor."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#definición-de-intervalo-de-confianza-al-p-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#definición-de-intervalo-de-confianza-al-p-cont.",
+    "title": "   Sesión 2a",
+    "section": "Definición de intervalo de confianza al P% (cont.)",
+    "text": "Definición de intervalo de confianza al P% (cont.)\n\nNo significa que el IC95% que yo observo tiene un 95% de obtener el valor del parámetro.\nDe hecho, la probabilidad de que el IC95% que yo observo en mi estudio contenga el valor del parámetro no se puede estimar en estadística frecuentista, pero sabemos que es 1 (lo contiene) o 0 (no lo contiene). No admite valores intermedios."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#procedimientos-para-intervalos-de-confianza",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#procedimientos-para-intervalos-de-confianza",
+    "title": "   Sesión 2a",
+    "section": "Procedimientos para Intervalos de Confianza",
+    "text": "Procedimientos para Intervalos de Confianza\n\nUse el valor puntual como la mejor estimación del parámetro disponible basada en los datos.\nEstime un error estándar para la distribución muestral del estadístico de interés.\nAsuma una distribución muestral conocida para el estaditico de interés.\nCon estos dos insumos, calcule los límites del intervalo de confianza."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#errores-de-concepto-acerca-del-valor-p",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#errores-de-concepto-acerca-del-valor-p",
+    "title": "   Sesión 2a",
+    "section": "12 Errores de concepto acerca del valor p",
+    "text": "12 Errores de concepto acerca del valor p"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#si-la-hipótesis-nula-es-cierta-siempre-será-posible-que-algunos-estudios-den-valores-muy-extremos",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#si-la-hipótesis-nula-es-cierta-siempre-será-posible-que-algunos-estudios-den-valores-muy-extremos",
+    "title": "   Sesión 2a",
+    "section": "Si la hipótesis nula es cierta, siempre será posible que algunos estudios den valores muy extremos…",
+    "text": "Si la hipótesis nula es cierta, siempre será posible que algunos estudios den valores muy extremos…"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#intervalos-de-confianza-y-valor-p",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#intervalos-de-confianza-y-valor-p",
+    "title": "   Sesión 2a",
+    "section": "Intervalos de confianza y valor p",
+    "text": "Intervalos de confianza y valor p\n\nIC 95% también pueden ser usados para probar hipótesis\nA menudo complementan información.\nEn algunas revistas, el valor p ha sido baneado.\nIncluso en revistas donde el valor p no ha sido baneado, el IC95% es indispensable y el valor p un complemento.\nAdecuadamente interpretado, el IC da más información que el valor p acerca de la imprecisión (incertidumbre asociada) de la estimación.\nSu lectura es tan útil, que varios instrumentos de valoración de la certeza de la evidencia lo usan (p. ej., GRADE)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#intervalos-de-confianza-pueden-brindar-un-poco-más-de-información",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#intervalos-de-confianza-pueden-brindar-un-poco-más-de-información",
+    "title": "   Sesión 2a",
+    "section": "Intervalos de confianza pueden brindar un poco más de información",
+    "text": "Intervalos de confianza pueden brindar un poco más de información\n\nSi se interpretan apropiadamente, pueden “ilustrar” mejor la incertidumbre asociada a la estimación."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#ejemplos-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#ejemplos-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones",
+    "title": "   Sesión 2a",
+    "section": "Ejemplos de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones",
+    "text": "Ejemplos de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#ejemplos-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#ejemplos-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones-cont.",
+    "title": "   Sesión 2a",
+    "section": "Ejemplos de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones (cont.)",
+    "text": "Ejemplos de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones (cont.)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#otro-ejemplo-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#otro-ejemplo-de-importancia-del-ic-para-valorar-imprecisión-incertidumbre-de-las-estimaciones",
+    "title": "   Sesión 2a",
+    "section": "Otro ejemplo de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones",
+    "text": "Otro ejemplo de importancia del IC para valorar imprecisión (incertidumbre) de las estimaciones"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica",
+    "title": "   Sesión 2a",
+    "section": "Significancia estadística vs Significancia clínica",
+    "text": "Significancia estadística vs Significancia clínica\n\nLa significancia estadística es solo una probabilidad (una medida de incertidumbre asociada a la estimación); siempre existe la posibilidad de error (tipo I y tipo II).\nLos intervalos de confianza pueden ayudar a entender mejor esta incertidumbre, si y solo si también se interpretan bien.\nLa incertidumbre que miden no es la que usualmente pensamos (hay muchos errores de conceptos!!)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica-cont.",
+    "title": "   Sesión 2a",
+    "section": "Significancia estadística vs Significancia clínica (cont.)",
+    "text": "Significancia estadística vs Significancia clínica (cont.)\n\nGrandes tamaños de muestra permiten detectar diferencias pequeñas.\nTamaños de muestra muy grandes resultarán en diferencias estadísticamente significativas; incluso si la diferencia clínica no es significativa."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica-cont.-1",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#significancia-estadística-vs-significancia-clínica-cont.-1",
+    "title": "   Sesión 2a",
+    "section": "Significancia estadística vs Significancia clínica (cont.)",
+    "text": "Significancia estadística vs Significancia clínica (cont.)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#las-pruebas-de-hipótesis-tradicionales-a-menudo-no-se-usan-en-la-práctica-habitual",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#las-pruebas-de-hipótesis-tradicionales-a-menudo-no-se-usan-en-la-práctica-habitual",
+    "title": "   Sesión 2a",
+    "section": "Las pruebas de hipótesis tradicionales a menudo no se usan en la práctica habitual",
+    "text": "Las pruebas de hipótesis tradicionales a menudo no se usan en la práctica habitual\n\nEstas pruebas, son los ladrillos sobre los que se construyen otros métodos que son el estándar actual de análisis estadístico en investigación en salud: Modelos estadísticos\nEs muy raro encontrar un ejemplo actual donde sea válidas usarlas. Su gran problema es que no permiten controlar el efecto de otras variables."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#las-pruebas-de-hipótesis-tradicionales-a-menudo-no-se-usan-en-la-práctica-habitual-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#las-pruebas-de-hipótesis-tradicionales-a-menudo-no-se-usan-en-la-práctica-habitual-cont.",
+    "title": "   Sesión 2a",
+    "section": "Las pruebas de hipótesis tradicionales a menudo no se usan en la práctica habitual (cont.)",
+    "text": "Las pruebas de hipótesis tradicionales a menudo no se usan en la práctica habitual (cont.)\n\nUsarlas para concluir potenciales efectos puede ser peligroso.\nIncluso los ensayos clínicos aleatorizados no hacen uso de estas directamente, sino incorporadas como parte de modelos de regresión.\nUsar pruebas estadísticas cuando no son válidas para responder las preguntas científicas es peligroso."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#pruebas-de-hipótesis-versus-modelos-estadísticos-ejemplo-en-estudio-observacional",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#pruebas-de-hipótesis-versus-modelos-estadísticos-ejemplo-en-estudio-observacional",
+    "title": "   Sesión 2a",
+    "section": "Pruebas de hipótesis versus modelos estadísticos (ejemplo en estudio observacional)",
+    "text": "Pruebas de hipótesis versus modelos estadísticos (ejemplo en estudio observacional)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#section",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#section",
+    "title": "   Sesión 2a",
+    "section": "",
+    "text": "slides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2a.html#section-1",
+    "href": "Sesiones/Sesion-2/Sesion-2a.html#section-1",
+    "title": "   Sesión 2a",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 2a\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis",
+    "title": "   Sesión 2b",
+    "section": "Pruebas de Hipótesis",
+    "text": "Pruebas de Hipótesis\n\n\n\n\n\n\n\n\n\n\n\n\nSí\n\n\n\nNo\n\n\n\n\n\n\n\nNo\n\n\n\nSí\n\n\n\nPruebas de Hipótesis\n\n\n\nSupuestos?\n\n\n\nParámetrica\n\n\n\nNo Paramétrica\n\n\n\nIC o Dif. Medias?\n\n\n\nRangos\n\n\n\nRemuestreo"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-paramétricas",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-paramétricas",
+    "title": "   Sesión 2b",
+    "section": "Pruebas de Hipótesis Paramétricas",
+    "text": "Pruebas de Hipótesis Paramétricas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSí\n\n\n\nNo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPruebas de Hipótesis Paramétricas\n\n\n\nPara Medias\n\n\n\n1 Grupo?\n\n\n\nPrueba t de Student para 1 grupo\n\n\n\nDependencia?\n\n\n\nIndependencia\n\n\n\nDependencia\n\n\n\n2 grupos\n\n\n\nt de Student para 2 grupos independientes\n\n\n\n3 grupos\n\n\n\nAnálisis de varianza de una vía\n\n\n\n2 grupos\n\n\n\nt de Student para 2 grupos dependientes\n\n\n\n3 grupos\n\n\n\nExtensiones del Análisis de Varianza"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-no-paramétricas",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-no-paramétricas",
+    "title": "   Sesión 2b",
+    "section": "Pruebas de Hipótesis No Paramétricas",
+    "text": "Pruebas de Hipótesis No Paramétricas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSí\n\n\n\nNo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPruebas de Hipótesis No Paramétricas Basadas en Rangos\n\n\n\nPara Medianas\n\n\n\n1 grupo?\n\n\n\nPrueba del Signo\n\n\n\nDependencia?\n\n\n\nIndependientes\n\n\n\nDependientes\n\n\n\n2 grupos\n\n\n\nPrueba de U Mann Whitney\n\n\n\n3 grupos\n\n\n\nPrueba de Kruskal Wallis\n\n\n\n2 grupos\n\n\n\nPrueba del Signo\n\n\n\nPrueba de Rangos Signados de Wilcoxon\n\n\n\n3 grupos\n\n\n\nPrueba de Friedman"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos",
+    "title": "   Sesión 2b",
+    "section": "¿Qué paquetes usaremos?",
+    "text": "¿Qué paquetes usaremos?\n\nExisten distintos paquetes en R base para realizar PH o estimación.\nHay mucha inconsistencia entre estos.\nEl paquete {rstatix} compila todos estos en una sola sintaxis R tidy.\n\n\n# install.packages(\"rstatix\")\nlibrary(rstatix)\n\n\nEnlace web: https://rpkgs.datanovia.com/rstatix/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos-cont.",
+    "title": "   Sesión 2b",
+    "section": "¿Qué paquetes usaremos? (cont.)",
+    "text": "¿Qué paquetes usaremos? (cont.)\n\nPara el enfoque de remuestreo, existen varios paquetes de R base.\nEl paquete {infer} usa formato R tidy por lo que lo usaremos en este curso.\n\n\n# install.packages(\"infer\")\n\n\nEnlace web: https://infer.netlify.app/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
+    "title": "   Sesión 2b",
+    "section": "Para un grupo",
+    "text": "Para un grupo\n\nParam.No param. RangosNo param. Remuestreo\n\n\n\nSe usa función t_test() de paquete {rstatix}.\nPermite obtener el valor p para una hipótesis dada y el intervalo de confianza para la media.\n\n\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 100, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.     group1 group2      n statistic     p    df conf.low conf.high\n*    <dbl> <chr>   <chr>  <chr>   <int>     <dbl> <dbl> <dbl>    <dbl>     <dbl>\n1     95.5 glucose 1      null m…     5    -0.525 0.627     4     71.6      119.\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\nEl argumento mu = número es un valor de referencia contra el que deseamos compararnos.\nEl argumento detailed = TRUE permite obtener también los intervalos de confianza.\nLa función gt() es para mejorar visualización del resultado.\n\n\nlibrary(gt)\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 0, detailed = TRUE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    95.48\nglucose\n1\nnull model\n5\n11.09348\n0.000376\n4\n71.58354\n119.3765\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\nAgregaremos gt() a partir de ahora.\nInterpretación:\n\n\nLa media estimada de glucosa fue de 95.5 mg/dL (IC95% 71.6 mg/dL a 119.4 mg/dL). Aunque este valor fue menor a 100 mg/dL (valor de referencia), no es posible concluir que la media poblacional es diferente del valor de refrencia (p = 0.627).\n\n\n\n\n\n\n\nImportant\n\n\nSupuestos:\n\nAleatorización: \n\nMuestra es aleatoria: Para generalizar a una población de interés O\n‘Representatividad teórica’: Aunque no hayamos obtenido una muestra aleatoria, la muestra se comporta como si lo hubiéramos hecho.\n\nObservaciones son independientes: \n\nEsto es equivalente a pensar que todos los sujetos son muestreados de la misma población y que han sido seleccionados de manera independiente de los otros.\nLa selección de un individuo no afecta la selección de otro.\n¿Cuándo falla la independencia de observaciones? Cuando hay pareamiento\n\nNormalidad de la distribución muestral de medias:\n\nClásicamente, se alcanza si la distribución de la variable respuesta es normal.\nSi la distribución de la variable respuesta no es normal, pero la muestra es suficientemente grande (\\(n \\to \\infty\\)), entonces la distribución muestral de medias es normal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvertencia Nº1: Abuso de la representatividad teórica!\n\n\nEn investigación clínica a menudo se abusa de la representividad teórica . Esto debería evitarse y reservarse solo a casos en los que resulta imposible hacer un muestreo aleatorio (y obtener representatividad estadística) pero se tenga algún procedimiento no probabilístico que pueda, bajo ciertas asunciones razonables, emular la representatividad estadística.\nUn ejemplo clásico es usar un muestreo consecutivo (bien realizado) en ensayos clínicos, estudios de prueba diagnóstica o pronóstica. Este procedimiento es aceptado en ámbitos clínicos dado que no existe un marco muestral observable o se desea generalizar a nuevos pacientes (idea de superpobación).\n\n\n\n\n\n\n\n\n\nAdvertencia Nº2: ¿Cómo impacta un valor extremo en los supuestos?\n\n\nUno o más outlier afecta la validez de las pruebas porque\n\n\n\n\n\n\n\n\n\nAdvertencia Nº3: ¿Cuándo una muestra es suficientemente grande?\n\n\n+ Problema: ¿Cuándo la muestra es `suficientemente` grande?\n+ Incluso con muestras consideradas 'muy grandes' si distribución es sesgada, no se alcanza la normalidad de la distribución muestral de medias.\n\n\n\n\n\n\nSe usa función t_test() de paquete {rstatix}.\n\n\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 0, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.    group1 group2     n statistic       p    df conf.low conf.high\n*    <dbl> <chr>  <chr>  <chr>  <int>     <dbl>   <dbl> <dbl>    <dbl>     <dbl>\n1     95.5 gluco… 1      null …     5      11.1 3.76e-4     4     71.6      119.\n# … with 2 more variables: method <chr>, alternative <chr>"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
+    "title": "   Sesión 2b",
+    "section": "Estimación y PH para dos grupos dependientes",
+    "text": "Estimación y PH para dos grupos dependientes\n\nParamétricoNo param. RangosNo param. Bootstrapping\n\n\n\n\n\n\n\n\nImportant\n\n\nSupuestos:\n\n‘Aleatorización’: \n\nMuestra es aleatoria: Para generalizar a una población de interés O \nMuestra proviene de intervenciones asignadas por azar: Para hacer inferencias causales O \n‘Representatividad teórica’ o Emulación de asignación aleatoria: Aunque no hayamos obtenido una muestra aleatoria ni aleatorizado, la muestra se comporta como si lo hubiéramos hecho. \n\nObservaciones son independientes:"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
+    "title": "   Sesión 2b",
+    "section": "Estimación y PH para dos grupos independientes",
+    "text": "Estimación y PH para dos grupos independientes\n\nParamétricoNo param. RangosNo param. Bootstrapping"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
+    "title": "   Sesión 2b",
+    "section": "Prueba Chi cuadrado",
+    "text": "Prueba Chi cuadrado"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
+    "title": "   Sesión 2b",
+    "section": "Prueba exacta de Fisher",
+    "text": "Prueba exacta de Fisher\n\n\n\nslides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section",
+    "title": "   Sesión 2b",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 2b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
     "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",

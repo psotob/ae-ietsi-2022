@@ -1,5 +1,5 @@
 ---
-title: "Taller 2 - Manejo de datos con tidyverse"
+title: "Taller 3 - AID y Descriptivo"
 output: html_notebook
 ---
 
@@ -51,29 +51,9 @@ output: html_notebook
 
 ### Identifique filas duplicadas solo por ID
 
-### Si hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.
-
-### Identifique valores extremos no plausibles con medidas descriptivas
-
-### Identifique valores extremos no plausibles con grafico de cajas
-
-### Haga algunas consultas (queries) de interés
-
-### Consulta 1
-
-Muestre la glucosa final y trigliceridos final mínimo, máximo y promedio del grupo control:
-
 ```{r}
-
+# get_dupes
 ```
-
-### Consulta 2
-
-Categorice el peso inicial en \<22 y \>=22. Luego muestre el promedio y mediana de colesterol según las categorias de peso creadas.
-
-### Consulta 3
-
-Cree la variable diferencia de peso final menos inicial y muestre el minimo y maximo segun protocolo seguido.
 
 ## Tabla descriptiva con gtsummary()
 
