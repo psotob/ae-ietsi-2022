@@ -267,7 +267,16 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#objetivos-de-aprendizaje-del-problem-set-2" id="toc-objetivos-de-aprendizaje-del-problem-set-2" class="nav-link active" data-scroll-target="#objetivos-de-aprendizaje-del-problem-set-2">Objetivos de aprendizaje del Problem Set 2</a></li>
+  <li><a href="#fecha-de-entrega" id="toc-fecha-de-entrega" class="nav-link" data-scroll-target="#fecha-de-entrega">Fecha de Entrega</a></li>
+  <li><a href="#caso-aplicado" id="toc-caso-aplicado" class="nav-link" data-scroll-target="#caso-aplicado">Caso Aplicado</a></li>
+  <li><a href="#entregable" id="toc-entregable" class="nav-link" data-scroll-target="#entregable">Entregable</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/psotob91/ae-ietsi-2022/edit/main/tareas/problem-set/problem-set-2.qmd" class="toc-action">Editar esta página</a></p><p><a href="https://github.com/psotob91/ae-ietsi-2022/issues/new" class="toc-action">Informar te un problema</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -288,9 +297,204 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>Problem Set 2 será posteado el 24 de junio de 2022.</p>
+<section id="objetivos-de-aprendizaje-del-problem-set-2" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-de-aprendizaje-del-problem-set-2">Objetivos de aprendizaje del Problem Set 2</h2>
+<p>En este Problem Set buscaremos evaluar que son capaces de realizar los siguiente:</p>
+<ol type="1">
+<li><p>Importar datos en formato MS Excel (*.xlsx) o Stata (*.dta)</p></li>
+<li><p>Cargar librerías y paquetes de interés.</p></li>
+<li><p>Realizar una limpieza básica de los datos.</p></li>
+<li><p>Realizar un análisis inicial de datos.</p></li>
+<li><p>Realizar un análisis descriptivo de datos</p></li>
+<li><p>Realizar algunos procedimientos de pruebas de hipótesis y estimación.</p></li>
+</ol>
+<p>En grupos de entre 5 a 6 personas, deberán resolver dos casos aplicados y responder algunas preguntas de nivel crítico acerca de los análisis propuestos.</p>
+</section>
+<section id="fecha-de-entrega" class="level2">
+<h2 class="anchored" data-anchor-id="fecha-de-entrega">Fecha de Entrega</h2>
+<p>Hasta el 10 de julio de 2022 (23:59 horas).</p>
+</section>
+<section id="caso-aplicado" class="level2">
+<h2 class="anchored" data-anchor-id="caso-aplicado">Caso Aplicado</h2>
+<p>Analizaremos la base de datos del estudio titulado: “Self-reported HIV in male Peruvian inmates: results of the 2016 prison census.” (Working paper). Una versión preliminar del estudio, en español, puede encontrarse en la página 33 del documento alojado en el siguiente enlace: <a href="https://cdn.www.gob.pe/uploads/document/file/1616613/El%20Fen%C3%B3meno%20Criminol%C3%B3gico%20y%20la%20Pol%C3%ADtica%20Criminal%20en%20las%20Regiones.pdf.pdf">Aquí</a>.</p>
+<p>Los datos corresponenden al primer Censo Penitenciario realizado por el Instituto Nacional Penitenciario (INEI e INPE) del 18 al 26 de abril de 2016. Este fue un estudio transversal llevado a cabo en cárceles de 23 regiones peruana. Se incluyó a toda la población carcelaria de 18 a más años recluida en los 66 establecimientos penitenciarios del país. En este problem set vamos a inspeccionar los datos y describir las características de los participantes.</p>
+<p><strong>Pregunta 1.</strong> Configure un proyecto denominado <code>ProblemSet1-Grupo#</code>. En <code>#</code> ponga su número de grupo. Por ejemplo: *ProblemSet1-Grupo3`.</p>
+<p><em>Tip: Este proyecto debe tener su propia carpeta. Usted deberá enviar la carpeta comprimida como parte de su entregable.</em></p>
+<p><strong>Pregunta 2</strong> Escriba el <code>nombre completo</code> de los integrantes de su equipo.</p>
+<p><strong>Pregunta 3.</strong> Importe los datos y guárdelos con el nombre de <code>datos_crudos</code>. Presente código y salida.</p>
+<p><em>Pista: Recuerde usar <code>as_factor()</code> para heredar los metadatos de los archivos <code>.dta</code> de Stata.</em></p>
+<p><strong>Pregunta 4.</strong> Muestre una descripción global de los datos en términos de números de variables u otras características generales. Presente las salidas del programa y también elabore una pequeña descripción de las variables que Ud. considera más relevantes.</p>
+<p><em>Pista: Puede usar <code>glimpse()</code> y <code>skim()</code> para hacer esta descripción.</em></p>
+<p><strong>Pregunta 5.</strong> Seleccione solo las siguientes variables: <code>ID_CARATULA</code>, <code>sex</code>, <code>edad</code>, <code>civil</code>, <code>relig</code>, <code>depart_ultim</code>, <code>seguro1</code>, <code>educ</code>, <code>hta</code>, <code>neumo_cronica</code>, <code>tbc</code>, <code>tbc_tto</code>y guardelas en un nuevo <code>data.frame</code> denominado <code>datos2</code>. A partir de ahora trabajaremos solamente con <code>datos2</code>, NO UTILICE <code>datos_crudos</code>.</p>
+<p><em>Pista: Puede usar la función <code>select()</code> del paquete <code>{dplyr}</code> para hacer esto.</em></p>
+<p><strong>Pregunta 6.</strong> Realice el siguiente proceso de limpieza sobre <code>datos2</code>:</p>
+<ul>
+<li><p>Inspeccione la presencia de duplicados de individuo (usando <code>ID_CARATULA</code>) como identificador. También explore la presencia de duplicados de fila (evaluando por toda la fila). Presente código y salida. Haga un breve comentario.</p></li>
+<li><p>Categorice las siguientes variables de acuerdo a la siguiente tabla:</p>
+<table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 25%">
+<col style="width: 5%">
+<col style="width: 32%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Categorias Originales</th>
+<th>Nueva variable</th>
+<th>Nuevas categorías</th>
+<th>Comentario</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>civil</td>
+<td>Conviviente, Casado, Viudo, Divorciado, Separado, Soltero</td>
+<td>civil_recat</td>
+<td>Convive con pareja, No convive con pareja</td>
+<td><p>Convive con pareja = conviviente o casado;</p>
+<p>No convive con pareja: Viudo, divorciado, separado o soltero</p></td>
+</tr>
+<tr class="even">
+<td>relig</td>
+<td>Catolico, Evangelico, Mormon, Adventista, Testigo de Jehova, Otra, Ninguna</td>
+<td>relig_recat</td>
+<td>Catolica, Otras religiones, Ninguna</td>
+<td><p>Calotica = catolica,</p>
+<p>Otras religiones = evangelica, mormon, adventista, testigo de jehova, otra</p>
+<p>Ninguna = ninugna</p></td>
+</tr>
+<tr class="odd">
+<td>edad</td>
+<td>18-89</td>
+<td>edad_cat</td>
+<td>18-30, 31-40, 41-50, 51-60, 60-89</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>depart_ultim</td>
+<td>Ayacucho, Junin, Lima, ….</td>
+<td>depart_cat</td>
+<td>Lima, No Lima</td>
+<td>Fusionar departamenteos fuera de Lima</td>
+</tr>
+<tr class="odd">
+<td>educ</td>
+<td>Sin nivel, Educacion inciial, primaria incompleta, primaria completa, …</td>
+<td>educ_cat</td>
+<td>No educacion/inicial, Primaria, Secundaria, Superior No Universitaria y Superior Universitaria</td>
+<td>Fusionar categorias de completo e incompleto. Postgrado cuenta como superior universitario.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pista: Use funciones <code>mutate()</code> y <code>case_when()</code> de paquete <code>{dplyr}</code> de <code>{tidyverse}</code>.</em></p></li>
+<li><p>Etiquete las variables recién creadas de la siguiente manera:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Nueva variable</th>
+<th>Etiqueta de variable</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>civil_recat</td>
+<td>Estado civil</td>
+</tr>
+<tr class="even">
+<td>relig_recat</td>
+<td>Religion</td>
+</tr>
+<tr class="odd">
+<td>edad_cat</td>
+<td>Grupo etario</td>
+</tr>
+<tr class="even">
+<td>depart_cat</td>
+<td>Departamento de procedencia</td>
+</tr>
+<tr class="odd">
+<td>educ_cat</td>
+<td>Nivel educativo</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pista: Puede usar la función <code>set_variable_labels()</code> del paquete <code>{labelled}</code></em></p></li>
+<li><p>Cambie la etiqueta de las variables para que tengan un nombre acorde a una publicación en tablas:</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 54%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre de Variable</th>
+<th>Etiqueta Orginal de Variable</th>
+<th>Nueva Etiqueta de Variable</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>sex</td>
+<td>12. SEXO</td>
+<td>Sexo</td>
+</tr>
+<tr class="even">
+<td>edad</td>
+<td>18. EDAD</td>
+<td>Edad (años)</td>
+</tr>
+<tr class="odd">
+<td>seguro1</td>
+<td></td>
+<td>Seguro de salud</td>
+</tr>
+<tr class="even">
+<td>neumo_cronica</td>
+<td>Autorreporte neumopatía crónica: asma, enfisema y/o bronquitis (p107.1)</td>
+<td>Autorreporte de neumopatía crónica</td>
+</tr>
+<tr class="odd">
+<td>hta</td>
+<td>Autorreporte de HTA (p107.2)</td>
+<td>Autorreporte de hipertensión arterial</td>
+</tr>
+<tr class="even">
+<td>tbc</td>
+<td>Autorreporte de TBC (p107.4)</td>
+<td>Autorreporte de tuberculosis</td>
+</tr>
+<tr class="odd">
+<td>tbc_tto</td>
+<td>TBC: Tratamiento (p107.4c)</td>
+<td>Tuberculosis en tratamiento</td>
+</tr>
+</tbody>
+</table>
+<p><em>Pista: Puede usar la función <code>set_variable_labels()</code> del paquete <code>{labelled}</code></em></p></li>
+</ul>
+<p><strong>Pregunta 7.</strong> Haga las siguientes consultas:</p>
+<ul>
+<li><p>Seleccione a los individuos mujeres mayores de 40 años.</p></li>
+<li><p>Seleccione a los individuos varones entre 35 y 50 años y reporte la proporción de hipertensión arterial.</p></li>
+<li><p>¿Cuántos individuos que tienen tuberculosis tienen también hipertensión arterial?</p></li>
+</ul>
+<p><strong>Pregunta 8.</strong> Cree una tabla descriptiva con todos los participantes</p>
+<p><strong>Pregunta 9.</strong> Asumamos que el censo no es perfecto (su cobertura no fue de 100%, si no de 97%) pero que esta “gran muestra” conserva la representatividad teórica de la población. Estime la prevalencia de hipertensión y tuberculosis autorreportados. Interprete brevemente. Comente si la estimación es informativa o no y qué implicancias tendría esto en toma de decisiones.</p>
+<p><em>Pista: Recuerde que toda estimación implica una incertidumbre asociada. No sobreinterprete.</em></p>
+<p><strong>Pregunta 10.</strong> Desde hace años existe un plan para reducir la tuberculosis a 0 en las prisiones. La meta para el año del censo es que la prevalencia de la tuberculosis sea menor a 4.4%. ¿Con los datos de este estudio podemos afirmar que la prevalencia de tuberculosis es menor a esta meta? Muestre el procedimiento y código para sustentar su respuesta. Asuma que no hay error de medición ni otros sesgos.</p>
+<p><strong>Pregunta 11.</strong> Cree una tabla comparitva según el autorreporte de tuberculosis. Agregue una columna global de total y valores p comparando según autorreporte de tuberculosis.</p>
+<p><strong>Pregunta 12.</strong> Revise el artículo sobre la explicación de la guía STROBE para el reporte de estudios observacionales [aquí](https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010-w1?articleid=737187). Respecto a la tabla generada en la pregunta 11, ¿cuál es el problema con reportar valores p para característica? ¿por qué STROBE no recomienda hacer este tipo de análisis?</p>
+</section>
+<section id="entregable" class="level2">
+<h2 class="anchored" data-anchor-id="entregable">Entregable</h2>
+<p>Subir la carpeta comprimida del proyecto. Esta debe contener el archivo RMarkdown notebook con las respuestas a cada pregunta. Se debe subir la tarea al siguienet enlace: <a href="https://redcap.link/ietsi-academy-aed" class="uri">https://redcap.link/ietsi-academy-aed</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="text/javascript">

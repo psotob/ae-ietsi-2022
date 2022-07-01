@@ -3,4 +3,134 @@ title: "Problem Set 2"
 lang: es
 ---
 
-Problem Set 2 será posteado el 24 de junio de 2022.
+## Objetivos de aprendizaje del Problem Set 2
+
+En este Problem Set buscaremos evaluar que son capaces de realizar los siguiente:
+
+1)  Importar datos en formato MS Excel (\*.xlsx) o Stata (\*.dta)
+
+2)  Cargar librerías y paquetes de interés.
+
+3)  Realizar una limpieza básica de los datos.
+
+4)  Realizar un análisis inicial de datos.
+
+5)  Realizar un análisis descriptivo de datos
+
+6)  Realizar algunos procedimientos de pruebas de hipótesis y estimación.
+
+En grupos de entre 5 a 6 personas, deberán resolver dos casos aplicados y responder algunas preguntas de nivel crítico acerca de los análisis propuestos.
+
+## Fecha de Entrega
+
+Hasta el 10 de julio de 2022 (23:59 horas).
+
+## Caso Aplicado 
+
+Analizaremos la base de datos del estudio titulado: "Self-reported HIV in male Peruvian inmates: results of the 2016 prison census." (Working paper). Una versión preliminar del estudio, en español, puede encontrarse en la página 33 del documento alojado en el siguiente enlace: [Aquí](https://cdn.www.gob.pe/uploads/document/file/1616613/El%20Fen%C3%B3meno%20Criminol%C3%B3gico%20y%20la%20Pol%C3%ADtica%20Criminal%20en%20las%20Regiones.pdf.pdf).
+
+Los datos corresponenden al primer Censo Penitenciario realizado por el Instituto Nacional Penitenciario (INEI e INPE) del 18 al 26 de abril de 2016. Este fue un estudio transversal llevado a cabo en cárceles de 23 regiones peruana. Se incluyó a toda la población carcelaria de 18 a más años recluida en los 66 establecimientos penitenciarios del país. En este problem set vamos a inspeccionar los datos y describir las características de los participantes.
+
+**Pregunta 1.** Configure un proyecto denominado `ProblemSet1-Grupo#`. En `#` ponga su número de grupo. Por ejemplo: \*ProblemSet1-Grupo3\`.
+
+*Tip: Este proyecto debe tener su propia carpeta. Usted deberá enviar la carpeta comprimida como parte de su entregable.*
+
+**Pregunta 2** Escriba el `nombre completo` de los integrantes de su equipo.
+
+**Pregunta 3.** Importe los datos y guárdelos con el nombre de `datos_crudos`. Presente código y salida.
+
+*Pista: Recuerde usar `as_factor()` para heredar los metadatos de los archivos `.dta` de Stata.*
+
+**Pregunta 4.** Muestre una descripción global de los datos en términos de números de variables u otras características generales. Presente las salidas del programa y también elabore una pequeña descripción de las variables que Ud. considera más relevantes.
+
+*Pista: Puede usar `glimpse()` y `skim()` para hacer esta descripción.*
+
+**Pregunta 5.** Seleccione solo las siguientes variables: `ID_CARATULA`, `sex`, `edad`, `civil`, `relig`, `depart_ultim`, `seguro1`, `educ`, `hta`, `neumo_cronica`, `tbc`, `tbc_tto`y guardelas en un nuevo `data.frame` denominado `datos2`. A partir de ahora trabajaremos solamente con `datos2`, NO UTILICE `datos_crudos`.
+
+*Pista: Puede usar la función `select()` del paquete `{dplyr}` para hacer esto.*
+
+**Pregunta 6.** Realice el siguiente proceso de limpieza sobre `datos2`:
+
+-   Inspeccione la presencia de duplicados de individuo (usando `ID_CARATULA`) como identificador. También explore la presencia de duplicados de fila (evaluando por toda la fila). Presente código y salida. Haga un breve comentario.
+
+-   Categorice las siguientes variables de acuerdo a la siguiente tabla:
+
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+    | Variable       | Categorias Originales                                                      | Nueva variable | Nuevas categorías                                                                              | Comentario                                                                                  |
+    +================+============================================================================+================+================================================================================================+=============================================================================================+
+    | civil          | Conviviente, Casado, Viudo, Divorciado, Separado, Soltero                  | civil_recat    | Convive con pareja, No convive con pareja                                                      | Convive con pareja = conviviente o casado;                                                  |
+    |                |                                                                            |                |                                                                                                |                                                                                             |
+    |                |                                                                            |                |                                                                                                | No convive con pareja: Viudo, divorciado, separado o soltero                                |
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+    | relig          | Catolico, Evangelico, Mormon, Adventista, Testigo de Jehova, Otra, Ninguna | relig_recat    | Catolica, Otras religiones, Ninguna                                                            | Calotica = catolica,                                                                        |
+    |                |                                                                            |                |                                                                                                |                                                                                             |
+    |                |                                                                            |                |                                                                                                | Otras religiones = evangelica, mormon, adventista, testigo de jehova, otra                  |
+    |                |                                                                            |                |                                                                                                |                                                                                             |
+    |                |                                                                            |                |                                                                                                | Ninguna = ninugna                                                                           |
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+    | edad           | 18-89                                                                      | edad_cat       | 18-30, 31-40, 41-50, 51-60, 60-89                                                              |                                                                                             |
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+    | depart_ultim   | Ayacucho, Junin, Lima, ....                                                | depart_cat     | Lima, No Lima                                                                                  | Fusionar departamenteos fuera de Lima                                                       |
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+    | educ           | Sin nivel, Educacion inciial, primaria incompleta, primaria completa, ...  | educ_cat       | No educacion/inicial, Primaria, Secundaria, Superior No Universitaria y Superior Universitaria | Fusionar categorias de completo e incompleto. Postgrado cuenta como superior universitario. |
+    +----------------+----------------------------------------------------------------------------+----------------+------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
+    *Pista: Use funciones `mutate()` y `case_when()` de paquete `{dplyr}` de `{tidyverse}`.*
+
+-   Etiquete las variables recién creadas de la siguiente manera:
+
+    | Nueva variable | Etiqueta de variable        |
+    |----------------|-----------------------------|
+    | civil_recat    | Estado civil                |
+    | relig_recat    | Religion                    |
+    | edad_cat       | Grupo etario                |
+    | depart_cat     | Departamento de procedencia |
+    | educ_cat       | Nivel educativo             |
+
+    *Pista: Puede usar la función `set_variable_labels()` del paquete `{labelled}`*
+
+-   Cambie la etiqueta de las variables para que tengan un nombre acorde a una publicación en tablas:
+
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | Nombre de Variable   | Etiqueta Orginal de Variable                                            | Nueva Etiqueta de Variable            |
+    +======================+=========================================================================+=======================================+
+    | sex                  | 12\. SEXO                                                               | Sexo                                  |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | edad                 | 18\. EDAD                                                               | Edad (años)                           |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | seguro1              |                                                                         | Seguro de salud                       |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | neumo_cronica        | Autorreporte neumopatía crónica: asma, enfisema y/o bronquitis (p107.1) | Autorreporte de neumopatía crónica    |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | hta                  | Autorreporte de HTA (p107.2)                                            | Autorreporte de hipertensión arterial |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | tbc                  | Autorreporte de TBC (p107.4)                                            | Autorreporte de tuberculosis          |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+    | tbc_tto              | TBC: Tratamiento (p107.4c)                                              | Tuberculosis en tratamiento           |
+    +----------------------+-------------------------------------------------------------------------+---------------------------------------+
+
+    *Pista: Puede usar la función `set_variable_labels()` del paquete `{labelled}`*
+
+**Pregunta 7.** Haga las siguientes consultas:
+
+-   Seleccione a los individuos mujeres mayores de 40 años.
+
+-   Seleccione a los individuos varones entre 35 y 50 años y reporte la proporción de hipertensión arterial.
+
+-   ¿Cuántos individuos que tienen tuberculosis tienen también hipertensión arterial? 
+
+**Pregunta 8.** Cree una tabla descriptiva con todos los participantes
+
+**Pregunta 9.** Asumamos que el censo no es perfecto (su cobertura no fue de 100%, si no de 97%) pero que esta "gran muestra" conserva la representatividad teórica de la población. Estime la prevalencia de hipertensión y tuberculosis autorreportados. Interprete brevemente. Comente si la estimación es informativa o no y qué implicancias tendría esto en toma de decisiones.
+
+*Pista: Recuerde que toda estimación implica una incertidumbre asociada. No sobreinterprete.*
+
+**Pregunta 10.** Desde hace años existe un plan para reducir la tuberculosis a 0 en las prisiones. La meta para el año del censo es que la prevalencia de la tuberculosis sea menor a 4.4%. ¿Con los datos de este estudio podemos afirmar que la prevalencia de tuberculosis es menor a esta meta? Muestre el procedimiento y código para sustentar su respuesta. Asuma que no hay error de medición ni otros sesgos.
+
+**Pregunta 11.** Cree una tabla comparitva según el autorreporte de tuberculosis. Agregue una columna global de total y valores p comparando según autorreporte de tuberculosis.
+
+**Pregunta 12.** Revise el artículo sobre la explicación de la guía STROBE para el reporte de estudios observacionales \[aquí\](https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010-w1?articleid=737187). Respecto a la tabla generada en la pregunta 11, ¿cuál es el problema con reportar valores p para característica? ¿por qué STROBE no recomienda hacer este tipo de análisis?
+
+## Entregable
+
+Subir la carpeta comprimida del proyecto. Esta debe contener el archivo RMarkdown notebook con las respuestas a cada pregunta. Se debe subir la tarea al siguienet enlace: <https://redcap.link/ietsi-academy-aed>

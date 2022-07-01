@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 2 - Manejo de datos con tidyverse</title>
+<title>Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 3 - AID y Descriptivo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,9 +122,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 2 - Manejo de datos con tidyverse">
+<meta property="og:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 3 - AID y Descriptivo">
 <meta property="og:site-name" content="Programa de Formación Cientifica - Análisis Estadístico 2022">
-<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 2 - Manejo de datos con tidyverse">
+<meta name="twitter:title" content="Programa de Formación Cientifica - Análisis Estadístico 2022 - Taller 3 - AID y Descriptivo">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -211,13 +211,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#explore-globalmente-los-datos" id="toc-explore-globalmente-los-datos" class="nav-link" data-scroll-target="#explore-globalmente-los-datos">Explore globalmente los datos</a></li>
   <li><a href="#identifique-filas-completamente-duplicadas" id="toc-identifique-filas-completamente-duplicadas" class="nav-link" data-scroll-target="#identifique-filas-completamente-duplicadas">Identifique filas completamente duplicadas</a></li>
   <li><a href="#identifique-filas-duplicadas-solo-por-id" id="toc-identifique-filas-duplicadas-solo-por-id" class="nav-link" data-scroll-target="#identifique-filas-duplicadas-solo-por-id">Identifique filas duplicadas solo por ID</a></li>
-  <li><a href="#si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta." id="toc-si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta." class="nav-link" data-scroll-target="#si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta.">Si hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.</a></li>
-  <li><a href="#identifique-valores-extremos-no-plausibles-con-medidas-descriptivas" id="toc-identifique-valores-extremos-no-plausibles-con-medidas-descriptivas" class="nav-link" data-scroll-target="#identifique-valores-extremos-no-plausibles-con-medidas-descriptivas">Identifique valores extremos no plausibles con medidas descriptivas</a></li>
-  <li><a href="#identifique-valores-extremos-no-plausibles-con-grafico-de-cajas" id="toc-identifique-valores-extremos-no-plausibles-con-grafico-de-cajas" class="nav-link" data-scroll-target="#identifique-valores-extremos-no-plausibles-con-grafico-de-cajas">Identifique valores extremos no plausibles con grafico de cajas</a></li>
-  <li><a href="#haga-algunas-consultas-queries-de-interés" id="toc-haga-algunas-consultas-queries-de-interés" class="nav-link" data-scroll-target="#haga-algunas-consultas-queries-de-interés">Haga algunas consultas (queries) de interés</a></li>
-  <li><a href="#consulta-1" id="toc-consulta-1" class="nav-link" data-scroll-target="#consulta-1">Consulta 1</a></li>
-  <li><a href="#consulta-2" id="toc-consulta-2" class="nav-link" data-scroll-target="#consulta-2">Consulta 2</a></li>
-  <li><a href="#consulta-3" id="toc-consulta-3" class="nav-link" data-scroll-target="#consulta-3">Consulta 3</a></li>
   </ul></li>
   <li><a href="#tabla-descriptiva-con-gtsummary" id="toc-tabla-descriptiva-con-gtsummary" class="nav-link" data-scroll-target="#tabla-descriptiva-con-gtsummary">Tabla descriptiva con gtsummary()</a>
   <ul class="collapse">
@@ -234,7 +227,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Taller 2 - Manejo de datos con tidyverse</h1>
+<h1 class="title">Taller 3 - AID y Descriptivo</h1>
 </div>
 
 
@@ -291,33 +284,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="identifique-filas-duplicadas-solo-por-id" class="level3">
 <h3 class="anchored" data-anchor-id="identifique-filas-duplicadas-solo-por-id">Identifique filas duplicadas solo por ID</h3>
-</section>
-<section id="si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta." class="level3">
-<h3 class="anchored" data-anchor-id="si-hay-duplicados-eliminelos.-si-no-hay-duplicados-justifique-su-respuesta.">Si hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.</h3>
-</section>
-<section id="identifique-valores-extremos-no-plausibles-con-medidas-descriptivas" class="level3">
-<h3 class="anchored" data-anchor-id="identifique-valores-extremos-no-plausibles-con-medidas-descriptivas">Identifique valores extremos no plausibles con medidas descriptivas</h3>
-</section>
-<section id="identifique-valores-extremos-no-plausibles-con-grafico-de-cajas" class="level3">
-<h3 class="anchored" data-anchor-id="identifique-valores-extremos-no-plausibles-con-grafico-de-cajas">Identifique valores extremos no plausibles con grafico de cajas</h3>
-</section>
-<section id="haga-algunas-consultas-queries-de-interés" class="level3">
-<h3 class="anchored" data-anchor-id="haga-algunas-consultas-queries-de-interés">Haga algunas consultas (queries) de interés</h3>
-</section>
-<section id="consulta-1" class="level3">
-<h3 class="anchored" data-anchor-id="consulta-1">Consulta 1</h3>
-<p>Muestre la glucosa final y trigliceridos final mínimo, máximo y promedio del grupo control:</p>
 <div class="cell">
-
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get_dupes</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="consulta-2" class="level3">
-<h3 class="anchored" data-anchor-id="consulta-2">Consulta 2</h3>
-<p>Categorice el peso inicial en &lt;22 y &gt;=22. Luego muestre el promedio y mediana de colesterol según las categorias de peso creadas.</p>
-</section>
-<section id="consulta-3" class="level3">
-<h3 class="anchored" data-anchor-id="consulta-3">Consulta 3</h3>
-<p>Cree la variable diferencia de peso final menos inicial y muestre el minimo y maximo segun protocolo seguido.</p>
 </section>
 </section>
 <section id="tabla-descriptiva-con-gtsummary" class="level2">

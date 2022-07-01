@@ -3,4 +3,4 @@ title: "Problem Set 1"
 lang: es
 ---
 
-Problem Set 1 será posteado el 16 de junio de 2022.
+Debido a ajustes en el cronograma, el Problem Set 1 ha sido fusionado con el Problem Set 2 y se han reprogramado las fechas.

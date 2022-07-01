@@ -43,7 +43,8 @@ if (!require("pacman")) {
 
 pacman::p_unload("all") # Unloading all package except base
 
-pacman::p_load(tidyverse, janitor, gt, gtsummary, flextable, kableExtra, skimr, Hmisc, readxl) # Loading packages
+pacman::p_load(tidyverse, janitor, gt, gtsummary, flextable, kableExtra, skimr, 
+               Hmisc, readxl) # Loading packages
 
 # icons::download_fontawesome()
 ```

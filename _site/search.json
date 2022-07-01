@@ -172,14 +172,14 @@
     "href": "recursos/rec-sesion3.html",
     "title": "Sesion 3",
     "section": "",
-    "text": "Sesión 3a [Enlace]\nSesión 3b [Enlace]"
+    "text": "Sesión 3 [Enlace]"
   },
   {
     "objectID": "recursos/rec-sesion3.html#código-para-taller",
     "href": "recursos/rec-sesion3.html#código-para-taller",
     "title": "Sesion 3",
     "section": "Código para taller",
-    "text": "Código para taller\n\nSesión 3a:\n\nR script: [Enlace]\nR notebook: [Enlace]\n\nSesión 3b:\n\nR script: [Enlace]\nR notebook: [Enlace]"
+    "text": "Código para taller\n\nSesión 3:\n\nR script: [Enlace]\nR notebook: [Enlace]"
   },
   {
     "objectID": "recursos/rec-sesion4.html",
@@ -718,7 +718,7 @@
     "href": "Sesiones/Sesion-1/Sesion-1b.html#podemos-hacer-operaciones-con-los-elementos-de-los-vectores",
     "title": "   Sesión 1b",
     "section": "Podemos hacer operaciones con los elementos de los vectores",
-    "text": "Podemos hacer operaciones con los elementos de los vectores\n\nImaginen que desean calcular la presión arterial media de Juan, María y Sandra de acuerdo con la siguiente fórmula:\n\n\n\\[PAM = \\frac{PAS + 2PAD}{3}\\]\n\n\nEsto se puede calcular usando los vectores:\n\n\n# Cálculo de presión arterial media: pam\npam <- (pas + 2 * pad) / 3 \npam\n\n[1]  90.10000 101.36667  86.06667"
+    "text": "Podemos hacer operaciones con los elementos de los vectores\n\nImaginen que desean calcular la presión arterial media de Juan, María y Sandra de acuerdo con la siguiente fórmula:\n\n \\[PAM = \\frac{PAS + 2PAD}{3}\\] \n\nEsto se puede calcular usando los vectores:\n\n\n# Cálculo de presión arterial media: pam\npam <- (pas + 2 * pad) / 3 \npam\n\n[1]  90.10000 101.36667  86.06667"
   },
   {
     "objectID": "Sesiones/Sesion-1/Sesion-1b.html#los-vectores-atómicos-tienen-varios-tipos-de-estructuras-de-datos",
@@ -1264,7 +1264,7 @@
     "href": "Sesiones/Sesion-1/Taller1.html#realice-las-siguientes-acciones-en-su-computador",
     "title": "Taller 1 - Familiarizandose con R",
     "section": "Realice las siguientes acciones en su computador:",
-    "text": "Realice las siguientes acciones en su computador:\n\nCree una carpeta denominada: Sesión 1.\nCree un Proyecto de R denominado igual que la carpeta: Sesión 1.\nDescargue los datos denominados: maca_meno_preclin.xlsx y maca_meno-fase1.dta del siguiente enlace: https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html\nColoque los datos en la carpeta Sesion1\nCree un notebook de RMarkdown al cual denomine: Ejercicios de Taller 1.\nEn el Notebook haga lo siguiente:\n\nCree un titulo diferente para cada dataset:\n\nTítulo 1: Dataset maca_meno_preclin\nTítulo 2: Dataset maca_meno_fase1\n\nInstale el paquete labelled().\nCargue estos paquetes.\nImporte los datos a R tratando de convervar la mayor información posible de los datos de origen.\nHaga comentarios de cada proceso en el notebook.\nCompile el notebook."
+    "text": "Realice las siguientes acciones en su computador:\n\nCree una carpeta denominada: Taller 1.\nCree un Proyecto de R denominado igual que la carpeta: Sesión 1.\nDescargue los datos denominados: maca_meno_preclin.xlsx y maca_meno-fase1.dta del siguiente enlace: https://ietsi-academy-aed.netlify.app/recursos/rec-sesion1.html\n\nImporte el conjunto de datos maca_meno_preclin.xlsx con el nombre de datos_preclin.\nImporte el conjunto de datos maca_meno-fase1.dta con el nombre datos_fase1.\n\nColoque los datos en la carpeta Taller 1\nCree un notebook de RMarkdown al cual denomine: Ejercicios de Taller 1.\nEn el Notebook haga lo siguiente:\n\nCree un titulo diferente para cada dataset:\n\nTítulo 1: Dataset maca_meno_preclin\nTítulo 2: Dataset maca_meno_fase1\n\nInstale el paquete labelled().\nCargue estos paquetes.\nImporte los datos a R tratando de convervar la mayor información posible de los datos de origen.\nHaga comentarios de cada proceso en el notebook si lo considera conveniente."
   },
   {
     "objectID": "Sesiones/Sesion-1/Taller2.html",
@@ -1283,21 +1283,21 @@
   {
     "objectID": "Sesiones/Sesion-1/Taller3.html",
     "href": "Sesiones/Sesion-1/Taller3.html",
-    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "title": "Taller 3 - AID y Descriptivo",
     "section": "",
     "text": "Tiempo: 30 min\nDescripción: En este taller nos familizaremos con el manejo de datos\nRealice las siguientes acciones en su computador:\n\nTrabajaremos con el proyecto configurado en el Taller 1.\nTrabaje sobre este R Notebook.\nUse el conjunto de datos maca_meno_preclin.xlsx que importó con el nombre de datos_preclin.\nAbra el archivo en excel maca_meno_preclin.xlsx, en la hoja 2 está el libro de códigos."
   },
   {
     "objectID": "Sesiones/Sesion-1/Taller3.html#desarrollo-del-taller",
     "href": "Sesiones/Sesion-1/Taller3.html#desarrollo-del-taller",
-    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "title": "Taller 3 - AID y Descriptivo",
     "section": "Desarrollo del taller:",
-    "text": "Desarrollo del taller:\n\nCargar los paquetes\n\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n\n\n\nImportar datos\n\n# Tip: objeto <- read_excel(\"archivo.xlsx\")\n\n\n\nExplore globalmente los datos\n\n# Tip: Use glimpse() y contents()\n\n\n\nIdentifique filas completamente duplicadas\n\n\n\n\n\nIdentifique filas duplicadas solo por ID\n\n\nSi hay duplicados, eliminelos. Si no hay duplicados, justifique su respuesta.\n\n\nIdentifique valores extremos no plausibles con medidas descriptivas\n\n\nIdentifique valores extremos no plausibles con grafico de cajas\n\n\nHaga algunas consultas (queries) de interés\n\n\nConsulta 1\nMuestre la glucosa final y trigliceridos final mínimo, máximo y promedio del grupo control:\n\n\n\n\n\nConsulta 2\nCategorice el peso inicial en <22 y >=22. Luego muestre el promedio y mediana de colesterol según las categorias de peso creadas.\n\n\nConsulta 3\nCree la variable diferencia de peso final menos inicial y muestre el minimo y maximo segun protocolo seguido."
+    "text": "Desarrollo del taller:\n\nCargar los paquetes\n\n# Tip: library(paquete)\n# Tip2: Cargue tidyverse, Hmisc y janitor\n\n\n\nImportar datos\n\n# Tip: objeto <- read_excel(\"archivo.xlsx\")\n\n\n\nExplore globalmente los datos\n\n# Tip: Use glimpse() y contents()\n\n\n\nIdentifique filas completamente duplicadas\n\n\n\n\n\nIdentifique filas duplicadas solo por ID\n\n# get_dupes"
   },
   {
     "objectID": "Sesiones/Sesion-1/Taller3.html#tabla-descriptiva-con-gtsummary",
     "href": "Sesiones/Sesion-1/Taller3.html#tabla-descriptiva-con-gtsummary",
-    "title": "Taller 2 - Manejo de datos con tidyverse",
+    "title": "Taller 3 - AID y Descriptivo",
     "section": "Tabla descriptiva con gtsummary()",
     "text": "Tabla descriptiva con gtsummary()\n\nCree una tabla descriptiva con toda la muestra y todas las variables excepto id.\n\n\n\n\n\nCree una tabla comparativa de grupos segun tratamiento (sin tabla global). No incluya a id.\n\n\n\n\n\nCree una taba comparativa y global (no incluya id)\n\n\n\n\n\nCree una tabla anexa donde reporte minimos y maximos."
   },
@@ -1596,60 +1596,375 @@
     "text": "Pruebas de Hipótesis No Paramétricas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSí\n\n\n\nNo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPruebas de Hipótesis No Paramétricas Basadas en Rangos\n\n\n\nPara Medianas\n\n\n\n1 grupo?\n\n\n\nPrueba del Signo\n\n\n\nDependencia?\n\n\n\nIndependientes\n\n\n\nDependientes\n\n\n\n2 grupos\n\n\n\nPrueba de U Mann Whitney\n\n\n\n3 grupos\n\n\n\nPrueba de Kruskal Wallis\n\n\n\n2 grupos\n\n\n\nPrueba del Signo\n\n\n\nPrueba de Rangos Signados de Wilcoxon\n\n\n\n3 grupos\n\n\n\nPrueba de Friedman"
   },
   {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos",
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#de-qué-depende-la-ph-que-debo-elegir",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#de-qué-depende-la-ph-que-debo-elegir",
     "title": "   Sesión 2b",
-    "section": "¿Qué paquetes usaremos?",
-    "text": "¿Qué paquetes usaremos?\n\nExisten distintos paquetes en R base para realizar PH o estimación.\nHay mucha inconsistencia entre estos.\nEl paquete {rstatix} compila todos estos en una sola sintaxis R tidy.\n\n\n# install.packages(\"rstatix\")\nlibrary(rstatix)\n\n\nEnlace web: https://rpkgs.datanovia.com/rstatix/"
+    "section": "¿De qué depende la PH que debo elegir?",
+    "text": "¿De qué depende la PH que debo elegir?\n\nDatos proporcionan evidencia empírica de alinearse con los supuestos estadísticas de la prueba elegida.\n‘Alinearse’ quiere decir, aproximarse 'razonablemente' bien:\n\n\n“Todos los modelos son erróneos, pero algunos son útiles”. (George Box)\n\n\nTener en cuenta, que las pruebas de hipótesis nula de significancia tradicionales son robustas a incumplimientos de algunos supuestos."
   },
   {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos-cont.",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#qué-paquetes-usaremos-cont.",
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#de-qué-depende-la-ph-que-debo-elegir-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#de-qué-depende-la-ph-que-debo-elegir-cont.",
     "title": "   Sesión 2b",
-    "section": "¿Qué paquetes usaremos? (cont.)",
-    "text": "¿Qué paquetes usaremos? (cont.)\n\nPara el enfoque de remuestreo, existen varios paquetes de R base.\nEl paquete {infer} usa formato R tidy por lo que lo usaremos en este curso.\n\n\n# install.packages(\"infer\")\n\n\nEnlace web: https://infer.netlify.app/"
+    "section": "¿De qué depende la PH que debo elegir? (cont.)",
+    "text": "¿De qué depende la PH que debo elegir? (cont.)\n\nPor ejemplo, las pruebas mencionadas son robustas a incumplimiento leve/moderado de normalidad si y solo si el n es suficientemente grande.\nSin embargo, ante el incumplimiento, hay que hacer un análisis concienzudo para tomar una decisión:\n\n\nOpción 1: Usar la prueba a pesar de leves/moderadas de algún supuesto porque la prueba es robusta ante este incumplimiento. \n\n\nOpción 2: Usar otra prueba o la misma prueba ‘corregida’ que sí permita analizar apropiadamente los datos que tengo."
   },
   {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-comunes-a-todas-las-ph",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-comunes-a-todas-las-ph",
     "title": "   Sesión 2b",
-    "section": "Para un grupo",
-    "text": "Para un grupo\n\nParam.No param. RangosNo param. Remuestreo\n\n\n\nSe usa función t_test() de paquete {rstatix}.\nPermite obtener el valor p para una hipótesis dada y el intervalo de confianza para la media.\n\n\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 100, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.     group1 group2      n statistic     p    df conf.low conf.high\n*    <dbl> <chr>   <chr>  <chr>   <int>     <dbl> <dbl> <dbl>    <dbl>     <dbl>\n1     95.5 glucose 1      null m…     5    -0.525 0.627     4     71.6      119.\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\nEl argumento mu = número es un valor de referencia contra el que deseamos compararnos.\nEl argumento detailed = TRUE permite obtener también los intervalos de confianza.\nLa función gt() es para mejorar visualización del resultado.\n\n\nlibrary(gt)\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 0, detailed = TRUE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    95.48\nglucose\n1\nnull model\n5\n11.09348\n0.000376\n4\n71.58354\n119.3765\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\nAgregaremos gt() a partir de ahora.\nInterpretación:\n\n\nLa media estimada de glucosa fue de 95.5 mg/dL (IC95% 71.6 mg/dL a 119.4 mg/dL). Aunque este valor fue menor a 100 mg/dL (valor de referencia), no es posible concluir que la media poblacional es diferente del valor de refrencia (p = 0.627).\n\n\n\n\n\n\n\nImportant\n\n\nSupuestos:\n\nAleatorización: \n\nMuestra es aleatoria: Para generalizar a una población de interés O\n‘Representatividad teórica’: Aunque no hayamos obtenido una muestra aleatoria, la muestra se comporta como si lo hubiéramos hecho.\n\nObservaciones son independientes: \n\nEsto es equivalente a pensar que todos los sujetos son muestreados de la misma población y que han sido seleccionados de manera independiente de los otros.\nLa selección de un individuo no afecta la selección de otro.\n¿Cuándo falla la independencia de observaciones? Cuando hay pareamiento\n\nNormalidad de la distribución muestral de medias:\n\nClásicamente, se alcanza si la distribución de la variable respuesta es normal.\nSi la distribución de la variable respuesta no es normal, pero la muestra es suficientemente grande (\\(n \\to \\infty\\)), entonces la distribución muestral de medias es normal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvertencia Nº1: Abuso de la representatividad teórica!\n\n\nEn investigación clínica a menudo se abusa de la representividad teórica . Esto debería evitarse y reservarse solo a casos en los que resulta imposible hacer un muestreo aleatorio (y obtener representatividad estadística) pero se tenga algún procedimiento no probabilístico que pueda, bajo ciertas asunciones razonables, emular la representatividad estadística.\nUn ejemplo clásico es usar un muestreo consecutivo (bien realizado) en ensayos clínicos, estudios de prueba diagnóstica o pronóstica. Este procedimiento es aceptado en ámbitos clínicos dado que no existe un marco muestral observable o se desea generalizar a nuevos pacientes (idea de superpobación).\n\n\n\n\n\n\n\n\n\nAdvertencia Nº2: ¿Cómo impacta un valor extremo en los supuestos?\n\n\nUno o más outlier afecta la validez de las pruebas porque\n\n\n\n\n\n\n\n\n\nAdvertencia Nº3: ¿Cuándo una muestra es suficientemente grande?\n\n\n+ Problema: ¿Cuándo la muestra es `suficientemente` grande?\n+ Incluso con muestras consideradas 'muy grandes' si distribución es sesgada, no se alcanza la normalidad de la distribución muestral de medias.\n\n\n\n\n\n\nSe usa función t_test() de paquete {rstatix}.\n\n\ndatos_preclin2 %>% \n  t_test(glucose ~ 1, mu = 0, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.    group1 group2     n statistic       p    df conf.low conf.high\n*    <dbl> <chr>  <chr>  <chr>  <int>     <dbl>   <dbl> <dbl>    <dbl>     <dbl>\n1     95.5 gluco… 1      null …     5      11.1 3.76e-4     4     71.6      119.\n# … with 2 more variables: method <chr>, alternative <chr>"
+    "section": "Supuestos comunes a todas las PH",
+    "text": "Supuestos comunes a todas las PH\n\n\nAleatorización\n\n\nObservaciones independientes"
   },
   {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#aleatorización",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#aleatorización",
     "title": "   Sesión 2b",
-    "section": "Estimación y PH para dos grupos dependientes",
-    "text": "Estimación y PH para dos grupos dependientes\n\nParamétricoNo param. RangosNo param. Bootstrapping\n\n\n\n\n\n\n\n\nImportant\n\n\nSupuestos:\n\n‘Aleatorización’: \n\nMuestra es aleatoria: Para generalizar a una población de interés O \nMuestra proviene de intervenciones asignadas por azar: Para hacer inferencias causales O \n‘Representatividad teórica’ o Emulación de asignación aleatoria: Aunque no hayamos obtenido una muestra aleatoria ni aleatorizado, la muestra se comporta como si lo hubiéramos hecho. \n\nObservaciones son independientes:"
+    "section": "Aleatorización",
+    "text": "Aleatorización"
   },
   {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#aleatorización-1",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#aleatorización-1",
     "title": "   Sesión 2b",
-    "section": "Estimación y PH para dos grupos independientes",
-    "text": "Estimación y PH para dos grupos independientes\n\nParamétricoNo param. RangosNo param. Bootstrapping"
-  },
-  {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
-    "title": "   Sesión 2b",
-    "section": "Prueba Chi cuadrado",
-    "text": "Prueba Chi cuadrado"
-  },
-  {
-    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
-    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
-    "title": "   Sesión 2b",
-    "section": "Prueba exacta de Fisher",
-    "text": "Prueba exacta de Fisher\n\n\n\nslides:\n\n\nhttps://bit.ly/3n6Ejzb"
+    "section": "Aleatorización",
+    "text": "Aleatorización\n\nMuestra es aleatoria para generalizar a una población de interés bien definida.\n\nGold estándar: Muestreo aleatorio simple para alcanzar \"Representatividad Estadística\".\nAlternativas más limitadas: Muestreo consecutivo, otras formas de muestreo no probabilístico y asumir \"representatividad teórica\".\n\n\n\nó\n\n\nMuestra proviene de intervenciones asignadas por azar para hacer inferencia causal sobre una intervención/exposición de interés bien definida.\n\nGold estándar: Asignación aleatoria.\nAlternativas más limitadas: Control de confusión y asumir \"emulación de asignación aleatoria\"."
   },
   {
     "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section",
     "href": "Sesiones/Sesion-2/Sesion-2b.html#section",
     "title": "   Sesión 2b",
     "section": "",
+    "text": "Los supuestos no verificables de la investigación clínica\n\n\n\nLa mayoría de la investigación clínica recae en supuestos no verificables.\nCuando no hay muestreo aleatorio o asignación aleatoria, existe riesgo alto de que el supuesto no se cumpla.\nSin embargo, en ciertos escenarios, puede ser razonable pensar que se alcanzó el supuesto (representatividad teórica o emulación de asignación aleatoria).\nEn estos escenarios, estos supuestos son no testeables completamente, solo parcialmente:\n\nSolo podemos refultarlos con los datos observados, pero nunca probar su cumplimiento.\nEl investigador asume una postura y se compremete, temporalmente, con los supuestos hasta disponer de mejor evidencia y actualizar sus posturas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section-1",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section-1",
+    "title": "   Sesión 2b",
+    "section": "",
+    "text": "La ausencia del muestreo probabilístico no siempre es mala\n\n\n\nSiempre que sea posible, debería optarse por las formas más robustas de hacer inferencia.\n\nSolo cuando sea imposible (ej., muestreo aleatorio de pacientes, asignar una exposición dañina, etc) nos queda usar las formas menos robustas. \nDado que, bajo ciertas condiciones, se pueden obtener inferencias válidas, es posible responder preguntas con estos enfoques menos robustos aunque el proceso es más largo y controvertido (ej. efecto dañino del cigarro, del petroleo con plomo, cambio climático). \n\nAlgunas formas de muestreo no probabilístico, bajo ciertas condiciones, pueden razonablemente alcanzar representatividad teórica. La discusión transparente y sincera es importante.\n\nPor ejemplo, guías de riesgo de sesgo de estudios de prueba diagnóstica (como QUADAS-2) considera al muestreo consecutivo en el mismo nivel que el muestreo probabilístico en contextos clínicos cuando no es factible realizar muestreo aleatorio para estudios de pruebas diagnósticas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section-2",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section-2",
+    "title": "   Sesión 2b",
+    "section": "",
+    "text": "Advertencia: Abuso de la representatividad teórica!\n\n\n\nEn investigación clínica a menudo se abusa de la representividad teórica.\nEsto debería evitarse y reservarse solo a casos en los que resulta imposible hacer un muestreo aleatorio (y obtener representatividad estadística) pero se tenga algún procedimiento no probabilístico que pueda, bajo ciertas asunciones razonables, emular la representatividad estadística.\nUn ejemplo clásico es usar un muestreo consecutivo (bien realizado) en ensayos clínicos, estudios de prueba diagnóstica o pronóstica. Este procedimiento es aceptado en ámbitos clínicos dado que no existe un marco muestral observable o se desea generalizar a nuevos pacientes (idea de superpobación)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#qué-pasa-si-supuesto-de-aleatoridad-no-se-cumple",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#qué-pasa-si-supuesto-de-aleatoridad-no-se-cumple",
+    "title": "   Sesión 2b",
+    "section": "¿Qué pasa si supuesto de Aleatoridad no se cumple?",
+    "text": "¿Qué pasa si supuesto de Aleatoridad no se cumple?\n\nIncluso sin una muestra probibilística o una asignación aleatoria, la aleatoridad debe cumplirse.\nPor eso es que asumimos que se cumple cuando es razonable hacerlo. Si no es razonable, mejor no hacer el estudio.\n\nSi este supuesto en realidad no es cierto, su incumplimiento invalida las inferencias realizadas: No inferencias causales válidas, tampoco resultados generalizables a poblaciones de interés."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#observaciones-son-independientes",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#observaciones-son-independientes",
+    "title": "   Sesión 2b",
+    "section": "Observaciones son independientes",
+    "text": "Observaciones son independientes\n\nEsto es equivalente a pensar que todos los sujetos son muestreados de la misma población y que han sido seleccionados de manera independiente de los otros.\n\nLa selección de un individuo no afecta la selección de otro.\n\n¿Cuándo falla la independencia de observaciones?\n\nCuando hay pareamiento o correlación debido al tiempo, distribución espacial, etc."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section-3",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section-3",
+    "title": "   Sesión 2b",
+    "section": "",
+    "text": "¿Se puede evaluar este supuesto?\n\n\n\nSí se puede cuando se conoce la(s) variable(s) que generan la dependencia.\nA menudo no se evalúa, si no que uno lo antepone por el diseño.\nLos métodos convencionales se pueden extender para lidiar con observaciones dependientes."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-específicos-de-algunas-ph",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-específicos-de-algunas-ph",
+    "title": "   Sesión 2b",
+    "section": "Supuestos específicos de algunas PH",
+    "text": "Supuestos específicos de algunas PH\n\n\nNormalidad\n\n\nHomogenenidad de varianzas (homocedasticidad)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#normalidad",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#normalidad",
+    "title": "   Sesión 2b",
+    "section": "Normalidad",
+    "text": "Normalidad\n\nComún en el caso de pruebas paramétricas: prueba t de Student, prueba Z y ANOVA.\nEn realidad, requerimos que la distribución muestral del estadístico (p. ej., medias, proporciones, diferencia de medias, etc.) sea normal, no la distribución de la variable."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#normalidad-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#normalidad-cont.",
+    "title": "   Sesión 2b",
+    "section": "Normalidad (cont.)",
+    "text": "Normalidad (cont.)\n\nSe alcanza si la distribución de la variable respuesta es normal.\nSi la distribución de la variable respuesta no es normal, pero la muestra es suficientemente grande (\\(n \\to \\infty\\)), entonces la distribución muestral de medias es normal: Teorema del Límite Central garantiza normalidad asintótica."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#la-idea-en-un-tweet",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#la-idea-en-un-tweet",
+    "title": "   Sesión 2b",
+    "section": "La idea en un Tweet!",
+    "text": "La idea en un Tweet!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#normalidad-asintótica-de-la-distribución-muestral",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#normalidad-asintótica-de-la-distribución-muestral",
+    "title": "   Sesión 2b",
+    "section": "Normalidad asintótica de la distribución muestral",
+    "text": "Normalidad asintótica de la distribución muestral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSí\n\n\n\nNo\n\n\n\nSí\n\n\n\nDesviación leve a moderada\n\n\n\nDesviación severa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTamaño de muestra N\n\n\n\nPequeño\n\n\n\nSuficientemente grande\n\n\n\nNormalidad en variable respuesta?\n\n\n\nNormalidad en variable respuesta?\n\n\n\nNormalidad de distribución muestral garantizada\n\n\n\nNo normalidad supuesto incumplido\n\n\n\nNormalidad de distribución muestral garantizada\n\n\n\nNormalidad asintótica por Teorema del Límite Central\n\n\n\nIncierto si se alcanza normalidad\n\n\n\nOptar por  prueba paramétrica\n\n\n\nOptar por alternativa robusta\n\n\n\nOptar por  prueba paramétrica\n\n\n\nOptar por  prueba paramétrica\n\n\n\nOptar por alternativa robusta"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section-4",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section-4",
+    "title": "   Sesión 2b",
+    "section": "",
+    "text": "Advertencia: ¿Cuándo una muestra es suficientemente grande?\n\n\n\nSi la muestra es pequeña, es muy importante que la población tenga un distribución normal para que el supuesto de cumpla.\nSi la muestra es suficientemente grande, las inferencias serán robustas a desviaciones ligeras/moderadas del supuesto de normalidad.\nProblema: ¿Cuándo la muestra es suficientemente grande?\nIncluso con muestras consideradas muy grandes si distribución es sesgada, puede no alcanzarse la distribución normal.\nAnte la duda, mejor usar métodos robustos de manera complementaria (análisis de sensibilidad) o como análisis principal."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-normalidad",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-normalidad",
+    "title": "   Sesión 2b",
+    "section": "¿Cómo evaluar normalidad?",
+    "text": "¿Cómo evaluar normalidad?\n\nLa normalidad es sobre la población, no sobre la muestra.\nSin embago, usamos a lo observado en la muestra para concluir sobre la población.\nMétodos gráficos son preferibles: gráfico de qqplot.\nMétodos de prueba de hipótesis pueden complementar en tamaños de muestras moderados. Nunca usar solos!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-normalidad-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-normalidad-cont.",
+    "title": "   Sesión 2b",
+    "section": "¿Cómo evaluar normalidad? (cont.)",
+    "text": "¿Cómo evaluar normalidad? (cont.)\n\nMétodo gráficoPrueba de hipótesis\n\n\n\nPreferible.\nHistogramas tienen problemas con pocos datos\nUsar gráfico de quantil quantil normal (QQ plot normal), es muy útil con pocos datos.\nBandas de confianza son referenciales. Ayudan pero tener cuidado con muestras muy muy grandes.\nLa función ggqqplot del paquete {ggpubr} es muy útil para esto:\n\n¿Qué distribución tiene?\n\n\n\n\nlibrary(ggpubr)\ndatos2 %>% \n    ggqqplot(x = \"x\")\n\n\n\n\n\nRpta.: La variable x en la muestra tiene una distribución aproximadamente normal. Luego, concluyo que en la población la distribución de la variable x también debería ser normal y, por tanto, la distribución muestral de medias también debería ser normal.\n\n¿Qué distribución tiene esta otra variable?\n\ndatos %>% \n  ggqqplot(x = \"weight\")\n\n\n\n\n\nRpta.: La variable x en la muestra tiene una distribución aproximadamente normal, con cierta desviación ligera hacia la derecha. Esto sugiere que la distribución de la población tampoco es normal. Sin embargo, si el n es grande, es razonable asumir que la distribución muestral del estadístico es normal.\n\n¿Y esta otra, qué distribución tiene?\n\ndatos %>% \n  ggqqplot(x = \"e2\")\n\n\n\n\n\nRpta.: LA variable x en la muestra tiene una distribución que dista bastante de la normal, con una marcada desviación hacia la derecha. Esto sugiere que la distribución de la población tampoco es normal. Sin embargo, en este caso también es incierto saber qué tan grande debe ser el n para que se cumpla el TLC. Sería mejor usar alguna alternativa robusta.\n\n\n\nx:\n\ndatos2 %>% \n  shapiro_test(x)\n\n# A tibble: 1 × 3\n  variable statistic     p\n  <chr>        <dbl> <dbl>\n1 x            0.992 0.973\n\n\n\nH0: La distribucion de la variable en la poblacion es normal. Ha: La distribucion de la variable en la poblacion no es normal. Conclusión: Con un nivel de significancia del 5%, no se puede rechazar la H0. La distribución de la variable en la población podría ser normal.\n\nweight:\n\ndatos %>% \n  shapiro_test(weight)\n\n# A tibble: 1 × 3\n  variable statistic        p\n  <chr>        <dbl>    <dbl>\n1 weight       0.890 0.000221\n\n\n\nH0: La distribucion de la variable en la poblacion es normal. Ha: La distribucion de la variable en la poblacion no es normal. Conclusión: Con un nivel de significancia del 5%, se rechaza la H0. La distribución de la variable en la población no es normal. Comentario: Según la evidencia gráfica, esta desviación es ligera, por lo que podríamos confiar en la normalidad asintótica.\n\ne2:\n\ndatos %>% \n  shapiro_test(e2)\n\n# A tibble: 1 × 3\n  variable statistic        p\n  <chr>        <dbl>    <dbl>\n1 e2           0.910 0.000697\n\n\n\nH0: La distribucion de la variable en la poblacion es normal. Ha: La distribucion de la variable en la poblacion no es normal. Conclusión: Con un nivel de significancia del 5%, se rechaza la H0. La distribución de la variable en la población no es normal."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#homogeneidad-de-varianzas",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#homogeneidad-de-varianzas",
+    "title": "   Sesión 2b",
+    "section": "Homogeneidad de varianzas",
+    "text": "Homogeneidad de varianzas\n\nConsiste en que la varianza de la variable en cada grupo a comparar tiene el mismo valor."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#homogeneidad-de-varianzas-cont.",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#homogeneidad-de-varianzas-cont.",
+    "title": "   Sesión 2b",
+    "section": "Homogeneidad de varianzas (cont.)",
+    "text": "Homogeneidad de varianzas (cont.)\n\nMuchas pruebas (t de Student, ANOVA, etc.) requieren el cumplimiento de este supuesto para poder dar inferencias válidas de comparación de grupos.\nSu incumplimiento invalida la inferencia: No se puede confiar en los valores p e IC95%.\nLo bueno es que, a menudo, estas pruebas presentan modificaciones o correcciones que permiten obtener inferencias robustas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-homogeneidad-de-varianzas",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#cómo-evaluar-homogeneidad-de-varianzas",
+    "title": "   Sesión 2b",
+    "section": "¿Cómo evaluar homogeneidad de varianzas?",
+    "text": "¿Cómo evaluar homogeneidad de varianzas?\n\nMétodo gráficoPrueba de hipótesis\n\n\n\nActualmente son considerados preferibles.\nSe pueden comparar los gráficos cuantil - cuantil normal.\nSi hay homocedasticidad, las líneas diagonales deberían ser paralelas o aproximadamente paralelas.\n\n¿Hay homogeneidad de varianzas?\n\ndatos2 %>% \n  ggqqplot(\"x\", color = \"grupo\")\n\n\n\n\n\nRpta: Sí hay evidencia gráfica de homocedasticidad en la muestra (líneas paralelas), luego, debería concluyo que también habría en las poblaciones.\n\n¿Y en este otro, hay homogeneidad de varianzas?\n\n\n\n\ndatos3 %>% \n  ggqqplot(\"y\", color = \"grupo\")\n\n\n\n\n\nRpta: No, hay evidencia gráfica de heterocedasticidad en la muestra (líneas secantes), luego, debería concluyo que también habría heterogeneidad de varianzas en las poblaciones.\n\n\n\n\nExisten varias pruebas de hipótesis: Leven, Breslow, etc.\nEl principal problema es que no funcionan bien con n muy grandes (siempre rechazan la H0) o muy pequeños (siempre aceptan la H0).\nAdemás requieren supuestos como la normalidad, entre otros.\nPueden usarse de manera complementaria a los gráficos, pero nunca solos.\nNo las abordaremos en este curso. Preferiremos el método gráfico."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-implícitos-de-todas-las-ph",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#supuestos-implícitos-de-todas-las-ph",
+    "title": "   Sesión 2b",
+    "section": "Supuestos ‘implícitos’ de todas las PH",
+    "text": "Supuestos ‘implícitos’ de todas las PH\n\n\nDatos medidos sin error\n\n\nNo existencia de sesgo (error sistemático)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-con-r",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#pruebas-de-hipótesis-con-r",
+    "title": "   Sesión 2b",
+    "section": "Pruebas de Hipótesis con R",
+    "text": "Pruebas de Hipótesis con R\n\nExisten distintos paquetes en R base para realizar PH o estimación.\nHay mucha inconsistencia entre estos.\nEl paquete {rstatix} compila todos estos en una sola sintaxis R tidy.\n\n\n# install.packages(\"rstatix\")\nlibrary(rstatix)\n\n\nEnlace web: https://rpkgs.datanovia.com/rstatix/"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#para-un-grupo",
+    "title": "   Sesión 2b",
+    "section": "Para un grupo",
+    "text": "Para un grupo\n\nParam. 1Param. 2No Param 1No Param 2\n\n\n\nSe usa función t_test() de paquete {rstatix}.\nPermite obtener el valor p para una hipótesis dada y el intervalo de confianza para la media.\n\n\ndatos %>% \n  t_test(weight ~ 1, mu = 100, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.   group1 group2     n statistic        p    df conf.low conf.high\n*    <dbl> <chr> <chr>  <chr>  <int>     <dbl>    <dbl> <dbl>    <dbl>     <dbl>\n1     60.5 weig… 1      null …    53     -35.6 1.15e-36    49     58.3      62.8\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\nEl argumento mu = número es un valor de referencia contra el que deseamos compararnos.\nEl argumento detailed = TRUE permite obtener también los intervalos de confianza.\nLa función gt() es para mejorar visualización del resultado.\n\n\nlibrary(gt)\ndatos %>% \n  t_test(weight ~ 1, mu = 100, detailed = TRUE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    60.524\nweight\n1\nnull model\n53\n-35.57465\n1.15e-36\n49\n58.29404\n62.75396\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\nAgregaremos gt() a partir de ahora.\nInterpretación:\n\n\nLa media estimada de glucosa fue de 95.48 mg/dL (IC95% 71.6 mg/dL a 119.4 mg/dL). Aunque este valor fue menor a 100 mg/dL (valor de referencia), no es posible concluir que la media poblacional es diferente del valor de refrencia 100 mg/dL (p = 0.627).\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad o cumplimiento del TLC.\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggqqplot(x = \"weight\")\n\n\n\n\n\nSupuesto de homogeneidad de varianzas (homocedasticidad) no importa aquí ya que solo hay 1 grupo!\nSupuestos implícitos (no error de medición ni sesgos)\n\n\n\n\n\n\n¿El nivel medio de estradiol es difernete de 50 UI en la población?\nPara variable estradiol:\n\ndatos %>% \n  t_test(e2 ~ 1, mu = 50, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.   group1 group2       n statistic      p    df conf.low conf.high\n*    <dbl> <chr> <chr>  <chr>    <int>     <dbl>  <dbl> <dbl>    <dbl>     <dbl>\n1     113. e2    1      null mo…    53      6.46 3.6e-8    52     93.2      132.\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\n\n\n\n\n\nNote\n\n\nSupuestos:\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad o cumplimiento del TLC.\n\n\ndatos %>% \n  ggqqplot(x = \"e2\")\n\n\n\n\n\nSupuesto de homogeneidad de varianzas (homocedasticidad) no importa aquí ya que solo hay 1 grupo!\nSupuestos implícitos (no error de medición ni sesgos)\n\n\n\n\n\nInterpretación:\n\n\nLa media estimada de estradiol fue de 112.67 UI. Debido a la desviación severa de la normalidad, preferimos no confiar en la inferencia generada por la prueba de hipótesis t de Student y obtamos por una alternativa robusta no parmétrica.\n\n\n\nPrueba del Signo:\n\nPermite comparar la mediana (ya no la media) contra un valor de referencia.\nNo permite estimar intervalos de confianza.\n\n\ndatos %>% \n  sign_test(weight ~ 1, mu = 0, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.   group1 group2     n statistic        p    df conf.low conf.high\n*    <dbl> <chr> <chr>  <chr>  <int>     <dbl>    <dbl> <dbl>    <dbl>     <dbl>\n1     58.8 weig… 1      null …    53        50 1.78e-15    50       56      62.5\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\nInterpretación:\n\n\nLa mediana estimada de glucosa fue de 95.53 mg/dL. Aunque este valor fue menor a 100 mg/dL (valor de referencia), no es posible concluir que la media poblacional es diferente del valor de refrencia (p = 0.627).\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nVariable al menos en escala ordinal\nSupuestos implícitos (no error de medición ni sesgos)\n\n\n\n\n\n\n¿El nivel mediano de estradiol es difernete de 50 UI en la población?\n\ndatos %>% \n  sign_test(e2 ~ 1, mu = 50, detailed = TRUE) \n\n# A tibble: 1 × 12\n  estimate .y.   group1 group2      n statistic       p    df conf.low conf.high\n*    <dbl> <chr> <chr>  <chr>   <int>     <dbl>   <dbl> <dbl>    <dbl>     <dbl>\n1     104. e2    1      null m…    53        42 2.25e-5    53     75.8      123.\n# … with 2 more variables: method <chr>, alternative <chr>\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nVariable al menos en escala ordinal\nSupuestos implícitos (no error de medición ni sesgos)\n\n\n\n\n\nInterpretación:\n\n\nLa mediana estimada de estradiol fue de 103.95 UI. Este valor fue mayor a 50 UI (valor de referencia) (p < 0.001)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-dependientes",
+    "title": "   Sesión 2b",
+    "section": "Estimación y PH para dos grupos dependientes",
+    "text": "Estimación y PH para dos grupos dependientes\n\nParamétricoNo param.\n\n\n\nSe usa la prueba t de Student para datos pareados.\nComo los datos están pareados 1:1, la prueba trabaja sobre la diferencia de los valores individuales convirtiendo el problema en una sola muestra.\nPor lo tanto, los supuestos son los mismos que para la `prueba t de Student de un solo grupo.\n\nEjemplo: ¿Cuál es el efecto de la Vitamina C en el crecimiento de los dientes en cuyes experimentales?\nlen: Longitud de dientes al final del experimento.\nsupp: Suplemento de vitamina C (VC vs. OJ)\n\n\n\n\ndf %>% t_test(len ~ supp, \n              paired = TRUE, \n              detailed = TRUE) %>% gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    3.7\nlen\nOJ\nVC\n30\n30\n3.302585\n0.00255\n29\n1.408659\n5.991341\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad o cumplimiento del TLC.\n\n\nlibrary(ggpubr)\ndf3 %>% \n  ggqqplot(x = \"dif\")\n\n\n\n\n\nVariable al menos en escala ordinal\nSupuestos implícitos (no error de medición ni sesgos)\n\n\n\n\n\n\n\nSe tienen dos opciones: Prueba del signo vs. Prueba de rangos signados de Wilcoxon.\nSe trabaja igual que para t-test pareada, con al diferencia de los valores de tal forma que se tiene solo un grupo.\nPrueba del signo no requiere supuesto de simetría de distribución para comparar medianas.\nPrueba de Wilcoxon requiere supuesto de simetría de distribución para comparar medianas.\n\nPrueba del signo:\n\ndf %>% sign_test(len ~ supp, \n              detailed = TRUE) %>% gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    4.85\nlen\nOJ\nVC\n30\n30\n19\n0.136\n29\n-0.3\n7.9\nSign-Test\ntwo.sided\n  \n  \n  \n\n\n\n\nPrueba de Wilcoxon:\n\ndf %>% wilcox_test(len ~ supp, \n              detailed = TRUE) %>% gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    4.000014\nlen\nOJ\nVC\n30\n30\n575.5\n0.0645\n-0.1000097\n8.500017\nWilcoxon\ntwo.sided\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\nSupuestos de la Prueba del Signo\n\n\n\nAleatorización\nIndenpendencia de observaciones\nEscala de medición al menos ordinal\n\n\n\n\n\n\n\n\n\n\nSupuestos de la Prueba de Wilcoxon\n\n\n\nAleatorización\nIndenpendencia de observaciones\nEscala de medición al menos ordinal\nDistribución simétrica"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#estimación-y-ph-para-dos-grupos-independientes",
+    "title": "   Sesión 2b",
+    "section": "Estimación y PH para dos grupos independientes",
+    "text": "Estimación y PH para dos grupos independientes\n\nParamétricoNo param.\n\n\n\nSe usa prueba t de Student para grupos independientes.\n\n\ndatos2 <- datos %>% \n  filter(treat != \"WARMI 3 C/D\") %>% \n  mutate(treat = droplevels(treat))\n\n\ndatos2 %>% \n  t_test(weight ~ treat, detailed = TRUE, var.equal = TRUE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      estimate1\n      estimate2\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    -1.597917\n59.21875\n60.81667\nweight\nPLACEBO\nWARMI 6 C/D\n17\n19\n-0.712684\n0.481\n32\n-6.164947\n2.969114\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\nSupuestos de la Prueba t de Student para grupos independientes\n\n\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad\nHomogeneidad de varianzas (*)\n\n\ndatos2 %>% \n  ggqqplot(\"weight\", color = \"treat\")\n\n\n\n\n\ndatos2 %>% \n  group_by(treat) %>% \n  skim(weight)\n\n\n\n\nData summary\n\n\n\n\nName\n\n\nPiped data\n\n\n\n\nNumber of rows\n\n\n36\n\n\n\n\nNumber of columns\n\n\n14\n\n\n\n\n_______________________\n\n\n\n\n\n\nColumn type frequency:\n\n\n\n\n\n\nnumeric\n\n\n1\n\n\n\n\n________________________\n\n\n\n\n\n\nGroup variables\n\n\ntreat\n\n\n\n\n\nVariable type: numeric\n\n\n\n\n\nskim_variable\n\n\ntreat\n\n\nn_missing\n\n\ncomplete_rate\n\n\nmean\n\n\nsd\n\n\np0\n\n\np25\n\n\np50\n\n\np75\n\n\np100\n\n\nhist\n\n\n\n\n\n\nweight\n\n\nPLACEBO\n\n\n1\n\n\n0.94\n\n\n59.22\n\n\n5.61\n\n\n50.1\n\n\n54.9\n\n\n58.55\n\n\n61.12\n\n\n71.0\n\n\n▅▇▆▃▃\n\n\n\n\nweight\n\n\nWARMI 6 C/D\n\n\n1\n\n\n0.95\n\n\n60.82\n\n\n7.24\n\n\n51.4\n\n\n54.5\n\n\n60.05\n\n\n65.88\n\n\n74.5\n\n\n▇▂▃▃▃\n\n\n\n\n\n\n\n\nSi no confiamos en la homogeneidad de varianzas, podemos hacer la prueba robusta a la heterogeneidad de varianzas usando la corrección de Satterwhite:\n\n\ndatos2 %>% \n  t_test(weight ~ treat, detailed = TRUE, var.equal = FALSE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      estimate1\n      estimate2\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      df\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    -1.597917\n59.21875\n60.81667\nweight\nPLACEBO\nWARMI 6 C/D\n17\n19\n-0.7235647\n0.475\n31.4548\n-6.09933\n2.903497\nT-test\ntwo.sided\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\nSe usa prueba de suma de rangos de Wilcoxon, también denominada U de Mann Withney.\n\n\ndatos2 %>% \n  wilcox_test(e2 ~ treat, detailed = TRUE) %>% \n  gt()\n\n\n\n\n\n  \n  \n    \n      estimate\n      .y.\n      group1\n      group2\n      n1\n      n2\n      statistic\n      p\n      conf.low\n      conf.high\n      method\n      alternative\n    \n  \n  \n    -20.27\ne2\nPLACEBO\nWARMI 6 C/D\n17\n19\n125\n0.257\n-68.78\n26.52\nWilcoxon\ntwo.sided\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nEscala de medición al menos ordinal\nIgual forma de distribución entre los grupos (solo diferencia en la posición)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-chi-cuadrado",
+    "title": "   Sesión 2b",
+    "section": "Prueba Chi cuadrado",
+    "text": "Prueba Chi cuadrado\n\ndatos2 %>% \n  tbl_cross(\n    row = married2,\n    col = treat, \n    percent = \"row\"\n  ) %>% \n  add_p()\n\n\n\n\n\n  \n  \n    \n      \n      \n        treat\n      \n      Total\n      p-value1\n    \n    \n      PLACEBO\n      WARMI 6 C/D\n    \n  \n  \n    Marital status, recat\n\n\n\n0.5\n    Without couple\n9 (53%)\n8 (47%)\n17 (100%)\n\n    With couple\n8 (42%)\n11 (58%)\n19 (100%)\n\n    Total\n17 (47%)\n19 (53%)\n36 (100%)\n\n  \n  \n  \n    \n      1 Pearson's Chi-squared test"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#prueba-exacta-de-fisher",
+    "title": "   Sesión 2b",
+    "section": "Prueba exacta de Fisher",
+    "text": "Prueba exacta de Fisher\n\ndatos2 %>% \n  tbl_cross(\n    row = married2,\n    col = treat, \n    percent = \"row\"\n  ) %>% \n  add_p(\n     test = \"fisher.test\"\n  )\n\n\n\n\n\n  \n  \n    \n      \n      \n        treat\n      \n      Total\n      p-value1\n    \n    \n      PLACEBO\n      WARMI 6 C/D\n    \n  \n  \n    Marital status, recat\n\n\n\n0.7\n    Without couple\n9 (53%)\n8 (47%)\n17 (100%)\n\n    With couple\n8 (42%)\n11 (58%)\n19 (100%)\n\n    Total\n17 (47%)\n19 (53%)\n36 (100%)\n\n  \n  \n  \n    \n      1 Fisher's exact test"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#creación-de-tablas-reproducibles-con-gtsummary",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#creación-de-tablas-reproducibles-con-gtsummary",
+    "title": "   Sesión 2b",
+    "section": "Creación de tablas reproducibles con gtsummary",
+    "text": "Creación de tablas reproducibles con gtsummary\n\nlibrary(gtsummary)\ndatos2 %>%\n  dplyr::select(treat, age, weight, e2, fsh, lh, race, married) %>% \n  tbl_summary(\n    by = treat\n  ) %>%  \n  add_p()\n\n\n\n\n\n  \n  \n    \n      Characteristic\n      PLACEBO, N = 171\n      WARMI 6 C/D, N = 191\n      p-value2\n    \n  \n  \n    Age, years\n34.0 (32.0, 37.0)\n35.0 (30.0, 36.5)\n>0.9\n    Weight, kg\n58.5 (54.9, 61.1)\n60.0 (54.5, 65.9)\n0.8\n    Unknown\n1\n1\n\n    Estradiol\n71 (40, 134)\n110 (76, 158)\n0.3\n    Folicullo stimulant hormon\n3.66 (2.17, 5.49)\n4.37 (2.54, 5.30)\n0.8\n    Luteinizant Hormon\n6 (3, 15)\n6 (4, 14)\n0.9\n    Race\n\n\n\n    Mestiza\n17 (100%)\n19 (100%)\n\n    Marital status\n\n\n0.6\n    Single\n8 (47%)\n8 (42%)\n\n    Divorced\n0 (0%)\n0 (0%)\n\n    Widowed\n1 (5.9%)\n0 (0%)\n\n    Cohabiting\n0 (0%)\n0 (0%)\n\n    Married\n8 (47%)\n11 (58%)\n\n  \n  \n  \n    \n      1 Median (IQR); n (%)\n    \n    \n      2 Wilcoxon rank sum test; Wilcoxon rank sum exact test; Fisher's exact test"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#recomendaciones",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#recomendaciones",
+    "title": "   Sesión 2b",
+    "section": "Recomendaciones",
+    "text": "Recomendaciones\n\nNo reporte valores p innecesarios, que no respondan sus preguntas de investigación pre-definidas.\nEs una mala práctica reportar tablas comparativas descriptivas con valores p. Lamentablemente es muy difundida.\nVarias guías, comenzando por STROBE (para observacionales) y CONSORT (para ensayos clínicos) explícitamente recomiendan en contra de reportar estas tablas. Solo haga una comparación descriptiva de los resultados de la tabla.\n\n\n\n\nslides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-2/Sesion-2b.html#section-5",
+    "href": "Sesiones/Sesion-2/Sesion-2b.html#section-5",
+    "title": "   Sesión 2b",
+    "section": "",
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 2b\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#una-motivación-para-comenzar",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#una-motivación-para-comenzar",
+    "title": "   Sesión 3",
+    "section": "Una motivación para comenzar",
+    "text": "Una motivación para comenzar\n\nSe desea comparar 3 tratamientos (A, B y C) para evaluar su efecto en el IMC.\nUna opción es comparar los promedios de IMC al final de la intervención.\nLas 3 pruebas t de Student con sus valores p se muestran:\n\n A vs B (p = 0.032) \n B vs C (p = 0.062) \n A vs C (p = 0.047)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#una-motivación-para-comenzar-cont.",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#una-motivación-para-comenzar-cont.",
+    "title": "   Sesión 3",
+    "section": "Una motivación para comenzar (cont.)",
+    "text": "Una motivación para comenzar (cont.)\n\n¿Con un nivel de significancia de 5%, podemos concluir que existe asociación entre el tratamiento y el IMC? ¿Entre qué tratamientos el IMC promedio es diferente?\nAsumiremos que controlar la probabilidad de error tipo 1 es una cuestión fundamental en este estudio.\n\n Hay un debate filósfico/estadístico de en qué circunstancias este control no es apropiado. \n Corregir por la probabilidad de error tipo 1 no es la única opción para obtener inferencias válidas."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#probabilidad-de-error-tipo-1",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#probabilidad-de-error-tipo-1",
+    "title": "   Sesión 3",
+    "section": "Probabilidad de error tipo 1",
+    "text": "Probabilidad de error tipo 1\n\n\nProbabilidad de error tipo 1 es también conocido como nivel de significancia.\n\\(1 - Pr(\\beta)\\) es conocida como Potencia o Poder estadístico."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#alerta-a-más-pruebas-más-error",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#alerta-a-más-pruebas-más-error",
+    "title": "   Sesión 3",
+    "section": "¡Alerta! A más pruebas, más error",
+    "text": "¡Alerta! A más pruebas, más error\n\nSi cada prueba t de Student tiene un nivel de significancia prefijado de 5% (\\(\\alpha = 0.05\\)), la probabilidad de error tipo 1 global (de todas las pruebas en conjunto) no necesariamente será de 0.05.\nAsumamos que las tres hipótesis son independientes entre sí, entonces tendríamos lo siguiente:"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#a-más-pruebas-más-error-cont.",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#a-más-pruebas-más-error-cont.",
+    "title": "   Sesión 3",
+    "section": "A más pruebas, más error (cont.)",
+    "text": "A más pruebas, más error (cont.)\n\nPruebas de hipótesis para comparar 3 o más grupos permiten mantener la probabilidad de error tipo 1 global por debajo de un nivel pre-fijado.\n\n\nImagen tomada de: Lee S; et al. What is the proper way to apply the multiple comparison test? Korean Joournal of Anesthesiology 2018; 71(5): 353-360. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6193594/#!po=73.0769"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#soluciones-al-problema-de-la-probabilidad-de-error-tipo-1",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#soluciones-al-problema-de-la-probabilidad-de-error-tipo-1",
+    "title": "   Sesión 3",
+    "section": "Soluciones al problema de la probabilidad de error tipo 1",
+    "text": "Soluciones al problema de la probabilidad de error tipo 1\n\nNo hay consenso entre expertos.\nLas agencias reguladoras (p. ej., EMA, FDA, IETSI) optan por el ajuste de comparaciones múltiples.\n\n Una opción es usar una secuencia ANOVA, luego pruebas de comparaciones múltiples.\n Otras soluciones, más populares que la secuencia de ANOVA, las discutiremos al final."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#pruebas-globables-que-controlan-la-probabilidad-de-error-tipo-1",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#pruebas-globables-que-controlan-la-probabilidad-de-error-tipo-1",
+    "title": "   Sesión 3",
+    "section": "Pruebas globables que controlan la probabilidad de error tipo 1",
+    "text": "Pruebas globables que controlan la probabilidad de error tipo 1\n\nPodemos probar hipótesis acerca de parámetros de 3 o más grupos.\nEl enfoque similar que para dos poblaciones, pero las hipótesis nula y alterna son las siguientes:\n\n\nH0: Todas las poblaciones tienen iguales medias|proporciones|medianas|tasas de la variable respuesta son iguales.\n\n\nHA: Al menos dos poblaciones tienen diferentes medias|proporciones|medianas|tasas de la variable respuesta."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#análisis-de-varianza-de-una-vía",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#análisis-de-varianza-de-una-vía",
+    "title": "   Sesión 3",
+    "section": "Análisis de Varianza de una vía",
+    "text": "Análisis de Varianza de una vía\n\nTambién llamada: one-way ANOVA\nPermite probar la hipótesis de diferencia de medias entre dos o más poblaciones.\n\nLos usamos comúnmente para probar diferencia de medias entre 3+.\n\nNombre del método hace referencia a que analiza la variabilidad (“varianza”):\n\nVariabilidad de la variable numérica dentro de cada grupo y entre los grupos.\nSi se cumplen ciertos supuestos, las varianzas permiten comparar medias."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#hipótesis-estadísticas-del-anova-one-way",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#hipótesis-estadísticas-del-anova-one-way",
+    "title": "   Sesión 3",
+    "section": "Hipótesis estadísticas del ANOVA one-way",
+    "text": "Hipótesis estadísticas del ANOVA one-way\n\nH0: Todas las medias poblacionales son iguales entre los grupos.\nHa: Al menos dos medias poblacionales son diferentes entre los grupos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-14",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-14",
+    "title": "   Sesión 3",
+    "section": "Lógica de ANOVA (1/4)",
+    "text": "Lógica de ANOVA (1/4)\n\nMismas varianzas entre grupos (\\(Var_{EG} = \\triangle{X} = 10\\)) entre escenarios, pero diferente varianza intragrupo (\\(VAR_{IG}\\)) entre escenarios)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-24",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-24",
+    "title": "   Sesión 3",
+    "section": "Lógica de ANOVA (2/4)",
+    "text": "Lógica de ANOVA (2/4)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-34",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-34",
+    "title": "   Sesión 3",
+    "section": "Lógica de ANOVA (3/4)",
+    "text": "Lógica de ANOVA (3/4)\n\nDiferentes varianzas entre grupos (\\(Var_{EG}\\)) entre escenarios, pero misma varianza intragrupo (\\(VAR_{IG} = \\triangle{X} = 15\\)) entre escenarios)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-44",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#lógica-de-anova-44",
+    "title": "   Sesión 3",
+    "section": "Lógica de ANOVA (4/4)",
+    "text": "Lógica de ANOVA (4/4)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#en-resumen-anova",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#en-resumen-anova",
+    "title": "   Sesión 3",
+    "section": "En resumen: ANOVA",
+    "text": "En resumen: ANOVA"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#distribución-y-estadístico-f",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#distribución-y-estadístico-f",
+    "title": "   Sesión 3",
+    "section": "Distribución y estadístico F",
+    "text": "Distribución y estadístico F"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#particionando-la-variabilidad-en-anova-one-way",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#particionando-la-variabilidad-en-anova-one-way",
+    "title": "   Sesión 3",
+    "section": "Particionando la variabilidad en ANOVA one-way",
+    "text": "Particionando la variabilidad en ANOVA one-way"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#anova-one-way-en-r",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#anova-one-way-en-r",
+    "title": "   Sesión 3",
+    "section": "ANOVA one-way en R",
+    "text": "ANOVA one-way en R\n\nUsaremos función anova_test() del paquete {rstatix}.\nEsta función permite el uso de otros tipos de ANOVA: https://rpkgs.datanovia.com/rstatix/reference/anova_test.html\n\n\n\n\n\nCaso 1Caso 2\n\n\n\nlibrary(rstatix)\ndatos %>% \n  anova_test(weight ~ treat, detailed = TRUE)\n\nANOVA Table (type II tests)\n\n  Effect    SSn      SSd DFn DFd     F     p p<.05   ges\n1  treat 49.021 7171.016   2 100 0.342 0.711       0.007\n\n\n\nLa prueba ANOVA one-way no genera resultados puntuales, debemos generarlos con otra función:\n\n\ndatos %>% \n  group_by(treat) %>% \n  get_summary_stats(weight, type = \"mean_sd\")\n\n# A tibble: 3 × 5\n  treat       variable     n  mean    sd\n  <fct>       <chr>    <dbl> <dbl> <dbl>\n1 PLACEBO     weight      33  60.4  6.40\n2 WARMI 3 C/D weight      33  62.1 10.4 \n3 WARMI 6 C/D weight      37  61.2  8.13\n\n\n\nTambién es bueno visualizar los patrones mediante gráfico de cajas:\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggboxplot(x = \"treat\", y = \"weight\")\n\n\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad\n\nSupuesto de normalidad condicional: \\(Y_i \\sim Normal\\), es decir \\(Y|x \\sim Normal\\)\n\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggqqplot(\"weight\", facet.by = \"treat\")\n\n\n\n\n+ Una mejor forma de evaluar la normalidad es usando los residuos.\n\nHomogeneidad de varianzas (*)\n\nSe podría evaluar si las rectas de los gráficos qqplot normal son paralelas o aproximadamente paralelas:\n\n\n\ndatos %>% \n  ggqqplot(\"weight\", color = \"treat\")\n\n\n\n\n\nOtra opción es evaluar los residuales. Esto lo veremos en regresión lineal.\nEs preferible asumir que no hay homocedaticidad y realizar un ajuste robusto a heterogeneidad de varianzas.\n\n\ndatos %>% \n  anova_test(weight ~ treat, detailed = TRUE, white.adjust = TRUE)\n\nANOVA Table (type II tests)\n\n  Effect DFn DFd     F    p p<.05\n1  treat   2 100 0.329 0.72      \n\n\n\nNo valores extremos.\n\n(*) Este supuesto puede flexibilizarse:\n\nUsando algún método robusto de estimación de varianza.\nUsando remuestreo (Prueba de permutación o Bootstrapping)\n\n\n\n\n\n\n\ndatos %>% \n  anova_test(lh ~ treat, detailed = TRUE)\n\nANOVA Table (type II tests)\n\n  Effect     SSn      SSd DFn DFd     F    p p<.05   ges\n1  treat 470.911 21640.35   2 103 1.121 0.33       0.021\n\n\n\nLa prueba ANOVA one-way no genera resultados puntuales, debemos generarlos con otra función:\n\n\ndatos %>% \n  group_by(treat) %>% \n  get_summary_stats(lh, type = \"mean_sd\")\n\n# A tibble: 3 × 5\n  treat       variable     n  mean    sd\n  <fct>       <chr>    <dbl> <dbl> <dbl>\n1 PLACEBO     lh          34 11.6  17.7 \n2 WARMI 3 C/D lh          34 13.7  16.6 \n3 WARMI 6 C/D lh          38  8.65  7.75\n\n\n\nTambién es bueno visualizar los patrones mediante gráfico de cajas:\n\n\ndatos %>% \n  ggboxplot(x = \"treat\", y = \"lh\")\n\n\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nNormalidad\n\nSupuesto de normalidad condicional: \\(Y_i \\sim Normal\\), es decir \\(Y|x \\sim Normal\\)\n\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggqqplot(\"lh\", facet.by = \"treat\")\n\n\n\n\n+ Una mejor forma de evaluar la normalidad es usando los residuos.\n\nHomogeneidad de varianzas (*)\n\nSe podría evaluar si las rectas de los gráficos qqplot normal son paralelas o aproximadamente paralelas:\n\n\n\ndatos %>% \n  ggqqplot(\"lh\", color = \"treat\")\n\n\n\n\n\nOtra opción es evaluar los residuales. Esto lo veremos en regresión lineal.\nA veces es preferible asumir que no hay homocedaticidad y realizar un ajuste robusto a heterogeneidad de varianzas.\n\n\ndatos %>% \n  anova_test(lh ~ treat, detailed = TRUE, white.adjust = TRUE)\n\nANOVA Table (type II tests)\n\n  Effect DFn DFd     F     p p<.05\n1  treat   2 103 1.502 0.227      \n\n\n\nNo valores extremos.\n\n(*) Este supuesto puede flexibilizarse:\n\nUsando algún método robusto de estimación de varianza.\nUsando remuestreo (Prueba de permutación o Bootstrapping)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#kruskal-wallis-test",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#kruskal-wallis-test",
+    "title": "   Sesión 3",
+    "section": "Kruskal Wallis test",
+    "text": "Kruskal Wallis test\n\nAlternativa no paramétrica de ANOVA one-way.\nSi supuestos se cumplen, compara medianas.\nUsaremos función kruska_test() del paquete {rstatix}.\nEsta función permite el uso de otros tipos de ANOVA: https://rpkgs.datanovia.com/rstatix/reference/kruskal_test.html\n\n\ndatos %>% \n  kruskal_test(weight ~ treat)\n\n# A tibble: 1 × 6\n  .y.        n statistic    df     p method        \n* <chr>  <int>     <dbl> <int> <dbl> <chr>         \n1 weight   106    0.0347     2 0.983 Kruskal-Wallis\n\n\n\nLa prueba Kruskal Wallis no genera resultados puntuales, debemos generarlos con otra función:\n\n\ndatos %>% \n  group_by(treat) %>% \n  get_summary_stats(weight, type = \"median_iqr\")\n\n# A tibble: 3 × 5\n  treat       variable     n median   iqr\n  <fct>       <chr>    <dbl>  <dbl> <dbl>\n1 PLACEBO     weight      33     59   8.4\n2 WARMI 3 C/D weight      33     60   9  \n3 WARMI 6 C/D weight      37     61  12  \n\n\n\nTambién es bueno visualizar las distribuciones\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggboxplot(y = \"weight\", x = \"treat\")\n\n\n\n\n\n\n\n\n\n\nSupuestos\n\n\n\nAleatorización\nIndenpendencia de observaciones\nMisma distribución salvo por la mediana:\n\nEsto significa que Kruskal Wallis también es perjudicado en cierto modo por la heterogeneidad de varianzas porque afecta el supuesto de igualdad de distribuciones\nPodemos usar gráfico de densidades:\n\n\n\nlibrary(ggpubr)\ndatos %>% \n  ggdensity(x = \"weight\", \n            y = \"..density..\", \n            fill = \"treat\", \n            color = \"treat\", \n            add = \"median\")\n\n\n\n\n+ Podemos usar gráfico de violin: Combina cajas y densidad\n\nlibrary(ggpubr)\ndatos %>% \n  ggviolin(x = \"treat\", \n            y = \"weight\", \n            color = \"treat\", \n            add = \"boxplot\")"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#comparaciones-múltiples",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#comparaciones-múltiples",
+    "title": "   Sesión 3",
+    "section": "Comparaciones múltiples",
+    "text": "Comparaciones múltiples\n\nHay varios enfoques de comparaciones múltiples.\nAlgunas son pre-hoc y otras post-hoc.\nVeremos solo un par para ejemplificar:\n\n\nPost-hoc ANOVAPost-hoc KW\n\n\n\nPara ANOVA one-way clásico:\n\n\naov(weight ~ treat, data = datos) %>% \n  tukey_hsd()\n\n# A tibble: 3 × 9\n  term  group1  group2 null.value estimate conf.low conf.high p.adj p.adj.signif\n* <chr> <chr>   <chr>       <dbl>    <dbl>    <dbl>     <dbl> <dbl> <chr>       \n1 treat PLACEBO WARMI…          0    1.72     -3.24      6.68 0.689 ns          \n2 treat PLACEBO WARMI…          0    0.745    -4.08      5.57 0.928 ns          \n3 treat WARMI … WARMI…          0   -0.974    -5.80      3.85 0.881 ns          \n\n\n\nSi homogeneidad de varianzas no se cumple:\n\n\ndatos %>% \n  games_howell_test(weight ~ treat)\n\n# A tibble: 3 × 8\n  .y.    group1      group2      estimate conf.low conf.high p.adj p.adj.signif\n* <chr>  <chr>       <chr>          <dbl>    <dbl>     <dbl> <dbl> <chr>       \n1 weight PLACEBO     WARMI 3 C/D    1.72     -3.42      6.85 0.701 ns          \n2 weight PLACEBO     WARMI 6 C/D    0.745    -3.43      4.91 0.904 ns          \n3 weight WARMI 3 C/D WARMI 6 C/D   -0.974    -6.39      4.44 0.903 ns          \n\n\n\nEn epidemiología e investigación clínica se prefiere ajustes más conservadores. Uno de ellos es el ajuste de Bonferroni (uno de los más conservadores)\n\n\nlibrary(emmeans)\ndatos %>% \n  emmeans_test(weight ~ treat, p.adjust.method = \"bonferroni\")\n\n# A tibble: 3 × 9\n  term  .y.    group1      group2         df statistic     p p.adj p.adj.signif\n* <chr> <chr>  <chr>       <chr>       <dbl>     <dbl> <dbl> <dbl> <chr>       \n1 treat weight PLACEBO     WARMI 3 C/D   100    -0.824 0.412     1 ns          \n2 treat weight PLACEBO     WARMI 6 C/D   100    -0.367 0.714     1 ns          \n3 treat weight WARMI 3 C/D WARMI 6 C/D   100     0.480 0.632     1 ns          \n\n\n\n\n\ndatos %>% \n  dunn_test(weight ~ treat)\n\n# A tibble: 3 × 9\n  .y.    group1      group2         n1    n2 statistic     p p.adj p.adj.signif\n* <chr>  <chr>       <chr>       <int> <int>     <dbl> <dbl> <dbl> <chr>       \n1 weight PLACEBO     WARMI 3 C/D    33    33    0.173  0.863     1 ns          \n2 weight PLACEBO     WARMI 6 C/D    33    37    0.148  0.882     1 ns          \n3 weight WARMI 3 C/D WARMI 6 C/D    33    37   -0.0300 0.976     1 ns"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#section",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#section",
+    "title": "   Sesión 3",
+    "section": "",
+    "text": "slides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-3/Sesion-3.html#section-1",
+    "href": "Sesiones/Sesion-3/Sesion-3.html#section-1",
+    "title": "   Sesión 3",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 3\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
     "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",
@@ -1740,14 +2055,35 @@
     "href": "tareas/problem-set/problem-set-1.html",
     "title": "Problem Set 1",
     "section": "",
-    "text": "Problem Set 1 será posteado el 16 de junio de 2022."
+    "text": "Debido a ajustes en el cronograma, el Problem Set 1 ha sido fusionado con el Problem Set 2 y se han reprogramado las fechas."
   },
   {
     "objectID": "tareas/problem-set/problem-set-2.html",
     "href": "tareas/problem-set/problem-set-2.html",
     "title": "Problem Set 2",
     "section": "",
-    "text": "Problem Set 2 será posteado el 24 de junio de 2022."
+    "text": "En este Problem Set buscaremos evaluar que son capaces de realizar los siguiente:\n\nImportar datos en formato MS Excel (*.xlsx) o Stata (*.dta)\nCargar librerías y paquetes de interés.\nRealizar una limpieza básica de los datos.\nRealizar un análisis inicial de datos.\nRealizar un análisis descriptivo de datos\nRealizar algunos procedimientos de pruebas de hipótesis y estimación.\n\nEn grupos de entre 5 a 6 personas, deberán resolver dos casos aplicados y responder algunas preguntas de nivel crítico acerca de los análisis propuestos."
+  },
+  {
+    "objectID": "tareas/problem-set/problem-set-2.html#fecha-de-entrega",
+    "href": "tareas/problem-set/problem-set-2.html#fecha-de-entrega",
+    "title": "Problem Set 2",
+    "section": "Fecha de Entrega",
+    "text": "Fecha de Entrega\nHasta el 10 de julio de 2022 (23:59 horas)."
+  },
+  {
+    "objectID": "tareas/problem-set/problem-set-2.html#caso-aplicado",
+    "href": "tareas/problem-set/problem-set-2.html#caso-aplicado",
+    "title": "Problem Set 2",
+    "section": "Caso Aplicado",
+    "text": "Caso Aplicado\nAnalizaremos la base de datos del estudio titulado: “Self-reported HIV in male Peruvian inmates: results of the 2016 prison census.” (Working paper). Una versión preliminar del estudio, en español, puede encontrarse en la página 33 del documento alojado en el siguiente enlace: Aquí.\nLos datos corresponenden al primer Censo Penitenciario realizado por el Instituto Nacional Penitenciario (INEI e INPE) del 18 al 26 de abril de 2016. Este fue un estudio transversal llevado a cabo en cárceles de 23 regiones peruana. Se incluyó a toda la población carcelaria de 18 a más años recluida en los 66 establecimientos penitenciarios del país. En este problem set vamos a inspeccionar los datos y describir las características de los participantes.\nPregunta 1. Configure un proyecto denominado ProblemSet1-Grupo#. En # ponga su número de grupo. Por ejemplo: *ProblemSet1-Grupo3`.\nTip: Este proyecto debe tener su propia carpeta. Usted deberá enviar la carpeta comprimida como parte de su entregable.\nPregunta 2 Escriba el nombre completo de los integrantes de su equipo.\nPregunta 3. Importe los datos y guárdelos con el nombre de datos_crudos. Presente código y salida.\nPista: Recuerde usar as_factor() para heredar los metadatos de los archivos .dta de Stata.\nPregunta 4. Muestre una descripción global de los datos en términos de números de variables u otras características generales. Presente las salidas del programa y también elabore una pequeña descripción de las variables que Ud. considera más relevantes.\nPista: Puede usar glimpse() y skim() para hacer esta descripción.\nPregunta 5. Seleccione solo las siguientes variables: ID_CARATULA, sex, edad, civil, relig, depart_ultim, seguro1, educ, hta, neumo_cronica, tbc, tbc_ttoy guardelas en un nuevo data.frame denominado datos2. A partir de ahora trabajaremos solamente con datos2, NO UTILICE datos_crudos.\nPista: Puede usar la función select() del paquete {dplyr} para hacer esto.\nPregunta 6. Realice el siguiente proceso de limpieza sobre datos2:\n\nInspeccione la presencia de duplicados de individuo (usando ID_CARATULA) como identificador. También explore la presencia de duplicados de fila (evaluando por toda la fila). Presente código y salida. Haga un breve comentario.\nCategorice las siguientes variables de acuerdo a la siguiente tabla:\n\n\n\n\n\n\n\n\n\n\nVariable\nCategorias Originales\nNueva variable\nNuevas categorías\nComentario\n\n\n\n\ncivil\nConviviente, Casado, Viudo, Divorciado, Separado, Soltero\ncivil_recat\nConvive con pareja, No convive con pareja\nConvive con pareja = conviviente o casado;\nNo convive con pareja: Viudo, divorciado, separado o soltero\n\n\nrelig\nCatolico, Evangelico, Mormon, Adventista, Testigo de Jehova, Otra, Ninguna\nrelig_recat\nCatolica, Otras religiones, Ninguna\nCalotica = catolica,\nOtras religiones = evangelica, mormon, adventista, testigo de jehova, otra\nNinguna = ninugna\n\n\nedad\n18-89\nedad_cat\n18-30, 31-40, 41-50, 51-60, 60-89\n\n\n\ndepart_ultim\nAyacucho, Junin, Lima, ….\ndepart_cat\nLima, No Lima\nFusionar departamenteos fuera de Lima\n\n\neduc\nSin nivel, Educacion inciial, primaria incompleta, primaria completa, …\neduc_cat\nNo educacion/inicial, Primaria, Secundaria, Superior No Universitaria y Superior Universitaria\nFusionar categorias de completo e incompleto. Postgrado cuenta como superior universitario.\n\n\n\nPista: Use funciones mutate() y case_when() de paquete {dplyr} de {tidyverse}.\nEtiquete las variables recién creadas de la siguiente manera:\n\n\n\nNueva variable\nEtiqueta de variable\n\n\n\n\ncivil_recat\nEstado civil\n\n\nrelig_recat\nReligion\n\n\nedad_cat\nGrupo etario\n\n\ndepart_cat\nDepartamento de procedencia\n\n\neduc_cat\nNivel educativo\n\n\n\nPista: Puede usar la función set_variable_labels() del paquete {labelled}\nCambie la etiqueta de las variables para que tengan un nombre acorde a una publicación en tablas:\n\n\n\n\n\n\n\n\nNombre de Variable\nEtiqueta Orginal de Variable\nNueva Etiqueta de Variable\n\n\n\n\nsex\n12. SEXO\nSexo\n\n\nedad\n18. EDAD\nEdad (años)\n\n\nseguro1\n\nSeguro de salud\n\n\nneumo_cronica\nAutorreporte neumopatía crónica: asma, enfisema y/o bronquitis (p107.1)\nAutorreporte de neumopatía crónica\n\n\nhta\nAutorreporte de HTA (p107.2)\nAutorreporte de hipertensión arterial\n\n\ntbc\nAutorreporte de TBC (p107.4)\nAutorreporte de tuberculosis\n\n\ntbc_tto\nTBC: Tratamiento (p107.4c)\nTuberculosis en tratamiento\n\n\n\nPista: Puede usar la función set_variable_labels() del paquete {labelled}\n\nPregunta 7. Haga las siguientes consultas:\n\nSeleccione a los individuos mujeres mayores de 40 años.\nSeleccione a los individuos varones entre 35 y 50 años y reporte la proporción de hipertensión arterial.\n¿Cuántos individuos que tienen tuberculosis tienen también hipertensión arterial?\n\nPregunta 8. Cree una tabla descriptiva con todos los participantes\nPregunta 9. Asumamos que el censo no es perfecto (su cobertura no fue de 100%, si no de 97%) pero que esta “gran muestra” conserva la representatividad teórica de la población. Estime la prevalencia de hipertensión y tuberculosis autorreportados. Interprete brevemente. Comente si la estimación es informativa o no y qué implicancias tendría esto en toma de decisiones.\nPista: Recuerde que toda estimación implica una incertidumbre asociada. No sobreinterprete.\nPregunta 10. Desde hace años existe un plan para reducir la tuberculosis a 0 en las prisiones. La meta para el año del censo es que la prevalencia de la tuberculosis sea menor a 4.4%. ¿Con los datos de este estudio podemos afirmar que la prevalencia de tuberculosis es menor a esta meta? Muestre el procedimiento y código para sustentar su respuesta. Asuma que no hay error de medición ni otros sesgos.\nPregunta 11. Cree una tabla comparitva según el autorreporte de tuberculosis. Agregue una columna global de total y valores p comparando según autorreporte de tuberculosis.\nPregunta 12. Revise el artículo sobre la explicación de la guía STROBE para el reporte de estudios observacionales [aquí](https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010-w1?articleid=737187). Respecto a la tabla generada en la pregunta 11, ¿cuál es el problema con reportar valores p para característica? ¿por qué STROBE no recomienda hacer este tipo de análisis?"
+  },
+  {
+    "objectID": "tareas/problem-set/problem-set-2.html#entregable",
+    "href": "tareas/problem-set/problem-set-2.html#entregable",
+    "title": "Problem Set 2",
+    "section": "Entregable",
+    "text": "Entregable\nSubir la carpeta comprimida del proyecto. Esta debe contener el archivo RMarkdown notebook con las respuestas a cada pregunta. Se debe subir la tarea al siguienet enlace: https://redcap.link/ietsi-academy-aed"
   },
   {
     "objectID": "tareas/problem-set/problem-set-3.html",
