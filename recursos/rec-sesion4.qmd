@@ -4,7 +4,7 @@ title: "Sesion 4"
 
 ## Diapositivas
 
-- Sesión 4a [[Enlace](../Sesiones/Sesion-4/Sesion-4a.html)]
+- Sesión 4a [[Enlace](../Sesiones/Sesion-4/Sesion-4.html)]
 
 - Sesión 4b [[Enlace](../Sesiones/Sesion-4/Sesion-4b.html)]
 

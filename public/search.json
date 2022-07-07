@@ -1967,6 +1967,251 @@
     "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 3\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
   },
   {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#análisis-de-regresión",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#análisis-de-regresión",
+    "title": "   Sesión 4",
+    "section": "Análisis de regresión",
+    "text": "Análisis de regresión"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#modelos-de-regresión-multivariable",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#modelos-de-regresión-multivariable",
+    "title": "   Sesión 4",
+    "section": "Modelos de regresión multivariable",
+    "text": "Modelos de regresión multivariable"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión",
+    "title": "   Sesión 4",
+    "section": "¿Para qué usamos los modelos de regresión?",
+    "text": "¿Para qué usamos los modelos de regresión?\n\nSegún STRATOS podemos usar regresión para 3 propósitos diferentes:\n\nDescripción*\nPredicción\nExplicación"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#propósitos-del-modelamiento",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#propósitos-del-modelamiento",
+    "title": "   Sesión 4",
+    "section": "Propósitos del modelamiento",
+    "text": "Propósitos del modelamiento\n\n\n\n Clasificación inspirado en: Miguel A. Hernán, John Hsu & Brian Healy (2019) A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks, CHANCE, 32:1, 42-49, DOI: 10.1080/09332480.2019.1579578"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#propósitos-del-modelamiento-cont.",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#propósitos-del-modelamiento-cont.",
+    "title": "   Sesión 4",
+    "section": "Propósitos del modelamiento (cont.)",
+    "text": "Propósitos del modelamiento (cont.)\n\n\n\n Clasificación inspirado en: Miguel A. Hernán, John Hsu & Brian Healy (2019) A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks, CHANCE, 32:1, 42-49, DOI: 10.1080/09332480.2019.1579578"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.",
+    "title": "   Sesión 4",
+    "section": "¿Para qué usamos los modelos de regresión? (cont.)",
+    "text": "¿Para qué usamos los modelos de regresión? (cont.)\n\nEste curso se centrará solamente en algunas aplicaciones.\nRegresión para descripción:\n\n“Factores asociados..:” No necesariamente importa que los factores sean causales.\nEvaluación de la magnitud de desigualdades, magnitud de brechas, etc."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.-1",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.-1",
+    "title": "   Sesión 4",
+    "section": "¿Para qué usamos los modelos de regresión? (cont.)",
+    "text": "¿Para qué usamos los modelos de regresión? (cont.)\n\nRegresión para explicación:\n\n“Efecto / Efectividad / Impacto”: Busca estimar efectos causales.\nExplorar potenciales factores causales… (puede clasificarse dentro de descripción)\n\nRegresión para predicción:\n\nFactores pronóstico o predictores de…“: Identifican predictores de interés que luego alimenten mdelos predictivos.\nModelos de predicción: Predicción para diagnóstico y pronóstico."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.-2",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#para-qué-usamos-los-modelos-de-regresión-cont.-2",
+    "title": "   Sesión 4",
+    "section": "¿Para qué usamos los modelos de regresión? (cont.)",
+    "text": "¿Para qué usamos los modelos de regresión? (cont.)\n\nNo abordaremos modelos de regresión para desarrollar modelos o reglas de predicción clínica.\nTampoco para métodos de inferencia causal robusta."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal",
+    "text": "Regresión Lineal\n\nMétodo estadístico que modela la relación entre una variable continua (dependiente) y otras variables (independientes)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#relación-entre-dos-variables",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#relación-entre-dos-variables",
+    "title": "   Sesión 4",
+    "section": "Relación entre dos variables",
+    "text": "Relación entre dos variables\n\n\n\n\\(Y\\) es variable resultado (outcome), respuesta o dependiente.\n\\(X\\) es una variable explicativa, predictora o regresora.\nEn la figura, a mayor valor de \\(X\\), mayor valor de \\(Y\\)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#cómo-podemos-resumir-la-relación-entre-ambas-variables",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#cómo-podemos-resumir-la-relación-entre-ambas-variables",
+    "title": "   Sesión 4",
+    "section": "¿Cómo podemos resumir la relación entre ambas variables?",
+    "text": "¿Cómo podemos resumir la relación entre ambas variables?\n\n\n\nPodemos tratar de dibujar una línea recta que resuma la relación.\nExisten infinitas rectas posibles que podríamos trazar: ¿Cuál elegir?"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#cómo-podemos-resumir-la-relación-entre-ambas-variables-cont.",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#cómo-podemos-resumir-la-relación-entre-ambas-variables-cont.",
+    "title": "   Sesión 4",
+    "section": "¿Cómo podemos resumir la relación entre ambas variables? (cont.)",
+    "text": "¿Cómo podemos resumir la relación entre ambas variables? (cont.)\n\n\n\nUna opción sería elegir una recta que pase por el valor más representativo del \\(y_i\\) en cada valor fijo de \\(x_1\\).\n\nUna recta que conecte los promedios condicionados en \\(x_1\\)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#anatomía-de-la-rls",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#anatomía-de-la-rls",
+    "title": "   Sesión 4",
+    "section": "Anatomía de la RLS",
+    "text": "Anatomía de la RLS\n\nEntonces, la recta que conecta los promedios de \\(y_i\\) condiciondos en \\(x_{1i}\\) se puede expresar mediante la siguiente combinación lineal:\n\n\\[\\beta_0 + \\beta_1x_{1i}\\]\n\nComponente Sistemático: Formalmente hablando, para cada observación \\(i\\) en la población, podemos relacionar el valor esperado (promedio) \\(E[y_i]\\) de \\(y_i\\) (también llamado \\(\\mu_i\\)) con la variable explicativa \\(x_{1i}\\) mediante la siguiente ecuación lineal:\n\n\\[E[Y | X_1 = x_{1i}] = E[y_i] =  \\mu_i = \\beta_0 + \\beta_1x_{1i}\\]\n\nDonde:\n\n\\(y_i\\) son variables aleatorias independientes e idénticamente distribuidas (i.i.d)\n\\(x_1\\) es una variable cuyas valores son fijos y conocidos: \\(x_1i\\):\n\nSe asume se miden sin error.\nNo importa su distribución.\n\n\\(\\beta_0\\) y \\(\\beta_1\\) son parámetros desconocidos de una superpoblación infinita.\n\nLlamados coeficientes de regresión y son una medida de asociación.\nEs lo que queremos estimar con los datos de la muestra!"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#anatomía-de-la-rls-cont.",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#anatomía-de-la-rls-cont.",
+    "title": "   Sesión 4",
+    "section": "Anatomía de la RLS (cont.)",
+    "text": "Anatomía de la RLS (cont.)\n\nNotar que el componente sistemático solo relaciona el promedio condicionado de \\(y_i\\) con las variables explicativas, NO con los valores individuales.\n\nEsta es una manera de obtener una medida que resuma las relaciones individuales en una sola medida.\n\nComponente aleatorio: Para poder relacionar completamente los valores individuales se agrega un término de error \\(\\epsilon\\), el cual se obtiene de restar el valor observado \\(y_i\\) con el valor esperado de este (\\(\\mu_i\\)):\n\n\\[\\epsilon_i = y_i - \\mu_i\\]\n\nEl problema es que el término de error \\(\\epsilon_i\\) no puede predecirse ni estimarse con los datos, se considera que es el componente no explicado por estos.\n\nPara lidiar con este, se asume que su comportamiento puede predecirse a nivel probabilístico: Se asume una distribución de este.\nEl error \\(\\epsilon_i\\) hereda la distribución de probabilidad de \\(y_i\\).\n\nPor lo tanto, el valor individual de cada \\(y_i\\) puede ser denotado por la siguiente expresión:\n\n\\[y_i = \\beta_0 + \\beta_1x_{1i} + \\epsilon_i\\]\n\nPara hacer inferencia estadística, a menudo se asume lo siguiente:\n\n\\[y_i \\sim N(\\beta_0 + \\beta_1x_{1i}, \\sigma^2)\\]\n\\[\\epsilon_i \\sim N(0, \\sigma^2) \\]"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-normal",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-normal",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Normal",
+    "text": "Regresión Lineal Normal"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#section",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#section",
+    "title": "   Sesión 4",
+    "section": "",
+    "text": "Algunas notas sobre normalidad\n\n\n\nNo es necesario que \\(\\epsilon_i\\) o \\(y_i\\) sigan una distribución normal para que los coeficientes de regresión \\(\\beta\\) puedan estimarse de manera puntual.\nSin embargo, para estimar el valor p o los intervalos de confianza mediante inferencia clásica sí se necesita asumir una distribución conocida. El modelo de regresión lineal normal asume normalidad de estos.\n\nAsimismo, el modelo es robusto a desviaciones leves/moderadas de la normalidad cuando se cumple el TLC (número de observaciones grande).\n\nOtros enfoques para inferencia flexibilizan este supuesto: p. ej., bootstrap, varianza robusta, modelo lineal generalizado que asume otras distribuciones, etc."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#estimación-de-ecuación-de-regresión",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#estimación-de-ecuación-de-regresión",
+    "title": "   Sesión 4",
+    "section": "Estimación de ecuación de regresión",
+    "text": "Estimación de ecuación de regresión\n\nEn la práctica no conocemos los valores de los parámetros, así que los estimamos de nuestros datos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#cómo-estimamos-la-ecuación-lineal-que-mejor-ajusta-a-los-datos-observados",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#cómo-estimamos-la-ecuación-lineal-que-mejor-ajusta-a-los-datos-observados",
+    "title": "   Sesión 4",
+    "section": "¿Cómo estimamos la ecuación lineal que mejor ajusta a los datos observados?",
+    "text": "¿Cómo estimamos la ecuación lineal que mejor ajusta a los datos observados?\n\nUsamos métodos numéricos:\n\nMétodo de Mínimos Cuadrados Ordinarios\nMétodo de Máxima Verosimilitud\n\nAmbos métodos son equivalentes para el caso de la regresión lineal normal."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Simple sobre variable explicativa categórica",
+    "text": "Regresión Lineal Simple sobre variable explicativa categórica\n\nLas variables categóricas no son continuas, en cambio son discretas y asumen unos cuantos valores.\n¿Cómo estimar una medida de asociación cuando la variable explicativa es categórica?"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-1",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-1",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Simple sobre variable explicativa categórica",
+    "text": "Regresión Lineal Simple sobre variable explicativa categórica"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-cont.",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-cont.",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Simple sobre variable explicativa categórica (cont.)",
+    "text": "Regresión Lineal Simple sobre variable explicativa categórica (cont.)\n\nSi la variable es binaria, una forma de abordar el análisis es asignando a una categoría el valor de 1 y a otra el valor de 0.\n\nEntonces, asumiremos que la variable categórica es numérica para los efectos de todo cálculo.\nSin embargo, la interpretación se centrará en la comparación de categorías."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-cont.-1",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-sobre-variable-explicativa-categórica-cont.-1",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Simple sobre variable explicativa categórica (cont.)",
+    "text": "Regresión Lineal Simple sobre variable explicativa categórica (cont.)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-en-r",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-simple-en-r",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Simple en R",
+    "text": "Regresión Lineal Simple en R\n\n\n\n\nSe usa la función lm() de R base. Sin embargo, la salida de esta no es muy informativa:\n\n\nlm(y ~ x1, data = datos)\n\n\nCall:\nlm(formula = y ~ x1, data = datos)\n\nCoefficients:\n        (Intercept)  x1Tratamiento Nuevo  \n           -0.06666              4.27094  \n\n\n\nEl modelo puede guardarse para realizar más operaciones sobre este. Por ejemplo, mejorar la salida:\n\n\nmod <- lm(y ~ x1, data = datos)\nsummary(mod)\n\n\nCall:\nlm(formula = y ~ x1, data = datos)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-3.8666 -1.1168 -0.3487  1.3100  4.1336 \n\nCoefficients:\n                    Estimate Std. Error t value Pr(>|t|)    \n(Intercept)         -0.06666    0.37316  -0.179    0.859    \nx1Tratamiento Nuevo  4.27094    0.52773   8.093 1.59e-10 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 1.866 on 48 degrees of freedom\nMultiple R-squared:  0.5771,    Adjusted R-squared:  0.5683 \nF-statistic:  65.5 on 1 and 48 DF,  p-value: 1.594e-10"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#interpretación-de-salida-de-rls",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#interpretación-de-salida-de-rls",
+    "title": "   Sesión 4",
+    "section": "Interpretación de salida de RLS",
+    "text": "Interpretación de salida de RLS\n\nCovariable numéricaCovariable categórica\n\n\n\nUsamos la función lm():\n\n\n\n\n\nmod <- lm(y_peso_final ~ x3_peso_inicial, data = datos2)\nsummary(mod)\n\n\nCall:\nlm(formula = y_peso_final ~ x3_peso_inicial, data = datos2)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-10.0568  -4.7717  -0.8704   5.1824  10.4953 \n\nCoefficients:\n                Estimate Std. Error t value Pr(>|t|)    \n(Intercept)      -5.4317     2.6574  -2.044   0.0412 *  \nx3_peso_inicial   1.3447     0.1766   7.615  6.1e-14 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 5.535 on 998 degrees of freedom\nMultiple R-squared:  0.05491,   Adjusted R-squared:  0.05397 \nF-statistic: 57.99 on 1 and 998 DF,  p-value: 6.1e-14\n\n\n\nEl modelo estimado sería el siguiente:\n\n\\[y\\_pesofinal = -5.4317 + 1.3447*x3\\_pesoinicial + \\epsilon_i\\]\n\\[\\epsilon_i \\sim Normal(0, 5.535^2)\\]\n\nUsando el paquete {broom} y su función tidy() podemos obtener también los intervalos de confianza:\n\n\nlibrary(broom)\nmod %>% \n  tidy(conf.int = TRUE) \n\n# A tibble: 2 × 7\n  term            estimate std.error statistic  p.value conf.low conf.high\n  <chr>              <dbl>     <dbl>     <dbl>    <dbl>    <dbl>     <dbl>\n1 (Intercept)        -5.43     2.66      -2.04 4.12e- 2  -10.6      -0.217\n2 x3_peso_inicial     1.34     0.177      7.62 6.10e-14    0.998     1.69 \n\n\n\nInterpretación:\n\n\\(\\beta_0\\) o intercepto: Este viene a ser el valor promedio de \\(y\\) cuando todos los valores de \\(x\\) son 0. En este caso, cuando el peso inicial es cero kg. ¿Esto es posible?, por tal motivo, no se suele interpretar este valor.\n\\(\\beta_1\\) o coeficiente de regresión de x3_peso_inicial: Por cada 1 kg adicional de peso inicial, el valor promedio del peso final aumenta 1.43 kg (IC95% 1.00 a 1.69; p < 0.001).\n\n\n\n\n\nUsamos la función lm():\n\n\nmod <- lm(y_peso_final ~ x1_tto, data = datos2)\nsummary(mod)\n\n\nCall:\nlm(formula = y_peso_final ~ x1_tto, data = datos2)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-7.7043 -1.6644 -0.0095  1.5849  8.5658 \n\nCoefficients:\n                        Estimate Std. Error t value Pr(>|t|)    \n(Intercept)              19.8771     0.1112  178.67   <2e-16 ***\nx1_ttoTratamiento Nuevo -10.2325     0.1573  -65.04   <2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.488 on 998 degrees of freedom\nMultiple R-squared:  0.8091,    Adjusted R-squared:  0.8089 \nF-statistic:  4230 on 1 and 998 DF,  p-value: < 2.2e-16\n\n\n\nUsando tidy de broom:\n\n\nmod %>% \n  tidy(conf.int = TRUE) \n\n# A tibble: 2 × 7\n  term                   estimate std.error statistic p.value conf.low conf.high\n  <chr>                     <dbl>     <dbl>     <dbl>   <dbl>    <dbl>     <dbl>\n1 (Intercept)                19.9     0.111     179.        0     19.7     20.1 \n2 x1_ttoTratamiento Nue…    -10.2     0.157     -65.0       0    -10.5     -9.92\n\n\n\nInterpretación:\n\n\\(\\beta_0\\) (Intercept): A menudo no se interpreta. Es el valor promedio de \\(y_i\\) cuando los valores de \\(x\\) son cero. En este caso, cuando el tratamien es cero (placebo). ¿Esto es posible?, sí es posible pero no es de ayuda para modelos explicativos, por lo que no se interpreta.\n\\(\\beta1\\) x1Tratamiento Nuevo: El promedio de peso final en quienes recibieron el tratamiento nuevo fue 10.23 kg menor que el de quienes recibieron placebo (Dif. medias = -10.23; IC95% -10.54 a -9.92; p < 0.001)."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-múltiple",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-múltiple",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal Múltiple",
+    "text": "Regresión Lineal Múltiple\n\nGeneraliza la RLS permitiendo evaluar la relación de varias covariables explicativas \\(x\\) sobre \\(y_i\\).\nPara \\(p\\) variables explicativas, el modelo puede expresarse como:\n\nComponente sistemático:\n\\[E[Y | X_1 = x_{1i}, ..., X_p = x_{pi}] = E[y_i] =  \\mu_i = \\beta_0 + \\beta_1x_{1i} + ... + \\beta_px_{pi}\\]\nComponente aleatoria:\n\\[y_i \\sim N(\\beta_0 + \\beta_1x_{1i} + ... + \\beta_px_{pi}, \\sigma^2)\\]\n\\[\\epsilon_i \\sim N(0, \\sigma^2) \\]"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-en-gráficos",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#regresión-lineal-en-gráficos",
+    "title": "   Sesión 4",
+    "section": "Regresión Lineal en gráficos",
+    "text": "Regresión Lineal en gráficos\n\nRLSRLM con 2 XRLM con 3 o más X\n\n\n\n\n\nLa ecuación de la RLS representa una línea recta.\n\n\n\n\n\n\n\n\n\n\nLa ecuación de la RLM con dos variables explicativas ya no representa una línea recta, sino un plano recto.\n\n\n\n\n\n\n\n\nGenera un hiperplano recto.\nNo podemos imaginarnos una imagen de esto, pero sí podemos analizarlo a nivel estadístico."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#rlm-en-r",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#rlm-en-r",
+    "title": "   Sesión 4",
+    "section": "RLM en R",
+    "text": "RLM en R\n\nUsamos la función lm():\n\n\n\n\n\nmod <- lm(y_peso_final ~ x1_tto + x3_peso_inicial, data = datos2)\nsummary(mod)\n\n\nCall:\nlm(formula = y_peso_final ~ x1_tto + x3_peso_inicial, data = datos2)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-5.5598 -1.4213  0.1343  1.0768  5.4482 \n\nCoefficients:\n                         Estimate Std. Error t value Pr(>|t|)    \n(Intercept)              -0.94719    0.99689   -0.95    0.342    \nx1_ttoTratamiento Nuevo -10.25530    0.13111  -78.22   <2e-16 ***\nx3_peso_inicial           1.38755    0.06614   20.98   <2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.073 on 997 degrees of freedom\nMultiple R-squared:  0.8676,    Adjusted R-squared:  0.8673 \nF-statistic:  3266 on 2 and 997 DF,  p-value: < 2.2e-16\n\n\n\nEl modelo estimado sería el siguiente:\n\n\\[y\\_pesofinal = -0.94719 -10.25530*x1ttoTratamientoNuevo + 1.3875*x3\\_pesoinicial + \\epsilon_i\\]\n\\[\\epsilon_i \\sim Normal(0, 2.073^2)\\]\n\nUsando el paquete {broom} y su función tidy() podemos obtener también los intervalos de confianza:\n\n\nlibrary(broom)\nmod %>% \n  tidy(conf.int = TRUE) \n\n# A tibble: 3 × 7\n  term                  estimate std.error statistic  p.value conf.low conf.high\n  <chr>                    <dbl>     <dbl>     <dbl>    <dbl>    <dbl>     <dbl>\n1 (Intercept)             -0.947    0.997     -0.950 3.42e- 1    -2.90      1.01\n2 x1_ttoTratamiento Nu…  -10.3      0.131    -78.2   0          -10.5     -10.0 \n3 x3_peso_inicial          1.39     0.0661    21.0   3.10e-81     1.26      1.52\n\n\n\nInterpretación:\n\n\\(\\beta_0\\) o intercepto: Este viene a ser el valor promedio de \\(y\\) cuando todos los valores de \\(x\\) son 0. En este caso, cuando el peso inicial es cero kg y cuando el tratamiento es placebo. ¿Esto es posible?, por tal motivo, no se suele interpretar este valor.\n\\(\\beta_2\\) o coeficiente de regresión de x1_ttoTratamiento Nuevo: El promedio de peso final en quienes recibieron el tratamiento nuevo fue 10.26 kg menor que el de quienes recibieron placebo, luego de ajustar por peso inicial (Dif. medias = -10.26; IC95% -10.51 a -9.99; p < 0.001).\n\\(\\beta_1\\) o coeficiente de regresión de x3_peso_inicial: Por cada 1 kg adicional de peso inicial, el valor promedio del peso final aumenta 1.39 kg, luego de ajustar por tatamiento recibido (IC95% 1.26 a 1.52; p < 0.001).\n\n\n:::"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#errores-y-residuos",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#errores-y-residuos",
+    "title": "   Sesión 4",
+    "section": "Errores y residuos",
+    "text": "Errores y residuos\n\nLos errores (\\(\\epsilon_i\\)) son medidas de la población a la que no tenemos acceso.\n\nSin embargo, varios supuestos de la regresión involucran a los errores inaccesibles por el investigador.\n\nLos residuos (\\(e_i\\)) son el análogo a los errores pero obtenidos de la muestra observada.\nPodemos usar los residuos para evaluar algunos supuestos sobre los errores."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#residuos-gráficamente",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#residuos-gráficamente",
+    "title": "   Sesión 4",
+    "section": "Residuos gráficamente",
+    "text": "Residuos gráficamente"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#supuestos-de-la-regresión-lineal-normal",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#supuestos-de-la-regresión-lineal-normal",
+    "title": "   Sesión 4",
+    "section": "Supuestos de la regresión lineal normal",
+    "text": "Supuestos de la regresión lineal normal\n\nLinealidad\nIndependencia de observaciones\nHomocedasticidad de los errores \\(\\epsilon_i\\)\nNormalidad de los errores \\(\\epsilon_i\\) o de \\(y_i\\).\nNo problemas con la regresión:\n\nPuntos influyentes.\n(Multi) colinealidad: Solo cuando es un problema, no siempre lo es."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#section-1",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#section-1",
+    "title": "   Sesión 4",
+    "section": "",
+    "text": "Algunas notas sobre los errores y residuos\n\n\n\nEn realidad, los supuestos de los modelos lineales son sobre el comportamiento probabilístico de \\(y_i\\).\nSin embargo, la idea de la existencia de los errores y de sus valores observados en la muestra, residuos resulta útil para evaluar supuestos.\n\nPermiten reducir un problema de muchas dimensiones a solo 1 o 2 dimensiones.\nSon como las placas radiográficas para el diagnóstico de los modelos."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#cómo-evaluar-los-supuestos-de-la-regresión-lineal",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#cómo-evaluar-los-supuestos-de-la-regresión-lineal",
+    "title": "   Sesión 4",
+    "section": "¿Cómo evaluar los supuestos de la regresión lineal?",
+    "text": "¿Cómo evaluar los supuestos de la regresión lineal?\n\nSe usan los residuos para explorar el comportamiento de los \\(y_i\\) o los errores \\(\\epsilon\\).\nPreferiblemente usar gráficos de residuos.\n\nPruebas de hipótesis que usan residuos tienen los mismos problemas que discutimos en clases anteriores.\nPodríamos usarlas para complementar análisis cuando los tamaños de muestra no son ni muy pequeños ni muy grandes.\n\nLa función check_model del paquete {performance} genera un panel de gráficos muy útil para evalur estos supuestos.\nPodemos complentar el análisis de supuestos con funciones del paquete {car}.\n\n\nPanel generalLin. det.Homo. det.P. inf. det.\n\n\n\nlibrary(performance)\ncheck_model(mod)\n\n\n\n\n\n\n\nPodemos usar gráficos de residuos parciales + Componente:\n\n\nlibrary(car)\ncrPlots(mod)\n\n\n\n\n\nTambién podemos usar gráficos de variable agregada\n\n\navPlots(mod)\n\n\n\n\n\n\n\nSe puede evaluar si la homocedasticidad es consistente según cada variable predictora.\nSi no lo es, se puede optar por modelar esta heterogeneidad de varianzas.\nSe sugiere usar residuos estudentizados.\n\n\nresidualPlots(mod, type = \"rstudent\")\n\n\n\n\n                Test stat Pr(>|Test stat|)\nx1_tto                                    \nx3_peso_inicial    1.2180           0.2235\nTukey test         0.5429           0.5872\n\n\n\n\n\nEn el caso de modelos explicativos, importa determinar si hay un impacto en los coeficientes de regresion.\nLos dfbetas pueden ser útiles para evaluar esto:\n\n\ndfbetasPlots(model = mod, id.n = 5)\n\n\n\n\n\nOtras medidas también pueden evaluarse:\n\n\ninfluenceIndexPlot(model = mod, id.n = 5)"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#tablas-de-regresión-lineal-reproducible",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#tablas-de-regresión-lineal-reproducible",
+    "title": "   Sesión 4",
+    "section": "Tablas de regresión lineal reproducible",
+    "text": "Tablas de regresión lineal reproducible\n\nPodemos usar la librería {gtsummary} para esto.\nVeamos un ejemplo."
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#section-2",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#section-2",
+    "title": "   Sesión 4",
+    "section": "",
+    "text": "slides:\n\n\nhttps://bit.ly/3n6Ejzb"
+  },
+  {
+    "objectID": "Sesiones/Sesion-4/Sesion-4.html#section-3",
+    "href": "Sesiones/Sesion-4/Sesion-4.html#section-3",
+    "title": "   Sesión 4",
+    "section": "",
+    "text": "¡Gracias por su atención!\n\n\n¡Encantado de responder sus consultas!\n\n\n\nPercy Soto-Becerra\n\n\n\n\n\n\n  @psotob91\n\n\n\n\n\npercys1991@gmail.com\n\n\n\n\n\n\nPrograma de Formación Científica: Análisis Estadístico 2022 - Sesión 4\n\n\n Presentación creada vía Revealjs en Quarto en RStudio."
+  },
+  {
     "objectID": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",
     "href": "tareas/ejercicios-extras/ejercicios-extras-dia1.html",
     "title": "Día 1",
