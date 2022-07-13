@@ -4,21 +4,4 @@ title: "Sesion 7"
 
 ## Diapositivas
 
-- Sesión 7a [[Enlace](../Sesiones/Sesion-7/Sesion-7a.html)]
-
-- Sesión 7b [[Enlace](../Sesiones/Sesion-7/Sesion-7b.html)]
-
-
-## Código para taller
-
-- Sesión 7a:
-
-    + R script: [[Enlace](../Sesiones/Sesion-7/Code/Sesion7a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-7/Code/Sesion7a.Rmd)]
-
-- Sesión 7b:
-
-    + R script: [[Enlace](../Sesiones/Sesion-7/Code/Sesion7a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-7/Code/Sesion7b.Rmd)]
+- Sesión 7 [[Enlace](../Sesiones/Sesion-7/Sesion-7.html)]

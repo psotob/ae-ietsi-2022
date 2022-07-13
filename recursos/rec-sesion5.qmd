@@ -4,21 +4,5 @@ title: "Sesion 5"
 
 ## Diapositivas
 
-- Sesión 5a [[Enlace](../Sesiones/Sesion-5/Sesion-5a.html)]
+- Sesión 5 [[Enlace](../Sesiones/Sesion-5/Sesion-5.html)]
 
-- Sesión 5b [[Enlace](../Sesiones/Sesion-5/Sesion-5b.html)]
-
-
-## Código para taller
-
-- Sesión 5a:
-
-    + R script: [[Enlace](../Sesiones/Sesion-5/Code/Sesion5a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-5/Code/Sesion5a.Rmd)]
-
-- Sesión 5b:
-
-    + R script: [[Enlace](../Sesiones/Sesion-5/Code/Sesion5a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-5/Code/Sesion5b.Rmd)]

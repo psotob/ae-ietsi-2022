@@ -6,12 +6,3 @@ title: "Sesion 3"
 
 - Sesión 3 [[Enlace](../Sesiones/Sesion-3/Sesion-3.html)]
 
-
-
-## Código para taller
-
-- Sesión 3:
-
-    + R script: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-3/Code/Sesion3.Rmd)]

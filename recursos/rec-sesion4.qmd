@@ -4,21 +4,5 @@ title: "Sesion 4"
 
 ## Diapositivas
 
-- Sesión 4a [[Enlace](../Sesiones/Sesion-4/Sesion-4.html)]
+- Sesión 4 [[Enlace](../Sesiones/Sesion-4/Sesion-4.html)]
 
-- Sesión 4b [[Enlace](../Sesiones/Sesion-4/Sesion-4b.html)]
-
-
-## Código para taller
-
-- Sesión 4a:
-
-    + R script: [[Enlace](../Sesiones/Sesion-4/Code/Sesion4a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-4/Code/Sesion4a.Rmd)]
-
-- Sesión 4b:
-
-    + R script: [[Enlace](../Sesiones/Sesion-4/Code/Sesion4a.r)]
-    
-    + R notebook: [[Enlace](../Sesiones/Sesion-4/Code/Sesion4b.Rmd)]
